@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from:
 
@@ -28,9 +28,9 @@ News
 Featured Research
 ======
 
-### Social Interactions for Autonomous Driving: A Review and Perspective.
+## Social Interactions for Autonomous Driving: A Review and Perspective.
 
-Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun. *Foundations and Trends in Robotics*.
+Wenshuo Wang, Letian Wang, Chengyuan Zhang, Changliu Liu, and Lijun Sun. *Foundations and Trends in Robotics*.
 
 <center>
   <img src="../images/review_interaction_scene.JPG" width="60%" />
@@ -60,9 +60,9 @@ drivers toward social autonomous driving. We take this survey to seek the answer
 
 <br/> 
 
-### Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios
+## Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios
 
-**Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. IEEE Transaction on Intelligent Transportation
+Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. IEEE Transaction on Intelligent Transportation
 Systems.
 
 <center>
@@ -98,9 +98,9 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 
 <br/>  
 
-### Bayesian Calibration of Intelligent Driver Model
+## Bayesian Calibration of Intelligent Driver Model
 
-**Chengyuan Zhang** and Lijun Sun.
+Chengyuan Zhang and Lijun Sun.
 
 <center>
   <img src="../images/idm_pgm.png" width="100%" />
