@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,8 +9,6 @@ redirect_from:
 
 ---
 
-{% include base_path %}
-
 Education
 ======
 
@@ -18,27 +16,19 @@ Education
 * M.S. in Civil Engineering (fast-tracked to Ph.D. program), McGill University, Canada, 2020 - 2022
 * B.S. in Automobile Engineering, Chongqing University, China, 2015 - 2019
 
-[//]: # (Talks)
-
-[//]: # (======)
-
-[//]: # (  <ul>{% for post in site.talks %})
-
-[//]: # (    {% include archive-single-talk-cv.html %})
-
-[//]: # (  {% endfor %}</ul>)
-
 Academic Experiences
 =====
 
-* Visiting Student Researcher, supervised by Prof. Changliu Liu @ Robotics Institute, Carnegie Mellon University, US,
-  2023.
-* Visiting Student Researcher, supervised by Prof. Masayoshi Tomizuka @ Department of Mechanical Engineering, University
+* Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University, US,
+    2023.
+* Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
+  University
   of
   California, Berkeley, US, 2019 - 2020.
 * Deep Learning Summer Camp (DeeCamp) student @ Sinovation Ventures, China. We won Outstanding Team Award and Best
   Application Award, 2019 and 2020.
-* Research Assistant, supervised by Prof. Ding Zhao @ Department of Mechanical Engineering, Carnegie Mellon University,
+* Research Assistant, supervised by *Prof. Ding Zhao* @ Department of Mechanical Engineering, Carnegie Mellon
+  University,
   US, 2018.
 * Exchange Student @ University of Pennsylvania, US, 2018.
 * Member of CQU-FSAE Transmission Group @ Chongqing University Formula SAE (Society of Automotive Engineers), China,
@@ -61,3 +51,18 @@ Services
     - IEEE Student member
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
     - Member of the Society of Automotive Engineers (SAE) of China
+
+Awards \& Scholarships
+=====
+
+- Mitacs Globalink Research Award, 2022-2023
+- McGill Engineering Doctoral Award (MEDA), McGill University, 2022-2025
+- FRQNT Master's Scholarship (B1X), 2022
+- CIRRELT Master's Scholarship, 2022
+- Graduate Excellence Fellowship Awards, McGill University, 2020
+- IVADO Excellence Scholarships - Msc, 2020-2022
+- Outstanding Team Award \& Best Application Award at DeeCamp, China, 2019
+- Outstanding Graduate of Chongqing University, 2019
+- First Prize in the 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
+- National Scholarship, China, 2017.
+- First Prize in the Chongqing University Physics Contest (\#1/500 in Chongqing University), 2015
