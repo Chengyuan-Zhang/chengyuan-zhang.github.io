@@ -9,6 +9,8 @@ redirect_from:
 
 ---
 
+<button onclick="window.location.href='../files/Resume_Chengyuan.pdf';">CV in PDF</button>
+
 Education
 ======
 
