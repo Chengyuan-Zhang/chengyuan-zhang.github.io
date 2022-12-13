@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-CA"
-title                    : "Chengyuan ZHANG / Homepage"
+title                    : "Chengyuan Zhang - Homepage"
 title_separator          : "-"
 name                     : &name "Chengyuan ZHANG"
 description              : &description "personal description"
 url                      : https://chengyuan-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chengyuan-Zhang/chengyuan-zhang.github.io" # the github repository you're using
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : Chengyuan.jpg # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Chengyuan Zhang"
-  avatar           : "profile.png"
+  avatar           : "Chengyuan.jpg"
   bio              : "Ph.D. student at the Department of Civil Engineering, McGill University."
   location         : "Montreal, QC, Canada"
   employer         :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/cy-zhang/"
   orcid            : "https://orcid.org/0000-0001-8463-7380"
   pinterest        :
   soundcloud       :
@@ -290,7 +290,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
+# https://github.com/jekyll/jekyl41l-archives
 # jekyll-archives:
 #   enabled:
 #     - categories
