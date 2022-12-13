@@ -54,7 +54,7 @@ Services
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
     - Member of the Society of Automotive Engineers (SAE) of China
 
-Awards \& Scholarships
+Awards & Scholarships
 =====
 
 - Mitacs Globalink Research Award, 2022-2023
