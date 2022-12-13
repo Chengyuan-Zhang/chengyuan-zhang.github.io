@@ -1,17 +1,8 @@
 ---
-title: "News"
+title: "Recent News"
 permalink: /news/
 author_profile: true
 ---
-
-## News
-<table style="width:100%">
-  <thead>
-    <tr>
-      <th width="100%">&nbsp;</th>
-    </tr>
-  </thead>
-</table>
 
 * <span style="color:darkred"> New! </span> 11/2022: Our long paper on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by Foundations and Trends in Robotics.
 * <span style="color:darkred"> New! </span> 11/2022: Our 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at IEEE IV'23.

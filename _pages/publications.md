@@ -5,15 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-{% include archive-single.html %}
-{% endfor %}
 
 [//]: # (APA)
 
@@ -21,10 +12,10 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Preprints
 
-1. Xinyu Chen, Chengyuan Zhang, Xiaoxu Chen, Nicolas Saunier*, and Lijun Sun (2022). Discovering Dynamic Patterns from
+1. Xinyu Chen, **Chengyuan Zhang**, Xiaoxu Chen, Nicolas Saunier*, and Lijun Sun (2022). Discovering Dynamic Patterns from
    Spatiotemporal Data
    with Time-Varying Low-Rank Autoregression. arXiv preprint arXiv:
-   2211.15482. [[arxiv](https://arxiv.org/abs/2211.15482)]
+   2211.15482. [[arxiv](https://arxiv.org/abs/2211.15482)] [[code](https://github.com/xinychen/vars)]
 2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
    arXiv:
    2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
@@ -45,7 +36,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 1. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
-   Systems. [[paper](https://ieeexplore.ieee.org/abstract/document/9357407)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
+   Systems. [[paper](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arxiv](https://arxiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
 2. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (2019). An efficient parking solution:
    a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system. Journal of Mechanisms
    and Robotics, 11(4)
@@ -57,7 +48,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Conference publications
 
-1. Wenshuo Wang, Chengyuan Zhang, Pin Wang, and Ching-Yao Chan (2020, October). Learning Representations for
+1. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan (2020, October). Learning Representations for
    Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
    Symposium (IV) (pp. 1935-1940). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/9304849)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Ding Zhao* (2019, October). A general framework of learning
