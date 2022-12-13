@@ -6,11 +6,66 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% include archive-single.html %}
 {% endfor %}
+
+[//]: # (APA)
+
+The list is not frequently updated. Please see Google Scholar for recent updates.
+
+## Preprints
+
+1. Xinyu Chen, Chengyuan Zhang, Xiaoxu Chen, Nicolas Saunier*, and Lijun Sun (2022). Discovering Dynamic Patterns from
+   Spatiotemporal Data
+   with Time-Varying Low-Rank Autoregression. arXiv preprint arXiv:
+   2211.15482. [[arxiv](https://arxiv.org/abs/2211.15482)]
+2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
+   arXiv:
+   2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
+2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
+   Factorization for
+   Multivariate Time Series Forecasting. arXiv preprint arXiv:
+   2203.10651. [[arxiv](https://arxiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+
+## Books
+
+1. Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun (2022). Social interactions for
+   autonomous driving: A review and perspectives. Foundations and Trends® in Robotics, 10(3-4),
+   198-376. [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)] [[arxiv](https://arxiv.org/abs/2208.07541)]
+
+## Journal publications
+
+*Corresponding Author
+
+1. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
+   interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
+   Systems. [[paper](https://ieeexplore.ieee.org/abstract/document/9357407)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
+2. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (2019). An efficient parking solution:
+   a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system. Journal of Mechanisms
+   and Robotics, 11(4)
+   . [[paper](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268)] [[demo](https://youtu.be/lmwdDsUXUw8)]
+3. **Chengyuan Zhang** and Jian Xiao* (2018). Chaotic behavior and feedback control of
+   magnetorheological suspension system with fractional-order derivative. Journal of Computational and Nonlinear
+   Dynamics, 13(2)
+   . [[paper](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of)]
+
+## Conference publications
+
+1. Wenshuo Wang, Chengyuan Zhang, Pin Wang, and Ching-Yao Chan (2020, October). Learning Representations for
+   Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
+   Symposium (IV) (pp. 1935-1940). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/9304849)]
+2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Ding Zhao* (2019, October). A general framework of learning
+   multi-vehicle interaction patterns from video. In 2019 IEEE Intelligent Transportation Systems Conference (ITSC) (pp.
+   4323-4328). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/8917212)]
+
+## Patents
+
+1. Junqiang Xi and **Wenshuo Wang**
+   . [Intelligent driving systems with an embedded driver model](https://patents.google.com/patent/US10286900B2/en).
+   US20170297564A1, USA, 2019
