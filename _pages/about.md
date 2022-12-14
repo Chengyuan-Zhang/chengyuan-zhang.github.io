@@ -18,18 +18,13 @@ analysis, and multi-agent interaction modeling in intelligent transportation sys
 News
 =====
 
-* <span>&#x1F195;</span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
+* <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
   data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
-  datasets and Python implementation are available
-  at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
-* <span>&#x1F195;</span> 11/2022: Our long paper
-  on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by
+  datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
+* <span style="color:darkred"> New! </span> 11/2022: Our long paper on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by
   Foundations and Trends in Robotics.
-* <span>&#x1F195;</span> 11/2022: Our 1st International Workshop
-  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at IEEE
+* <span style="color:darkred"> New! </span> 11/2022: Our 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at IEEE
   IV'23.
-
-[//]: # ([Read more]&#40;https://chengyuan-zhang.github.io/news/&#41;{: .btn})
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
