@@ -67,8 +67,7 @@ drivers toward social autonomous driving. We take this survey to seek the answer
 
 ## Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios
 
-Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. IEEE Transaction on Intelligent Transportation
-Systems.
+Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. *IEEE Transaction on Intelligent Transportation Systems.*
 
 <center>
   <img src="../images/GVF_framework.Png" width="85%" />
@@ -105,7 +104,7 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 
 ## Bayesian Calibration of Intelligent Driver Model
 
-Chengyuan Zhang and Lijun Sun.
+Chengyuan Zhang and Lijun Sun. *Available on arXiv.*
 
 <center>
   <img src="../images/idm_pgm.png" width="100%" />
