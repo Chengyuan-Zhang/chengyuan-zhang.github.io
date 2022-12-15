@@ -23,8 +23,10 @@ News
   datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
 * <span style="color:darkred"> New! </span> 11/2022: Our long paper on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by
   Foundations and Trends in Robotics.
-* <span style="color:darkred"> New! </span> 11/2022: Our 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at IEEE
-  IV'23.
+* <span style="color:darkred"> New! </span> 11/2022: Our 1st International Workshop
+  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at the
+  2023 #IEEE Intelligent Vehicles Symposium (IV23') in Anchorage, Alaska, USA (June 4 – 7, 2023). Welcome to submit your
+  paper!
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
