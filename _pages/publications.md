@@ -58,6 +58,6 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Patents
 
-1. Junqiang Xi and **Wenshuo Wang**
-   . [Intelligent driving systems with an embedded driver model](https://patents.google.com/patent/US10286900B2/en).
-   US20170297564A1, USA, 2019
+1. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Jinming Shi, Manzhi Wang, and Xianxiong Ning.
+   [Cam-connecting rod type mechanical three-dimensional parking device.](https://patents.google.com/patent/CN108222589B/en)
+   CN108222589B, China, 2018
