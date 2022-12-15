@@ -133,3 +133,10 @@ simulator.
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
 
 <br/>  
+
+Thanks & Fundings
+======
+<center>
+    <img src="../images/FRQNT.png" width="37%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" width="37%" /><br>
+    <img src="../images/mitacs_transparent.png" width="37%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/CIRRELT_logo.png" width="37%" />
+</center>
