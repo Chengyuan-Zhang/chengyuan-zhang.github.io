@@ -12,8 +12,8 @@ author_profile: true
   Foundations and Trends in Robotics.
 * 11/2022: Our 1st International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at the
-  2023 #IEEE Intelligent Vehicles Symposium (IV23') in Anchorage, Alaska, USA (June 4 – 7, 2023). Welcome to submit your
-  paper!E
+  2023 IEEE Intelligent Vehicles Symposium (IV23') in Anchorage, Alaska, USA (June 4 – 7, 2023). Welcome to submit your
+  paper!
 * 09/2022: One paper is accepted to [The Montreal AI Symposium 2022](http://montrealaisymposium.com/).
 * 09/2022: Our [NSERC](https://www.nserc-crsng.gc.ca/innovate-innover/alliance-alliance/index_eng.asp) propsoal on
   driving behavior interaction was approved by collaborating with [Changliu Liu @ CMU](http://icontrol.ri.cmu.edu/)!
