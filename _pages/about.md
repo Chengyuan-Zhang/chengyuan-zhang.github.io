@@ -25,7 +25,7 @@ News
   Foundations and Trends in Robotics.
 * <span style="color:darkred"> New! </span> 11/2022: Our 1st International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) will be hosted at the
-  2023 #IEEE Intelligent Vehicles Symposium (IV23') in Anchorage, Alaska, USA (June 4 – 7, 2023). Welcome to submit your
+  2023 IEEE Intelligent Vehicles Symposium (IV23') in Anchorage, Alaska, USA (June 4 – 7, 2023). Welcome to submit your
   paper!
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
