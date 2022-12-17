@@ -109,7 +109,7 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 Chengyuan Zhang and Lijun Sun. *Available on arXiv.*
 
 <center>
-  <img src="../images/idm_pgm.png" width="100%" />
+  <img src="../images/MA-IDM.png" width="100%" />
 </center>
 
 <details>
@@ -129,7 +129,7 @@ enormous but nonidentical driving behaviors by sampling from the posteriors, whi
 simulator.
 </details>
 
-- Access our paper via: [[arxiv](https://arxiv.org/abs/2210.03571)].
+- Access our project via: [[arxiv](https://arxiv.org/abs/2210.03571)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
 
 <br/>  
