@@ -17,7 +17,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
    2211.15482. [[arxiv](https://arxiv.org/abs/2211.15482)] [[code](https://github.com/xinychen/vars)]
 2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
    arXiv:
-   2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
+   2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for
    Multivariate Time Series Forecasting. arXiv preprint arXiv:
