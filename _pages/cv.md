@@ -48,6 +48,7 @@ Services
     - Transportation Research Part C: Emerging Technologies
     - ASME Journal of Mechanism and Robotics
     - ASME Journal of Mechanism Design
+    - Physica A: Statistical Mechanics and its Applications
     - IEEE International Conference on Intelligent Transportation Systems (ITSC)
 - Memberships
     - IEEE Student member
