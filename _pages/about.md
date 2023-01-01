@@ -104,7 +104,7 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 
 <br/>  
 
-## Bayesian Calibration of Intelligent Driver Model
+## Bayesian Calibration of the Intelligent Driver Model
 
 Chengyuan Zhang and Lijun Sun. *Available on arXiv.*
 
