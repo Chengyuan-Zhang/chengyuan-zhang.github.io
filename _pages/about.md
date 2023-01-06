@@ -18,6 +18,7 @@ analysis, and multi-agent interaction modeling in intelligent transportation sys
 News
 =====
 
+* <span style="color:darkred"> New! </span> 01/2023: I will attend the Transportation Research Board (TRB) 102nd Annual Meeting in Washington, D.C. Please feel free to reach out!
 * <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
   data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
   datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
@@ -129,7 +130,8 @@ enormous but nonidentical driving behaviors by sampling from the posteriors, whi
 simulator.
 </details>
 
-- Access our project via: [[arxiv](https://arxiv.org/abs/2210.03571)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
+- Access our project
+  via: [[arxiv](https://arxiv.org/abs/2210.03571)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
 
 <br/>  
