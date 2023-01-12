@@ -10,15 +10,20 @@ redirect_from:
 
 ---
 
-I'm a Ph.D. student in the Department of Civil Engineering, McGill University. I received my B.S. degree in Vehicle
-Engineering from Chongqing University in 2019. From 2019 to 2020, I was as a visiting researcher with the Department
-of Mechanical Engineering, UC Berkeley. My research interests are Bayesian learning, macro/micro driving behavior
-analysis, and multi-agent interaction modeling in intelligent transportation systems.
+I'm a Ph.D. student at McGill University under the supervision of
+Prof. [Lijun Sun](https://lijunsun.github.io/). I'm currently also a visiting researcher at the Robotics Institute,
+Carnegie Mellon University (CMU), supervised by Prof. [Changliu Liu](http://icontrol.ri.cmu.edu/). From 2019 to 2020, I was a
+visiting researcher with the Department of Mechanical Engineering, UC Berkeley, supervised by
+Prof. [Masayoshi Tomizuka](https://en.wikipedia.org/wiki/Masayoshi_Tomizuka). Before this, I was a visiting researcher
+in the Department of Mechanical Engineering at CMU in 2018, supervised by
+Prof. [Ding Zhao](https://safeai-lab.github.io/).
+
+My research interests are Bayesian
+learning, macro/micro driving behavior analysis, and multi-agent interaction modeling in intelligent transportation
+systems.
 
 News
 =====
-
-* <span style="color:darkred"> New! </span> 01/2023: I will attend the Transportation Research Board (TRB) 102nd Annual Meeting in Washington, D.C. Please feel free to reach out!
 * <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
   data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
   datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
