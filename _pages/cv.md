@@ -22,17 +22,14 @@ Academic Experiences
 =====
 
 * Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University, US,
-    2023.
+  2023
 * Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
-  University
-  of
-  California, Berkeley, US, 2019 - 2020.
+  University of California, Berkeley, US, 2019 - 2020
 * Deep Learning Summer Camp (DeeCamp) student @ Sinovation Ventures, China. We won Outstanding Team Award and Best
-  Application Award, 2019 and 2020.
-* Research Assistant, supervised by *Prof. Ding Zhao* @ Department of Mechanical Engineering, Carnegie Mellon
-  University,
-  US, 2018.
-* Exchange Student @ University of Pennsylvania, US, 2018.
+  Application Award, 2019 and 2020
+* Visiting Student Researcher, supervised by *Prof. Ding Zhao* @ Department of Mechanical Engineering, Carnegie Mellon
+  University, US, 2018
+* Exchange Student @ University of Pennsylvania, US, 2018
 * Member of CQU-FSAE Transmission Group @ Chongqing University Formula SAE (Society of Automotive Engineers), China,
   2016 - 2018
 
@@ -41,7 +38,7 @@ Services
 
 - Chairs/Co-chairs
     - Co-organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/)
-      on [IEEE IV2023](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023.
+      on [IEEE IV2023](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023
 - Reviewers
     - IEEE Transactions on Intelligent Transportaion Systems
     - IEEE Transactions on Intelligent Vehicles
@@ -59,17 +56,18 @@ Services
 
 Awards & Scholarships
 =====
-- Graduate Mobility Award, 2022-2023;
+
+- Graduate Mobility Award, 2022-2023
 - Graduate Research Enhancement and Travel Awards, 2023
 - Mitacs Globalink Research Award, 2022-2023
 - McGill Engineering Doctoral Award (MEDA), McGill University, 2022-2025
 - FRQNT Master's Scholarship (B1X), 2022-2023
-- CIRRELT Doctoral Scholarship, 2023;
+- CIRRELT Doctoral Scholarship, 2023
 - CIRRELT Master's Scholarship, 2022
 - Graduate Excellence Fellowship Awards, McGill University, 2020
 - IVADO Excellence Scholarships - Msc, 2020-2022
 - Outstanding Team Award \& Best Application Award at DeeCamp, China, 2019
 - Outstanding Graduate of Chongqing University, 2019
 - First Prize in the 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
-- National Scholarship, China, 2017.
+- National Scholarship, China, 2017
 - First Prize in the Chongqing University Physics Contest (\#1/500 in Chongqing University), 2015
