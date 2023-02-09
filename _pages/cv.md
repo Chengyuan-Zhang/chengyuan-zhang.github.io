@@ -71,3 +71,9 @@ Awards & Scholarships
 - First Prize in the 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
 - National Scholarship, China, 2017
 - First Prize in the Chongqing University Physics Contest (\#1/500 in Chongqing University), 2015
+
+Talks
+======
+
+- 01/2023: [Bayesian Calibration of the IDM](../_talks/230217_Chengyuan Zhang_Flyer.pdf) @ 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar
+  series.
