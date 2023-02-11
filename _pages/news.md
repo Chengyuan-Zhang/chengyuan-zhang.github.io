@@ -4,7 +4,7 @@ permalink: /news/
 author_profile: true
 ---
 
-* 01/2023: I will give a [talk](../_talks/230217_Chengyuan_Zhang_Flyer.pdf) on the 2023 Traffic Flow Theory and
+* 02/2023: I will give a [talk](../_talks/230217_Chengyuan_Zhang_Flyer.pdf) on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar series.
 * 01/2023: I received the Graduate Mobility Award. Thanks, McGill!
 * 12/2022: I received the CIRRELT Excellence PhD Scholarships. Thanks, CIRRELT!

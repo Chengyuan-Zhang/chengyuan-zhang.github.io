@@ -23,7 +23,7 @@ in intelligent transportation systems.
 News
 =====
 
-* <span style="color:darkred"> New! </span> 01/2023: I will give a talk on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)
+* <span style="color:darkred"> New! </span> 02/2023: I will give a talk on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)
 * <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
   data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
   datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).

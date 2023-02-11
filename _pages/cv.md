@@ -75,5 +75,5 @@ Awards & Scholarships
 Talks
 ======
 
-- 01/2023: [Bayesian Calibration of the IDM](../_talks/230217_Chengyuan_Zhang_Flyer.pdf) @ 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar
+- 02/2023: [Bayesian Calibration of the IDM](../_talks/230217_Chengyuan_Zhang_Flyer.pdf) @ 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar
   series.
