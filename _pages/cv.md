@@ -76,4 +76,4 @@ Talks
 ======
 
 - 02/2023: Bayesian Calibration of the IDM @ 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar
-  series. [[flyer]](../_talks/230217_Chengyuan_Zhang_Flyer.pdf) [[recording]](https://youtu.be/GIqcL6I7MsU)
+  series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
