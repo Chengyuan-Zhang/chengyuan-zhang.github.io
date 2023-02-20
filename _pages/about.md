@@ -23,7 +23,7 @@ in intelligent transportation systems.
 News
 =====
 
-* <span style="color:darkred"> New! </span> 02/2023: I presented our work ``Bayesian Calibration of the IDM'' on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)
+* <span style="color:darkred"> New! </span> 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
 * <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
   data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
   datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
@@ -134,7 +134,7 @@ simulator.
 - Access our project
   via: [[arxiv](https://arxiv.org/abs/2210.03571)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
-- Presentation: [[recording]](https://youtu.be/GIqcL6I7MsU).
+- Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)].
 
 <br/>  
 
