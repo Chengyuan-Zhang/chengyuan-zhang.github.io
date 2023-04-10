@@ -50,8 +50,9 @@ Services
 - Memberships
     - IEEE Student member
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
-    - Member of Interuniversity Research Centre on Enterprise Networks, Logistics and Transportation (Centre
+    - Student Member of Interuniversity Research Centre on Enterprise Networks, Logistics and Transportation (Centre
       interuniversitaire de recherche sur les reseaux d'entreprise, la logistique et le transport, CIRRELT)
+    - Student member of Chinese Overseas Transportation Association (COTA)
     - Member of the Society of Automotive Engineers (SAE) of China
 
 Awards & Scholarships

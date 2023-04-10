@@ -6,13 +6,13 @@ author_profile: true
 
 * 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
-  series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
+  series. [[Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[Recording](https://youtu.be/GIqcL6I7MsU)]
 * 01/2023: I received the Graduate Mobility Award. Thanks, McGill!
 * 12/2022: I received the CIRRELT Excellence PhD Scholarships. Thanks, CIRRELT!
 * 11/2022:  The preprint of our recent work "Discovering dynamic patterns from spatiotemporal data with time-varying
   low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted datasets and Python
   implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
-* 11/2022: Our long paper
+* 11/2022: Our review paper
   on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by
   Foundations and Trends® in Robotics.
 * 11/2022: I'm co-organizing the 1st International Workshop
