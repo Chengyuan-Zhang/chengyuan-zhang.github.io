@@ -23,8 +23,6 @@ author_profile: true
 * 09/2022: Our [NSERC](https://www.nserc-crsng.gc.ca/innovate-innover/alliance-alliance/index_eng.asp) propsoal on
   driving behavior interaction was approved by collaborating with Prof. [Changliu Liu](http://icontrol.ri.cmu.edu/)!
 * 09/2022: I received the Mitacs Globalink Research Award Abroad. Thanks, Mitacs!
-* 08/2022: Our new review paper on [Social Interactions for Autonomous Driving](https://arxiv.org/abs/2208.07541) is
-  online.
 * 06/2022: I received the FRQNT B1X Master’s scholarship. Thanks, FRQNT!
 * 12/2021: I received the CIRRELT Excellence Master Scholarships. Thanks, CIRRELT!
 * 10/2021: I have successfully completed the CIVE 701 exam for my master-phd-fast-track application.
