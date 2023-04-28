@@ -58,11 +58,12 @@ Services
 Awards & Scholarships
 =====
 
-- Graduate Mobility Award, 2022-2023
-- Graduate Research Enhancement and Travel Awards, 2023
+- Graduate Mobility Award, McGill University, 2022-2023
+- Graduate Research Enhancement and Travel Awards, McGill University, 2023
 - Mitacs Globalink Research Award, 2022-2023
 - McGill Engineering Doctoral Award (MEDA), McGill University, 2022-2025
-- FRQNT Master's Scholarship (B1X), 2022-2023
+- FRQNT Master's Scholarship (B1X), 2022-2023 
+- FRQNT Doctoral Scholarship (B2X), 2023-2027
 - CIRRELT Doctoral Scholarship, 2023
 - CIRRELT Master's Scholarship, 2022
 - Graduate Excellence Fellowship Awards, McGill University, 2020

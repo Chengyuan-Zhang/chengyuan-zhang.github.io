@@ -4,6 +4,7 @@ permalink: /news/
 author_profile: true
 ---
 
+* 04/2023: I received the FRQNT B2X Doctoral scholarship. Thanks, FRQNT!
 * 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
   series. [[Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[Recording](https://youtu.be/GIqcL6I7MsU)]
