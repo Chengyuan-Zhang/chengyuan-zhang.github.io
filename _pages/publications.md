@@ -10,9 +10,11 @@ author_profile: true
 
 The list is not frequently updated. Please see Google Scholar for recent updates.
 
+*Corresponding Author
+
 ## Preprints
 
-1. Xinyu Chen, **Chengyuan Zhang**, Xiaoxu Chen, Nicolas Saunier*, and Lijun Sun (2022). Discovering Dynamic Patterns
+1. Xinyu Chen, **Chengyuan Zhang**, Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2022). Discovering Dynamic Patterns
    from Spatiotemporal Data with Time-Varying Low-Rank Autoregression. arXiv preprint arXiv:
    2211.15482. [[arxiv](https://arxiv.org/abs/2211.15482)] [[code](https://github.com/xinychen/vars)]
 2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
@@ -25,15 +27,13 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Books
 
-1. Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun (2022). Social interactions for
+1. Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun* (2022). Social interactions for
    autonomous driving: A review and perspectives. Foundations and Trends® in Robotics, 10(3-4),
    198-376. [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)] [[arxiv](https://arxiv.org/abs/2208.07541)]
-2. Xinyu Chen, Jieling Jin, Qionghua Liao, **Chengyuan Zhang**, and Xiaoxu Chen (2022). LaTeX-cookbook: Academic writing
+2. Xinyu Chen*, Jieling Jin, Qionghua Liao, **Chengyuan Zhang**, and Xiaoxu Chen (2022). LaTeX-cookbook: Academic writing
    with LaTeX: A tutorial (in Chinese: LaTeX论文写作教程). [[ebook](https://github.com/xinychen/latex-cookbook)]
 
 ## Journal publications
-
-*Corresponding Author
 
 1. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
@@ -49,7 +49,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Conference publications
 
-1. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan (2020, October). Learning Representations for
+1. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
    Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
    Symposium (IV) (pp. 1935-1940). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/9304849)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Ding Zhao* (2019, October). A general framework of learning
