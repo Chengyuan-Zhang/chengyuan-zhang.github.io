@@ -8,6 +8,7 @@ author_profile: true
 * 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
   series. [[Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[Recording](https://youtu.be/GIqcL6I7MsU)]
+* 01/2023: Attended TRB 2023 for the first time, a wonderful experience in D.C. Washington!
 * 01/2023: I received the Graduate Mobility Award. Thanks, McGill!
 * 12/2022: I received the CIRRELT Excellence PhD Scholarships. Thanks, CIRRELT!
 * 11/2022:  The preprint of our recent work "Discovering dynamic patterns from spatiotemporal data with time-varying
@@ -22,7 +23,8 @@ author_profile: true
   paper!
 * 09/2022: One paper is accepted to [The Montreal AI Symposium 2022](http://montrealaisymposium.com/).
 * 09/2022: Our [NSERC](https://www.nserc-crsng.gc.ca/innovate-innover/alliance-alliance/index_eng.asp) propsoal on
-  driving behavior interaction was approved by collaborating with Prof. [Changliu Liu](http://icontrol.ri.cmu.edu/)!
+  driving behavior interaction (collaborated with Prof. [Changliu Liu](http://icontrol.ri.cmu.edu/)) was granted!
+  Thanks, NSERC!
 * 09/2022: I received the Mitacs Globalink Research Award Abroad. Thanks, Mitacs!
 * 06/2022: I received the FRQNT B1X Master’s scholarship. Thanks, FRQNT!
 * 12/2021: I received the CIRRELT Excellence Master Scholarships. Thanks, CIRRELT!
