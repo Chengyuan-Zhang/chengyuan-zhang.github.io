@@ -12,28 +12,28 @@ redirect_from:
 
 I'm a Ph.D. student at McGill University under the supervision of
 Prof. [Lijun Sun](https://lijunsun.github.io/). I'm currently also a visiting researcher at the Robotics Institute,
-Carnegie Mellon University (CMU), supervised by Prof. Changliu Liu. Previously, I was a
-visiting researcher with the Department of Mechanical Engineering, UC Berkeley from 2019 to 2020, supervised by
-Prof. Masayoshi Tomizuka; and was with the Department of Mechanical Engineering at CMU in 2018.
+Carnegie Mellon University (CMU), supervised by Prof. Changliu Liu. Previously, I was a visiting researcher with the
+Department of Mechanical Engineering, UC Berkeley from 2019 to 2020, supervised by Prof. Masayoshi Tomizuka; and was
+with the Department of Mechanical Engineering at CMU in 2018.
 
 My research interests are Bayesian learning, macro/micro driving behavior analysis, and multi-agent interaction modeling
 in intelligent transportation systems. Specifically, I'm more interested in revealing the mechanisms of social
 interactions conveyed in microscopic human driving behaviors and investigating how the interactive behaviors impact the
 macroscopic traffic flow dynamics.
 
-Please feel free to contact me if you are interested in collaborating with me. I'm also actively seeking undergraduates
-and master students interested in a summer/remote research internship.
+Please feel free to contact me if you are interested in collaborating with me. <ins>I'm also actively seeking
+undergraduates and master students who are interested in a summer/remote research internship.</ins>
 
 News
 =====
 
+* <span style="color:darkred"> New! </span> 06/2023: I'm co-organizing the 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV23' in Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
 * <span style="color:darkred"> New! </span> 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [[Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[Recording](https://youtu.be/GIqcL6I7MsU)]
 * <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
   data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
   datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
 * <span style="color:darkred"> New! </span> 11/2022: Our review paper on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by
   Foundations and Trends® in Robotics.
-* <span style="color:darkred"> New! </span> 11/2022: I'm co-organizing the 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at the 2023 IEEE Intelligent Vehicles Symposium (IV23') in Anchorage, Alaska, USA (June 4 – 7, 2023). Welcome to submit your paper!
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
