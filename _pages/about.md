@@ -59,18 +59,20 @@ communications to complete their driving tasks smoothly in interaction-intensive
 paper aims to review the existing approaches and theories to help understand and rethink the interactions among human
 drivers toward social autonomous driving. We take this survey to seek the answers to a series of fundamental questions:
 
-1) What is social interaction in road traffic scenes? 2) How to measure and evaluate social interaction? 3) How to model
-   and reveal the process of social interaction? 4) How do human drivers reach an implicit agreement and negotiate
-   smoothly
-   in social interaction? This paper reviews various approaches to modeling and learning the social interactions between
-   human drivers, ranging from optimization theory, deep learning, and graphical models to social force theory and
-   behavioral & cognitive science. We also highlight some new directions, critical challenges, and opening questions for
-   future research.
+1) What is social interaction in road traffic scenes?
+2) How to measure and evaluate social interaction?
+3) How to model and reveal the process of social interaction?
+4) How do human drivers reach an implicit agreement and negotiate smoothly in social interaction?
+
+This paper reviews various approaches to modeling and learning the social interactions between human drivers, ranging
+from optimization theory, deep learning, and graphical models to social force theory and behavioral & cognitive science.
+We also highlight some new directions, critical challenges, and opening questions for future research.
 
 </details>
 
 - Access our book
-  via: [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)] [[arxiv](https://arxiv.org/abs/2208.07541)].
+  via: [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)], [[arxiv](https://arxiv.org/abs/2208.07541)],
+  or [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].
 
 <br/> 
 
@@ -103,7 +105,8 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 </details>
 
 - Access our paper via: [[arxiv](https://arxiv.org/pdf/2003.00759v2.pdf)]
-  or [[paper](https://ieeexplore.ieee.org/document/9357407)].
+  , [[paper](https://ieeexplore.ieee.org/document/9357407)],
+  or [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].
 - Watch the demos via: [[YouTube](https://youtu.be/AcyDn43hb7I)].
 - Code for implementing Gaussian Velocity
   Field: [[Github repo](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)].

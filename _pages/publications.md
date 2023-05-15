@@ -21,17 +21,16 @@ The list is not frequently updated. Please see Google Scholar for recent updates
    arXiv:
    2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
-   Factorization for
-   Multivariate Time Series Forecasting. arXiv preprint arXiv:
+   Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
    2203.10651. [[arxiv](https://arxiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 
 ## Books
 
 1. Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun* (2022). Social interactions for
    autonomous driving: A review and perspectives. Foundations and Trends® in Robotics, 10(3-4),
-   198-376. [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)] [[arxiv](https://arxiv.org/abs/2208.07541)]
-2. Xinyu Chen*, Jieling Jin, Qionghua Liao, **Chengyuan Zhang**, and Xiaoxu Chen (2022). LaTeX-cookbook: Academic writing
-   with LaTeX: A tutorial (in Chinese: LaTeX论文写作教程). [[ebook](https://github.com/xinychen/latex-cookbook)]
+   198-376. [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)] [[arxiv](https://arxiv.org/abs/2208.07541)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
+2. Xinyu Chen*, Jieling Jin, Qionghua Liao, **Chengyuan Zhang**, and Xiaoxu Chen (2022). LaTeX-cookbook: Academic
+   writing with LaTeX: A tutorial (in Chinese: LaTeX论文写作教程). [[ebook](https://github.com/xinychen/latex-cookbook)]
 
 ## Journal publications
 
@@ -54,7 +53,8 @@ The list is not frequently updated. Please see Google Scholar for recent updates
    Symposium (IV) (pp. 1935-1940). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/9304849)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Ding Zhao* (2019, October). A general framework of learning
    multi-vehicle interaction patterns from video. In 2019 IEEE Intelligent Transportation Systems Conference (ITSC) (pp.
-   4323-4328). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/8917212)]
+   4323-4328).
+   IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/8917212)][[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
 
 ## Patents
 
