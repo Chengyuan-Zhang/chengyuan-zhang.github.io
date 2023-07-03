@@ -27,12 +27,10 @@ undergraduates and master students who are interested in a summer/remote researc
 News
 =====
 
+* <span style="color:darkred"> New! </span> 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression" was accepted to IEEE Transactions on Knowledge and Data Engineering. [arXiv](https://arxiv.org/abs/2211.15482) [https://github.com/xinychen/vars](https://github.com/xinychen/vars)
 * <span style="color:darkred"> New! </span> 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations on Google Scholar!
 * <span style="color:darkred"> New! </span> 06/2023: I'm co-organizing the 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV23' in Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
 * <span style="color:darkred"> New! </span> 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [[Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[Recording](https://youtu.be/GIqcL6I7MsU)]
-* <span style="color:darkred"> New! </span> 11/2022: The preprint of our recent work "Discovering dynamic patterns from spatiotemporal
-  data with time-varying low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted
-  datasets and Python implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
