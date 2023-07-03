@@ -14,10 +14,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Preprints
 
-1. Xinyu Chen, **Chengyuan Zhang**, Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2022). Discovering Dynamic Patterns
-   from Spatiotemporal Data with Time-Varying Low-Rank Autoregression. arXiv preprint arXiv:
-   2211.15482. [[arxiv](https://arxiv.org/abs/2211.15482)] [[code](https://github.com/xinychen/vars)]
-2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
+1. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
    arXiv:
    2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
@@ -34,14 +31,18 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Journal publications
 
-1. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
+1. Xinyu Chen, **Chengyuan Zhang** (equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023). Discovering dynamic patterns
+   from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on Knowledge and Data
+   Engineering (accepted) 
+   . [[arxiv](https://arxiv.org/abs/2212.01529)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
+2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
    Systems. [[paper](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arxiv](https://arxiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
-2. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (2019). An efficient parking solution:
+3. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (2019). An efficient parking solution:
    a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system. Journal of Mechanisms
    and Robotics, 11(4)
    . [[paper](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268)] [[demo](https://youtu.be/lmwdDsUXUw8)]
-3. **Chengyuan Zhang** and Jian Xiao* (2018). Chaotic behavior and feedback control of
+4. **Chengyuan Zhang** and Jian Xiao* (2018). Chaotic behavior and feedback control of
    magnetorheological suspension system with fractional-order derivative. Journal of Computational and Nonlinear
    Dynamics, 13(2)
    . [[paper](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of)]

@@ -4,6 +4,9 @@ permalink: /news/
 author_profile: true
 ---
 
+* 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression"
+  was accepted to IEEE Transactions on Knowledge and Data
+  Engineering. [[arXiv](https://arxiv.org/abs/2211.15482)]
 * 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations
   on Google Scholar!
 * 06/2023: I'm organizing the 1st International Workshop
@@ -16,11 +19,8 @@ author_profile: true
 * 01/2023: Attended TRB 2023 for the first time, a wonderful experience in D.C. Washington!
 * 01/2023: I received the Graduate Mobility Award. Thanks, McGill!
 * 12/2022: I received the CIRRELT Excellence PhD Scholarships. Thanks, CIRRELT!
-* 11/2022:  The preprint of our recent work "Discovering dynamic patterns from spatiotemporal data with time-varying
-  low-rank autoregression" is available on [arXiv](https://arxiv.org/abs/2211.15482). The adapted datasets and Python
-  implementation are available at [https://github.com/xinychen/vars](https://github.com/xinychen/vars).
 * 11/2022: Our review paper
-  on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted by
+  on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) is accepted to
   Foundations and Trends® in Robotics.
 * 09/2022: One paper is accepted to [The Montreal AI Symposium 2022](http://montrealaisymposium.com/).
 * 09/2022: Our [NSERC](https://www.nserc-crsng.gc.ca/innovate-innover/alliance-alliance/index_eng.asp) propsoal on
