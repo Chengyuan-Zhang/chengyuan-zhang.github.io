@@ -31,9 +31,10 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Journal publications
 
-1. Xinyu Chen, **Chengyuan Zhang** (equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023). Discovering dynamic patterns
+1. Xinyu Chen, **Chengyuan Zhang** (equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
+   Discovering dynamic patterns
    from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on Knowledge and Data
-   Engineering (accepted) 
+   Engineering (accepted)
    . [[arxiv](https://arxiv.org/abs/2212.01529)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
