@@ -22,7 +22,7 @@ interactions conveyed in microscopic human driving behaviors and investigating h
 macroscopic traffic flow dynamics.
 
 Please feel free to contact me if you are interested in collaborating with me. I'm also actively seeking undergraduates
-and master students who are interested in a <ins> summer/remote research internship</ins>.
+and master students who are interested in a summer/remote research internship.
 
 News
 =====
