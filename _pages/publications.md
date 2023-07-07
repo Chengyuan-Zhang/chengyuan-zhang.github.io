@@ -14,12 +14,20 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Preprints
 
-1. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
-   arXiv:
-   2210.03571. [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
-2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
+1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
+   Regression. arXiv preprint. _Under review._ (Submitted to
+   ISTTT25) [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
+2. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023). Interactive
+   Car-Following: Matters but NOT Always. _Under review._ (Submitted to ITSC23)
+3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier (2023). Memory-Efficient Hankel
+   Tensor Factorization for Extreme Missing Traffic Data Imputation. _Under review_. (Submitted to T-SP)
+4. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
+   arXiv:2210.03571. _Under review_. (Submitted to
+   T-ITS) [[arxiv](https://arxiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+5. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
-   2203.10651. [[arxiv](https://arxiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+   2203.10651. _Under review_. (Submitted to TR
+   PartC) [[arxiv](https://arxiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 
 ## Books
 
