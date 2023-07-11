@@ -4,6 +4,8 @@ permalink: /news/
 author_profile: true
 ---
 
+* 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic
+  Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 * 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression"
   was accepted to IEEE Transactions on Knowledge and Data
   Engineering. [[arXiv](https://arxiv.org/abs/2211.15482)]

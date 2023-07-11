@@ -15,8 +15,8 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 ## Preprints
 
 1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
-   Regression. arXiv preprint. _Under review._ (Submitted to
-   ISTTT25) [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
+   Regression. arXiv preprint arXiv:2307.03340. _Under review._ (Submitted to
+   ISTTT25) [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
 2. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023). Interactive
    Car-Following: Matters but NOT Always. _Under review._ (Submitted to ITSC23)
 3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier (2023). Memory-Efficient Hankel
