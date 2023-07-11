@@ -27,9 +27,10 @@ and master students who are interested in a summer/remote research internship.
 News
 =====
 
+* <span style="color:darkred"> New! </span> 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 * <span style="color:darkred"> New! </span> 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression" was accepted to IEEE Transactions on Knowledge and Data Engineering. [[arXiv](https://arxiv.org/abs/2211.15482)]
 * <span style="color:darkred"> New! </span> 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations on Google Scholar!
-* <span style="color:darkred"> New! </span> 06/2023: I'm co-organizing the 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV23' in Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
+* <span style="color:darkred"> New! </span> 06/2023: I'm organizing the 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV23' in Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
 * <span style="color:darkred"> New! </span> 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar series. [[Flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[Recording](https://youtu.be/GIqcL6I7MsU)]
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
