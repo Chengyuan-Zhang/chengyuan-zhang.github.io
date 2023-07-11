@@ -42,7 +42,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 1. Xinyu Chen, **Chengyuan Zhang** (equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
    Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on
    Knowledge and Data Engineering (accepted)
-   . [[arxiv](https://arxiv.org/abs/2211.15482)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
+   . [[paper](https://ieeexplore.ieee.org/document/10177995)] [[arxiv](https://arxiv.org/abs/2211.15482)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
    Systems. [[paper](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arxiv](https://arxiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
