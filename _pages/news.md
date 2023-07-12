@@ -8,7 +8,7 @@ author_profile: true
   Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 * 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression"
   was accepted to IEEE Transactions on Knowledge and Data
-  Engineering. [[arXiv](https://arxiv.org/abs/2211.15482)]
+  Engineering. [[paper](https://ieeexplore.ieee.org/document/10177995)]
 * 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations
   on Google Scholar!
 * 06/2023: I'm organizing the 1st International Workshop
