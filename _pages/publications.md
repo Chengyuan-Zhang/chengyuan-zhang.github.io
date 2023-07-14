@@ -17,8 +17,6 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. arXiv preprint arXiv:2307.03340. _Under review._ (Submitted to
    ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
-2. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023). Interactive
-   Car-Following: Matters but NOT Always. _Under review._ (Submitted to ITSC23)
 3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier (2023). Memory-Efficient Hankel
    Tensor Factorization for Extreme Missing Traffic Data Imputation. _Under review_. (Submitted to T-SP)
 4. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
@@ -57,7 +55,9 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Conference publications
 
-1. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
+1. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023). Interactive
+   Car-Following: Matters but NOT Always. In 2023 IEEE Intelligent Transportation Systems Conference (ITSC) (accepted)
+2. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
    Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
    Symposium (IV) (pp. 1935-1940). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/9304849)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Ding Zhao* (2019, October). A general framework of learning
