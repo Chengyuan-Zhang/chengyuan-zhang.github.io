@@ -69,7 +69,7 @@ We also highlight some new directions, critical challenges, and opening question
 </details>
 
 - Access our book
-  via: [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)], [[arxiv](https://arxiv.org/abs/2208.07541)],
+  via: [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)], [[arXiv](https://arxiv.org/abs/2208.07541)],
   or [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].
 
 <br/> 
@@ -102,7 +102,7 @@ properties in temporal relationships. Our proposed approach sheds light on effic
 multi-agent interactions, such as vehicle-pedestrian interactions.
 </details>
 
-- Access our paper via: [[arxiv](https://arxiv.org/pdf/2003.00759v2.pdf)]
+- Access our paper via: [[arXiv](https://arxiv.org/pdf/2003.00759v2.pdf)]
   , [[paper](https://ieeexplore.ieee.org/document/9357407)],
   or [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].
 - Watch the demos via: [[YouTube](https://youtu.be/AcyDn43hb7I)].
@@ -112,7 +112,7 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 
 <br/>  
 
-## Bayesian Calibration of the Intelligent Driver Model
+## Bayesian Calibration of the Car-Following Models
 
 Chengyuan Zhang and Lijun Sun. *Available on arXiv.*
 
@@ -137,10 +137,10 @@ enormous but nonidentical driving behaviors by sampling from the posteriors, whi
 simulator.
 </details>
 
-- Access our project
-  via: [[arxiv](https://arxiv.org/abs/2210.03571)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
+- Access our preprint via: GP+IDM [[arXiv](https://arxiv.org/abs/2210.03571)] and 
+  AR+IDM [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
-- Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)].
+- Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
 
 <br/>  
 
