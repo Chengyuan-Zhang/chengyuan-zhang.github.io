@@ -16,12 +16,12 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. arXiv preprint arXiv:2307.03340. _Under review._ (Submitted to
-   ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)]
+   ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[talk](https://youtu.be/GIqcL6I7MsU)]
 3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier (2023). Memory-Efficient Hankel
    Tensor Factorization for Extreme Missing Traffic Data Imputation. _Under review_. (Submitted to T-SP)
 4. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
    arXiv:2210.03571. _Under review_. (Submitted to
-   T-ITS) [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+   T-ITS) [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[talk](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 5. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
    2203.10651. _Under review_. (Submitted to TR
@@ -37,7 +37,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Journal publications
 
-1. Xinyu Chen, **Chengyuan Zhang** (equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
+1. Xinyu Chen (=), **Chengyuan Zhang** (=equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
    Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on
    Knowledge and Data Engineering (accepted)
    . [[paper](https://ieeexplore.ieee.org/document/10177995)] [[arXiv](https://arXiv.org/abs/2211.15482)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
