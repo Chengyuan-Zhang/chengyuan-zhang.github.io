@@ -21,7 +21,8 @@ in intelligent transportation systems. Specifically, I'm more interested in reve
 interactions conveyed in microscopic human driving behaviors and investigating how the interactive behaviors impact the
 macroscopic traffic flow dynamics.
 
-Please feel free to contact me if you are interested in collaborating with me. I'm also actively seeking undergraduates
+**Please feel free to contact me if you are interested in collaborating with me.** I'm also actively seeking
+undergraduates
 and master students who are interested in a summer/remote research internship.
 
 News
@@ -39,6 +40,38 @@ News
 
 Featured Research
 ======
+
+## Bayesian Calibration of the Car-Following Models
+
+Chengyuan Zhang and Lijun Sun. *Available on arXiv.*
+
+<center>
+  <img src="../images/MA-IDM.png" width="100%" />
+</center>
+
+<details>
+  <summary><b>[Abstract]</b></summary>
+
+Accurate calibration of car-following models is essential for investigating microscopic human driving behaviors. This
+work proposes a memory-augmented Bayesian calibration approach, which leverages the Bayesian inference and stochastic
+processes (i.e., Gaussian processes) to calibrate an unbiased car-following model while extracting the serial
+correlations of residual. This calibration approach is applied to the intelligent driver model (IDM) and develops a
+novel model named MA-IDM. To evaluate the effectiveness of the developed approach, three models with different
+hierarchies (i.e., pooled, hierarchical, and unpooled) are tested. Experiments demonstrate that the MA-IDM can estimate
+the noise level of unrelated errors by decoupling the serial correlation of residuals. Furthermore, a stochastic
+simulation method is also developed based on our Bayesian calibration approach, which can obtain unbiased posterior
+motion states and generate anthropomorphic driving behaviors. Simulation results indicate that the MA-IDM outperforms
+Bayesian IDM in simulation accuracy and uncertainty quantification. With this Bayesian approach, we can generate
+enormous but nonidentical driving behaviors by sampling from the posteriors, which can help develop a realistic traffic
+simulator.
+</details>
+
+- Access our preprint via: GP+IDM [[arXiv](https://arxiv.org/abs/2210.03571)] and
+  AR+IDM [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
+- Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
+- Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
+
+<br/>  
 
 ## Social Interactions for Autonomous Driving: A Review and Perspective.
 
@@ -110,39 +143,8 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
   Field: [[Github repo](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)].
 - Also check the supplements via: [[Spatiotemporal_Appendix.pdf](./files/Spatiotemporal_Appendix.pdf)].
 
-<br/>  
+<br/>
 
-## Bayesian Calibration of the Car-Following Models
-
-Chengyuan Zhang and Lijun Sun. *Available on arXiv.*
-
-<center>
-  <img src="../images/MA-IDM.png" width="100%" />
-</center>
-
-<details>
-  <summary><b>[Abstract]</b></summary>
-
-Accurate calibration of car-following models is essential for investigating microscopic human driving behaviors. This
-work proposes a memory-augmented Bayesian calibration approach, which leverages the Bayesian inference and stochastic
-processes (i.e., Gaussian processes) to calibrate an unbiased car-following model while extracting the serial
-correlations of residual. This calibration approach is applied to the intelligent driver model (IDM) and develops a
-novel model named MA-IDM. To evaluate the effectiveness of the developed approach, three models with different
-hierarchies (i.e., pooled, hierarchical, and unpooled) are tested. Experiments demonstrate that the MA-IDM can estimate
-the noise level of unrelated errors by decoupling the serial correlation of residuals. Furthermore, a stochastic
-simulation method is also developed based on our Bayesian calibration approach, which can obtain unbiased posterior
-motion states and generate anthropomorphic driving behaviors. Simulation results indicate that the MA-IDM outperforms
-Bayesian IDM in simulation accuracy and uncertainty quantification. With this Bayesian approach, we can generate
-enormous but nonidentical driving behaviors by sampling from the posteriors, which can help develop a realistic traffic
-simulator.
-</details>
-
-- Access our preprint via: GP+IDM [[arXiv](https://arxiv.org/abs/2210.03571)] and 
-  AR+IDM [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
-- Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
-- Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
-
-<br/>  
 
 Thanks & Fundings
 ======
