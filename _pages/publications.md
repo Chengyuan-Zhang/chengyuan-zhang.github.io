@@ -40,18 +40,18 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 1. Xinyu Chen (=), **Chengyuan Zhang** (=equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
    Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on
    Knowledge and Data Engineering (accepted)
-   . [[paper](https://ieeexplore.ieee.org/document/10177995)] [[arXiv](https://arXiv.org/abs/2211.15482)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
+   . [[IEEE TKDE](https://ieeexplore.ieee.org/document/10177995)] [[arXiv](https://arXiv.org/abs/2211.15482)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
-   Systems. [[paper](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arXiv](https://arXiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
+   Systems. [[IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arXiv](https://arXiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
 3. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (2019). An efficient parking solution:
    a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system. Journal of Mechanisms
    and Robotics, 11(4)
-   . [[paper](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268)] [[demo](https://youtu.be/lmwdDsUXUw8)]
+   . [[ASME JMR](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268)] [[demo](https://youtu.be/lmwdDsUXUw8)]
 4. **Chengyuan Zhang** and Jian Xiao* (2018). Chaotic behavior and feedback control of
    magnetorheological suspension system with fractional-order derivative. Journal of Computational and Nonlinear
    Dynamics, 13(2)
-   . [[paper](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of)]
+   . [[ASME JCND](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of)]
 
 ## Conference publications
 
@@ -59,11 +59,11 @@ The list is not frequently updated. Please see Google Scholar for recent updates
    Car-Following: Matters but NOT Always. In 2023 IEEE Intelligent Transportation Systems Conference (ITSC) (accepted)
 2. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
    Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
-   Symposium (IV) (pp. 1935-1940). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/9304849)]
+   Symposium (IV) (pp. 1935-1940). IEEE. [[IEEE IV20'](https://ieeexplore.ieee.org/abstract/document/9304849)]
 2. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang, and Ding Zhao* (2019, October). A general framework of learning
    multi-vehicle interaction patterns from video. In 2019 IEEE Intelligent Transportation Systems Conference (ITSC) (pp.
    4323-4328).
-   IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/8917212)][[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
+   IEEE. [[IEEE ITSC19'](https://ieeexplore.ieee.org/abstract/document/8917212)][[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
 
 ## Patents
 
