@@ -56,7 +56,8 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 ## Conference publications
 
 1. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023). Interactive
-   Car-Following: Matters but NOT Always. In 2023 IEEE Intelligent Transportation Systems Conference (ITSC) (accepted)
+   Car-Following: Matters but NOT Always. In 2023 IEEE Intelligent Transportation Systems Conference (ITSC) (
+   accepted) [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
 2. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
    Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
    Symposium (IV) (pp. 1935-1940). IEEE. [[IEEE IV20'](https://ieeexplore.ieee.org/abstract/document/9304849)]

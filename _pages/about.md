@@ -28,7 +28,7 @@ and master students who are interested in a summer/remote research internship.
 News
 =====
 
-* <span style="color:darkred"> New! </span> 07/2023: One paper is accepted by IEEE ITSC23.
+* <span style="color:darkred"> New! </span> 07/2023: One paper is accepted at IEEE ITSC23 [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)].
 * <span style="color:darkred"> New! </span> 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 * <span style="color:darkred"> New! </span> 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression" was accepted to IEEE Transactions on Knowledge and Data Engineering. [[paper](https://ieeexplore.ieee.org/document/10177995)]
 * <span style="color:darkred"> New! </span> 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations on Google Scholar!
