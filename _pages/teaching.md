@@ -7,7 +7,7 @@ author_profile: true
 Teaching Assistant
 =====
 
-* **CIVE 440 Traffic Engineering and Simulation**: *2022 Fall*, by Prof. Lijun Sun @ Department of Civil Engineering, McGill
+* **CIVE 440 Traffic Engineering and Simulation**: *2022 Fall* and *2023 Fall*, by Prof. Lijun Sun @ Department of Civil Engineering, McGill
   University.
 * **Basics of Machine Learning and Data Analysis (online)**: *2022 Fall*, by Prof. Pradeep Ravikumar @ Department of Computer Science,
   Carnegie Mellon University
