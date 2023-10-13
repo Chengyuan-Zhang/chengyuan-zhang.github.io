@@ -26,11 +26,10 @@ Please feel free to contact me if you are interested in collaborating with me.
 News
 =====
 
+* <span style="color:darkred"> New! </span> 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)]
 * <span style="color:darkred"> New! </span> 07/2023: One paper is accepted at IEEE ITSC23 [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)].
 * <span style="color:darkred"> New! </span> 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 * <span style="color:darkred"> New! </span> 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression" was accepted to IEEE Transactions on Knowledge and Data Engineering. [[paper](https://ieeexplore.ieee.org/document/10177995)]
-* <span style="color:darkred"> New! </span> 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations on Google Scholar!
-* <span style="color:darkred"> New! </span> 06/2023: I'm organizing the 1st International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV23' in Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
