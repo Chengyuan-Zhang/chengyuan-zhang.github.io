@@ -17,23 +17,22 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. arXiv preprint arXiv:2307.03340. _Under review._ (Submitted to
    ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[talk](https://youtu.be/GIqcL6I7MsU)]
-3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier (2023). Memory-Efficient Hankel
-   Tensor Factorization for Extreme Missing Traffic Data Imputation. _Under review_. (Submitted to T-SP)
-4. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
+2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
    arXiv:2210.03571. _Under review_. (Submitted to
    T-ITS) [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[talk](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
-5. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
+3. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
-   2203.10651. _Under review_. (Submitted to TR
-   PartC) [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+   2203.10651. _Under review_. [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+
+[//]: # (3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier &#40;2023&#41;. Memory-Efficient Hankel)
+[//]: # (   Tensor Factorization for Extreme Missing Traffic Data Imputation. _Under review_.)
 
 ## Books
 
-1. Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun* (2022). Social interactions for
+1. Wenshuo Wang, Letian Wang, **Chengyuan Zhang**, Changliu Liu, and Lijun Sun (2022). Social interactions for
    autonomous driving: A review and perspectives. Foundations and Trends® in Robotics, 10(3-4),
    198-376. [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)] [[arXiv](https://arXiv.org/abs/2208.07541)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
-2. Xinyu Chen*, Jieling Jin, Qionghua Liao, **Chengyuan Zhang**, and Xiaoxu Chen (2022). LaTeX-cookbook: Academic
-   writing with LaTeX: A tutorial (in Chinese: LaTeX论文写作教程). [[ebook](https://github.com/xinychen/latex-cookbook)]
+2. 陈新宇，金杰灵，廖琼华，**张程远**，陈晓旭. LaTeX论文写作教程 (Academic Writing with LaTeX). 清华大学出版社，2023. [[ebook](https://github.com/xinychen/latex-cookbook)]
 
 ## Journal publications
 
@@ -56,8 +55,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 ## Conference publications
 
 1. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023). Interactive
-   Car-Following: Matters but NOT Always. In 2023 IEEE Intelligent Transportation Systems Conference (ITSC) (
-   accepted) [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
+   Car-Following: Matters but NOT Always. In 2023 IEEE Intelligent Transportation Systems Conference (ITSC) [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
 2. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
    Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields. In 2020 IEEE Intelligent Vehicles
    Symposium (IV) (pp. 1935-1940). IEEE. [[IEEE IV20'](https://ieeexplore.ieee.org/abstract/document/9304849)]
