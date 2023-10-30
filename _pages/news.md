@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 * 10/2023: I have successfully completed CIVE 702 Ph.D. Research Proposal Examination.
-* 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)]
+* 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)] [[清华大学出版社京东自营官方旗舰店](https://item.jd.com/14204878.html)]
 * 07/2023: One paper is accepted at IEEE ITSC23. [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
 * 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic
   Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
