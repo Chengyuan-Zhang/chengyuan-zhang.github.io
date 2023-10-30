@@ -4,6 +4,7 @@ permalink: /news/
 author_profile: true
 ---
 
+* 10/2023: I have successfully completed CIVE 702 Ph.D. Research Proposal Examination.
 * 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)]
 * 07/2023: One paper is accepted at IEEE ITSC23. [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
 * 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic
@@ -33,4 +34,4 @@ author_profile: true
 * 09/2022: I received the Mitacs Globalink Research Award Abroad. Thanks, Mitacs!
 * 06/2022: I received the FRQNT B1X Master’s scholarship. Thanks, FRQNT!
 * 12/2021: I received the CIRRELT Excellence Master Scholarships. Thanks, CIRRELT!
-* 10/2021: I have successfully completed the CIVE 701 exam for my master-phd-fast-track application.
+* 10/2021: I have successfully completed CIVE 701 Ph.D. Comprehensive Examination for my master-phd-fast-track application.
