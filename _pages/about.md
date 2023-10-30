@@ -10,7 +10,7 @@ redirect_from:
 
 ---
 
-I'm a Ph.D. student at McGill University under the supervision of
+I'm a Ph.D. candidate at McGill University under the supervision of
 Prof. [Lijun Sun](https://lijunsun.github.io/). Previously, I was a visiting researcher with the Robotics Institute,
 Carnegie Mellon University (CMU) in 2023, supervised by Prof. Changliu Liu; the Department of Mechanical Engineering, UC
 Berkeley from 2019 to 2020, supervised by Prof. Masayoshi Tomizuka; and the Department of Mechanical Engineering at CMU
@@ -21,15 +21,17 @@ in intelligent transportation systems. Specifically, I'm more interested in reve
 interactions conveyed in microscopic human driving behaviors and investigating how the interactive behaviors impact the
 macroscopic traffic flow dynamics.
 
-Please feel free to contact me if you are interested in collaborating with me.
+👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
+
 
 News
 =====
 
+* <span style="color:darkred"> New! </span> 10/2023: I will attend the 2024 TRB Annual Meeting, see you in Washington, D.C.!
+* <span style="color:darkred"> New! </span> 10/2023: I have successfully completed CIVE 702 Ph.D. Research Proposal Examination.
 * <span style="color:darkred"> New! </span> 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)]
 * <span style="color:darkred"> New! </span> 07/2023: One paper is accepted at IEEE ITSC23 [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)].
 * <span style="color:darkred"> New! </span> 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
-* <span style="color:darkred"> New! </span> 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression" was accepted to IEEE Transactions on Knowledge and Data Engineering. [[paper](https://ieeexplore.ieee.org/document/10177995)]
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 

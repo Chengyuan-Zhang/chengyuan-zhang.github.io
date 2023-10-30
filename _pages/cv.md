@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 
-* Ph.D. student in Civil Engineering, McGill University, Canada, 2022 - Present
+* Ph.D. candidate in Civil Engineering, McGill University, Canada, 2022 - Present
 * M.S. in Civil Engineering (fast-tracked to Ph.D. program), McGill University, Canada, 2020 - 2022
 * B.S. in Automobile Engineering, Chongqing University, China, 2015 - 2019
 
@@ -22,14 +22,14 @@ Academic Experiences
 =====
 
 * Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University, US,
-  2023
+  2023.01 - 2023.08
 * Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
-  University of California, Berkeley, US, 2019 - 2020
+  University of California, Berkeley, US, 2019.09 - 2020.01
 * Deep Learning Summer Camp (DeeCamp) student @ Sinovation Ventures, China. We won Outstanding Team Award and Best
   Application Award, 2019 and 2020
 * Visiting Student Researcher, supervised by *Prof. Ding Zhao* @ Department of Mechanical Engineering, Carnegie Mellon
-  University, US, 2018
-* Exchange Student @ University of Pennsylvania, US, 2018
+  University, US, 2018.07 - 2018.10
+* Exchange Student @ University of Pennsylvania, US, 2018.01 - 2018.02
 * Member of CQU-FSAE Transmission Group @ Chongqing University Formula SAE (Society of Automotive Engineers), China,
   2016 - 2018
 
