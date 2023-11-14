@@ -4,11 +4,17 @@ permalink: /news/
 author_profile: true
 ---
 
-* 11/2023: Our paper "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors" was accepted to IEEE Transactions on Intelligent Transportation Systems.
+* 11/2023: I will organize the 2nd International Workshop
+  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV24' in Jeju Shinhwa
+  World, Jeju Island, Korea. Welcome to join us on June 2nd, 2024!
+* 11/2023: Our paper "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors" was
+  accepted to IEEE Transactions on Intelligent Transportation Systems.
 * 10/2023: I will attend the 2024 TRB Annual Meeting, see you in Washington, D.C.!
 * 10/2023: I have successfully completed CIVE 702 Ph.D. Research Proposal Examination.
-* 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)] [[清华大学出版社京东自营官方旗舰店](https://item.jd.com/14204878.html)]
-* 07/2023: Our paper "Interactive Car-Following: Matters but NOT Always" is accepted at IEEE ITSC23. [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
+* 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is
+  published. [[ebook](https://github.com/xinychen/latex-cookbook)] [[清华大学出版社京东自营官方旗舰店](https://item.jd.com/14204878.html)]
+* 07/2023: Our paper "Interactive Car-Following: Matters but NOT Always" is accepted at IEEE
+  ITSC23. [[arXiv](https://arxiv.org/pdf/2307.16127.pdf)]
 * 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic
   Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 * 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression"
@@ -36,4 +42,5 @@ author_profile: true
 * 09/2022: I received the Mitacs Globalink Research Award Abroad. Thanks, Mitacs!
 * 06/2022: I received the FRQNT B1X Master’s scholarship. Thanks, FRQNT!
 * 12/2021: I received the CIRRELT Excellence Master Scholarships. Thanks, CIRRELT!
-* 10/2021: I have successfully completed CIVE 701 Ph.D. Comprehensive Examination for my master-phd-fast-track application.
+* 10/2021: I have successfully completed CIVE 701 Ph.D. Comprehensive Examination for my master-phd-fast-track
+  application.
