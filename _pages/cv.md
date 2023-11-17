@@ -37,8 +37,10 @@ Services
 ======
 
 - Chairs/Co-chairs
-    - Co-organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/)
-      on [IEEE IV2023](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023
+    - Organizer of the 2nd [SIAM workshop](https://interactive-driving.github.io/)
+      on [IEEE IV24'](https://ieee-iv.org/2024/), Jeju Shinhwa World, Jeju Island, Korea, 2024
+    - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
+      on [IEEE IV23'](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023
 - Reviewers
     - IEEE Transactions on Intelligent Transportaion Systems
     - IEEE Transactions on Intelligent Vehicles

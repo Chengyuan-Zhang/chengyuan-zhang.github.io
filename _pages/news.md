@@ -23,7 +23,7 @@ author_profile: true
 * 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations
   on Google Scholar!
 * 06/2023: I'm organizing the 1st International Workshop
-  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV23' in Anchorage,
+  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV23/) at IV23' in Anchorage,
   Alaska, USA. Welcome to join us on June 4th, 2023!
 * 04/2023: I received the FRQNT B2X Doctoral scholarship. Thanks, FRQNT!
 * 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
