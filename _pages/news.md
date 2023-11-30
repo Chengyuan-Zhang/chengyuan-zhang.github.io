@@ -6,7 +6,7 @@ author_profile: true
 
 * 11/2023: I will organize the 2nd International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV24' in Jeju Shinhwa
-  World, Jeju Island, Korea. Welcome to join us on June 2nd, 2024!
+  World, Jeju Island, Korea. Welcome to join us on June 2nd, 2024! [[CFP]](https://interactive-driving.github.io/files/CFP-IV24-SIAM_Workshop.pdf)
 * 11/2023: Our paper "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors" was
   accepted to IEEE Transactions on Intelligent Transportation Systems.
 * 10/2023: I will attend the 2024 TRB Annual Meeting, see you in Washington, D.C.!
