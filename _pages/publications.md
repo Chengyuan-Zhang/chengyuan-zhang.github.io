@@ -16,10 +16,10 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. arXiv preprint arXiv:2307.03340. _Under review._ (Submitted to
-   ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[talk](https://youtu.be/GIqcL6I7MsU)]
+   ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)]
 2. **Chengyuan Zhang** and Lijun Sun* (2022). Bayesian Calibration of the Intelligent Driver Model. arXiv preprint
    arXiv:2210.03571. _Under review_. (Submitted to
-   T-ITS) [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[talk](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+   T-ITS) [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 3. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
    2203.10651. _Under
@@ -41,7 +41,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 1. Xiaoxu Chen, **Chengyuan Zhang**, Zhanhong Cheng, Yuang Hou, and Lijun Sun* (2023). A Bayesian Gaussian Mixture Model
    for Probabilistic Modeling of Car-Following Behaviors. IEEE Transactions on Intelligent Transportation
-   Systems (accepted).
+   Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10337758/)]
 2. Xinyu Chen (=), **Chengyuan Zhang** (=equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
    Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on
    Knowledge and Data
