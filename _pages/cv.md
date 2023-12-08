@@ -72,7 +72,7 @@ Awards & Scholarships
 - CIRRELT Master's Scholarship, 2022
 - Graduate Excellence Fellowship Awards, McGill University, 2020
 - IVADO Excellence Scholarships - Msc, 2020-2022
-- Outstanding Team Award \& Best Application Award at DeeCamp, China, 2019
+- Outstanding Team Award & Best Application Award at DeeCamp, China, 2019
 - Outstanding Graduate of Chongqing University, 2019
 - First Prize in the 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
 - National Scholarship, China, 2017
