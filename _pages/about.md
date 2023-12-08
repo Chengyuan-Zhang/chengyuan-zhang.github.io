@@ -18,7 +18,7 @@ in 2018.
 
 My research interests are Bayesian learning, macro/micro driving behavior analysis, and multi-agent interaction modeling
 in intelligent transportation systems. Specifically, I'm more interested in revealing the mechanisms of social
-interactions conveyed in microscopic human driving behaviors and investigating how the interactive behaviors impact the
+interactions conveyed in microscopic human driving behaviors and investigating how the interactive behaviors impact
 macroscopic traffic flow dynamics.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
