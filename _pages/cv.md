@@ -51,7 +51,7 @@ Services
     - IEEE International Conference on Intelligent Transportation Systems (ITSC)
     - 2023 Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS
 - Memberships
-    - IEEE Student member
+    - IEEE Graduate Student member
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
     - Student Member of Interuniversity Research Centre on Enterprise Networks, Logistics and Transportation (Centre
       interuniversitaire de recherche sur les reseaux d'entreprise, la logistique et le transport, CIRRELT)
