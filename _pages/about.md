@@ -26,12 +26,11 @@ macroscopic traffic flow dynamics.
 
 News
 =====
-
+* <span style="color:darkred"> New! </span> Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation Systems. [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * <span style="color:darkred"> New! </span> I will organize the 2nd International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV24' in Jeju Shinhwa World, Jeju Island, Korea. Welcome to join us on June 2nd, 2024! [[CFP]](https://interactive-driving.github.io/files/CFP-IV24-SIAM_Workshop.pdf)
-* <span style="color:darkred"> New! </span> 10/2023: I will attend the 2024 TRB Annual Meeting, see you in Washington, D.C.!
-* <span style="color:darkred"> New! </span> 10/2023: I have successfully completed CIVE 702 Ph.D. Research Proposal Examination.
-* <span style="color:darkred"> New! </span> 10/2023: Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)] [[清华大学出版社京东自营官方旗舰店](https://item.jd.com/14204878.html)]
-* <span style="color:darkred"> New! </span> 07/2023: Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
+* <span style="color:darkred"> New! </span> I will attend the 2024 TRB Annual Meeting, see you in Washington, D.C.!
+* <span style="color:darkred"> New! </span> Our book (in Chinese) "LaTeX论文写作教程 (Academic Writing with LaTeX)" is published. [[ebook](https://github.com/xinychen/latex-cookbook)] [[清华大学出版社京东自营官方旗舰店](https://item.jd.com/14204878.html)]
+* <span style="color:darkred"> New! </span> Please check out our latest preprint titled "Calibrating Car-Following Models via Bayesian Dynamic Regression" on [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 
 <button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
