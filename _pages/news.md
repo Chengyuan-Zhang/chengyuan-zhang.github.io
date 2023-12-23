@@ -4,9 +4,12 @@ permalink: /news/
 author_profile: true
 ---
 
+* 12/2023: Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation
+  Systems. [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * 11/2023: I will organize the 2nd International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV24' in Jeju Shinhwa
-  World, Jeju Island, Korea. Welcome to join us on June 2nd, 2024! [[CFP]](https://interactive-driving.github.io/files/CFP-IV24-SIAM_Workshop.pdf)
+  World, Jeju Island, Korea. Welcome to join us on June 2nd,
+  2024! [[CFP]](https://interactive-driving.github.io/files/CFP-IV24-SIAM_Workshop.pdf)
 * 11/2023: Our paper "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors" was
   accepted to IEEE Transactions on Intelligent Transportation Systems.
 * 10/2023: I will attend the 2024 TRB Annual Meeting, see you in Washington, D.C.!
@@ -23,7 +26,8 @@ author_profile: true
 * 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations
   on Google Scholar!
 * 06/2023: I'm organizing the 1st International Workshop
-  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV23/) at IV23' in Anchorage,
+  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV23/) at IV23' in
+  Anchorage,
   Alaska, USA. Welcome to join us on June 4th, 2023!
 * 04/2023: I received the FRQNT B2X Doctoral scholarship. Thanks, FRQNT!
 * 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
