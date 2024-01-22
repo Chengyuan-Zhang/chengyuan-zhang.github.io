@@ -48,8 +48,7 @@ Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation S
   <img src="../images/MA-IDM.png" width="100%" />
 </center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=GIqcL6I7MsU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="1280" height="800" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <details>
   <summary><b>[Abstract]</b></summary>
