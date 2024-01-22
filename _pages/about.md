@@ -48,23 +48,20 @@ Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation S
   <img src="../images/MA-IDM.png" width="100%" />
 </center>
 
-<iframe width="1280" height="800" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 <details>
   <summary><b>[Abstract]</b></summary>
 
-Accurate calibration of car-following models is essential for investigating microscopic human driving behaviors. This
-work proposes a memory-augmented Bayesian calibration approach, which leverages the Bayesian inference and stochastic
-processes (i.e., Gaussian processes) to calibrate an unbiased car-following model while extracting the serial
-correlations of residual. This calibration approach is applied to the intelligent driver model (IDM) and develops a
-novel model named MA-IDM. To evaluate the effectiveness of the developed approach, three models with different
-hierarchies (i.e., pooled, hierarchical, and unpooled) are tested. Experiments demonstrate that the MA-IDM can estimate
-the noise level of unrelated errors by decoupling the serial correlation of residuals. Furthermore, a stochastic
-simulation method is also developed based on our Bayesian calibration approach, which can obtain unbiased posterior
-motion states and generate anthropomorphic driving behaviors. Simulation results indicate that the MA-IDM outperforms
-Bayesian IDM in simulation accuracy and uncertainty quantification. With this Bayesian approach, we can generate
-enormous but nonidentical driving behaviors by sampling from the posteriors, which can help develop a realistic traffic
-simulator.
+Accurate calibration of car-following models is essential for understanding human driving behaviors and implementing
+high-fidelity microscopic simulations. This work proposes a memory-augmented Bayesian calibration technique to capture
+both uncertainty in the model parameters and the temporally correlated behavior discrepancy between model predictions
+and observed data. Specifically, we characterize the parameter uncertainty using a hierarchical Bayesian framework and
+model the temporally correlated errors using Gaussian processes. We apply the Bayesian calibration technique to the
+intelligent driver model (IDM) and develop a novel stochastic car-following model named memory-augmented IDM (MA-IDM).
+To evaluate the effectiveness of MA-IDM, we compare the proposed MA-IDM with Bayesian IDM in which errors are assumed to
+be i.i.d., and our simulation results based on the HighD dataset show that MA-IDM can generate more realistic driving
+behaviors and provide better uncertainty quantification than Bayesian IDM. By analyzing the lengthscale parameter of the
+Gaussian process, we also show that taking the driving actions from the past five seconds into account can be helpful in
+modeling and simulating the human driver’s car-following behaviors.
 </details>
 
 - Access our preprint via: GP+IDM [[arXiv](https://arxiv.org/abs/2210.03571)] and

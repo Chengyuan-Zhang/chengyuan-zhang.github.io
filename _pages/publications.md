@@ -22,9 +22,6 @@ The list is not frequently updated. Please see Google Scholar for recent updates
    2203.10651. _Under
    review_. [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 
-[//]: # (3. Xinyu Chen, Zhanhong Cheng, **Chengyuan Zhang**, Lijun Sun, and Nicolas Saunier &#40;2023&#41;. Memory-Efficient Hankel)
-
-[//]: # (   Tensor Factorization for Extreme Missing Traffic Data Imputation. _Under review_.)
 
 ## Books
 
@@ -37,7 +34,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 ## Journal publications
 
 1. **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on Intelligent Transportation
-   Systems. (accepted) [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+   Systems. [[IEEE TITS](https://dx.doi.org/10.1109/TITS.2024.3354102)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 2. Xiaoxu Chen, **Chengyuan Zhang**, Zhanhong Cheng, Yuang Hou, and Lijun Sun* (2023). A Bayesian Gaussian Mixture Model
    for Probabilistic Modeling of Car-Following Behaviors. IEEE Transactions on Intelligent Transportation
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10337758/)]
