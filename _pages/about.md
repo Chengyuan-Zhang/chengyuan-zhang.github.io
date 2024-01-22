@@ -44,9 +44,7 @@ Featured Research
 
 Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation Systems.*
 
-<center>
-  <img src="../images/MA-IDM.png" width="100%" />
-</center>
+<iframe width="640" height="400" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <details>
   <summary><b>[Abstract]</b></summary>
