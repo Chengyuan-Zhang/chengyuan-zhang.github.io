@@ -26,6 +26,7 @@ macroscopic traffic flow dynamics.
 
 News
 =====
+
 * <span style="color:darkred"> New! </span> Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" won the **Honorable Mention Award** for the 2024 Clifford Spiegelman Student Paper Competition. Thanks, the TSIG of the American Statistical Association!
 * <span style="color:darkred"> New! </span> Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation Systems. [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * <span style="color:darkred"> New! </span> I will organize the 2nd International Workshop on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/) at IV24' in Jeju Shinhwa World, Jeju Island, Korea. Welcome to join us on June 2nd, 2024! [[CFP]](https://interactive-driving.github.io/files/CFP-IV24-SIAM_Workshop.pdf)
@@ -46,6 +47,9 @@ Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation S
 <center>
   <img src="../images/MA-IDM.png" width="100%" />
 </center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=GIqcL6I7MsU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 <details>
   <summary><b>[Abstract]</b></summary>
