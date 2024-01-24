@@ -73,9 +73,13 @@ modeling and simulating the human driver’s car-following behaviors.
 
 Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. *IEEE Transaction on Intelligent Transportation Systems.*
 
-<center>
-  <img src="../images/GVF_framework.Png" width="85%" />
-</center>
+[//]: # (<center>)
+
+[//]: # (  <img src="../images/GVF_framework.Png" width="85%" />)
+
+[//]: # (</center>)
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/AcyDn43hb7I" title="Demos for Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <details>
   <summary><b>[Abstract]</b></summary>
