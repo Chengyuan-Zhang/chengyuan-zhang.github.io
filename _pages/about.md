@@ -62,7 +62,8 @@ Gaussian process, we also show that taking the driving actions from the past fiv
 modeling and simulating the human driver’s car-following behaviors.
 </details>
 
-- Access our preprint via: GP+IDM [[arXiv](https://arxiv.org/abs/2210.03571)] and
+- Access our preprint via: GP+IDM [[IEEE TITS](https://
+  github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[arXiv](https://arxiv.org/abs/2210.03571)] and
   AR+IDM [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
 - Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
