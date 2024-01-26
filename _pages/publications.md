@@ -34,7 +34,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 ## Journal publications
 
 1. **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on Intelligent Transportation
-   Systems. [[IEEE TITS](https://dx.doi.org/10.1109/TITS.2024.3354102)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+   Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 2. Xiaoxu Chen, **Chengyuan Zhang**, Zhanhong Cheng, Yuang Hou, and Lijun Sun* (2023). A Bayesian Gaussian Mixture Model
    for Probabilistic Modeling of Car-Following Behaviors. IEEE Transactions on Intelligent Transportation
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10337758/)]
