@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title: "Recent News"
 permalink: /news/
 author_profile: true
