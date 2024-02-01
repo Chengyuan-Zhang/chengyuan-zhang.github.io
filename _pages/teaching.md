@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Teaching Experiences"
 permalink: /teaching/
 author_profile: true
