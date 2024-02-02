@@ -110,7 +110,7 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 
 <br/>
 
-## Social Interactions for Autonomous Driving: A Review and Perspective.
+## Social Interactions for Autonomous Driving: A Review and Perspective
 
 Wenshuo Wang, Letian Wang, Chengyuan Zhang, Changliu Liu, and Lijun Sun. *Foundations and Trends in Robotics*.
 
@@ -144,6 +144,17 @@ We also highlight some new directions, critical challenges, and opening question
 
 <br/> 
 
+## An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System
+
+Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.
+
+<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- This is a very interesting mechanical work (a.k.a. big toy) that was done during my undergraduate study.
+- Access our work
+  via: [[ASME JMR](https://doi.org/10.1115/1.4043688)].
+
+<br/> 
 
 Thanks & Fundings
 ======
