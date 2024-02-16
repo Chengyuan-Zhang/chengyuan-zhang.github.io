@@ -186,6 +186,11 @@ body:hover .visually-hidden button {
     color: #000;
   }
 
+  .fa-bluesky,
+  .fa-bluesky-square {
+    color: $bluesky-color;
+  }
+
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
@@ -223,6 +228,11 @@ body:hover .visually-hidden button {
     color: $instagram-color;
   }
 
+  .fa-kaggle,
+  .fa-kaggle-square {
+    color: $kaggle-color;
+  }
+
   .fa-lastfm,
   .fa-lastfm-square {
     color: $lastfm-color;
@@ -231,6 +241,16 @@ body:hover .visually-hidden button {
   .fa-linkedin,
   .fa-linkedin-square {
     color: $linkedin-color;
+  }
+
+  .fa-mastodon,
+  .fa-mastodon-square {
+    color: $mastodon-color;
+  }
+
+  .ai-orcid,
+  .ai-orcid-square {
+    color: $orcid-color;
   }
 
   .fa-pinterest,
@@ -326,8 +346,8 @@ body:hover .visually-hidden button {
   /* overlay the lines by setting both their top values to 0*/
   &:before, &:after{
     -webkit-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     top: 0;
     width: $navicon-width;
   }
@@ -335,11 +355,11 @@ body:hover .visually-hidden button {
   /* rotate the lines to form the x shape*/
   &:before{
     -webkit-transform: rotate3d(0,0,1,45deg);
-            transform: rotate3d(0,0,1,45deg);
+    transform: rotate3d(0,0,1,45deg);
   }
   &:after{
     -webkit-transform: rotate3d(0,0,1,-45deg);
-            transform: rotate3d(0,0,1,-45deg);
+    transform: rotate3d(0,0,1,-45deg);
   }
 }
 
