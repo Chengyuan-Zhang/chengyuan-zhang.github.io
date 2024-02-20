@@ -65,7 +65,7 @@ Awards & Scholarships
 - Graduate Mobility Award, McGill University, 2022-2023
 - Graduate Research Enhancement and Travel Awards, McGill University, 2023
 - Ron Rice Memorial Award, McGill University, 2023
-- Mitacs Globalink Research Award, 2022-2023
+- Mitacs Globalink Research Award - Abroad, 2022-2023
 - McGill Engineering Doctoral Award (MEDA), McGill University, 2022-2025
 - FRQNT Master's Scholarship (B1X), 2022-2023 
 - FRQNT Doctoral Scholarship (B2X), 2023-2027
