@@ -5,11 +5,12 @@ permalink: /news/
 author_profile: true
 ---
 
+* 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" was accepted to the 25th
+  International Symposium on Transportation and Traffic Theory (ISTTT25). See you in Ann Arbor!
 * 01/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" won the **Honorable Mention
   Award** for
   the [2024 Clifford Spiegelman Student Paper Competition](https://community.amstat.org/tsig/events/papercompetition).
-  Thanks, the TSIG of the American Statistical
-  Association!
+  Thanks, the TSIG of the American Statistical Association!
 * 12/2023: Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation
   Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * 12/2023: I received the **Ron Rice Memorial Award**. Thanks, McGill!
