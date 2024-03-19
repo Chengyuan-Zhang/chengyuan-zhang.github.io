@@ -5,11 +5,14 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 
-<img src="../photos/20240302-DSC07577-Enhanced-NR.jpg" alt="Ottawa" width="49%"/>
-<img src="../photos/20240302-DSC07587-Enhanced-NR.jpg" alt="Parc Omega @ Montreal" width="49%"/>
+<img src="../photos/20240317-DSC07640.jpg" alt="Lachine" width="49%"/>
+<img src="../photos/20240317-DSC07645.jpg" alt="Lachine" width="49%"/>
 
-<img src="../photos/20240302-DSC07629-Enhanced-NR.jpg" alt="Ottawa" width="58.5%"/>
-<img src="../photos/20240302-DSC07627-Enhanced-NR.jpg" alt="Parc Omega @ Montreal" width="39.5%"/>
+<img src="../photos/20240302-DSC07577-Enhanced-NR.jpg" alt="Place des Arts" width="49%"/>
+<img src="../photos/20240302-DSC07587-Enhanced-NR.jpg" alt="Place des Arts" width="49%"/>
+
+<img src="../photos/20240302-DSC07629-Enhanced-NR.jpg" alt="Place des Arts" width="58.5%"/>
+<img src="../photos/20240302-DSC07627-Enhanced-NR.jpg" alt="Place des Arts" width="39.5%"/>
 
 
 <img src="../photos/20240101-DSC07255-Enhanced-NR.jpg" alt="Ottawa" width="68%"/>
