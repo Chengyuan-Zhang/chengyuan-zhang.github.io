@@ -48,8 +48,9 @@ Services
     - ASME Journal of Mechanism and Robotics
     - ASME Journal of Mechanism Design
     - Physica A: Statistical Mechanics and its Applications
-    - IEEE International Conference on Intelligent Transportation Systems (ITSC)
-    - 2023 Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS
+    - Automotive Innovation
+    - IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-23
+    - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS, 2023
 - Memberships
     - IEEE Graduate Student member
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
