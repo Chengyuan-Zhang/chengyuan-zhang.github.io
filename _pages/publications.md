@@ -19,8 +19,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
    2203.10651. _Under
-   review_
-   . [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+   review_. [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 
 ## Books
 
@@ -47,13 +46,11 @@ The list is not frequently updated. Please see Google Scholar for recent updates
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arXiv](https://arXiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
 3. **Chengyuan Zhang**, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (2019). An efficient parking solution:
    a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system. Journal of Mechanisms
-   and Robotics,
-   11(4)
+   and Robotics, 11(4)
    . [[ASME JMR](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268)] [[demo](https://youtu.be/lmwdDsUXUw8)]
 4. **Chengyuan Zhang** and Jian Xiao* (2018). Chaotic behavior and feedback control of
    magnetorheological suspension system with fractional-order derivative. Journal of Computational and Nonlinear
-   Dynamics,
-   13(2)
+   Dynamics, 13(2)
    . [[ASME JCND](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of)]
 
 ## Conference publications
