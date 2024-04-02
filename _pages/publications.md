@@ -10,13 +10,11 @@ author_profile: true
 
 The list is not frequently updated. Please see Google Scholar for recent updates.
 
-*Corresponding Author
+*Corresponding Author, =Equal Contributions.
 
 ## Preprints
 
-1. **Chengyuan Zhang**, Kehua Chen, Meixin Zhu, Hai Yang, and Lijun Sun* (2024). Learning Car-Following Behaviors Using
-   Bayesian Matrix Normal Mixture Regression. _Under review._ (Submitted to IEEE IV24')
-2. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
+1. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
    Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
    2203.10651. _Under review_. (Submitted to Transportation
    Science) [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
@@ -37,7 +35,7 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 2. Xiaoxu Chen, **Chengyuan Zhang**, Zhanhong Cheng, Yuang Hou, and Lijun Sun* (2023). A Bayesian Gaussian Mixture Model
    for Probabilistic Modeling of Car-Following Behaviors. IEEE Transactions on Intelligent Transportation
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10337758/)]
-2. Xinyu Chen (=), **Chengyuan Zhang** (=equal contribution), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
+2. Xinyu Chen (=), **Chengyuan Zhang** (=), Xiaoxu Chen, Nicolas Saunier, and Lijun Sun* (2023).
    Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression. IEEE Transactions on
    Knowledge and Data
    Engineering. [[IEEE TKDE](https://ieeexplore.ieee.org/document/10177995)] [[arXiv](https://arXiv.org/abs/2211.15482)] [[data & code](https://github.com/xinychen/vars)] [[blog](https://medium.com/p/b75d23b23a62)]
@@ -55,7 +53,9 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Conference publications
 
-1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
+1. **Chengyuan Zhang** (=), Kehua Chen (=), Meixin Zhu, Hai Yang, and Lijun Sun* (2024). Learning Car-Following Behaviors Using
+   Bayesian Matrix Normal Mixture Regression. (Accepted to IEEE IV24')
+2. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. arXiv preprint arXiv:2307.03340. (Accepted to
    ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)]
 2. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023, September).
