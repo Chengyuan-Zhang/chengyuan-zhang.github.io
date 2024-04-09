@@ -5,6 +5,14 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 
+<img src="../photos/solar_1.jpg" alt="Lachine" width="13.7%"/>
+<img src="../photos/solar_2.jpg" alt="Lachine" width="13.7%"/>
+<img src="../photos/solar_3.jpg" alt="Lachine" width="13.7%"/>
+<img src="../photos/solar_4.jpg" alt="Lachine" width="13.7%"/>
+<img src="../photos/solar_5.jpg" alt="Lachine" width="13.7%"/>
+<img src="../photos/solar_6.jpg" alt="Lachine" width="13.7%"/>
+<img src="../photos/solar_7.jpg" alt="Lachine" width="13.7%"/>
+
 <img src="../photos/20240317-DSC07640.jpg" alt="Lachine" width="49%"/>
 <img src="../photos/20240317-DSC07645.jpg" alt="Lachine" width="49%"/>
 
