@@ -53,9 +53,8 @@ The list is not frequently updated. Please see Google Scholar for recent updates
 
 ## Conference publications
 
-[//]: # (1. **Chengyuan Zhang** &#40;=&#41;, Kehua Chen &#40;=&#41;, Meixin Zhu, Hai Yang, and Lijun Sun* &#40;2024&#41;. Learning Car-Following Behaviors Using)
-
-[//]: # (   Bayesian Matrix Normal Mixture Regression. &#40;Accepted to IEEE IV24'&#41;)
+1. **Chengyuan Zhang** (=), Kehua Chen (=), Meixin Zhu*, Hai Yang, and Lijun Sun (2024). Learning Car-Following
+   Behaviors Using Bayesian Matrix Normal Mixture Regression. (Accepted to IEEE IV24')
 2. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2023). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. arXiv preprint arXiv:2307.03340. (Accepted to
    ISTTT25) [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)]
