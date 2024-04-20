@@ -5,6 +5,8 @@ permalink: /news/
 author_profile: true
 ---
 
+* 04/2024: Our paper "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression" was accepted at
+  IEEE IV24'.
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
   presentation at the 25th International Symposium on Transportation and Traffic
   Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)). See you in Ann
