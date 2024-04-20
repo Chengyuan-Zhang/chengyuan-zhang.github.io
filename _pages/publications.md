@@ -8,9 +8,8 @@ author_profile: true
 
 [//]: # (APA)
 
-The list is not frequently updated. Please see Google Scholar for recent updates.
-
-*Corresponding Author, =Equal Contributions.
+The list is not frequently updated. Please see Google Scholar for recent updates. (*Corresponding Author, =Equal
+Contributions.)
 
 ## Preprints
 
