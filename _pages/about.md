@@ -10,16 +10,15 @@ redirect_from:
 
 ---
 
-I'm a Ph.D. candidate at McGill University under the supervision of
-Prof. [Lijun Sun](https://lijunsun.github.io/). Previously, I was a visiting researcher with the Robotics Institute,
-Carnegie Mellon University (CMU) in 2023, supervised by Prof. Changliu Liu; the Department of Mechanical Engineering, UC
-Berkeley from 2019 to 2020, supervised by Prof. Masayoshi Tomizuka; and the Department of Mechanical Engineering at CMU
-in 2018.
+I'm a Ph.D. candidate at McGill University under the supervision of Prof. [Lijun Sun](https://lijunsun.github.io/).
+Previously, I was a visiting researcher with the Robotics Institute, Carnegie Mellon University (CMU) in 2023,
+supervised by Prof. Changliu Liu; the Department of Mechanical Engineering, UC Berkeley from 2019 to 2020, supervised by
+Prof. Masayoshi Tomizuka; and the Department of Mechanical Engineering at CMU in 2018.
 
-My research interests are Bayesian learning, macro/micro driving behavior analysis, and multi-agent interaction modeling
-in intelligent transportation systems. Specifically, I'm more interested in revealing the mechanisms of social
-interactions conveyed in microscopic human driving behaviors and investigating how the interactive behaviors impact
-macroscopic traffic flow dynamics.
+My research interests are Bayesian learning, spatiotemporal modeling, macro/micro driving behavior analysis, and
+multi-agent interaction modeling in intelligent transportation systems. Specifically, I'm more interested in revealing
+the mechanisms of dynamic interactions conveyed in microscopic human driving behaviors and investigating how the
+interactive behaviors impact macroscopic traffic flow dynamics.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
