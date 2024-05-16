@@ -5,6 +5,10 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 
+<img src="../photos/20240510-DSC07864-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
+<img src="../photos/20240510-DSC07858-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
+<img src="../photos/20240510-DSC07862-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
+
 <img src="../photos/20240416-DSC07809-Enhanced-NR.jpg" alt="Angrignon" width="49%"/>
 <img src="../photos/20240416-DSC07832-Enhanced-NR.jpg" alt="Angrignon" width="49%"/>
 
@@ -34,7 +38,3 @@ author_profile: true
 
 <img src="../photos/20231224-DSC07071-Enhanced-NR.jpg" alt="Christmas Eve" width="68%"/>
 <img src="../photos/20231209-DSC06726-Enhanced-NR.jpg" alt="Christmas" width="30%"/>
-
-<img src="../photos/20231209-DSC06755.jpg" alt="Montreal" width="32.66%"/>
-<img src="../photos/20231209-DSC06751-Enhanced-NR.jpg" alt="Montreal" width="32.66%"/>
-<img src="../photos/20231209-DSC06651.jpg" alt="Montreal" width="32.66%"/>
