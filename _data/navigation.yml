@@ -24,5 +24,8 @@ main:
 #  - title: "Guide"
 #    url: /markdown/
 
+  - title: "Notes"
+    url: /notes/
+
   - title: "Miscellaneous"
     url: /miscellaneous/
