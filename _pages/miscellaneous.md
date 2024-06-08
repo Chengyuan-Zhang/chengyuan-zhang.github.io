@@ -5,6 +5,10 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 
+<img src="../photos/20240526-DSC08001.jpg" alt="Aurora" width="32.66%"/>
+<img src="../photos/20240526-DSC08002.jpg" alt="Aurora" width="32.66%"/>
+<img src="../photos/20240526-DSC08039.jpg" alt="Aurora" width="32.66%"/>
+
 <img src="../photos/20240510-DSC07864-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240510-DSC07858-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240510-DSC07862-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
@@ -19,9 +23,6 @@ author_profile: true
 <img src="../photos/solar_5.jpg" alt="Lachine" width="13.7%"/>
 <img src="../photos/solar_6.jpg" alt="Lachine" width="13.7%"/>
 <img src="../photos/solar_7.jpg" alt="Lachine" width="13.7%"/>
-
-<img src="../photos/20240317-DSC07640.jpg" alt="Lachine" width="49%"/>
-<img src="../photos/20240317-DSC07645.jpg" alt="Lachine" width="49%"/>
 
 <img src="../photos/20240302-DSC07577-Enhanced-NR.jpg" alt="Place des Arts" width="49%"/>
 <img src="../photos/20240302-DSC07587-Enhanced-NR.jpg" alt="Place des Arts" width="49%"/>
