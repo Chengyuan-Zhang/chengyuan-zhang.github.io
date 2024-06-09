@@ -49,7 +49,7 @@ Services
     - ASME Journal of Mechanism Design
     - Physica A: Statistical Mechanics and its Applications
     - Automotive Innovation
-    - IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-23
+    - IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS, 2023
 - Memberships
     - IEEE Graduate Student member
@@ -80,8 +80,3 @@ Awards & Scholarships
 - National Scholarship, China, 2017
 - First Prize in the Chongqing University Physics Contest (\#1/500 in Chongqing University), 2015
 
-Talks
-======
-
-- 02/2023: Bayesian Calibration of the IDM @ 2023 Traffic Flow Theory and Characteristics (ACP50) general webinar
-  series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
