@@ -42,15 +42,16 @@ Services
     - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
       on [IEEE IV23'](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023
 - Reviewers
-    - IEEE Transactions on Intelligent Transportaion Systems
-    - IEEE Transactions on Intelligent Vehicles
-    - Transportation Research Part C: Emerging Technologies
-    - ASME Journal of Mechanism and Robotics
-    - ASME Journal of Mechanism Design
-    - Physica A: Statistical Mechanics and its Applications
-    - Automotive Innovation
-    - IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
-    - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS, 2023
+    - Journal: IEEE Transactions on Intelligent Transportaion Systems
+    - Journal: IEEE Transactions on Intelligent Vehicles
+    - Journal: Transportation Research Part C: Emerging Technologies
+    - Journal: ASME Journal of Mechanism and Robotics
+    - Journal: ASME Journal of Mechanism Design
+    - Journal: Physica A: Statistical Mechanics and its Applications
+    - Journal: Automotive Innovation
+    - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
+    - Conference: Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS, 2023
+    - Conference: The 5th Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
 - Memberships
     - IEEE Graduate Student member
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
