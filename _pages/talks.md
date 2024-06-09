@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 redirect_from:
@@ -8,9 +8,6 @@ redirect_from:
   - /talks
 
 ---
-
-Talks and Presentations
-======
 
 ## Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression
 June. 2024, Jeju Shinhwa World, Jeju Island, Korea \
