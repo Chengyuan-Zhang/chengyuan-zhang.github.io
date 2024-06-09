@@ -17,20 +17,20 @@ June. 2024, Jeju Shinhwa World, Jeju Island, Korea \
 Conference Podium Presentation @ 35th IEEE Intelligent Vehicles Symposium (IEEE IV 2024)
 
 <center>
-  <img src="../images/iv24.png" width="70%" />
+  <img src="../images/iv24.png" width="75%" />
 </center>
 
 ## Interactive Car-Following: Matters but NOT Always
 Sept. 2023, Bilbao, Bizkaia, Spain \
 Conference Podium Presentation @ 26th IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)
 <center>
-  <img src="../images/itsc2023.png" width="70%" />
+  <img src="../images/itsc2023.png" width="75%" />
 </center>
 
 ## Bayesian Calibration of the IDM
 Feb. 2023, Online\
 Invited Talk @ Traffic Flow Theory and Characteristics (ACP50) general webinar series [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
-<iframe width="640" height="400" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="70%" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Bayesian Calibration of the IDM
 Jan. 2023, Washington, DC, US\
