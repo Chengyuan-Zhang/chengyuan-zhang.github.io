@@ -30,7 +30,7 @@ Conference Podium Presentation @ 26th IEEE International Conference on Intellige
 ## Bayesian Calibration of the IDM
 Feb. 2023, Online\
 Invited Talk @ Traffic Flow Theory and Characteristics (ACP50) general webinar series [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
-<iframe width="70%" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="480" height="300" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Bayesian Calibration of the IDM
 Jan. 2023, Washington, DC, US\
