@@ -65,7 +65,7 @@ Services
 Awards & Scholarships
 =====
 
-- The Honorable Mention Award for the 2024 Clifford Spiegelman Student Paper Competition, 2024
+- The Honorable Mention Award for the 2024 Clifford Spiegelman Student Paper Competition, 2024 [[Link](https://community.amstat.org/tsig/events/papercompetition)]
 - Graduate Mobility Award, McGill University, 2022-2023
 - Graduate Research Enhancement and Travel Awards, McGill University, 2023
 - Ron Rice Memorial Award, McGill University, 2023
