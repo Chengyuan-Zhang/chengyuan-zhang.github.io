@@ -9,7 +9,7 @@ author_profile: true
   IEEE IV24'. [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
   presentation at the 25th International Symposium on Transportation and Traffic
-  Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part C. See you in Ann
+  Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann
   Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)]
 * 01/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" won the **Honorable Mention
   Award** for
