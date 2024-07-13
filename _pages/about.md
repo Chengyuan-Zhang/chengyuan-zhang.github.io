@@ -26,7 +26,6 @@ interactive behaviors impact macroscopic traffic flow dynamics.
 News
 =====
 
-* <span style="color:darkred"> New! </span> Our paper "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression" was accepted at IEEE IV24'. [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * <span style="color:darkred"> New! </span> Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM presentation at the 25th International Symposium on Transportation and Traffic Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[slides](./files/ISTTT25_slides_Chengyuan.pdf)]
 * <span style="color:darkred"> New! </span> I have won the **Honorable Mention Award** for the [2024 Clifford Spiegelman Student Paper Competition](https://community.amstat.org/tsig/events/papercompetition). Thanks, the TSIG of the American Statistical Association!
 * <span style="color:darkred"> New! </span> Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)][[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
