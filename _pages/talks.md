@@ -9,9 +9,18 @@ redirect_from:
 
 ---
 
+## Calibrating Car-Following Models via Bayesian Dynamic Regression
+July 2024, Ann Arbor, Michigan, US \
+Conference Podium Presentation @ The 25th International Symposium on Transportation and Traffic Theory (ISTTT25)
+
+<center>
+  <img src="../images/Weixin Image_20240718123054.jpg" width="30%" />
+  <img src="../images/Weixin Image_20240718141140.jpg" width="45%" />
+</center>
+
 ## Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression
-June. 2024, Jeju Shinhwa World, Jeju Island, Korea \
-Conference Podium Presentation @ 35th IEEE Intelligent Vehicles Symposium (IEEE IV 2024)
+June 2024, Jeju Shinhwa World, Jeju Island, Korea \
+Conference Podium Presentation @ The 35th IEEE Intelligent Vehicles Symposium (IEEE IV 2024)
 
 <center>
   <img src="../images/iv24.png" width="75%" />
@@ -19,7 +28,7 @@ Conference Podium Presentation @ 35th IEEE Intelligent Vehicles Symposium (IEEE 
 
 ## Interactive Car-Following: Matters but NOT Always
 Sept. 2023, Bilbao, Bizkaia, Spain \
-Conference Podium Presentation @ 26th IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)
+Conference Podium Presentation @ The 26th IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)
 <center>
   <img src="../images/itsc2023.png" width="75%" />
 </center>
