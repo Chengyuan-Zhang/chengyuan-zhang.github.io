@@ -5,6 +5,10 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 
+<img src="../photos/20240707-DSC08208.jpg" alt="Fireworks" width="32.66%"/>
+<img src="../photos/20240707-DSC08206.jpg" alt="Fireworks" width="32.66%"/>
+<img src="../photos/20240707-DSC08205.jpg" alt="Fireworks" width="32.66%"/>
+
 <img src="../photos/20240526-DSC08001.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240526-DSC08002.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240526-DSC08039.jpg" alt="Aurora" width="32.66%"/>
