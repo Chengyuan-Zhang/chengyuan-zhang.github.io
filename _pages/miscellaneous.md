@@ -5,6 +5,10 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 
+Camera: Sony A7R3a.
+
+Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F1.8 ZA; Sony FE 28mm F2.
+
 <img src="../photos/20240707-DSC08208.jpg" alt="Fireworks" width="32.66%"/>
 <img src="../photos/20240707-DSC08206.jpg" alt="Fireworks" width="32.66%"/>
 <img src="../photos/20240707-DSC08205.jpg" alt="Fireworks" width="32.66%"/>
