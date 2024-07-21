@@ -11,7 +11,7 @@ redirect_from:
 
 ## Calibrating Car-Following Models via Bayesian Dynamic Regression
 July 2024, Ann Arbor, Michigan, US \
-Conference Podium Presentation @ The 25th International Symposium on Transportation and Traffic Theory (ISTTT25)
+Conference Podium Presentation @ The 25th International Symposium on Transportation and Traffic Theory (ISTTT25) [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
 
 <center>
   <img src="../images/Weixin Image_20240718123054.jpg" width="30%" />
