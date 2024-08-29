@@ -52,7 +52,7 @@ Services
     - Journal: Automotive Innovation
     - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
     - Conference: Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS, 2023
-    - Conference: Transportation Research Board Annual Meeting, 
+    - Conference: Transportation Research Board Annual Meeting
     - Conference: The 5th Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
     - Conference: RSS 2024 Workshop on Autonomous Vehicles Across Scales (AVAS), 2024
 - Memberships
