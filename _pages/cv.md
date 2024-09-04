@@ -41,6 +41,8 @@ Services
       on [IEEE IV24'](https://ieee-iv.org/2024/), Jeju Shinhwa World, Jeju Island, Korea, 2024
     - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
       on [IEEE IV23'](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023
+- Program Committee
+    - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)] 
 - Reviewers
     - Journal: Transportation Research Part C: Emerging Technologies
     - Journal: IEEE Transactions on Intelligent Transportaion Systems
@@ -51,7 +53,7 @@ Services
     - Journal: Physica A: Statistical Mechanics and its Applications
     - Journal: Automotive Innovation
     - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
-    - Conference: Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS, 2023
+    - Conference: 
     - Conference: Transportation Research Board Annual Meeting
     - Conference: The 5th Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
     - Conference: RSS 2024 Workshop on Autonomous Vehicles Across Scales (AVAS), 2024
