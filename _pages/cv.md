@@ -37,7 +37,7 @@ Services
 ======
 
 - Chairs/Co-chairs
-    - Organizer of the 2nd [SIAM workshop](https://interactive-driving.github.io/)
+    - Organizer of the 2nd [SIAM workshop](https://interactive-driving.github.io/SIAM-IV24/)
       on [IEEE IV24'](https://ieee-iv.org/2024/), Jeju Shinhwa World, Jeju Island, Korea, 2024
     - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
       on [IEEE IV23'](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023

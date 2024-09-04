@@ -9,7 +9,8 @@ author_profile: true
   IEEE IV24'. [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
   presentation at the 25th International Symposium on Transportation and Traffic
-  Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann
+  Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part
+  C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann
   Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
 * 01/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" won the **Honorable Mention
   Award** for
@@ -19,10 +20,10 @@ author_profile: true
   Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * 12/2023: I received the **Ron Rice Memorial Award**. Thanks, McGill!
 * 11/2023: I will organize the 2nd International Workshop
-  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/)
+  on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV24)
   at [IV24'](https://ieee-iv.org/2024/) in Jeju Shinhwa
   World, Jeju Island, Korea. Welcome to join us on June 2nd,
-  2024! [[CFP]](https://interactive-driving.github.io/files/CFP-IV24-SIAM_Workshop.pdf)
+  2024! [[CFP]](https://interactive-driving.github.io/SIAM-IV24/files/CFP-IV24-SIAM_Workshop.pdf)
 * 11/2023: Our paper "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors" was
   accepted to IEEE Transactions on Intelligent Transportation Systems.
 * 10/2023: I have successfully completed CIVE 702 Ph.D. Research Proposal Examination.
@@ -37,8 +38,7 @@ author_profile: true
   on Google Scholar!
 * 06/2023: I organized the 1st International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV23/) at IV23' in
-  Anchorage,
-  Alaska, USA. Welcome to join us on June 4th, 2023!
+  Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
 * 04/2023: I received the **FRQNT B2X Doctoral scholarship**. Thanks, FRQNT!
 * 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
