@@ -22,7 +22,7 @@ Academic Experiences
 =====
 
 * Visiting Student Researcher, supervised by *Prof. Yanyan Xu* @ Artificial Intelligence Institute, Shanghai Jiao Tong
-  University, China 2024.10 - 2025.04.
+  University, China, 2024.10 - 2025.04.
 * Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University,
   US, 2023.01 - 2023.08.
 * Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
