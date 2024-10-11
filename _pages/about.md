@@ -5,20 +5,21 @@ excerpt: "About Me"
 author_profile: true
 redirect_from:
 
-  - /about/
-  - /about.html
+- /about/
+- /about.html
 
 ---
 
 I'm a Ph.D. candidate at McGill University under the supervision of Prof. [Lijun Sun](https://lijunsun.github.io/).
-Previously, I was a visiting researcher with the Robotics Institute, Carnegie Mellon University (CMU) in 2023,
-supervised by Prof. Changliu Liu; the Department of Mechanical Engineering, UC Berkeley from 2019 to 2020, supervised by
-Prof. Masayoshi Tomizuka; and the Department of Mechanical Engineering at CMU in 2018.
+I have previously been a visiting researcher at Carnegie Mellon University, at the Robotics Institute in 2023 under the
+supervision of Prof. Changliu Liu, and at the Department of Mechanical Engineering in 2018. I also conducted research as
+a visiting scholar at UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka.
 
-My research interests are Bayesian learning, spatiotemporal modeling, macro/micro driving behavior analysis, and
-multi-agent interaction modeling in intelligent transportation systems. Specifically, I'm more interested in revealing
-the mechanisms of dynamic interactions conveyed in microscopic human driving behaviors and investigating how the
-interactive behaviors impact macroscopic traffic flow dynamics.
+My research focuses on Bayesian learning, spatiotemporal modeling, traffic flow theory, and multi-agent interaction
+modeling within intelligent transportation systems, with an emphasis on bridging the gap between theoretical modeling
+and practical traffic simulation through advanced statistical techniques. I am particularly interested in understanding
+the mechanisms of dynamic interactions in microscopic human driving behaviors and how these interactions shape
+macroscopic traffic flow dynamics.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
@@ -61,7 +62,8 @@ modeling and simulating the human driver’s car-following behaviors.
 
 - Access our preprint via:
   GP+IDM [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arxiv.org/abs/2210.03571)] and
-  AR+IDM [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)].
+  AR+IDM [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)]
+  .
 - Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
 - Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
 
