@@ -21,8 +21,6 @@ Education
 Academic Experiences
 =====
 
-* Visiting Student Researcher, supervised by *Prof. Yanyan Xu* @ Artificial Intelligence Institute, Shanghai Jiao Tong
-  University, China, 2024.10 - 2025.04.
 * Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University,
   US, 2023.01 - 2023.08.
 * Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
@@ -47,7 +45,7 @@ Services
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
 - Reviewers
     - Journal: Transportation Research Part C: Emerging Technologies
-g    - Journal: IEEE Transactions on Intelligent Transportaion Systems
+      g - Journal: IEEE Transactions on Intelligent Transportaion Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
     - Journal: IEEE Sensors Journal
     - Journal: ASME Journal of Mechanism and Robotics
