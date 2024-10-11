@@ -11,9 +11,9 @@ redirect_from:
 ---
 
 I'm a Ph.D. candidate at McGill University under the supervision of Prof. [Lijun Sun](https://lijunsun.github.io/).
-I have previously been a visiting researcher at Carnegie Mellon University, at the Robotics Institute in 2023 under the
-supervision of Prof. Changliu Liu, and at the Department of Mechanical Engineering in 2018. I also conducted research as
-a visiting scholar at UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka.
+I was a visiting researcher at the Robotics Institute, Carnegie Mellon University in 2023 under the supervision of Prof.
+Changliu Liu, and at the Department of Mechanical Engineering in 2018. Additionally, I conducted research at the
+Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka.
 
 My research focuses on Bayesian learning, spatiotemporal modeling, traffic flow theory, and multi-agent interaction
 modeling within intelligent transportation systems, with an emphasis on bridging the gap between theoretical modeling
