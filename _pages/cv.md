@@ -45,16 +45,18 @@ Services
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
 - Reviewers
     - Journal: Transportation Research Part C: Emerging Technologies
-      g - Journal: IEEE Transactions on Intelligent Transportaion Systems
+    - Journal: IEEE Transactions on Intelligent Transportaion Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
     - Journal: IEEE Sensors Journal
     - Journal: ASME Journal of Mechanism and Robotics
     - Journal: ASME Journal of Mechanism Design
     - Journal: Physica A: Statistical Mechanics and its Applications
     - Journal: Automotive Innovation
+    - Journal: Advanced Engineering Informatics
     - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
-    - Conference:
+    - Conference: IEEE Intelligent Vehicles Symposium (IV), 23-24
     - Conference: Transportation Research Board Annual Meeting
+    - Conference: NeurIPS Bayesian Decision-making and Uncertainty Workshop, 2024
     - Conference: The 5th Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
     - Conference: RSS 2024 Workshop on Autonomous Vehicles Across Scales (AVAS), 2024
 - Memberships
