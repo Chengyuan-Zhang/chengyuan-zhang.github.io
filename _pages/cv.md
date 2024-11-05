@@ -79,8 +79,8 @@ Awards & Scholarships
 - McGill Engineering Doctoral Award (MEDA), McGill University, 2022-2025
 - FRQNT Master's Scholarship (B1X), 2022-2023
 - FRQNT Doctoral Scholarship (B2X), 2023-2027
-- CIRRELT Doctoral Scholarship, 2023
-- CIRRELT Master's Scholarship, 2022
+- CIRRELT Doctoral Scholarship of Excellence - Early Stages, 2023
+- CIRRELT Master's Scholarship of Excellence, 2022
 - Graduate Excellence Fellowship Awards, McGill University, 2020
 - IVADO Excellence Scholarships - Msc, 2020-2022
 - Outstanding Team Award & Best Application Award at DeeCamp, China, 2019
