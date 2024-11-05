@@ -17,9 +17,9 @@ Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the su
 
 My research focuses on Bayesian learning, spatiotemporal modeling, traffic flow theory, and multi-agent interaction
 modeling within intelligent transportation systems, with an emphasis on bridging the gap between theoretical modeling
-and practical traffic simulation through advanced statistical techniques. I am particularly interested in understanding
-the mechanisms of dynamic interactions in microscopic human driving behaviors and how these interactions shape
-macroscopic traffic flow dynamics.
+and practical traffic simulation through advanced statistical techniques. My motivation lies in advancing the
+understanding of human driving behaviors to improve microscopic traffic simulations, ultimately contributing to safer
+and more efficient transportation systems.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
