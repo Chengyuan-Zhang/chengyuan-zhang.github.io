@@ -15,20 +15,26 @@ Camera: Sony A7R3a.
 
 Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F1.8 ZA; Sony FE 28mm F2.
 
+
+<img src="../photos/20240902-DSC08360.jpg" alt="Montreal" width="67.5%"/>
+<img src="../photos/20241105-DSC00492.jpg" alt="Montreal" width="30%"/>
+
 <img src="../photos/20240707-DSC08208.jpg" alt="Fireworks" width="32.66%"/>
 <img src="../photos/20240707-DSC08206.jpg" alt="Fireworks" width="32.66%"/>
 <img src="../photos/20240707-DSC08205.jpg" alt="Fireworks" width="32.66%"/>
 
-<img src="../photos/20240526-DSC08001.jpg" alt="Aurora" width="32.66%"/>
-<img src="../photos/20240526-DSC08002.jpg" alt="Aurora" width="32.66%"/>
-<img src="../photos/20240526-DSC08039.jpg" alt="Aurora" width="32.66%"/>
+<img src="../photos/20240602-DSC08158.jpg" alt="BNW" width="34.2%"/>
+<img src="../photos/20240602-DSC08160.jpg" alt="BNW" width="34.2%"/>
+<img src="../photos/20240526-DSC08039.jpg" alt="BNW" width="29.5%"/>
+
+<img src="../photos/20240330-DSC07690.jpg" alt="Montreal" width="98%"/>
 
 <img src="../photos/20240510-DSC07864-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240510-DSC07858-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240510-DSC07862-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 
-<img src="../photos/20240416-DSC07809-Enhanced-NR.jpg" alt="Angrignon" width="49%"/>
 <img src="../photos/20240416-DSC07832-Enhanced-NR.jpg" alt="Angrignon" width="49%"/>
+<img src="../photos/Beijing-37.jpg" alt="Beijing" width="49.5%"/>
 
 <img src="../photos/solar_1.jpg" alt="Lachine" width="13.7%"/>
 <img src="../photos/solar_2.jpg" alt="Lachine" width="13.7%"/>
@@ -48,8 +54,8 @@ Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F
 <img src="../photos/20240101-DSC07255-Enhanced-NR.jpg" alt="Ottawa" width="68%"/>
 <img src="../photos/20240215-DSC07565-Enhanced-NR.jpg" alt="Parc Omega @ Montreal" width="30%"/>
 
-<img src="../photos/20240210-DSC07293.jpg" alt="Montreal" width="68%"/>
 <img src="../photos/20240210-DSC07290.jpg" alt="Montreal" width="30%"/>
+<img src="../photos/20240210-DSC07293.jpg" alt="Montreal" width="68%"/>
 
-<img src="../photos/20231224-DSC07071-Enhanced-NR.jpg" alt="Christmas Eve" width="68%"/>
+<img src="../photos/Beijing-8.jpg" alt="Christmas Eve" width="68%"/>
 <img src="../photos/20231209-DSC06726-Enhanced-NR.jpg" alt="Christmas" width="30%"/>
