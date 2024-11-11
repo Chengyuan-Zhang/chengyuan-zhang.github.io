@@ -4,7 +4,13 @@ title: "Miscellaneous"
 permalink: /miscellaneous/
 author_profile: true
 ---
+Beyond my academic and research commitments, I engage in various physical activities that help me manage stress and stay
+energized. I regularly play badminton and basketball, and I also enjoy bouldering and top-rope climbing, which require
+focus, perseverance, and physical agility. Additionally, I am an amateur photographer, and this creative pursuit allows
+me to capture and appreciate the world around me. Photography provides a valuable creative outlet, encouraging me to
+maintain a balanced lifestyle that enhances my well-being and overall productivity.
 
+---
 Camera: Sony A7R3a.
 
 Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F1.8 ZA; Sony FE 28mm F2.
