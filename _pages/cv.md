@@ -36,7 +36,7 @@ Academic Experiences
 Services
 ======
 
-- Chairs/Co-chairs
+- (Co-)Chairs/(Co-)Ornaizers
     - Organizer of the 2nd [SIAM workshop](https://interactive-driving.github.io/SIAM-IV24/)
       on [IEEE IV24'](https://ieee-iv.org/2024/), Jeju Shinhwa World, Jeju Island, Korea, 2024.
     - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
@@ -48,6 +48,7 @@ Services
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
     - Journal: IEEE Sensors Journal
+    - Journal: European Journal of Operational Research
     - Journal: ASME Journal of Mechanism and Robotics
     - Journal: ASME Journal of Mechanism Design
     - Journal: Physica A: Statistical Mechanics and its Applications
