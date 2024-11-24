@@ -1,7 +1,7 @@
 ---
 title: 'Hierarchical Model'
 date: 2024-11-25
-permalink: /posts/hierarchical-model/
+permalink: /posts/hierarchical/
 tags:
 
 - hierarchical model
