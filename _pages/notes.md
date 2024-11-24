@@ -5,11 +5,14 @@ permalink: /notes/
 author_profile: true
 ---
 
-Research Notes:
-- Logsumexp trick: To be updated (put a link here)
-- Prior settings matter in Bayesian inference (variance): To be updated (put a link here)
-- Hyperparameters in hierarchical models: To be updated (put a link here)
-- 
+### Research Notes (click [here](/blog-posts/) for all posts):
+- [Logsumexp trick](/posts/logsumexp/);
+- Forward and backward algorithm in Hidden Markov Models (HMM): To be updated;
+- Bayesian inference and conjugate priors: To be updated;
+- Prior settings matter in Bayesian inference (variance): To be updated;
+- [Hyperparameters in hierarchical models](/posts/hierarchical-model);
+- Bayesian calibration of car-following models: To be updated;
 
-Recommend Blog:
-- Bayesian network: https://www.cs.toronto.edu/~duvenaud/distill_bayes_net/public/
+
+### Recommended Blogs:
+- [Bayesian Network](https://www.cs.toronto.edu/~duvenaud/distill_bayes_net/public/);
