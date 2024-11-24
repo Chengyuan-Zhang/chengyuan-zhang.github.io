@@ -10,7 +10,7 @@ author_profile: true
 - Forward and backward algorithm in Hidden Markov Models (HMM): To be updated;
 - Bayesian inference and conjugate priors: To be updated;
 - Prior settings matter in Bayesian inference (variance): To be updated;
-- [Hyperparameters in hierarchical models](/posts/hierarchical-model);
+- [Hyperparameters in hierarchical models](/posts/hierarchical/);
 - Bayesian calibration of car-following models: To be updated;
 
 
