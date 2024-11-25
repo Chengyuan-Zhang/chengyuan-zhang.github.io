@@ -1,6 +1,6 @@
 ---
-title: 'Hierarchical Model'
-date: 2024-11-25
+title: 'Hyperparameters in Hierarchical Models: Understanding Pooled, Unpooled, and Hierarchical Approaches'
+date: 2024-11-24
 permalink: /posts/hierarchical/
 tags:
 
@@ -9,8 +9,6 @@ tags:
 - hyperparameters
 
 ---
-
-# Hyperparameters in Hierarchical Models: Understanding Pooled, Unpooled, and Hierarchical Approaches
 
 Hierarchical models are powerful tools in statistical modeling and machine learning, enabling us to represent data with
 complex dependency structures. These models are particularly useful in contexts where data is naturally grouped or
@@ -132,4 +130,13 @@ predictions and insights.
 
 Understanding and leveraging these hyperparameters is key to unlocking the full potential of hierarchical modeling!
 
-(add references later...)
+## Read More
+
+1. **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on
+   Intelligent Transportation
+   Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+
+2. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
+   Regression. Transportation research part C: emerging technologies. (Accepted to ISTTT25 Special
+   Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
+
