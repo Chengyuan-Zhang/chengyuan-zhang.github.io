@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Recent News"
 permalink: /news/
 author_profile: true
