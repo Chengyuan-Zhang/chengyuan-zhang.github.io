@@ -142,8 +142,31 @@ Make any link standout more when applying the `.btn` class.
 
 ## Notices
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+Basic notices or call-outs are supported using the following syntax:
+
+```markdown
+**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
 {: .notice}
+```
+
+which wil render as:
+
+**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
+{: .notice}
+
+### Footnotes
+
+Footnotes can be useful for clarifying points in the text, or citing information.[^1] Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
+
+```markdown
+This is the regular text.[^1] This is more regular text.[^note]
+
+[^1]: This is the footnote itself.
+[^note]: This is another footnote.
+```
+
+[^1]: Such as this footnote.
+[^note]: When using text for footnotes markers, no spaces are permitted in the name.
 
 ## HTML Tags
 
@@ -170,6 +193,18 @@ The abbreviation CSS stands for "Cascading Style Sheets".
 ### Code Tag
 
 You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+
+You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:
+
+```python
+print('Hello World!')
+```
+
+or R:
+
+```R
+print("Hello World!", quote = FALSE)
+```
 
 ### Strike Tag
 
@@ -220,3 +255,9 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 ### Variable Tag
 
 This allows you to denote <var>variables</var>.
+
+***
+**Footnotes**
+
+The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
+
