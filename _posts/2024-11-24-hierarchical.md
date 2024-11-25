@@ -1,5 +1,5 @@
 ---
-title: 'Hyperparameters in Hierarchical Models: Understanding Pooled, Unpooled, and Hierarchical Approaches'
+title: 'Heterogeneity and Hierarchical Models: Understanding Pooled, Unpooled, and Hierarchical Approaches'
 date: 2024-11-24
 permalink: /posts/hierarchical/
 tags:
@@ -15,16 +15,16 @@ complex dependency structures. These models are particularly useful in contexts 
 exhibits multi-level variability. A critical aspect of hierarchical models lies in their hyperparameters, which control
 the relationships between different levels of the model.
 
-In this post, we will explore how hyperparameters define and distinguish **pooled**, **unpooled**, and **hierarchical (
-partially pooled)** models, and how they influence model flexibility, interpretability, and generalizability.
+In this post, we will explore how hyperparameters define and distinguish **pooled**, **unpooled**, and **hierarchical
+(partially pooled)** models, and how they influence model flexibility, interpretability, and generalizability.
 
 ---
 
 ## The Basics: Pooled, Unpooled, and Hierarchical Models
 
 1. **Pooled Models**:
-    - All groups are assumed to share the same parameters.
-    - The data is "pooled" together to estimate a single global parameter.
+    - All groups are assumed to share the same parameters. The data is "pooled" together to estimate a single global
+      parameter.
     - Example: In a study involving multiple drivers, a pooled model assumes all drivers behave identically and
       estimates a single set of parameters for all.
     - **Hyperparameter Role**: No explicit hyperparameters are required to account for group-level differences, as the
@@ -40,7 +40,6 @@ partially pooled)** models, and how they influence model flexibility, interpreta
 
 2. **Unpooled Models**:
     - Each group is treated independently, with separate parameters estimated for each.
-    - There is no "borrowing of strength" across groups.
     - Example: In the driver study, each driver's behavior is modeled with entirely distinct parameters.
     - **Hyperparameter Role**: None required for inter-group relationships since groups are modeled independently.
 
@@ -80,15 +79,26 @@ partially pooled)** models, and how they influence model flexibility, interpreta
 
 ---
 
+## Visualizing the Differences
+
+<img src="/images/blogs/hierarchical_model.png" alt="hierarchical_model" width="90%"/>
+
+- **Pooled**: A single mean is shared across all groups.
+- **Unpooled**: Each group has its own mean, with no interaction or shared structure.
+- **Hierarchical**: Each group mean is drawn from a shared population distribution, striking a balance between global
+  consistency and local flexibility.
+
+---
+
 ## Hyperparameters in Practice
 
-In hierarchical models, hyperparameters play a pivotal role in managing the trade-off between pooling and unpooling.
-Here’s how they function:
+**In hierarchical models, hyperparameters play a pivotal role in managing the trade-off between
+pooling and unpooling.** Here’s how they function:
 
 1. **Variance of Group-Level Parameters**:
-    - Determines how much individual groups can deviate from the population mean.
-    - Small variance: Tighter pooling, leading to similar group parameters.
-    - Large variance: Looser pooling, allowing greater flexibility for individual group differences.
+    - <span style='color: red;'>Determines how much individual groups can deviate from the population mean!</span>
+    - **Small variance: Tighter pooling, leading to similar group parameters.**
+    - **Large variance: Looser pooling, allowing greater flexibility for individual group differences.**
 
 2. **Covariance Structure**:
     - When modeling multiple parameters per group, the covariance structure can capture interdependencies among
@@ -98,17 +108,6 @@ Here’s how they function:
 3. **Prior Distributions**:
     - Priors for hyperparameters themselves (e.g., mean and variance) influence model regularization and robustness.
     - Informative priors guide the model when data is sparse; non-informative priors allow data-driven inferences.
-
----
-
-## Visualizing the Differences
-
-<img src="/images/blogs/hierarchical_model.png" alt="hierarchical_model" width="90%"/>
-
-- **Pooled**: A single mean is shared across all groups.
-- **Unpooled**: Each group has its own mean, with no interaction or shared structure.
-- **Hierarchical**: Each group mean is drawn from a shared population distribution, striking a balance between global
-  consistency and local flexibility.
 
 ---
 
