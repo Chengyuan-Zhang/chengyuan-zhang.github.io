@@ -14,7 +14,8 @@ author_profile: true
 - [Hyperparameters in hierarchical models](/posts/hierarchical/);
 - Bayesian calibration of car-following models: To be updated;
 - [Matrix Derivative of Frobenius norm involving Hadamard Product](/posts/matrix-derivative/);
-- [多输出高斯过程 (multiple output GP) - 知乎](https://zhuanlan.zhihu.com/p/400628960);
+- [《社会型交互与自动驾驶：综述》 - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/557203965);
+- [多输出高斯过程 (multiple output GP) - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/400628960);
 
 ### Recommended Online Blogs and Books (by others):
 

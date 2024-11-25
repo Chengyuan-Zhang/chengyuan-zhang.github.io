@@ -103,7 +103,7 @@ Here’s how they function:
 
 ## Visualizing the Differences
 
-<img src="../images/blogs/hierarchical_model.png" alt="hierarchical_model" width="90%"/>
+<img src="/images/blogs/hierarchical_model.png" alt="hierarchical_model" width="90%"/>
 
 - **Pooled**: A single mean is shared across all groups.
 - **Unpooled**: Each group has its own mean, with no interaction or shared structure.
