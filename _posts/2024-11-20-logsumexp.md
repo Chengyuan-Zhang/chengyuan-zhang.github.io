@@ -1,6 +1,6 @@
 ---
-title: 'The Log-Sum-Exp Trick'
-date: 2024-11-24
+title: 'Understanding the Log-Sum-Exp Trick and Its Application in Hidden Markov Models (HMMs)'
+date: 2024-11-20
 permalink: /posts/logsumexp/
 tags:
 
@@ -10,7 +10,6 @@ tags:
 
 ---
 
-# Understanding the Log-Sum-Exp Trick and Its Application in Hidden Markov Models (HMMs)
 
 The **log-sum-exp trick** is a critical technique in numerical computations involving logarithms and exponentials. It is
 widely used in machine learning, especially in algorithms like the forward-backward procedure in Hidden Markov Models (

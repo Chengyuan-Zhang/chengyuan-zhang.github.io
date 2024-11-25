@@ -10,14 +10,14 @@ locale                   : "en-CA"
 title                    : "Chengyuan Zhang - Homepage"
 title_separator          : "-"
 name                     : &name "Chengyuan ZHANG"
-description              : &description "personal description"
+description              : &description "I’m a Ph.D. candidate at McGill University under the supervision of Prof. Lijun Sun. I was a visiting researcher at the Robotics Institute, Carnegie Mellon University in 2023 under the supervision of Prof. Changliu Liu, and at the Department of Mechanical Engineering in 2018. Additionally, I conducted research at the Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka."
 url                      : https://chengyuan-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chengyuan-Zhang/chengyuan-zhang.github.io" # the github repository you're using
 teaser                   : Chengyuan.jpg # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : false
+future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
