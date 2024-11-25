@@ -7,11 +7,11 @@ author_profile: true
 
 ### Research Notes (click [here](/blog-posts/) for all posts):
 
-- [Logsumexp trick](/posts/logsumexp/);
+- [The Log-Sum-Exp Trick](/posts/logsumexp/);
 - Forward and backward algorithm in Hidden Markov Models (HMM): To be updated;
 - Bayesian inference and conjugate priors: To be updated;
 - Prior settings matter in Bayesian inference (variance): To be updated;
-- [Hyperparameters in hierarchical models](/posts/hierarchical/);
+- [Heterogeneity and Hierarchical Models](/posts/hierarchical/);
 - Bayesian calibration of car-following models: To be updated;
 - [Matrix Derivative of Frobenius norm involving Hadamard Product](/posts/matrix-derivative/);
 - [《社会型交互与自动驾驶：综述》 - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/557203965);
