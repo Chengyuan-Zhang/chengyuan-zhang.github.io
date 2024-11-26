@@ -21,3 +21,4 @@ author_profile: true
 
 - [Bayesian Network](https://www.cs.toronto.edu/~duvenaud/distill_bayes_net/public/);
 - [Pattern Recognition and Machine Learning (PRML)](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf);
+- [Spatiotemporal Data Modeling](https://spatiotemporal-data.github.io/);
