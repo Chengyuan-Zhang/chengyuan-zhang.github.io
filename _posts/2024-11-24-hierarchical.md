@@ -141,4 +141,5 @@ Understanding and leveraging these hyperparameters is key to unlocking the full 
 
 ## Read more
 
-- [Random Effects and Hierarchical Models in Driving Behaviors Modeling](/posts/random-effects/);
+- [Random Effects and Hierarchical Models in Driving Behaviors Modeling](/posts/random-effects/) in my previous posts;
+- <https://betanalpha.github.io/assets/case_studies/hierarchical_modeling.html> by Michael Betancourt;
