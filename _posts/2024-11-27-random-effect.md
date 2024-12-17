@@ -115,4 +115,4 @@ dynamics.
 
 ## Read more
 
-- [Heterogeneity and Hierarchical Models](/posts/hierarchical/);
+- [Heterogeneity and Hierarchical Models](/posts/hierarchical/) in my previous posts;
