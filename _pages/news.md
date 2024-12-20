@@ -5,6 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
+* 12/2024: I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
 * 04/2024: Our paper "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression" was accepted at
   IEEE IV24'. [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
@@ -34,8 +35,6 @@ author_profile: true
 * 07/2023: Our paper "Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression"
   was accepted to IEEE Transactions on Knowledge and Data
   Engineering. [[paper](https://ieeexplore.ieee.org/document/10177995)]
-* 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations
-  on Google Scholar!
 * 06/2023: I organized the 1st International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV23/) at IV23' in
   Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
@@ -45,7 +44,7 @@ author_profile: true
   series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
 * 01/2023: Attended TRB 2023 for the first time, a wonderful experience in D.C. Washington!
 * 01/2023: I received the **Graduate Mobility Award**. Thanks, McGill!
-* 12/2022: I received the **CIRRELT Excellence Ph.D. Scholarship**. Thanks, CIRRELT!
+* 12/2022: I received the **CIRRELT Doctoral Scholarship of Excellence - Early Stages**. Thanks, CIRRELT!
 * 11/2022: Our review paper
   on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) was accepted to
   Foundations and Trends® in Robotics.
@@ -58,3 +57,5 @@ author_profile: true
 * 12/2021: I received the **CIRRELT Excellence Master Scholarship**. Thanks, CIRRELT!
 * 10/2021: I have successfully completed CIVE 701 Ph.D. Comprehensive Examination for my master-phd-fast-track
   application.
+
+[//]: # (* 07/2023: I am thrilled to share a significant milestone in my academic journey - I have recently reached 100 citations&#41; on Google Scholar!&#41;)
