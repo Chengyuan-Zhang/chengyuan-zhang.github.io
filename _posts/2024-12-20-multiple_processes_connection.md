@@ -162,18 +162,18 @@ modeling and analyzing data with temporal dependencies.
 
 ## Applications in Driving Behavior (Car-Following) Modeling
 
-1. Using **OU process**:
+1. Using **OU process** + IDM:
     - Treiber, M., Kesting, A., & Helbing, D. (2006). Delays, inaccuracies and anticipation in
       microscopic traffic models. Physica A: Statistical Mechanics and its Applications, 360(1), 71-88.
-2. Using **Cochrane-Orcutt correction**:
+2. Using **Cochrane-Orcutt correction** + GHR/IDM:
     - Hoogendoorn, S., & Hoogendoorn, R. (2010). Calibration of microscopic
       traffic-flow models using multiple data sources. Philosophical Transactions of the Royal Society A: Mathematical,
       Physical and Engineering Sciences, 368(1928), 4497-4517.
-3. Using **Gaussian processes**:
+3. Using **Gaussian processes** + IDM:
     - Zhang, C., & Sun, L. (2024). Bayesian calibration of the intelligent driver model. IEEE
       Transactions on Intelligent Transportation
       Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
-4. Using **AR processes**:
+4. Using **AR processes** + IDM:
     - Zhang, C., Wang, W., & Sun, L. (2024). Calibrating car-following models via Bayesian dynamic
       regression. Transportation Research Part C: Emerging Technologies, 104719. (Accepted to ISTTT25 Special
       Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
