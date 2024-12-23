@@ -210,7 +210,8 @@ plt.xlabel("Time")
 plt.ylabel("Value")
 plt.show()
 ```
-![img.png](images/blogs/gp_python_demo.png)
+<img src="/images/blogs/gp_python_demo.png" alt="gp_python_demo" width="90%"/>
+
 ---
 
 # 7. **Conclusion**
