@@ -114,18 +114,7 @@ Here:
 
 ---
 
-# 3. **Visualization of Forecasting**
-
-Gaussian Processes naturally provide uncertainty intervals around predictions. When plotted, these intervals widen in
-regions where no data is available, reflecting higher uncertainty. A typical plot includes:
-
-- Observed data points.
-- Predicted mean function.
-- Confidence intervals (e.g., \\( \pm 2 \sigma \\)).
-
----
-
-# 4. **Handling Specific Challenges in Time-Series**
+# 3. **Handling Specific Challenges in Time-Series**
 
 ## **Trend and Seasonality**
 
@@ -152,7 +141,7 @@ further into the future.
 
 ---
 
-# 5. **Advantages of Using Gaussian Processes**
+# 4. **Advantages of Using Gaussian Processes**
 
 - **Uncertainty Quantification**: GPs provide confidence intervals for predictions, which are valuable in
   decision-making.
@@ -162,7 +151,7 @@ further into the future.
 
 ---
 
-## 6. **Limitations and Solutions**
+## 5. **Limitations and Solutions**
 
 ## Limitation: **Computational Cost**
 
@@ -177,7 +166,7 @@ further into the future.
 
 ---
 
-# 7. **Example: Forecasting with Python**
+# 6. **Example: Forecasting with Python**
 
 Here is a simple example of time-series forecasting using the `scikit-learn` library in Python:
 
@@ -221,10 +210,10 @@ plt.xlabel("Time")
 plt.ylabel("Value")
 plt.show()
 ```
-![img.png](../images/blogs/gp_python_demo.png)
+![img.png](images/blogs/gp_python_demo.png)
 ---
 
-# 8. **Conclusion**
+# 7. **Conclusion**
 
 Gaussian Processes provide a flexible, interpretable, and probabilistic framework for time-series forecasting. They
 excel in scenarios where uncertainty quantification is crucial and where the underlying patterns in the data may be
