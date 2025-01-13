@@ -22,7 +22,7 @@ author_profile: true
 1. [From ordinary least squares (OLS) to generalized least squares (GLS)](/posts/ols-to-gls/);📕
 1. [Modeling Autocorrelation: FFT vs Gaussian Processes](/posts/autocorrelation);📙📕
 2. [Gaussian Processes (GP) for Time Series Forecasting](/posts/gp-time-series/);📙
-3. Gaussian Processes (GP) and Gaussian velocity field: To be updated;📙📗
+3. [A Detailed Introduction to Gaussian Velocity Fields (GVF) Based on Gaussian Processes](/posts/GVF/);📙📘📗
 1. Autoregressive (AR) processes: To be updated;
 1. Bayesian calibration of car-following models: To be updated;
 1. [Connections among AR processes, Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian

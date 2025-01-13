@@ -223,3 +223,5 @@ implementations have made GPs increasingly practical for real-world time-series 
 
 By choosing appropriate kernels and leveraging their probabilistic nature, GPs offer powerful insights into temporal
 patterns and predictive uncertainty, making them a valuable tool in time-series analysis.
+
+**One quick question:** What will happen if the test points are very far from the training points?
