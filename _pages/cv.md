@@ -44,11 +44,11 @@ Services
 - Program Committee
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
 - Reviewers
+    - Journal: European Journal of Operational Research
     - Journal: Transportation Research Part C: Emerging Technologies
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
     - Journal: IEEE Sensors Journal
-    - Journal: European Journal of Operational Research
     - Journal: ASME Journal of Mechanism and Robotics
     - Journal: ASME Journal of Mechanism Design
     - Journal: Physica A: Statistical Mechanics and its Applications
