@@ -176,4 +176,4 @@ modeling and analyzing data with temporal dependencies.
 4. Using **AR processes** + IDM:
     - Zhang, C., Wang, W., & Sun, L. (2024). Calibrating car-following models via Bayesian dynamic
       regression. Transportation Research Part C: Emerging Technologies, 104719. (Accepted to ISTTT25 Special
-      Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
+      Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]

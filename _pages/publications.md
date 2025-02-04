@@ -29,8 +29,8 @@ Contributions.)
 ## Journal publications
 
 1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
-   Regression. Transportation research part C: emerging technologies. (Accepted to ISTTT25 Special
-   Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
+   Regression. Transportation research part C: emerging technologies. (ISTTT25 Special
+   Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
 2. **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on
    Intelligent Transportation
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
@@ -55,9 +55,9 @@ Contributions.)
 
 ## Conference publications
 
-1. **Chengyuan Zhang** (=), Kehua Chen (=), Meixin Zhu*, Hai Yang, and Lijun Sun (2024). Learning Car-Following
-   Behaviors Using Bayesian Matrix Normal Mixture Regression. (Accepted to IEEE
-   IV24') [[arXiv](https://arxiv.org/pdf/2404.16023)]
+1. **Chengyuan Zhang** (=), Kehua Chen (=), Meixin Zhu*, Hai Yang, and Lijun Sun (2024, May). Learning Car-Following
+   Behaviors Using Bayesian Matrix Normal Mixture Regression. In 2024 IEEE Intelligent Vehicles
+   Symposium (IV). IEEE. [[IEEE IV24'](https://ieeexplore.ieee.org/document/10588568)] [[arXiv](https://arxiv.org/pdf/2404.16023)]
 2. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023, September).
    Interactive Car-Following: Matters but NOT Always. In 2023
    IEEE 26th International Conference on Intelligent Transportation Systems (ITSC) (pp. 5120-5125).

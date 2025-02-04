@@ -111,7 +111,7 @@ dynamics.
 
 2. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. Transportation research part C: emerging technologies. (Accepted to ISTTT25 Special
-   Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
+   Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
 
 ## Read more
 
