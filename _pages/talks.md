@@ -8,10 +8,14 @@ redirect_from:
   - /talks
 
 ---
+## Stochastic Modeling and Simulations of Car-Following Behaviors
+_Feb. 2025, online_ \
+Invited talk @ MIT JTL Research Seminar [[slides](../_talks/Stochastic Modeling and Simulations of Car-Following Behaviors.pdf)]
+
 
 ## Calibrating Car-Following Models via Bayesian Dynamic Regression
 _July 2024, Ann Arbor, Michigan, US_ \
-Conference Podium Presentation @ The 25th International Symposium on Transportation and Traffic Theory (ISTTT25) [[slides](../files/ISTTT25_slides_Chengyuan.pdf)]
+Conference Podium Presentation @ The 25th International Symposium on Transportation and Traffic Theory (ISTTT25) [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
 
 <center>
   <img src="../images/Weixin Image_20240718123054.jpg" width="30%" />
