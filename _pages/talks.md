@@ -10,7 +10,7 @@ redirect_from:
 ---
 ## Stochastic Modeling and Simulations of Car-Following Behaviors
 _Feb. 2025, online_ \
-Invited talk @ MIT JTL Research Seminar [[slides](../_talks/Stochastic Modeling and Simulations of Car-Following Behaviors.pdf)]
+Invited talk @ MIT JTL Research Seminar [[slides](../_talks/Stochastic_Modeling_and_Simulations_of_Car-Following_Behaviors.pdf)]
 
 
 ## Calibrating Car-Following Models via Bayesian Dynamic Regression
