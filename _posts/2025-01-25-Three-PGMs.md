@@ -1,6 +1,6 @@
 ---
-title: 'Factorial Hidden Markov Model'
-date: 2025-01-25
+title: 'Fundamental Probabilistic Graphical Models'
+date: 2025-03-25
 permalink: /posts/three-PGMs/
 tags:
 
