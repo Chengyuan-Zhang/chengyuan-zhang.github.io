@@ -8,15 +8,10 @@ author_profile: true
 
 [//]: # (APA)
 
-The list is not frequently updated. Please see Google Scholar for recent updates. (*Corresponding Author, =Equal
+This list is not frequently updated. Please see my Google Scholar for recent updates. (*Corresponding Author, =Equal
 Contributions.)
 
-## Preprints
-
-1. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2022). Nonstationary Temporal Matrix
-   Factorization for Multivariate Time Series Forecasting. arXiv preprint arXiv:
-   2203.10651. Submitted to Transportation
-   Science (_Minor revision_). [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+[//]: # (## Preprints)
 
 ## Books
 
@@ -28,7 +23,10 @@ Contributions.)
 
 ## Journal publications
 
-1. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
+1. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025). Forecasting sparse movement
+   speed of urban road networks with nonstationary temporal matrix factorization. 
+   Transportation Science (_Accepted for publication_). [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+2. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. Transportation research part C: emerging technologies. (ISTTT25 Special
    Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
 2. **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on
@@ -57,7 +55,8 @@ Contributions.)
 
 1. **Chengyuan Zhang** (=), Kehua Chen (=), Meixin Zhu*, Hai Yang, and Lijun Sun (2024, May). Learning Car-Following
    Behaviors Using Bayesian Matrix Normal Mixture Regression. In 2024 IEEE Intelligent Vehicles
-   Symposium (IV). IEEE. [[IEEE IV24'](https://ieeexplore.ieee.org/document/10588568)] [[arXiv](https://arxiv.org/pdf/2404.16023)]
+   Symposium (IV).
+   IEEE. [[IEEE IV24'](https://ieeexplore.ieee.org/document/10588568)] [[arXiv](https://arxiv.org/pdf/2404.16023)]
 2. **Chengyuan Zhang**, Rui Chen, Jiacheng Zhu, Wenshuo Wang, Changliu Liu, and Lijun Sun* (2023, September).
    Interactive Car-Following: Matters but NOT Always. In 2023
    IEEE 26th International Conference on Intelligent Transportation Systems (ITSC) (pp. 5120-5125).
