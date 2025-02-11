@@ -18,6 +18,10 @@ Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F
 <img src="../photos/20241229-DSC01580.jpg" alt="Hangzhou" width="67.5%"/>
 <img src="../photos/20250128-DSC02155-Enhanced-NR.jpg" alt="Zhengzhou" width="30%"/>
 
+<img src="../photos/20240912-DSC08580.jpg" alt="Tokyo" width="32.66%"/>
+<img src="../photos/20240921-DSC09315.jpg" alt="Tokyo" width="32.66%"/>
+<img src="../photos/20240919-DSC09287.jpg" alt="Tokyo" width="32.66%"/>
+
 
 <img src="../photos/20240902-DSC08360.jpg" alt="Montreal" width="67.5%"/>
 <img src="../photos/20241105-DSC00492.jpg" alt="Montreal" width="30%"/>
