@@ -5,9 +5,11 @@ permalink: /news/
 author_profile: true
 ---
 
+* 02/2025: Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
+  factorization" was accepted to Transportation Science.  [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 * 12/2024: I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
 * 04/2024: Our paper "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression" was accepted at
-  IEEE IV24'. [[arXiv](https://arxiv.org/pdf/2404.16023)]
+  IEEE IV24'. [[IEEE IV24'](https://ieeexplore.ieee.org/document/10588568)] [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
   presentation at the 25th International Symposium on Transportation and Traffic
   Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part
@@ -48,7 +50,7 @@ author_profile: true
 * 11/2022: Our review paper
   on [Social Interactions for Autonomous Driving](https://www.nowpublishers.com/article/Details/ROB-078) was accepted to
   Foundations and Trends® in Robotics.
-* 09/2022: One paper is accepted to [The Montreal AI Symposium 2022](http://montrealaisymposium.com/).
+* 09/2022: One paper is accepted at [The Montreal AI Symposium 2022](http://montrealaisymposium.com/).
 * 09/2022: Our [NSERC](https://www.nserc-crsng.gc.ca/innovate-innover/alliance-alliance/index_eng.asp) propsoal on
   driving behavior interaction (collaborated with Prof. [Changliu Liu](http://icontrol.ri.cmu.edu/)) was granted!
   Thanks, NSERC!

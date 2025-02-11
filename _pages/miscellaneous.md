@@ -15,6 +15,9 @@ Camera: Sony A7R3a.
 
 Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F1.8 ZA; Sony FE 28mm F2.
 
+<img src="../photos/20241229-DSC01580.jpg" alt="Hangzhou" width="67.5%"/>
+<img src="../photos/20250128-DSC02155-Enhanced-NR.jpg" alt="Zhengzhou" width="30%"/>
+
 
 <img src="../photos/20240902-DSC08360.jpg" alt="Montreal" width="67.5%"/>
 <img src="../photos/20241105-DSC00492.jpg" alt="Montreal" width="30%"/>
@@ -33,8 +36,6 @@ Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F
 <img src="../photos/20240510-DSC07858-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 <img src="../photos/20240510-DSC07862-Enhanced-NR.jpg" alt="Aurora" width="32.66%"/>
 
-<img src="../photos/20240416-DSC07832-Enhanced-NR.jpg" alt="Angrignon" width="49%"/>
-<img src="../photos/Beijing-37.jpg" alt="Beijing" width="49.5%"/>
 
 <img src="../photos/solar_1.jpg" alt="Lachine" width="13.7%"/>
 <img src="../photos/solar_2.jpg" alt="Lachine" width="13.7%"/>
@@ -50,12 +51,8 @@ Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F
 <img src="../photos/20240302-DSC07629-Enhanced-NR.jpg" alt="Place des Arts" width="58.5%"/>
 <img src="../photos/20240302-DSC07627-Enhanced-NR.jpg" alt="Place des Arts" width="39.5%"/>
 
-
-<img src="../photos/20240101-DSC07255-Enhanced-NR.jpg" alt="Ottawa" width="68%"/>
-<img src="../photos/20240215-DSC07565-Enhanced-NR.jpg" alt="Parc Omega @ Montreal" width="30%"/>
-
 <img src="../photos/20240210-DSC07290.jpg" alt="Montreal" width="30%"/>
 <img src="../photos/20240210-DSC07293.jpg" alt="Montreal" width="68%"/>
 
-<img src="../photos/Beijing-8.jpg" alt="Christmas Eve" width="68%"/>
+<img src="../photos/20240101-DSC07255-Enhanced-NR.jpg" alt="Ottawa" width="68%"/>
 <img src="../photos/20231209-DSC06726-Enhanced-NR.jpg" alt="Christmas" width="30%"/>
