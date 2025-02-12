@@ -22,7 +22,7 @@ author_profile: true
 * 12/2023: Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation
   Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * 12/2023: I received the **Ron Rice Memorial Award**. Thanks, McGill!
-* 11/2023: I will organize the 2nd International Workshop
+* 11/2023: I organized the 2nd International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV24)
   at [IV24'](https://ieee-iv.org/2024/) in Jeju Shinhwa
   World, Jeju Island, Korea. Welcome to join us on June 2nd,
