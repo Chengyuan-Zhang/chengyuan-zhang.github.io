@@ -10,7 +10,7 @@ redirect_from:
 ---
 ## Stochastic Modeling and Simulations of Car-Following Behaviors
 _Feb. 2025, online_ \
-Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/Stochastic_Modeling_and_Simulations_of_Car-Following_Behaviors.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
+Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 
 ## Bayesian Calibration of Car-Following Models
 _Nov. 2024, Beijing, China_ \
@@ -58,7 +58,7 @@ Conference Podium Presentation @ IEEE International Conference on Intelligent Tr
 
 ## An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-DOF Stack Parking System
 _Aug. 2018, Department of Mechanical Engineering, Carnegie Mellon University, Pittsburgh, Pennsylvania, US_ \
-Workshop Podium Presentation @ The 1st Workshop for SAILER at CMU
+Workshop Podium Presentation @ The 1st Workshop for SAILER at CMU [[slides](../_talks/180825_CMU_Workshop.pdf)]
 <center>
   <img src="../images/2018cmu_ws.jpg" width="80%" />
 </center>

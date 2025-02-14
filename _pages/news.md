@@ -5,9 +5,18 @@ permalink: /news/
 author_profile: true
 ---
 
+* 02/2025: I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at
+  Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning). [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 * 02/2025: Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
-  factorization" was accepted to Transportation Science.  [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+  factorization" was accepted to Transportation
+  Science.  [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 * 12/2024: I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
+* 11/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Beijing Institute of
+  Technology (invited by Prof. Wenshuo Wang with the
+  Department of Mechanical Engineering) in Beijing, China.
+* 10/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Shanghai Jiao Tong
+  University (invited by Prof. Yanyan Xu with the
+  Artificial Intelligence Institute) in Shanghai, China.
 * 04/2024: Our paper "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression" was accepted at
   IEEE IV24'. [[IEEE IV24'](https://ieeexplore.ieee.org/document/10588568)] [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
@@ -41,7 +50,7 @@ author_profile: true
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV23/) at IV23' in
   Anchorage, Alaska, USA. Welcome to join us on June 4th, 2023!
 * 04/2023: I received the **FRQNT B2X Doctoral scholarship**. Thanks, FRQNT!
-* 02/2023: I presented our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
+* 02/2023: I was invited to present our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
   series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
 * 01/2023: Attended TRB 2023 for the first time, a wonderful experience in D.C. Washington!
