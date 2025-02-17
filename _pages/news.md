@@ -6,14 +6,14 @@ author_profile: true
 ---
 
 * 02/2025: I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at
-  Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning). [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
+  Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban Studies and
+* Planning). [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 * 02/2025: Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
   factorization" was accepted to Transportation
   Science.  [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 * 12/2024: I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
 * 11/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Beijing Institute of
-  Technology (invited by Prof. Wenshuo Wang with the
-  Department of Mechanical Engineering) in Beijing, China.
+  Technology (invited by Prof. Wenshuo Wang with the Department of Mechanical Engineering) in Beijing, China.
 * 10/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Shanghai Jiao Tong
   University (invited by Prof. Yanyan Xu with the
   Artificial Intelligence Institute) in Shanghai, China.

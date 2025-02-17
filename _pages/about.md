@@ -15,17 +15,32 @@ I was a visiting researcher at the Robotics Institute, Carnegie Mellon Universit
 Changliu Liu, and at the Department of Mechanical Engineering in 2018. Additionally, I conducted research at the
 Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka.
 
-My research focuses on **Bayesian learning**, **spatiotemporal modeling**, **traffic flow theory**, and **multi-agent interaction
-modeling** within **intelligent transportation systems**, with an emphasis on bridging the gap between theoretical modeling
-and practical traffic simulation through advanced statistical techniques. My motivation lies in advancing the
-understanding of **human driving behaviors** to improve **microscopic traffic simulations**, ultimately contributing to safer
-and more efficient transportation systems.
+My research focuses on **Bayesian learning**, **spatiotemporal modeling**, **traffic flow theory**, and **multi-agent
+interaction modeling** within **intelligent transportation systems**, with an emphasis on bridging the gap between
+theoretical modeling and practical traffic simulation through advanced statistical techniques. My motivation lies in
+advancing the understanding of **human driving behaviors** to improve **microscopic traffic simulations**, ultimately
+contributing to safer and more efficient transportation systems.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
+Research Topics
+=====
+
+- **Traffic Flow Theory & Traffic Simulations**
+    - [Bayesian calibration of car-following models](https://ieeexplore.ieee.org/document/10415310) (IEEE T-ITS)
+    - [Calibrating Car-Following Models via Bayesian Dynamic Regression](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7) (
+      ISTTT & TR Part C)
+- **Multi-Agent Social Interactions & Human Driving Behaviors**
+    - [Social interactions for autonomous driving: A review and perspectives](https://www.nowpublishers.com/article/Details/ROB-078) (Foundations and Trends® in Robotics)
+    - [Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios](https://ieeexplore.ieee.org/abstract/document/9357407) (IEEE T-ITS)
+- **Spatiotemporal Modeling & Interpretable pattern discovery**
+    - [Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression](https://ieeexplore.ieee.org/document/10177995) (IEEE TKDE)
+    - [Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization]((https://xinychen.github.io/papers/notmf.pdf)) (
+      Transportation Science)
 
 News
 =====
+
 * <span style="color:darkred"> New! </span> Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization" was accepted to Transportation Science.  [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 * <span style="color:darkred"> New! </span> I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
 * <span style="color:darkred"> New! </span> Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM presentation at the 25th International Symposium on Transportation and Traffic Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[slides](./files/ISTTT25_slides_Chengyuan.pdf)]
