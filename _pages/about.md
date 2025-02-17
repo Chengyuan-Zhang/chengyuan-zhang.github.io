@@ -23,20 +23,6 @@ contributing to safer and more efficient transportation systems.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
-Research Topics
-=====
-
-- **Traffic Flow Theory & Traffic Simulations**
-    - [Bayesian calibration of car-following models](https://ieeexplore.ieee.org/document/10415310) (IEEE T-ITS)
-    - [Calibrating Car-Following Models via Bayesian Dynamic Regression](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7) (
-      ISTTT & TR Part C)
-- **Multi-Agent Social Interactions & Human Driving Behaviors**
-    - [Social interactions for autonomous driving: A review and perspectives](https://www.nowpublishers.com/article/Details/ROB-078) (Foundations and Trends® in Robotics)
-    - [Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios](https://ieeexplore.ieee.org/abstract/document/9357407) (IEEE T-ITS)
-- **Spatiotemporal Modeling & Interpretable pattern discovery**
-    - [Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression](https://ieeexplore.ieee.org/document/10177995) (IEEE TKDE)
-    - [Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization]((https://xinychen.github.io/papers/notmf.pdf)) (
-      Transportation Science)
 
 News
 =====
@@ -53,7 +39,22 @@ News
 Featured Research
 ======
 
-## Bayesian Calibration of the Car-Following Models
+- **Traffic Flow Theory & Traffic Simulations**
+  - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
+  - Calibrating Car-Following Models via Bayesian Dynamic
+    Regression ([ISTTT & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
+- **Multi-Agent Social Interactions & Human Driving Behaviors**
+  - Social interactions for autonomous driving: A review and
+    perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
+  - Spatiotemporal learning of multivehicle interaction patterns in lane-change
+    scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
+- **Spatiotemporal Modeling & Interpretable pattern discovery**
+  - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
+    autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
+  - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
+    factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
+
+### Bayesian Calibration of the Car-Following Models
 
 Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation Systems.*
 
@@ -84,7 +85,7 @@ modeling and simulating the human driver’s car-following behaviors.
 
 <br/>  
 
-## Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios
+### Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios
 
 Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. *IEEE Transaction on Intelligent Transportation Systems.*
 
@@ -126,7 +127,7 @@ multi-agent interactions, such as vehicle-pedestrian interactions.
 
 <br/>
 
-## Social Interactions for Autonomous Driving: A Review and Perspective
+### Social Interactions for Autonomous Driving: A Review and Perspective
 
 Wenshuo Wang, Letian Wang, Chengyuan Zhang, Changliu Liu, and Lijun Sun. *Foundations and Trends in Robotics*.
 
@@ -160,7 +161,7 @@ We also highlight some new directions, critical challenges, and opening question
 
 <br/> 
 
-## An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System
+### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System
 
 Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.
 
