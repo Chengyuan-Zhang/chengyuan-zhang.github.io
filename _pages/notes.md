@@ -31,9 +31,10 @@ author_profile: true
 1. [《社会型交互与自动驾驶：综述》 - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/557203965);📘📗
 1. [多输出高斯过程 (multiple output GP) - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/400628960);📙
 
-### Recommended Online Blogs and Books (by others):
+### Recommended Online Blogs and Books (by other researchers):
 
 1. [Bayesian Network](https://www.cs.toronto.edu/~duvenaud/distill_bayes_net/public/);
 1. [Pattern Recognition and Machine Learning (PRML)](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
    ;
 1. [Spatiotemporal Data Modeling](https://spatiotemporal-data.github.io/);
+2. [Probabilistic Artificial Intelligence](https://arxiv.org/pdf/2502.05244);
