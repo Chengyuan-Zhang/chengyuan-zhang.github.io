@@ -143,3 +143,16 @@ Both FFT and GP are powerful tools for modeling autocorrelation, grounded in the
 excels in computational efficiency and explicit spectral analysis, while GP offers flexibility and the ability to model
 rich temporal structures. Choosing between the two depends on the specific requirements of your application, such as
 computational constraints, data properties, and the need for interpretability.
+
+---
+
+## My Research on GP for Modeling Autocorrelation
+
+- **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on
+  Intelligent Transportation
+  Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+
+(also see my research on AR processes for modeling autocorrelation:)
+- **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
+  Regression. Transportation research part C: emerging technologies. (Accepted to ISTTT25 Special
+  Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]

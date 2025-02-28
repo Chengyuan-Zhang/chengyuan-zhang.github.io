@@ -5,7 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
-* 02/2025: We will host The 3rd International Workshop
+* 02/2025: We will organize The 3rd International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM 2025)](https://interactive-driving.github.io)
   at [IROS25'](http://www.iros25.org/) in Hangzhou, China. Please consider _submitting your work_ or supporting us as a
   _program committee member_! (contact me for details)
