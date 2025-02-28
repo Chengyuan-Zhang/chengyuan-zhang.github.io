@@ -1,5 +1,5 @@
 ---
-title: 'Matrix Derivative of Frobenius norm involving Hadamard Product'
+title: 'Matrix derivative of Frobenius norm involving Hadamard product'
 date: 2022-10-01
 permalink: /posts/matrix-derivative/
 tags:

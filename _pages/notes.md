@@ -27,7 +27,7 @@ author_profile: true
 1. Bayesian calibration of car-following models: To be updated;
 1. [Connections among AR processes, Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian
    Processes](/posts/processes_connections/); 📙📕📘
-1. [Matrix Derivative of Frobenius norm involving Hadamard Product](/posts/matrix-derivative/);📕
+1. [Matrix derivative of Frobenius norm involving Hadamard product](/posts/matrix-derivative/);📕
 1. [《社会型交互与自动驾驶：综述》 - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/557203965);📘📗
 1. [多输出高斯过程 (multiple output GP) - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/400628960);📙
 
