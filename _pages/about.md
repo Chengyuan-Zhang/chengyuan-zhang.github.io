@@ -17,9 +17,9 @@ Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the su
 
 My research focuses on **Bayesian learning**, **spatiotemporal modeling**, **traffic flow theory**, and **multi-agent
 interaction modeling** within **intelligent transportation systems**, with an emphasis on bridging the gap between
-theoretical modeling and practical traffic simulation through advanced statistical techniques. My motivation lies in
-advancing the understanding of **human driving behaviors** to improve **microscopic traffic simulations**, ultimately
-contributing to safer and more efficient transportation systems.
+theoretical modeling and practical traffic simulation through advanced statistical techniques with appropriate
+**uncertainty quantification**. My motivation lies in advancing the understanding of **human driving behaviors** to
+improve **microscopic traffic simulations**, ultimately contributing to safer and more efficient transportation systems.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
@@ -27,7 +27,7 @@ contributing to safer and more efficient transportation systems.
 News
 =====
 
-* <span style="color:darkred"> New! </span> We will host The 3rd International Workshop on [Socially Interactive Autonomous Mobility (SIAM 2025)](https://interactive-driving.github.io) at [IROS25'](http://www.iros25.org/) in Hangzhou, China. Please consider _submitting your work_ or supporting us as a _program committee member_! (contact me for details)
+* <span style="color:darkred"> New! </span> We will organize The 3rd International Workshop on [Socially Interactive Autonomous Mobility (SIAM 2025)](https://interactive-driving.github.io) at [IROS25'](http://www.iros25.org/) in Hangzhou, China. Please consider _submitting your work_ or supporting us as a _program committee member_! (contact me for details)
 * <span style="color:darkred"> New! </span> I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at MIT (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning).
 * <span style="color:darkred"> New! </span> Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization" was accepted to Transportation Science.  [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 * <span style="color:darkred"> New! </span> I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
@@ -41,19 +41,19 @@ Featured Research
 ======
 
 - **Traffic Flow Theory & Traffic Simulations**
-  - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
-  - Calibrating Car-Following Models via Bayesian Dynamic
-    Regression ([ISTTT & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
+    - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
+    - Calibrating Car-Following Models via Bayesian Dynamic
+      Regression ([ISTTT & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
 - **Multi-Agent Social Interactions & Human Driving Behaviors**
-  - Social interactions for autonomous driving: A review and
-    perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
-  - Spatiotemporal learning of multivehicle interaction patterns in lane-change
-    scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
+    - Social interactions for autonomous driving: A review and
+      perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
+    - Spatiotemporal learning of multivehicle interaction patterns in lane-change
+      scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
 - **Spatiotemporal Modeling & Interpretable pattern discovery**
-  - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
-    autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
-  - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
-    factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
+    - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
+      autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
+    - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
+      factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
 
 ### Bayesian Calibration of the Car-Following Models
 
