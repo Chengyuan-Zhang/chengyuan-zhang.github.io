@@ -36,14 +36,14 @@ Academic Experiences
 Services
 ======
 
-- (Co-)Chairs/(Co-)Ornaizers
+- (Co-)Chair/(Co-)Ornaizer
     - Organizer of the 2nd [SIAM workshop](https://interactive-driving.github.io/SIAM-IV24/)
       on [IEEE IV24'](https://ieee-iv.org/2024/), Jeju Shinhwa World, Jeju Island, Korea, 2024.
     - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
       on [IEEE IV23'](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023.
 - Program Committee
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
-- Reviewers
+- Reviewer
     - Journal: European Journal of Operational Research
     - Journal: Transportation Research Part C: Emerging Technologies
     - Journal: IEEE Transactions on Intelligent Transportation Systems
@@ -54,6 +54,7 @@ Services
     - Journal: Physica A: Statistical Mechanics and its Applications
     - Journal: Automotive Innovation
     - Journal: Advanced Engineering Informatics
+    - Journal: Journal of Traffic and Transportation Engineering
     - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
     - Conference: IEEE Intelligent Vehicles Symposium (IV), 23-24
     - Conference: Transportation Research Board Annual Meeting
