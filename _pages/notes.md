@@ -38,3 +38,4 @@ author_profile: true
    ;
 1. [Spatiotemporal Data Modeling](https://spatiotemporal-data.github.io/);
 2. [Probabilistic Artificial Intelligence](https://arxiv.org/pdf/2502.05244);
+3. [如何努力成为一个Top Ph.D. Student](https://github.com/pengsida/learning_research/);
