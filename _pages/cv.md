@@ -48,6 +48,7 @@ Services
     - Journal: Transportation Research Part C: Emerging Technologies
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
+    - Journal: IEEE Transactions on Consumer Electronics
     - Journal: IEEE Sensors Journal
     - Journal: ASME Journal of Mechanism and Robotics
     - Journal: ASME Journal of Mechanism Design
