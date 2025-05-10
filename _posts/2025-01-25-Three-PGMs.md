@@ -1,6 +1,6 @@
 ---
 title: 'Fundamental Probabilistic Graphical Models'
-date: 2025-03-25
+date: 2025-07-25
 permalink: /posts/three-PGMs/
 tags:
 

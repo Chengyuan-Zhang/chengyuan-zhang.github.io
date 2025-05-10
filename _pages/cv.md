@@ -60,8 +60,9 @@ Services
     - Conference: IEEE Intelligent Vehicles Symposium (IV), 23-24
     - Conference: Transportation Research Board Annual Meeting
     - Conference: NeurIPS Bayesian Decision-making and Uncertainty Workshop, 2024
-    - Conference: The 5th Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
+    - Conference: Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
     - Conference: RSS 2024 Workshop on Autonomous Vehicles Across Scales (AVAS), 2024
+    - Conference: International Symposium on Transportation Data & Modelling (ISTDM), 2025
 - Memberships
     - IEEE Graduate Student member
     - IEEE Intelligent Transportation Systems Society (ITSS) Student member
