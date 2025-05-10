@@ -49,6 +49,7 @@ Services
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
     - Journal: IEEE Transactions on Consumer Electronics
+    - Journal: IEEE Transactions on Cybernetics
     - Journal: IEEE Sensors Journal
     - Journal: ASME Journal of Mechanism and Robotics
     - Journal: ASME Journal of Mechanism Design
@@ -56,6 +57,7 @@ Services
     - Journal: Automotive Innovation
     - Journal: Advanced Engineering Informatics
     - Journal: Journal of Traffic and Transportation Engineering
+    - Journal: Nonlinear Dynamics
     - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
     - Conference: IEEE Intelligent Vehicles Symposium (IV), 23-24
     - Conference: Transportation Research Board Annual Meeting
