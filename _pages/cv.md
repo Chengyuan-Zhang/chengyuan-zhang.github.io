@@ -83,13 +83,13 @@ Awards & Scholarships
 - Ron Rice Memorial Award, McGill University, 2023
 - Mitacs Globalink Research Award - Abroad, 2022-2023
 - McGill Engineering Doctoral Award (MEDA), McGill University, 2022-2025
-- FRQNT Master's Scholarship (B1X), 2022-2023
-- FRQNT Doctoral Scholarship (B2X), 2023-2027 [[Link](https://doi.org/10.69777/328118)]
-- CIRRELT Doctoral Scholarship of Excellence - Final Stages, 2025 [[Link](https://cirrelt.ca/cirrelt/images/file/2024/2024-2025-recipiendaires.pdf)]
-- CIRRELT Doctoral Scholarship of Excellence - Early Stages, 2023 [[Link](https://cirrelt.ca/cirrelt/images/file/2022/2022-2023-recipiendaires.pdf)]
-- CIRRELT Master's Scholarship of Excellence, 2022 
+- FRQNT Master's Scholarship (B1X), CAD $17,500, 2022-2023 [[Link](https://doi.org/10.69777/321043)]
+- FRQNT Doctoral Scholarship (B2X), CAD $100,000, 2023-2027 [[Link](https://doi.org/10.69777/328118)]
+- CIRRELT Doctoral Scholarship of Excellence - Final Stages, CAD $7,500, 2025 [[Link](https://cirrelt.ca/cirrelt/images/file/2024/2024-2025-recipiendaires.pdf)]
+- CIRRELT Doctoral Scholarship of Excellence - Early Stages, CAD $4,000, 2023 [[Link](https://cirrelt.ca/cirrelt/images/file/2022/2022-2023-recipiendaires.pdf)]
+- CIRRELT Master's Scholarship of Excellence, CAD $3,500, 2022 
 - Graduate Excellence Fellowship Awards, McGill University, 2020
-- IVADO Excellence Scholarships - Msc, 2020-2022
+- IVADO Excellence Scholarships - Msc, CAD $40,000, 2020-2022
 - Outstanding Team Award & Best Application Award at DeeCamp, China, 2019
 - Outstanding Graduate of Chongqing University, 2019
 - First Prize in the 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
