@@ -15,6 +15,9 @@ Camera: Sony A7R3a.
 
 Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F1.8 ZA; Sony FE 28mm F2.
 
+<img src="../photos/20250604-DSC03397-Enhanced-NR.jpg" alt="Sunset" width="71%"/>
+<img src="../photos/20250610-DSC03407-Enhanced-NR.jpg" alt="Moon" width="26%"/>
+
 <img src="../photos/20241229-DSC01580.jpg" alt="Hangzhou" width="67.5%"/>
 <img src="../photos/20250128-DSC02155-Enhanced-NR.jpg" alt="Zhengzhou" width="30%"/>
 
