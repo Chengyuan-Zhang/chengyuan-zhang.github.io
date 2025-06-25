@@ -22,14 +22,14 @@ Academic Experiences
 =====
 
 * Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University,
-  US, 2023.01 - 2023.08.
+  US, 2023.
 * Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
-  University of California, Berkeley, US, 2019.09 - 2020.01.
-* Deep Learning Summer Camp (DeeCamp) student @ Sinovation Ventures, China. We won Outstanding Team Award and Best
-  Application Award, 2019 and 2020.
+  University of California, Berkeley, US, 2019 - 2020.
+* Deep Learning Summer Camp (DeeCamp) student @ Sinovation Ventures, China, 2019 and 2020. We won Outstanding Team Award and Best
+  Application Award.
 * Visiting Student Researcher, supervised by *Prof. Ding Zhao* @ Department of Mechanical Engineering, Carnegie Mellon
-  University, US, 2018.07 - 2018.10.
-* Exchange Student @ University of Pennsylvania, US, 2018.01 - 2018.02.
+  University, US, 2018.
+* Exchange Student @ University of Pennsylvania, US, 2018.
 * Member of CQU-FSAE Transmission Group @ Chongqing University Formula SAE (Society of Automotive Engineers), China,
   2016 - 2018.
 

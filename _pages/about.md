@@ -5,12 +5,13 @@ excerpt: "About Me"
 author_profile: true
 redirect_from:
 
-- /about/
-- /about.html
+  - /about/
+  - /about.html
 
 ---
 
-I'm a Ph.D. candidate at McGill University under the supervision of Prof. [Lijun Sun](https://lijunsun.github.io/).
+I'm a final-year Ph.D. candidate at McGill University under the supervision of
+Prof. [Lijun Sun](https://lijunsun.github.io/).
 I was a visiting researcher at the Robotics Institute, Carnegie Mellon University in 2023 under the supervision of Prof.
 Changliu Liu, and at the Department of Mechanical Engineering in 2018. Additionally, I conducted research at the
 Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka.
@@ -23,9 +24,13 @@ improve **microscopic traffic simulations**, ultimately contributing to safer an
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
+📢<span style="color:darkred"> I am actively seeking a postdoctoral position focused on topics such as "_stochastic
+modeling and simulation of human driving behaviors_", "_social interaction modeling (including drivers and
+pedestrians)_", and "_Bayesian inference_". If my work aligns with your group, I’d love to connect! </span>
 
 News
 =====
+
 * <span style="color:darkred"> New! </span> New preprint alert! Our paper *"Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior"* is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it out!
 * <span style="color:darkred"> New! </span> I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at MIT (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning).
 * <span style="color:darkred"> New! </span> Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization" was accepted to Transportation Science.  [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
