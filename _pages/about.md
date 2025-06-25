@@ -24,9 +24,10 @@ improve **microscopic traffic simulations**, ultimately contributing to safer an
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
-📢<span style="color:darkred"> I am actively seeking a postdoctoral position focused on topics such as "_stochastic
-modeling and simulation of human driving behaviors_", "_social interaction modeling (including drivers and
-pedestrians)_", and "_Bayesian inference_". If my work aligns with your group, I’d love to connect! </span>
+📢 <span style="color:darkred"> I am actively seeking a postdoctoral position focused on topics such as <em>stochastic
+modeling and simulation of human driving behaviors</em> (beyond traditional car-following scenarios), <em>social
+interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em>. If my research
+interests align with your group, I would be excited to connect!</span>
 
 News
 =====
