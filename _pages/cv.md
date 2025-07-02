@@ -45,6 +45,7 @@ Services
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
 - Reviewer
     - Journal: European Journal of Operational Research
+    - Journal: Transportation Research Part B: Emerging Technologies
     - Journal: Transportation Research Part C: Emerging Technologies
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles

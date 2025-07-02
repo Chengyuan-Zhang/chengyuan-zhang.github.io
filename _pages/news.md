@@ -5,8 +5,8 @@ permalink: /news/
 author_profile: true
 ---
 
-* 06/2025: New preprint alert! Our paper *"Markov Regime-Switching Intelligent Driver Model for Interpretable
-  Car-Following Behavior"* is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it
+* 06/2025: New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable
+  Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it
   out!
 * 02/2025: I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at
   Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning)
