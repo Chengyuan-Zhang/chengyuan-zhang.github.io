@@ -11,6 +11,8 @@ author_profile: true
 This list is not frequently updated. Please see my Google Scholar for recent updates. (*Corresponding Author, =Equal
 Contributions.)
 
+<img src="../images/wordcloud_1920x.png" alt="word cloud" width="100%"/>
+
 ## Preprints
 
 1. Chengyuan Zhang, Cathy Wu, and Lijun Sun (2025). Markov Regime-Switching Intelligent Driver Model for Interpretable
