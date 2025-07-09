@@ -14,8 +14,7 @@ redirect_from:
 Education
 ======
 
-* Ph.D. candidate in Civil Engineering, McGill University, Canada, 2022 - Present.
-* M.S. in Civil Engineering (fast-tracked to Ph.D. program), McGill University, Canada, 2020 - 2022.
+* Ph.D. candidate in Civil Engineering (fast-tracked to Ph.D. program in 2022), McGill University, Canada, 2020 - Present.
 * B.S. in Automobile Engineering, Chongqing University, China, 2015 - 2019.
 
 Academic Experiences
@@ -45,7 +44,7 @@ Services
     - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
 - Reviewer
     - Journal: European Journal of Operational Research
-    - Journal: Transportation Research Part B: Emerging Technologies
+    - Journal: Transportation Research Part B: Methodological
     - Journal: Transportation Research Part C: Emerging Technologies
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles

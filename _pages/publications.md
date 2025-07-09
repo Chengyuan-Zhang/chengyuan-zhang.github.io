@@ -15,15 +15,14 @@ Contributions.)
 
 ## Preprints
 
-1. Chengyuan Zhang, Cathy Wu, and Lijun Sun (2025). Markov Regime-Switching Intelligent Driver Model for Interpretable
+1. **Chengyuan Zhang**, Cathy Wu, and Lijun Sun* (2025). Markov Regime-Switching Intelligent Driver Model for Interpretable
    Car-Following Behavior. [[arXiv](https://arxiv.org/pdf/2506.14762)] [code coming soon]
 
 ## Journal publications
 
 1. Xinyu Chen, **Chengyuan Zhang**, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025). Forecasting sparse movement
    speed of urban road networks with nonstationary temporal matrix factorization.
-   Transportation Science (_Accepted for
-   publication_). [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+   Transportation Science. [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 2. **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
    Regression. Transportation research part C: emerging technologies. (ISTTT25 Special
    Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
