@@ -5,6 +5,9 @@ permalink: /news/
 author_profile: true
 ---
 
+* 07/2025: New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained
+   Variability in Car-Following Behavior." is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it
+  out!
 * 06/2025: New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable
   Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it
   out!
@@ -14,7 +17,7 @@ author_profile: true
 * 02/2025: Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
   factorization" was accepted to Transportation
   Science.  [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
-* 12/2024: I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages**. Thanks, CIRRELT!
+* 12/2024: I received the **CIRRELT Doctoral Scholarship of Excellence - Final Stages** [[Link](https://cirrelt.ca/cirrelt/images/file/2024/2024-2025-recipiendaires.pdf)]. Thanks, CIRRELT!
 * 11/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Beijing Institute of
   Technology (invited by Prof. Wenshuo Wang with the Department of Mechanical Engineering) in Beijing, China.
 * 10/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Shanghai Jiao Tong
