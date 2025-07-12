@@ -32,7 +32,7 @@ interests align with your group, I would be excited to connect!</span>
 News
 =====
 
-* <span style="color:darkred"> New! </span> New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior." is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it out!
+* <span style="color:darkred"> New! </span> New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it out!
 * <span style="color:darkred"> New! </span> New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it out!
 * <span style="color:darkred"> New! </span> I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at MIT (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning).
 * <span style="color:darkred"> New! </span> Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization" was accepted to Transportation Science.  [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[preprint](https://xinychen.github.io/papers/notmf.pdf)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
