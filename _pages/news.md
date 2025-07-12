@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 * 07/2025: New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained
-   Variability in Car-Following Behavior." is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it
+   Variability in Car-Following Behavior" is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it
   out!
 * 06/2025: New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable
   Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it
