@@ -49,16 +49,19 @@ Featured Research
     - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
     - Calibrating Car-Following Models via Bayesian Dynamic
       Regression ([ISTTT25 & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
+    - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([arXiv: 2507.07012](https://arxiv.org/abs/2507.07012))
 - **Multi-Agent Social Interactions & Human Driving Behaviors**
     - Social interactions for autonomous driving: A review and
       perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
     - Spatiotemporal learning of multivehicle interaction patterns in lane-change
       scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
+    - Interactive Car-Following: Matters but NOT Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
 - **Spatiotemporal Modeling & Interpretable pattern discovery**
     - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
       autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
     - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
       factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
+    - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
 
 ### Bayesian Calibration of the Car-Following Models
 
