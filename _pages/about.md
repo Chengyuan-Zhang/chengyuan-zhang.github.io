@@ -44,22 +44,6 @@ News
 
 Featured Research
 ======
-<button onclick="togglePDF()" style="margin-bottom: 10px;">One-page Research Summary</button>
-
-<div id="pdf-container" style="display: none;">
-  <iframe src="/files/PhD research summary.pdf" width="100%" height="600px" style="border:1px solid #ccc;"></iframe>
-</div>
-
-<script>
-  function togglePDF() {
-    const container = document.getElementById("pdf-container");
-    const button = event.target;
-    const visible = container.style.display === "block";
-    container.style.display = visible ? "none" : "block";
-    button.textContent = visible ? "Show PDF" : "Hide PDF";
-  }
-</script>
-
 - **Traffic Flow Theory & Traffic Simulations**
     - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
     - Calibrating Car-Following Models via Bayesian Dynamic
@@ -77,6 +61,22 @@ Featured Research
     - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
       factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
     - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
+
+    - <button onclick="togglePDF()" style="margin-bottom: 10px;">One-Page Research Summary</button>
+
+<div id="pdf-container" style="display: none;">
+  <iframe src="/files/PhD research summary.pdf" width="100%" height="650px" style="border:1px solid #ccc;"></iframe>
+</div>
+
+<script>
+  function togglePDF() {
+    const container = document.getElementById("pdf-container");
+    const button = event.target;
+    const visible = container.style.display === "block";
+    container.style.display = visible ? "none" : "block";
+    button.textContent = visible ? "One-Page Research Summary" : "Hide PDF";
+  }
+</script>
 
 ### Bayesian Calibration of the Car-Following Models
 
