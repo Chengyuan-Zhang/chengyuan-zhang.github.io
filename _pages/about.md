@@ -62,10 +62,10 @@ Featured Research
       factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
     - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
 
-    - <button onclick="togglePDF()" style="margin-bottom: 10px;">One-Page Research Summary</button>
+<button onclick="togglePDF()" style="margin-bottom: 10px;">My Ph.D. Research Summary</button>
 
 <div id="pdf-container" style="display: none;">
-  <iframe src="/files/PhD research summary.pdf" width="100%" height="650px" style="border:1px solid #ccc;"></iframe>
+  <iframe src="/files/PhD research summary.pdf" width="100%" height="690px" style="border:1px solid #ccc;"></iframe>
 </div>
 
 <script>
@@ -74,7 +74,7 @@ Featured Research
     const button = event.target;
     const visible = container.style.display === "block";
     container.style.display = visible ? "none" : "block";
-    button.textContent = visible ? "One-Page Research Summary" : "Hide PDF";
+    button.textContent = visible ? "My Ph.D. Research Summary" : "Hide PDF";
   }
 </script>
 
