@@ -44,6 +44,21 @@ News
 
 Featured Research
 ======
+<button onclick="togglePDF()" style="margin-bottom: 10px;">One-page Research Summary</button>
+
+<div id="pdf-container" style="display: none;">
+  <iframe src="/files/PhD research summary.pdf" width="100%" height="600px" style="border:1px solid #ccc;"></iframe>
+</div>
+
+<script>
+  function togglePDF() {
+    const container = document.getElementById("pdf-container");
+    const button = event.target;
+    const visible = container.style.display === "block";
+    container.style.display = visible ? "none" : "block";
+    button.textContent = visible ? "Show PDF" : "Hide PDF";
+  }
+</script>
 
 - **Traffic Flow Theory & Traffic Simulations**
     - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))

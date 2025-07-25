@@ -31,7 +31,7 @@ author_profile: true
 1. [《社会型交互与自动驾驶：综述》 - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/557203965);📘📗
 1. [多输出高斯过程 (multiple output GP) - Enzo的文章 - 知乎](https://zhuanlan.zhihu.com/p/400628960);📙
 
-### Recommended Online Blogs and Books (by other researchers):
+### Collected Online Blogs and Books (by other researchers):
 
 1. [Bayesian Data Analysis](https://sites.stat.columbia.edu/gelman/book/);
 2. [Bayesian Neural Networks](https://www.cs.toronto.edu/~duvenaud/distill_bayes_net/public/);
@@ -41,3 +41,5 @@ author_profile: true
 2. [Probabilistic Artificial Intelligence](https://arxiv.org/pdf/2502.05244);
 3. [如何努力成为一个Top Ph.D. Student](https://github.com/pengsida/learning_research/);
 4. Sharpen your scientific plotting with an artist’s eye: [https://plottie.art/](https://plottie.art/);
+5. [Optimization Bootcamp](https://faculty.washington.edu/sbrunton/OptimizationBootcamp.pdf);
+6. [ Tensor Decompositions for Data Science](https://users.wfu.edu/ballard/pdfs/tensor_textbook.pdf);

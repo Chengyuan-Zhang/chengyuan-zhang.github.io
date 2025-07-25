@@ -51,6 +51,7 @@ Services
     - Journal: IEEE Transactions on Consumer Electronics
     - Journal: IEEE Transactions on Cybernetics
     - Journal: IEEE Sensors Journal
+    - Journal: Travel Behaviour and Society
     - Journal: ASME Journal of Mechanism and Robotics
     - Journal: ASME Journal of Mechanism Design
     - Journal: Physica A: Statistical Mechanics and its Applications
