@@ -56,11 +56,11 @@ Featured Research
       scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
     - Interactive Car-Following: Matters but NOT Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
 - **Spatiotemporal Modeling & Interpretable pattern discovery**
+    - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
     - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
       autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
     - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
       factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
-    - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
 
 <button onclick="togglePDF()" style="margin-bottom: 10px;">My Ph.D. Research Summary</button>
 
@@ -185,15 +185,20 @@ We also highlight some new directions, critical challenges, and opening question
 
 <br/> 
 
-### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System
+[//]: # (### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System)
 
-Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.
+[//]: # ()
+[//]: # (Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.)
 
-<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # ()
+[//]: # (<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
 
-- This is a very interesting mechanical work (a.k.a. big toy) that was done during my undergraduate study.
-- Access our work
-  via: [[ASME JMR](https://doi.org/10.1115/1.4043688)].
+[//]: # ()
+[//]: # (- This is a very interesting mechanical work &#40;a.k.a. big toy&#41; that was done during my undergraduate study.)
+
+[//]: # (- Access our work)
+
+[//]: # (  via: [[ASME JMR]&#40;https://doi.org/10.1115/1.4043688&#41;].)
 
 <br/> 
 
