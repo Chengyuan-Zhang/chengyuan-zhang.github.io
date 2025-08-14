@@ -46,6 +46,7 @@ Services
     - Journal: European Journal of Operational Research
     - Journal: Transportation Research Part B: Methodological
     - Journal: Transportation Research Part C: Emerging Technologies
+    - Journal: Artificial Intelligence for Transportation
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
     - Journal: IEEE Transactions on Consumer Electronics
