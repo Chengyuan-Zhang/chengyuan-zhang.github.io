@@ -13,7 +13,7 @@ author_profile: true
 📗: Research;
 
 1. [The Log-Sum-Exp Trick](/posts/logsumexp/);📕
-1. Forward and backward algorithm in Hidden Markov Models (HMM): To be updated;
+1. [Hidden Markov Model and Driving Behavior Modeling: From HMMs to Factorial HMMs to FHMM–IDM --- a three–part primer](/posts/FHMM-IDM/);📙📘📗
 1. Bayesian inference and conjugate priors: To be updated;
 1. Prior settings matter in Bayesian inference (variance): To be updated;
 1. [Heterogeneity and Hierarchical Models](/posts/hierarchical/);📙
