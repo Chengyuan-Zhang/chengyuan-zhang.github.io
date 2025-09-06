@@ -24,10 +24,10 @@ improve **microscopic traffic simulations**, ultimately contributing to safer an
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
-📢 <span style="color:darkred"> I am actively seeking a postdoctoral position focused on topics such as <em>stochastic
-modeling and simulation of human driving behaviors</em> (beyond traditional car-following scenarios), <em>social
-interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em>. If my research
-interests align with your group, I would be excited to connect!</span>
+📢 <span style="color:darkred"> I am actively seeking a postdoctoral position focused on <em>stochastic
+modeling and simulation of human driving behaviors</em> in complex and interactive scenarios, <em>social
+interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em> for human behaviors.
+If my research interests align with your group, I would be excited to connect!</span>
 
 News
 =====
@@ -44,19 +44,23 @@ News
 
 Featured Research
 ======
+
 - **Traffic Flow Theory & Traffic Simulations**
     - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
     - Calibrating Car-Following Models via Bayesian Dynamic
       Regression ([ISTTT25 & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
-    - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([arXiv: 2507.07012](https://arxiv.org/abs/2507.07012))
+    - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following
+      Behavior ([arXiv: 2507.07012](https://arxiv.org/abs/2507.07012))
 - **Multi-Agent Social Interactions & Human Driving Behaviors**
     - Social interactions for autonomous driving: A review and
       perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
     - Spatiotemporal learning of multivehicle interaction patterns in lane-change
       scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
-    - Interactive Car-Following: Matters but NOT Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
+    - Interactive Car-Following: Matters but NOT
+      Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
 - **Spatiotemporal Modeling & Interpretable pattern discovery**
-    - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
+    - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following
+      Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
     - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
       autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
     - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
@@ -188,12 +192,15 @@ We also highlight some new directions, critical challenges, and opening question
 [//]: # (### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System)
 
 [//]: # ()
+
 [//]: # (Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.)
 
 [//]: # ()
+
 [//]: # (<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
 
 [//]: # ()
+
 [//]: # (- This is a very interesting mechanical work &#40;a.k.a. big toy&#41; that was done during my undergraduate study.)
 
 [//]: # (- Access our work)
