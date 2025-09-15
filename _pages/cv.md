@@ -80,10 +80,10 @@ Awards & Scholarships
 
 - The Honorable Mention Award for the 2024 Clifford Spiegelman Student Paper Competition,
   2024 [[Link](https://community.amstat.org/tsig/events/papercompetition)]
-- Graduate Mobility Award, McGill University, 2022-2023
+- Graduate Mobility Award, McGill University, CAD $9,000, 2022-2023
 - Graduate Research Enhancement and Travel Awards, McGill University, 2023
 - Ron Rice Memorial Award, McGill University, 2023
-- Mitacs Globalink Research Award - Abroad, 2022-2023
+- Mitacs Globalink Research Award - Abroad, CAD $6,000, 2022-2023
 - McGill Engineering Doctoral Award (MEDA), McGill University, CAD $111,000, 2022-2025
 - FRQNT Master's Scholarship (B1X), CAD $17,500, 2022-2023 [[Link](https://doi.org/10.69777/321043)]
 - FRQNT Doctoral Scholarship (B2X), CAD $100,000, 2023-2027 [[Link](https://doi.org/10.69777/328118)]

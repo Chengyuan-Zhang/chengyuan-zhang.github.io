@@ -189,23 +189,17 @@ We also highlight some new directions, critical challenges, and opening question
 
 <br/> 
 
-[//]: # (### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System)
+### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System
 
-[//]: # ()
+Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.
 
-[//]: # (Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.)
+<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[//]: # ()
+- This is a very interesting mechanical work (a.k.a. big toy) that was done during my undergraduate study.
 
-[//]: # (<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+- Access our work
 
-[//]: # ()
-
-[//]: # (- This is a very interesting mechanical work &#40;a.k.a. big toy&#41; that was done during my undergraduate study.)
-
-[//]: # (- Access our work)
-
-[//]: # (  via: [[ASME JMR]&#40;https://doi.org/10.1115/1.4043688&#41;].)
+  via: [[ASME JMR](https://doi.org/10.1115/1.4043688)].
 
 <br/> 
 
