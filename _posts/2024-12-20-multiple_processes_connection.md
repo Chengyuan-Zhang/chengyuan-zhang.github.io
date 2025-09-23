@@ -5,16 +5,17 @@ date: 2024-12-20
 permalink: /posts/processes_connections/
 tags:
 
-- autocorrelation
-- autoregressive processes
-- Cochrane-Orcutt correction
-- Gaussian processes
-- Ornstein-Uhlenbeck processes
+  - autocorrelation
+  - autoregressive processes
+  - Cochrane-Orcutt correction
+  - Gaussian processes
+  - Ornstein-Uhlenbeck processes
 
 ---
 
 In this post, we’ll explore four important concepts in time series modeling and stochastic processes: **Autoregressive
-processes**, **Cochrane-Orcutt correction**, **Ornstein-Uhlenbeck (OU) processes**, and **Gaussian processes (GPs)**. After explaining each concept, we will also examine their connections and differences. In the end, we will
+processes**, **Cochrane-Orcutt correction**, **Ornstein-Uhlenbeck (OU) processes**, and **Gaussian processes (GPs)**.
+After explaining each concept, we will also examine their connections and differences. In the end, we will
 provide some literature of the applications in driving behavior (car-following) modeling.
 
 ## Autoregressive Processes (AR)
@@ -177,3 +178,6 @@ modeling and analyzing data with temporal dependencies.
     - Zhang, C., Wang, W., & Sun, L. (2024). Calibrating car-following models via Bayesian dynamic
       regression. Transportation Research Part C: Emerging Technologies, 104719. (Accepted to ISTTT25 Special
       Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
+5. See discussions and comparisons in Table 1: 
+   - Zhang, C., He, Z., Wu, C., & Sun, L. (2025). When Context Is Not Enough: Modeling
+   Unexplained Variability in Car-Following Behavior. arXiv preprint arXiv:2507.07012. [[arXiv](https://arxiv.org/pdf/2507.07012)]
