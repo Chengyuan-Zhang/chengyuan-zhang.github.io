@@ -43,3 +43,4 @@ author_profile: true
 4. Sharpen your scientific plotting with an artist’s eye: [https://plottie.art/](https://plottie.art/);
 5. [Optimization Bootcamp](https://faculty.washington.edu/sbrunton/OptimizationBootcamp.pdf);
 6. [ Tensor Decompositions for Data Science](https://users.wfu.edu/ballard/pdfs/tensor_textbook.pdf);
+7. Colors: https://sronpersonalpages.nl/~pault/#sec:qualitative;
