@@ -14,8 +14,10 @@ redirect_from:
 Education
 ======
 
-* Ph.D. candidate in Civil Engineering (fast-tracked to Ph.D. program in 2022), McGill University, Canada, 2020 - Present.
+* Ph.D. candidate in Civil Engineering (fast-tracked to Ph.D. program in 2022), McGill University, Canada, 2020 - 2026 (expected).
+  * Dissertation: <u>From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</u> (Advisor: *Prof. Lijun Sun*)
 * B.S. in Automobile Engineering, Chongqing University, China, 2015 - 2019.
+  * Thesis: <u>Recognition of Multi-Vehicle Interaction Patterns Based on Probabilistic Velocity Fields</u> (Advisor: *Prof. Zhenfei Zhan*) <span style="color:gray">(Outstanding Thesis Award)</span>
 
 Academic Experiences
 =====
@@ -95,7 +97,8 @@ Awards & Scholarships
 - IVADO Excellence Scholarships - Msc, CAD $40,000, 2020-2022
 - Outstanding Team Award & Best Application Award at DeeCamp, China, 2019
 - Outstanding Graduate of Chongqing University, 2019
-- First Prize in the 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
+- First Prize, 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
+- First Prize, 2017 China Undergraduate Mathematical Contest in Modeling, 2017
 - National Scholarship, China, 2017
-- First Prize in the Chongqing University Physics Contest (\#1/500 in Chongqing University), 2015
+- First Prize, 2015 Chongqing University Physics Contest (\#1/500+ in Chongqing University), 2015 <span style="color:gray"> (As a first-year undergraduate) </span>
 
