@@ -30,8 +30,10 @@ Corresponding Author, = Equal Contributions.)
   Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 - <u>Chengyuan Zhang</u>, Wenshuo Wang, and Lijun Sun* (2024). ["Calibrating Car-Following Models via Bayesian Dynamic
   Regression"](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7). Transportation research part C: emerging
-  technologies. (ISTTT25 Special
-  Issue) [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
+  technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
+  <span style="color:gray"> ISTTT25 <span style="color:red">Oral Presentation</span>; 2024 Clifford Spiegelman Student
+  Paper Competition
+  <span style="color:red"> Honorable Mention Award</span></span>;
 - <u>Chengyuan Zhang</u> and Lijun Sun* (2023).
   ["Bayesian Calibration of the Intelligent Driver Model"](https://ieeexplore.ieee.org/document/10415310). IEEE
   Transactions on Intelligent Transportation
@@ -52,12 +54,13 @@ Corresponding Author, = Equal Contributions.)
 - <u>Chengyuan Zhang</u>, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning* (
   2019).[" An efficient parking solution:
   a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system"](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268).
-  Journal of Mechanisms
-  and Robotics, 11(4). [[demo](https://youtu.be/lmwdDsUXUw8)]
+  Journal of Mechanisms and Robotics, 11(4).
+  [[demo](https://youtu.be/lmwdDsUXUw8)] <span style="color:gray"><span style="color:red">First Prize</span> in 2018
+  National College Mechanical Innovation Competition (<span style="color:red">TOP \#10</span> in China) </span>
 - <u>Chengyuan Zhang</u> and Jian Xiao* (2018). ["Chaotic behavior and feedback control of
   magnetorheological suspension system with fractional-order derivative"](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of).
-  Journal of Computational and Nonlinear
-  Dynamics, 13(2).
+  Journal of Computational and Nonlinear Dynamics, 13(2). <span style="color:gray"> My first paper (completed in my
+  sophomore year)</span>
 
 ## Conference publications
 
