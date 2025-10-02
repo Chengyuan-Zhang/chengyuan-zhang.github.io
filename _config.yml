@@ -265,7 +265,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -273,13 +272,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-scholar
-
-scholar:
-  style: apa
-  locale: en
-  sort_by: year
-  bibliography: _bibliography/publications
 
 
 # Archives
