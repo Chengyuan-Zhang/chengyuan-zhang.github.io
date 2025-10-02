@@ -39,3 +39,11 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.page__content a,
+.page__content a:visited,
+.page__content a:hover,
+.page__content a:focus,
+.page__content a:active {
+  text-decoration: none;
+}
