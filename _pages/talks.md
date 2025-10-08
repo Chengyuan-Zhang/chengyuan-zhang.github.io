@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Talks and Presentations"
+title: "Selected Talks and Presentations"
 permalink: /talks/
 author_profile: true
 redirect_from:
@@ -11,14 +11,9 @@ redirect_from:
 ## Stochastic Modeling and Simulations of Car-Following Behaviors
 _Feb. 2025, online_ \
 Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
-
-## Bayesian Calibration of Car-Following Models
-_Nov. 2024, Beijing, China_ \
-Invited talk @ Beijing Institute of Technology
-
-## Bayesian Calibration of Car-Following Models
-_Oct. 2024, Shanghai, China_ \
-Invited talk @ Shanghai Jiao Tong University
+<div id="pdf-container" style="display: none;">
+  <iframe src="../_talks/250213_MIT_JTL_seminar.pdf" width="90%" style="border:1px solid #ccc;"></iframe>
+</div>
 
 ## Calibrating Car-Following Models via Bayesian Dynamic Regression
 _July 2024, Ann Arbor, Michigan, US_ \
@@ -28,14 +23,6 @@ Conference Podium Presentation @ The 25th International Symposium on Transportat
   <img src="../images/Weixin Image_20240718123054.jpg" width="30%" />
   <img src="../images/Weixin Image_20240718141140.jpg" width="45%" />
 </center>
-
-## Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression
-_June 2024, Jeju Shinhwa World, Jeju Island, Korea_ \
-Conference Podium Presentation @ The 35th IEEE Intelligent Vehicles Symposium (IEEE IV 2024)
-
-## Interactive Car-Following: Matters but NOT Always
-_Sept. 2023, Bilbao, Bizkaia, Spain_ \
-Conference Podium Presentation @ The 26th IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)
 
 ## Bayesian Calibration of the IDM
 _Feb. 2023, Online_\
