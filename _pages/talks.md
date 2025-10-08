@@ -11,9 +11,10 @@ redirect_from:
 ## Stochastic Modeling and Simulations of Car-Following Behaviors
 _Feb. 2025, online_ \
 Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
-<div id="pdf-container" style="display: none;">
-  <iframe src="../_talks/250213_MIT_JTL_seminar.pdf" width="90%" style="border:1px solid #ccc;"></iframe>
-</div>
+
+<center>
+<iframe src="../_talks/250213_MIT_JTL_seminar.pdf" width="90%" style="border:1px solid #ccc;"></iframe>
+</center>
 
 ## Calibrating Car-Following Models via Bayesian Dynamic Regression
 _July 2024, Ann Arbor, Michigan, US_ \
