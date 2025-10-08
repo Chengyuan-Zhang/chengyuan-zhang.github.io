@@ -58,7 +58,7 @@ Featured Research
       scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
     - Interactive Car-Following: Matters but NOT
       Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
-- **Spatiotemporal Modeling & Interpretable pattern discovery**
+- **Spatiotemporal Modeling & Interpretable Pattern Discovery**
     - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following
       Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
     - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
