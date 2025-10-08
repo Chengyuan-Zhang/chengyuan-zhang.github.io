@@ -12,9 +12,6 @@ redirect_from:
 _Feb. 2025, online_ \
 Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 
-<div style="text-align:center;">
-  <iframe src="../_talks/250213_MIT_JTL_seminar.pdf" width="90%" height="600" style="border:1px solid #ccc;"></iframe>
-</div>
 
 ## Calibrating Car-Following Models via Bayesian Dynamic Regression
 _July 2024, Ann Arbor, Michigan, US_ \
