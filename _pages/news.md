@@ -5,6 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
+* 10/2025: Our 3 papers have been accepted for presentation at TRBAM 2026. See you in Washington, D.C.!
 * 07/2025: New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained
    Variability in Car-Following Behavior" is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it
   out!
@@ -58,7 +59,7 @@ author_profile: true
 * 02/2023: I was invited to present our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
   series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
-* 01/2023: Attended TRB 2023 for the first time, a wonderful experience in D.C. Washington!
+* 01/2023: Attended TRBAM 2023 for the first time, a wonderful experience in D.C. Washington!
 * 01/2023: I received the **Graduate Mobility Award**. Thanks, McGill!
 * 12/2022: I received the **CIRRELT Doctoral Scholarship of Excellence - Early Stages**. Thanks, CIRRELT!
 * 11/2022: Our review paper
