@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-CA"
-title                    : "Cheng-Yuan Zhang - Homepage"
+title                    : "Chengyuan Zhang - Homepage"
 title_separator          : "-"
 name                     : &name "Cheng-Yuan ZHANG"
 description              : &description "Cheng-Yuan Zhang is a Ph.D. candidate at McGill University under the supervision of Prof. Lijun Sun."
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Cheng-Yuan Zhang"
+  name             : "Cheng-Yuan Zhang (or Chengyuan Zhang)"
   avatar           : "Chengyuan.jpg"
   bio              : "Ph.D. candidate in the Department of Civil Engineering, McGill University"
   location         : "Montreal, QC, Canada"
