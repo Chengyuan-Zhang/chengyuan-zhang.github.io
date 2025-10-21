@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-CA"
-title                    : "Chengyuan Zhang - Homepage"
+title                    : "Cheng-Yuan Zhang - Homepage"
 title_separator          : "-"
-name                     : &name "Chengyuan ZHANG"
-description              : &description "Chengyuan Zhang is a Ph.D. candidate at McGill University under the supervision of Prof. Lijun Sun."
+name                     : &name "Cheng-Yuan ZHANG"
+description              : &description "Cheng-Yuan Zhang is a Ph.D. candidate at McGill University under the supervision of Prof. Lijun Sun."
 url                      : https://chengyuan-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chengyuan-Zhang/chengyuan-zhang.github.io" # the github repository you're using
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chengyuan Zhang"
+  name             : "Cheng-Yuan Zhang"
   avatar           : "Chengyuan.jpg"
   bio              : "Ph.D. candidate in the Department of Civil Engineering, McGill University"
   location         : "Montreal, QC, Canada"
