@@ -8,8 +8,12 @@ redirect_from:
   - /talks
 
 ---
+## From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation
+_Oct. 2025, Online_ \
+Invited talk @ Massachusetts Institute of Technology, MIT WU Lab [[slides](../_talks/251022_From_Micro_Interactions_to_Traffic_Flow.pdf)]
+
 ## Stochastic Modeling and Simulations of Car-Following Behaviors
-_Feb. 2025, online_ \
+_Feb. 2025, Online_ \
 Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 
 
