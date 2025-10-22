@@ -5,6 +5,9 @@ permalink: /news/
 author_profile: true
 ---
 
+* 10/2025: I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic
+  Simulation" at Massachusetts Institute of Technology (invited by Prof. Cathy Wu).
+  [[slides](../_talks/251022_From_Micro_Interactions_to_Traffic_Flow.pdf)]
 * 10/2025: Our 3 papers have been accepted for presentation at TRBAM 2026. See you in Washington, D.C.!
 * 07/2025: New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained
    Variability in Car-Following Behavior" is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it
