@@ -31,7 +31,7 @@ If my research interests align with your group, I would be excited to connect!</
 
 News
 =====
-* <span style="color:darkred"> New! </span>  I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation" at Massachusetts Institute of Technology (invited by Prof. Cathy Wu). [[slides](../_talks/251022_From_Micro_Interactions_to_Traffic_Flow.pdf)]
+* <span style="color:darkred"> New! </span>  I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation" at MIT Wu Lab (invited by Prof. Cathy Wu). [[slides](../_talks/251022_From_Micro_Interactions_to_Traffic_Flow.pdf)]
 * <span style="color:darkred"> New! </span> Our 3 papers have been accepted for presentation at TRBAM 2026. See you in Washington, D.C.!
 * <span style="color:darkred"> New! </span> New preprint alert! Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is now available on [arXiv: 2507.07012](https://arxiv.org/abs/2507.07012). Please check it out!
 * <span style="color:darkred"> New! </span> New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it out!
