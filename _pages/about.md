@@ -196,9 +196,7 @@ Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME 
 
 - This is a very interesting mechanical work (a.k.a. big toy) that was done during my undergraduate study.
 
-- Access our work
-
-  via: [[ASME JMR](https://doi.org/10.1115/1.4043688)].
+- Access our work via: [[ASME JMR](https://doi.org/10.1115/1.4043688)].
 
 <br/> 
 
