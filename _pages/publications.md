@@ -16,11 +16,9 @@ Corresponding Author, = Equal Contributions.)
 ## Preprints
 
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable
-  Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). [code coming soon]
+  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). [code coming soon]
 - <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (
-  2025). ["When Context Is Not Enough: Modeling Unexplained
-  Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012). [code coming soon]
+  2025). ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012) (Accepted by ISTTT26). [code coming soon]
 
 ## Journal publications
 
