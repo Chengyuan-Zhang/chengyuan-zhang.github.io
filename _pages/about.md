@@ -49,7 +49,7 @@ Featured Research
     - Calibrating Car-Following Models via Bayesian Dynamic
       Regression ([ISTTT25 & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
     - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following
-      Behavior ([arXiv: 2507.07012](https://arxiv.org/abs/2507.07012))
+      Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
 - **Multi-Agent Social Interactions & Human Driving Behaviors**
     - Social interactions for autonomous driving: A review and
       perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
