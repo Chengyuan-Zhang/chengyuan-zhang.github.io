@@ -11,10 +11,10 @@ redirect_from:
 ---
 
 I'm a final-year Ph.D. candidate at McGill University under the supervision of
-Prof. [Lijun Sun](https://lijunsun.github.io/).
-I was a visiting researcher at the Robotics Institute, Carnegie Mellon University in 2023 under the supervision of Prof.
-Changliu Liu, and at the Department of Mechanical Engineering in 2018. Additionally, I conducted research at the
-Department of Mechanical Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka.
+Prof. [Lijun Sun](https://lijunsun.github.io/). I was a visiting student researcher at the Robotics Institute, Carnegie
+Mellon University in 2023 under the supervision of Prof. Changliu Liu, and at the Department of Mechanical Engineering
+in 2018. Additionally, I conducted research at the Department of Mechanical Engineering, UC Berkeley from 2019 to 2020
+under the supervision of Prof. Masayoshi Tomizuka.
 
 My research focuses on **Bayesian inference**, **spatiotemporal modeling**, **traffic flow theory**, and **multi-agent
 interaction modeling** within **intelligent transportation systems**, with an emphasis on bridging the gap between
@@ -31,6 +31,7 @@ If my research interests align with your group, I would be excited to connect!</
 
 News
 =====
+
 * <span style="color:darkred"> New! </span> Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in Munich! [[arXiv](https://arxiv.org/abs/2507.07012)]
 * <span style="color:darkred"> New! </span>  I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation" at MIT Wu Lab (invited by Prof. Cathy Wu). [[slides](../_talks/251022_From_Micro_Interactions_to_Traffic_Flow.pdf)]
 * <span style="color:darkred"> New! </span> Our 3 papers have been accepted for presentation at TRBAM 2026. See you in Washington, D.C.!
