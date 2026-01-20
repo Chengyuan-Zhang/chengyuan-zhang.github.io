@@ -16,16 +16,20 @@ Corresponding Author, = Equal Contributions.)
 ## Preprints
 
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). [code coming soon]
-- <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (
-  2025). ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012) (Accepted at ISTTT26). [code coming soon]
+  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762).
+- <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
+  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
+  (Accepted at ISTTT26).
+- Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun (2026). "Online Calibration of Context-Driven Car-Following Models".
+  (Accepted at IEEE IV26')
+- Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, Cathy Wu* (2026).
+  "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration". (Accepted at IEEE IV26')
 
 ## Journal publications
 
-- Xinyu Chen, <u>Chengyuan Zhang</u>, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (
-  2025). ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
-  Transportation
-  Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
+- Xinyu Chen, <u>Chengyuan Zhang</u>, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025).
+  ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
+  Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
 - <u>Chengyuan Zhang</u>, Wenshuo Wang, and Lijun Sun* (2024). ["Calibrating Car-Following Models via Bayesian Dynamic
   Regression"](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7). Transportation research part C: emerging
   technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
