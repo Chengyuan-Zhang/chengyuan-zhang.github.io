@@ -26,7 +26,7 @@ Topics:
 - <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
   ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
   (Accepted at ISTTT26).📕📘
-- Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun (2026). "Online Calibration of Context-Driven Car-Following Models"
+- Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun* (2026). "Online Calibration of Context-Driven Car-Following Models"
   (Accepted at IEEE IV26'). 📕📙
 - Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, Cathy Wu* (2026).
   "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration" (Accepted at IEEE IV26'). 📕
