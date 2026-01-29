@@ -10,7 +10,7 @@ author_profile: true
 * 11/2025: Our paper "When Context Is Not Enough: Modeling Unexplained
   Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic
   Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in
-  Munich! [[arXiv](https://arxiv.org/abs/2507.07012)]
+  Munich! [[arXiv](https://arxiv.org/abs/2507.07012)] [[poster](../files/TRB2026_Nonstationary.pdf)]
 * 10/2025: I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for
   Realistic Traffic Simulation" at MIT Wu Lab (invited by Prof. Cathy Wu).
   [[slides](../_talks/251022_From_Micro_Interactions_to_Traffic_Flow.pdf)]
