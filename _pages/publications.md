@@ -22,10 +22,10 @@ Topics:
 ## Preprints
 
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762).📕📘📗📙
+  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). [[poster](../files/TRB2026_Markov.pdf)] 📕📘📗📙
 - <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
   ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
-  (Accepted at ISTTT26).📕📘
+  (Accepted at ISTTT26). [[poster](../files/TRB2026_Nonstationary.pdf)] 📕📘
 - Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun* (2026). "Online Calibration of Context-Driven Car-Following Models"
   (Accepted at IEEE IV26'). 📕📙
 - Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, Cathy Wu* (2026).
