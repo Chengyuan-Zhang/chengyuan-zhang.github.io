@@ -21,18 +21,16 @@ Topics:
 
 ## Preprints
 
+- Menglin Kong, <u>Chengyuan Zhang</u>*, Lijun Sun (2026). "Active Simulation-Based Inference for Scalable Car-Following Model Calibration"
+  (under review). 📕📙
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). [[poster](../files/TRB2026_Markov.pdf)] 📕📘📗📙
-- <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
-  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
-  (Accepted at ISTTT26). [[poster](../files/TRB2026_Nonstationary.pdf)] 📕📘
-- Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun* (2026). "Online Calibration of Context-Driven Car-Following Models"
-  (Accepted at IEEE IV26'). 📕📙
-- Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, Cathy Wu* (2026).
-  "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration" (Accepted at IEEE IV26'). 📕
+  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). (under review) [[poster](../files/TRB2026_Markov.pdf)] 📕📘📗📙
 
 ## Journal publications
 
+- <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
+  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
+  (Accepted at ISTTT26). [[poster](../files/TRB2026_Nonstationary.pdf)] 📕📘
 - Xinyu Chen, <u>Chengyuan Zhang</u>, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025).
   ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
   Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)] 📗
@@ -69,6 +67,10 @@ Topics:
 
 ## Conference publications
 
+- Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun* (2026). "Online Calibration of Context-Driven Car-Following Models"
+  (Accepted at IEEE IV26'). 📕📙
+- Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, Cathy Wu* (2026).
+  "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration" (Accepted at IEEE IV26'). 📕
 - <u>Chengyuan Zhang</u> (=), Kehua Chen (=), Meixin Zhu*, Hai Yang, and Lijun Sun (2024, May). ["Learning Car-Following
   Behaviors Using Bayesian Matrix Normal Mixture Regression"](https://ieeexplore.ieee.org/document/10588568). In 2024
   IEEE Intelligent Vehicles Symposium (IV). IEEE. 📕📗📙
