@@ -33,6 +33,7 @@ If my research interests align with your group, I would be excited to connect!</
 News
 =====
 
+* <span style="color:darkred"> New! </span> New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" is now available on [arXiv: 2602.05246](https://arxiv.org/abs/2602.05246). Please check it out!
 * <span style="color:darkred"> New! </span> Two papers "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for
   Highway Traffic Microsimulation Calibration" are accepted at IEEE IV 2026.
 * <span style="color:darkred"> New! </span> Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in Munich! [[arXiv](https://arxiv.org/abs/2507.07012)]
