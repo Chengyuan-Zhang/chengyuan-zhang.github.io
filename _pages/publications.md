@@ -21,10 +21,10 @@ Topics:
 
 ## Preprints
 
-- Menglin Kong, <u>Chengyuan Zhang</u>*, Lijun Sun (2026). "Active Simulation-Based Inference for Scalable Car-Following Model Calibration"
-  (under review). 📕📙
+- Menglin Kong, <u>Chengyuan Zhang</u>*, Lijun Sun (2026). ["Active Simulation-Based Inference for Scalable
+  Car-Following Model Calibration"](https://arxiv.org/abs/2602.05246). (under review). 📕📙
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). (under review) [[poster](../files/TRB2026_Markov.pdf)] 📕📘📗📙
+  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). (under review). [[poster](../files/TRB2026_Markov.pdf)] 📕📘📗📙
 
 ## Journal publications
 

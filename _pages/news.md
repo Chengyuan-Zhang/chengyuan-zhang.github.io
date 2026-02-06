@@ -5,6 +5,8 @@ permalink: /news/
 author_profile: true
 ---
 
+* 02/2026: New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model
+  Calibration" is now available on [arXiv: 2602.05246](https://arxiv.org/abs/2602.05246). Please check it out!
 * 01/2026: Two papers "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for
   Highway Traffic Microsimulation Calibration" are accepted at IEEE IV 2026.
 * 11/2025: Our paper "When Context Is Not Enough: Modeling Unexplained
