@@ -21,11 +21,11 @@ _Feb. 2025, Online_ \
 Invited talk @ Massachusetts Institute of Technology, JTL Research Seminar [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 
 - **Bayesian Calibration of Car-Following Models** \
-_Nov. 2025, Beijing, China_ \
+_Nov. 2024, Beijing, China_ \
 Invited talk @ Department of Mechanical Engineering, Beijing Institute of Technology
 
 - **Bayesian Calibration of Car-Following Models** \
-  _Oct. 2025, Shanghai, China_ \
+  _Oct. 2024, Shanghai, China_ \
   Invited talk @ Artificial Intelligence Institute, Shanghai Jiao Tong University
 
 - **Calibrating Car-Following Models via Bayesian Dynamic Regression** \
