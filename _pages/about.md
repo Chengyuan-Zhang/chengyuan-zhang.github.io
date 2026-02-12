@@ -5,8 +5,8 @@ excerpt: "About Me"
 author_profile: true
 redirect_from:
 
-  - /about/
-  - /about.html
+- /about/
+- /about.html
 
 ---
 
@@ -17,11 +17,11 @@ in 2018 under the supervision of Prof. Ding Zhao. Additionally, I conducted rese
 Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka. I earned my Bachelor
 degree in Vehicle Engineering from Chongqing University, in 2019.
 
-My research focuses on **Bayesian inference**, **spatiotemporal modeling**, **traffic flow theory**, and **multi-agent
-interaction modeling** within **intelligent transportation systems**, with an emphasis on bridging the gap between
-theoretical modeling and practical traffic simulation through advanced statistical techniques with appropriate
-**uncertainty quantification**. My motivation lies in advancing the understanding of **human driving behaviors** to
-improve **microscopic traffic simulations**, ultimately contributing to safer and more efficient transportation systems.
+My research focuses on **Bayesian inference**, **multi-agent interaction modeling**, and **spatiotemporal reasoning** within complex
+dynamical systems. I specialize in bridging the gap between theoretical modeling and real-world application through
+advanced statistical techniques and robust uncertainty quantification. My work is driven by the goal of enhancing
+AI-driven decision-making in high-stakes, information-rich environments by improving how models interpret evolving data
+and simulate human-centric social behaviors.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
