@@ -26,9 +26,9 @@ and simulate human-centric social behaviors.
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
 📢 <span style="color:darkred"> I am actively seeking a postdoctoral position focused on <em>stochastic
-modeling and simulation of human driving behaviors</em> in complex and interactive scenarios, <em>social
-interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em> for human behaviors.
-If my research interests align with your group, I would be excited to connect!</span>
+modeling and simulation of human social behaviors</em> in complex and interactive scenarios, <em>dynamic
+interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em> for human
+social behaviors. If my research interests align with your group, I would be excited to connect!</span>
 
 News
 =====
