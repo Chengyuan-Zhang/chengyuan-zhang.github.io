@@ -5,6 +5,9 @@ permalink: /news/
 author_profile: true
 ---
 
+* 02/2026: I am delighted to give a talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for
+  Realistic Traffic Simulation" at Tongji University (invited by Prof. Jian Sun with the Department of Transportation
+  Engineering) in Shanghai, China.
 * 02/2026: New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model
   Calibration" is now available on [arXiv: 2602.05246](https://arxiv.org/abs/2602.05246). Please check it out!
 * 01/2026: Two papers "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for
@@ -30,8 +33,7 @@ author_profile: true
 * 11/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Beijing Institute of
   Technology (invited by Prof. Wenshuo Wang with the Department of Mechanical Engineering) in Beijing, China.
 * 10/2024: I am delighted to give a talk "Bayesian Calibration of Car-Following Models" at Shanghai Jiao Tong
-  University (invited by Prof. Yanyan Xu with the
-  Artificial Intelligence Institute) in Shanghai, China.
+  University (invited by Prof. Yanyan Xu with the Artificial Intelligence Institute) in Shanghai, China.
 * 04/2024: Our paper "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression" was accepted at
   IEEE IV24'. [[IEEE IV24'](https://ieeexplore.ieee.org/document/10588568)] [[arXiv](https://arxiv.org/pdf/2404.16023)]
 * 03/2024: Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
