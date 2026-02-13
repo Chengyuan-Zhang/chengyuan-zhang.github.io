@@ -93,5 +93,5 @@ News
 
 <br>
 <center>
-    <img src="../images/FRQNT.png" width="20%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" width="20%" />  <img src="../images/mitacs_transparent.png" width="20%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/CIRRELT_logo.png" width="20%" />
+    <img src="../images/FRQNT.png" width="22%" /> &nbsp; &nbsp; &nbsp;<img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" width="22%" /> &nbsp; &nbsp; &nbsp;<img src="../images/mitacs_transparent.png" width="22%" /> &nbsp; &nbsp; &nbsp;<img src="../images/CIRRELT_logo.png" width="22%" />
 </center>
