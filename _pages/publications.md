@@ -15,8 +15,8 @@ Corresponding Author, = Equal Contributions.)
 
 Topics:
 📕: Traffic Flow Theory & Traffic Simulations;
-📘: Multi-Agent Social Interactions & Human Driving Behaviors;
-📗: Spatiotemporal Modeling & Interpretable Pattern Discovery;
+📘: Multi-Agent Social Interactions & Driver World Model;
+📗: Spatiotemporal Data Modeling & Interpretable Pattern Discovery;
 📙: Bayesian Learning;
 
 ## Preprints
