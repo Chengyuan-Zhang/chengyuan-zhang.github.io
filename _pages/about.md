@@ -17,11 +17,13 @@ in 2018 under the supervision of Prof. Ding Zhao. Additionally, I conducted rese
 Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka. I earned my Bachelor
 degree in Vehicle Engineering from Chongqing University, in 2019.
 
-My research focuses on **Bayesian inference**, **multi-agent interaction modeling**, and **spatiotemporal reasoning** within complex
-dynamical systems. I specialize in bridging the gap between theoretical modeling and real-world application through
-advanced statistical techniques and robust uncertainty quantification. My work is driven by the goal of enhancing
-AI-driven decision-making in high-stakes, information-rich environments by improving how models interpret evolving data
-and simulate human-centric social behaviors.
+My research is dedicated to establishing the foundations of **Trustworthy AI** within complex, multi-agent dynamical
+systems. I bridge the gap between **Traffic Flow Theory** and **Embodied AI** by developing advanced frameworks for _
+interpretable spatiotemporal reasoning_ and _robust uncertainty quantification_. By integrating **Bayesian Statistics**
+with **Generative AI**, my work transforms high-dimensional, evolving urban traffic data into high-fidelity _Driver
+World Models_. These models explicitly account for the inherent stochasticity of human-centric behaviors, providing a
+statistically rigorous pathway toward the safe and efficient deployment of autonomous systems in real-world,
+information-rich environments.
 
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
@@ -30,18 +32,7 @@ modeling and simulation of human social behaviors</em> in complex and interactiv
 interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em> for human
 social behaviors. If my research interests align with your group, I would be excited to connect!</span>
 
-News
-=====
 
-* <span style="color:darkred"> New! </span> New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" is now available on [arXiv: 2602.05246](https://arxiv.org/abs/2602.05246). Please check it out!
-* <span style="color:darkred"> New! </span> Two papers "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for
-  Highway Traffic Microsimulation Calibration" are accepted at IEEE IV 2026.
-* <span style="color:darkred"> New! </span> Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in Munich! [[arXiv](https://arxiv.org/abs/2507.07012)]
-* <span style="color:darkred"> New! </span> New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it out!
-
-<button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
-
-<p>&nbsp;</p>
 
 Featured Research
 ======
@@ -50,22 +41,25 @@ Featured Research
     - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
     - Calibrating Car-Following Models via Bayesian Dynamic
       Regression ([ISTTT25 & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
-    - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following
-      Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
-- **Multi-Agent Social Interactions & Human Driving Behaviors**
+- **Multi-Agent Social Interactions & Driver World Model**
     - Social interactions for autonomous driving: A review and
       perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
     - Spatiotemporal learning of multivehicle interaction patterns in lane-change
       scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
     - Interactive Car-Following: Matters but NOT
       Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
-- **Spatiotemporal Modeling & Interpretable Pattern Discovery**
+- **Spatiotemporal Data Modeling & Interpretable Pattern Discovery**
     - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following
       Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
     - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank
       autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
     - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
       factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
+- **Uncertainty Quantification with Trustworthy AI**
+    - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following
+      Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
+    - Active Simulation-Based Inference for Scalable Car-Following Model
+      Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
 
 <button onclick="togglePDF()" style="margin-bottom: 10px;">My Ph.D. Research Summary</button>
 
@@ -83,129 +77,258 @@ Featured Research
   }
 </script>
 
-### Bayesian Calibration of the Car-Following Models
+News
+=====
 
-Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation Systems.*
+* <span style="color:darkred"> New! </span> New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" is now available on [arXiv: 2602.05246](https://arxiv.org/abs/2602.05246). Please check it out!
+* <span style="color:darkred"> New! </span> Two papers "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for
+  Highway Traffic Microsimulation Calibration" are accepted at IEEE IV 2026.
+* <span style="color:darkred"> New! </span> Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in Munich! [[arXiv](https://arxiv.org/abs/2507.07012)]
+* <span style="color:darkred"> New! </span> New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it out!
 
-<iframe width="640" height="400" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<button onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
-<details>
-  <summary><b>[Abstract]</b></summary>
+<p>&nbsp;</p>
 
-Accurate calibration of car-following models is essential for understanding human driving behaviors and implementing
-high-fidelity microscopic simulations. This work proposes a memory-augmented Bayesian calibration technique to capture
-both uncertainty in the model parameters and the temporally correlated behavior discrepancy between model predictions
-and observed data. Specifically, we characterize the parameter uncertainty using a hierarchical Bayesian framework and
-model the temporally correlated errors using Gaussian processes. We apply the Bayesian calibration technique to the
-intelligent driver model (IDM) and develop a novel stochastic car-following model named memory-augmented IDM (MA-IDM).
-To evaluate the effectiveness of MA-IDM, we compare the proposed MA-IDM with Bayesian IDM in which errors are assumed to
-be i.i.d., and our simulation results based on the HighD dataset show that MA-IDM can generate more realistic driving
-behaviors and provide better uncertainty quantification than Bayesian IDM. By analyzing the lengthscale parameter of the
-Gaussian process, we also show that taking the driving actions from the past five seconds into account can be helpful in
-modeling and simulating the human driver’s car-following behaviors.
-</details>
 
-- Access our preprint via:
-  GP+IDM [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arxiv.org/abs/2210.03571)] and
-  AR+IDM [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)]
-  .
-- Codes are available: [[Github repo](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)].
-- Presentation: [[recording](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)].
+<br>
+<center>
+    <img src="../images/FRQNT.png" width="20%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" width="20%" />  <img src="../images/mitacs_transparent.png" width="20%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/CIRRELT_logo.png" width="20%" />
+</center>
 
-<br/>  
 
-### Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios
+[//]: # (### Bayesian Calibration of the Car-Following Models)
 
-Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. *IEEE Transaction on Intelligent Transportation Systems.*
+[//]: # ()
+
+[//]: # (Chengyuan Zhang and Lijun Sun. *IEEE Transaction on Intelligent Transportation Systems.*)
+
+[//]: # ()
+
+[//]: # (<iframe width="640" height="400" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Chengyuan Zhang: Bayesian Calibration of the Intelligent Driver Model | TFTC General Webinar Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+
+[//]: # ()
+
+[//]: # (<details>)
+
+[//]: # (  <summary><b>[Abstract]</b></summary>)
+
+[//]: # ()
+
+[//]: # (Accurate calibration of car-following models is essential for understanding human driving behaviors and implementing)
+
+[//]: # (high-fidelity microscopic simulations. This work proposes a memory-augmented Bayesian calibration technique to capture)
+
+[//]: # (both uncertainty in the model parameters and the temporally correlated behavior discrepancy between model predictions)
+
+[//]: # (and observed data. Specifically, we characterize the parameter uncertainty using a hierarchical Bayesian framework and)
+
+[//]: # (model the temporally correlated errors using Gaussian processes. We apply the Bayesian calibration technique to the)
+
+[//]: # (intelligent driver model &#40;IDM&#41; and develop a novel stochastic car-following model named memory-augmented IDM &#40;MA-IDM&#41;.)
+
+[//]: # (To evaluate the effectiveness of MA-IDM, we compare the proposed MA-IDM with Bayesian IDM in which errors are assumed to)
+
+[//]: # (be i.i.d., and our simulation results based on the HighD dataset show that MA-IDM can generate more realistic driving)
+
+[//]: # (behaviors and provide better uncertainty quantification than Bayesian IDM. By analyzing the lengthscale parameter of the)
+
+[//]: # (Gaussian process, we also show that taking the driving actions from the past five seconds into account can be helpful in)
+
+[//]: # (modeling and simulating the human driver’s car-following behaviors.)
+
+[//]: # (</details>)
+
+[//]: # ()
+
+[//]: # (- Access our preprint via:)
+
+[//]: # (  GP+IDM [[IEEE TITS]&#40;https://ieeexplore.ieee.org/document/10415310&#41;] [[arXiv]&#40;https://arxiv.org/abs/2210.03571&#41;] and)
+
+[//]: # (  AR+IDM [[TR PartC]&#40;https://authors.elsevier.com/sd/article/S0968-090X&#40;24&#41;00240-7&#41;] [[arXiv]&#40;https://arxiv.org/pdf/2307.03340.pdf&#41;])
+
+[//]: # (  .)
+
+[//]: # (- Codes are available: [[Github repo]&#40;https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration&#41;].)
+
+[//]: # (- Presentation: [[recording]&#40;https://youtu.be/GIqcL6I7MsU&#41;] [[poster]&#40;../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf&#41;].)
+
+[//]: # ()
+
+[//]: # (<br/>  )
+
+[//]: # ()
+
+[//]: # (### Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios)
+
+[//]: # ()
+
+[//]: # (Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, and Junqiang Xi. *IEEE Transaction on Intelligent Transportation Systems.*)
+
+[//]: # ()
+
+[//]: # ([//]: # &#40;<center>&#41;)
+
+[//]: # ()
+
+[//]: # ([//]: # &#40;  <img src="../images/GVF_framework.Png" width="85%" />&#41;)
+
+[//]: # ()
+
+[//]: # ([//]: # &#40;</center>&#41;)
+
+[//]: # ()
+
+[//]: # (<iframe width="640" height="360" src="https://www.youtube.com/embed/AcyDn43hb7I" title="Demos for Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+
+[//]: # ()
+
+[//]: # (<details>)
+
+[//]: # (  <summary><b>[Abstract]</b></summary>)
+
+[//]: # ()
+
+[//]: # (Interpretation of common-yet-challenging interaction scenarios can benefit well-founded decisions for autonomous)
+
+[//]: # (vehicles. Previous research achieved this using their prior knowledge of specific scenarios with predefined models,)
+
+[//]: # (limiting their adaptive capabilities. This paper describes a Bayesian nonparametric approach that leverages continuous &#40;)
+
+[//]: # (i.e., Gaussian processes&#41; and discrete &#40;i.e., Dirichlet processes&#41; stochastic processes to reveal underlying interaction)
+
+[//]: # (patterns of the ego vehicle with other nearby vehicles. Our model relaxes dependency on the number of surrounding)
+
+[//]: # (vehicles by developing an acceleration-sensitive velocity field based on Gaussian processes. The experiment results)
+
+[//]: # (demonstrate that the velocity field can represent the _spatial_ interactions between the ego vehicle and its)
+
+[//]: # (surroundings. Then, a discrete Bayesian nonparametric model, integrating Dirichlet processes and hidden Markov models,)
+
+[//]: # (is developed to learn the interaction patterns over the _temporal_ space by segmenting and clustering the sequential)
+
+[//]: # (interaction data into interpretable granular patterns automatically. We then evaluate our approach in the highway)
+
+[//]: # (lane-change scenarios using the highD dataset collected from real-world settings. Results demonstrate that our proposed)
+
+[//]: # (Bayesian nonparametric approach provides an insight into the complicated lane-change interactions of the ego vehicle)
+
+[//]: # (with multiple surrounding traffic participants based on the interpretable interaction patterns and their transition)
+
+[//]: # (properties in temporal relationships. Our proposed approach sheds light on efficiently analyzing other kinds of)
+
+[//]: # (multi-agent interactions, such as vehicle-pedestrian interactions.)
+
+[//]: # (</details>)
+
+[//]: # ()
+
+[//]: # (- Access our paper via: [[arXiv]&#40;https://arxiv.org/pdf/2003.00759v2.pdf&#41;])
+
+[//]: # (  , [[paper]&#40;https://ieeexplore.ieee.org/document/9357407&#41;],)
+
+[//]: # (  or [[project website]&#40;https://chengyuan-zhang.github.io/Multivehicle-Interaction/&#41;].)
+
+[//]: # (- Watch the demos via: [[YouTube]&#40;https://youtu.be/AcyDn43hb7I&#41;].)
+
+[//]: # (- Code for implementing Gaussian Velocity)
+
+[//]: # (  Field: [[Github repo]&#40;https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field&#41;].)
+
+[//]: # (- Also check the supplements via: [[Spatiotemporal_Appendix.pdf]&#40;./files/Spatiotemporal_Appendix.pdf&#41;].)
+
+[//]: # ()
+
+[//]: # (<br/>)
+
+[//]: # ()
+
+[//]: # (### Social Interactions for Autonomous Driving: A Review and Perspective)
+
+[//]: # ()
+
+[//]: # (Wenshuo Wang, Letian Wang, Chengyuan Zhang, Changliu Liu, and Lijun Sun. *Foundations and Trends in Robotics*.)
+
+[//]: # ()
 
 [//]: # (<center>)
 
-[//]: # (  <img src="../images/GVF_framework.Png" width="85%" />)
+[//]: # (  <img src="../images/review_interaction_scene.JPG" width="60%" />)
 
 [//]: # (</center>)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/AcyDn43hb7I" title="Demos for Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # ()
 
-<details>
-  <summary><b>[Abstract]</b></summary>
+[//]: # (<details>)
 
-Interpretation of common-yet-challenging interaction scenarios can benefit well-founded decisions for autonomous
-vehicles. Previous research achieved this using their prior knowledge of specific scenarios with predefined models,
-limiting their adaptive capabilities. This paper describes a Bayesian nonparametric approach that leverages continuous (
-i.e., Gaussian processes) and discrete (i.e., Dirichlet processes) stochastic processes to reveal underlying interaction
-patterns of the ego vehicle with other nearby vehicles. Our model relaxes dependency on the number of surrounding
-vehicles by developing an acceleration-sensitive velocity field based on Gaussian processes. The experiment results
-demonstrate that the velocity field can represent the _spatial_ interactions between the ego vehicle and its
-surroundings. Then, a discrete Bayesian nonparametric model, integrating Dirichlet processes and hidden Markov models,
-is developed to learn the interaction patterns over the _temporal_ space by segmenting and clustering the sequential
-interaction data into interpretable granular patterns automatically. We then evaluate our approach in the highway
-lane-change scenarios using the highD dataset collected from real-world settings. Results demonstrate that our proposed
-Bayesian nonparametric approach provides an insight into the complicated lane-change interactions of the ego vehicle
-with multiple surrounding traffic participants based on the interpretable interaction patterns and their transition
-properties in temporal relationships. Our proposed approach sheds light on efficiently analyzing other kinds of
-multi-agent interactions, such as vehicle-pedestrian interactions.
-</details>
+[//]: # (  <summary><b>[Abstract]</b></summary>)
 
-- Access our paper via: [[arXiv](https://arxiv.org/pdf/2003.00759v2.pdf)]
-  , [[paper](https://ieeexplore.ieee.org/document/9357407)],
-  or [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].
-- Watch the demos via: [[YouTube](https://youtu.be/AcyDn43hb7I)].
-- Code for implementing Gaussian Velocity
-  Field: [[Github repo](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)].
-- Also check the supplements via: [[Spatiotemporal_Appendix.pdf](./files/Spatiotemporal_Appendix.pdf)].
+[//]: # ()
 
-<br/>
+[//]: # (No human drives a car in a vacuum; she/he must negotiate with other road users to achieve their goals in social traffic)
 
-### Social Interactions for Autonomous Driving: A Review and Perspective
+[//]: # (scenes. A rational human driver can interact with other road users in a socially-compatible way through implicit)
 
-Wenshuo Wang, Letian Wang, Chengyuan Zhang, Changliu Liu, and Lijun Sun. *Foundations and Trends in Robotics*.
+[//]: # (communications to complete their driving tasks smoothly in interaction-intensive, safety-critical environments. This)
 
-<center>
-  <img src="../images/review_interaction_scene.JPG" width="60%" />
-</center>
+[//]: # (paper aims to review the existing approaches and theories to help understand and rethink the interactions among human)
 
-<details>
-  <summary><b>[Abstract]</b></summary>
+[//]: # (drivers toward social autonomous driving. We take this survey to seek the answers to a series of fundamental questions:)
 
-No human drives a car in a vacuum; she/he must negotiate with other road users to achieve their goals in social traffic
-scenes. A rational human driver can interact with other road users in a socially-compatible way through implicit
-communications to complete their driving tasks smoothly in interaction-intensive, safety-critical environments. This
-paper aims to review the existing approaches and theories to help understand and rethink the interactions among human
-drivers toward social autonomous driving. We take this survey to seek the answers to a series of fundamental questions:
+[//]: # ()
 
-1) What is social interaction in road traffic scenes?
-2) How to measure and evaluate social interaction?
-3) How to model and reveal the process of social interaction?
-4) How do human drivers reach an implicit agreement and negotiate smoothly in social interaction?
+[//]: # (1&#41; What is social interaction in road traffic scenes?)
 
-This paper reviews various approaches to modeling and learning the social interactions between human drivers, ranging
-from optimization theory, deep learning, and graphical models to social force theory and behavioral & cognitive science.
-We also highlight some new directions, critical challenges, and opening questions for future research.
+[//]: # (2&#41; How to measure and evaluate social interaction?)
 
-</details>
+[//]: # (3&#41; How to model and reveal the process of social interaction?)
 
-- Access our book
-  via: [[ebook](https://www.nowpublishers.com/article/Details/ROB-078)], [[arXiv](https://arxiv.org/abs/2208.07541)],
-  or [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].
+[//]: # (4&#41; How do human drivers reach an implicit agreement and negotiate smoothly in social interaction?)
 
-<br/> 
+[//]: # ()
 
-### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System
+[//]: # (This paper reviews various approaches to modeling and learning the social interactions between human drivers, ranging)
 
-Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.
+[//]: # (from optimization theory, deep learning, and graphical models to social force theory and behavioral & cognitive science.)
 
-<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # (We also highlight some new directions, critical challenges, and opening questions for future research.)
 
-- This is a very interesting mechanical work (a.k.a. big toy) that was done during my undergraduate study.
+[//]: # ()
 
-- Access our work via: [[ASME JMR](https://doi.org/10.1115/1.4043688)].
+[//]: # (</details>)
 
-<br/> 
+[//]: # ()
 
-Thanks & Fundings
-======
-<br>
-<center>
-    <img src="../images/FRQNT.png" width="37%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" width="37%" /><br>
-    <img src="../images/mitacs_transparent.png" width="37%" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/CIRRELT_logo.png" width="37%" />
-</center>
+[//]: # (- Access our book)
+
+[//]: # (  via: [[ebook]&#40;https://www.nowpublishers.com/article/Details/ROB-078&#41;], [[arXiv]&#40;https://arxiv.org/abs/2208.07541&#41;],)
+
+[//]: # (  or [[project website]&#40;https://chengyuan-zhang.github.io/Multivehicle-Interaction/&#41;].)
+
+[//]: # ()
+
+[//]: # (<br/> )
+
+[//]: # ()
+
+[//]: # (### An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System)
+
+[//]: # ()
+
+[//]: # (Chengyuan Zhang, Xiaomin Zhang, Hongyun Ye, Ming Wei, and Xianxiong Ning. *ASME Journal of Mechanisms and Robotics*.)
+
+[//]: # ()
+
+[//]: # (<iframe width="1280" height="462" src="https://www.youtube.com/embed/lmwdDsUXUw8" title="An Efficient Parking Solution: A Novel Stack Parking System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+
+[//]: # ()
+
+[//]: # (- This is a very interesting mechanical work &#40;a.k.a. big toy&#41; that was done during my undergraduate study.)
+
+[//]: # ()
+
+[//]: # (- Access our work via: [[ASME JMR]&#40;https://doi.org/10.1115/1.4043688&#41;].)
+
+[//]: # ()
+
+[//]: # (<br/> )
