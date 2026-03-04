@@ -29,8 +29,8 @@ autonomous systems in real-world, information-rich environments.
 
 📢 <span style="color:darkred"> I am actively seeking a postdoctoral position focused on <em>stochastic
 modeling and simulation of human social behaviors</em> in complex and interactive scenarios, <em>dynamic
-interaction modeling</em> (including both drivers and pedestrians), and <em>Bayesian inference</em> for human
-social behaviors. If my research interests align with your group, I would be excited to connect!</span>
+interaction modeling</em> (drivers and pedestrians), and <em>Bayesian approaches</em> to trustworthy, cognitively
+grounded world models. If my research interests align with your group, I would be excited to connect!</span>
 
 
 
