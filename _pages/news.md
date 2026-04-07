@@ -5,8 +5,10 @@ permalink: /news/
 author_profile: true
 ---
 
+* 04/2026: I am delighted to give an online talk "Modeling Human Driving as a Dynamic Interaction Process: Uncertainty-Aware Learning from Naturalistic
+  Driving Data" at MIT AgeLab, Massachusetts Institute of Technology (invited by Dr. Pnina Gershon).
 * 02/2026: I am delighted to give a talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for
-  Realistic Traffic Simulation" at Tongji University (invited by Prof. Jian Sun with the Department of Transportation
+  Realistic Traffic Simulation" at TOPS Lab, Tongji University (invited by Prof. Jian Sun with the Department of Transportation
   Engineering) in Shanghai, China.
 * 02/2026: New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model
   Calibration" is now available on [arXiv: 2602.05246](https://arxiv.org/abs/2602.05246). Please check it out!
@@ -17,14 +19,14 @@ author_profile: true
   Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in
   Munich! [[arXiv](https://arxiv.org/abs/2507.07012)] [[poster](../files/TRB2026_Nonstationary.pdf)]
 * 10/2025: I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for
-  Realistic Traffic Simulation" at MIT Wu Lab (invited by Prof. Cathy Wu).
+  Realistic Traffic Simulation" at MIT Wu Lab, Massachusetts Institute of Technology (invited by Prof. Cathy Wu).
 * 10/2025: Our 3 papers have been accepted for poster presentation at TRBAM 2026. See you in Washington, D.C.!
 * 06/2025: New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable
   Car-Following Behavior" is now available on [arXiv: 2506.14762](https://arxiv.org/abs/2506.14762). Please check it
   out!
-* 02/2025: I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at
-  Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban Studies and Planning)
-  . [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
+* 02/2025: I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at JTL
+  Urban Mobility Lab, Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban
+  Studies and Planning). [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 * 02/2025: Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
   factorization" was accepted to Transportation
   Science.  [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]

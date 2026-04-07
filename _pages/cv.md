@@ -34,7 +34,7 @@ Academic Experiences
 * Member of CQU-FSAE Transmission Group @ Chongqing University Formula SAE (Society of Automotive Engineers), China,
   2016 - 2018.
 
-Services
+Leadership & Services
 ======
 
 - (Co-)Chair/(Co-)Ornaizer
@@ -49,6 +49,7 @@ Services
     - Journal: Transportation Science
     - Journal: Transportation Research Part B: Methodological
     - Journal: Transportation Research Part C: Emerging Technologies
+    - Journal: Transportation Research Interdisciplinary Perspectives
     - Journal: Artificial Intelligence for Transportation
     - Journal: IEEE Transactions on Intelligent Transportation Systems
     - Journal: IEEE Transactions on Intelligent Vehicles
@@ -78,7 +79,7 @@ Services
     - Student member of Chinese Overseas Transportation Association (COTA)
     - Member of the Society of Automotive Engineers (SAE) of China
 
-Awards & Scholarships
+Honors, Fellowships & Recognition
 =====
 
 - The Honorable Mention Award for the 2024 Clifford Spiegelman Student Paper Competition,
