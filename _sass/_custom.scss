@@ -827,6 +827,28 @@ html.dark-mode .theme-toggle {
 .masthead__inner-wrap { position: relative; }
 
 /* Homepage hero ---------------------------------------------------------- */
+.hero-intro {
+  margin: 0 0 1.4rem;
+  padding: 0.9rem 1.1rem;
+  border-left: 3px solid $accent-color;
+  background: mix(#fff, $accent-color, 97%);
+  border-radius: 0 6px 6px 0;
+
+  &__lead {
+    margin: 0;
+    font-family: $serif;
+    font-size: 1.08em;
+    line-height: 1.55;
+    color: $darker-gray;
+  }
+}
+
+html.dark-mode .hero-intro {
+  background: rgba(224, 106, 117, 0.08);
+  border-left-color: var(--c-accent);
+}
+html.dark-mode .hero-intro__lead { color: var(--c-text); }
+
 .hero {
   display: flex;
   gap: 1.4rem;
