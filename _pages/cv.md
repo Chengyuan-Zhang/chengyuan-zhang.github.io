@@ -31,13 +31,6 @@ redirect_from:
   </div>
 </header>
 
-<div class="cv-stats">
-  <div class="cv-stat"><span class="cv-stat__num">6+</span><span class="cv-stat__label">years of research</span></div>
-  <div class="cv-stat"><span class="cv-stat__num">5</span><span class="cv-stat__label">institutions</span></div>
-  <div class="cv-stat"><span class="cv-stat__num">10</span><span class="cv-stat__label">fellowships &amp; awards</span></div>
-  <div class="cv-stat"><span class="cv-stat__num">CAD&nbsp;$300K+</span><span class="cv-stat__label">in competitive funding</span></div>
-</div>
-
 <div class="cv-layout">
 
 <aside class="cv-side" aria-label="CV sections">

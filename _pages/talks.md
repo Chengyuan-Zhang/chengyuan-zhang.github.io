@@ -11,13 +11,6 @@ redirect_from:
 
 A selection of invited lectures and conference presentations.
 
-<div class="page-meta-strip">
-  <span><strong>11</strong> talks</span>
-  <span><strong>7</strong> invited</span>
-  <span><strong>3</strong> conference</span>
-  <span><strong>1</strong> workshop</span>
-</div>
-
 <section class="talks-section">
   <div class="talks-section__year">
     <span class="talks-section__year-label">2026</span>
