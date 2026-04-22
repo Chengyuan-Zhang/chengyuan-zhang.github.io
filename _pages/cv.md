@@ -4,102 +4,336 @@ title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
-
-- /resume
-
+  - /resume
 ---
 
-<a class="btn--toggle" href="{{ '/files/Resume_Chengyuan.pdf' | relative_url }}">📄 Download CV (PDF)</a>
+<div class="cv-hero">
+  <div class="cv-hero__meta">
+    <span><i class="fas fa-graduation-cap"></i> Ph.D. Candidate, Civil Engineering</span>
+    <span><i class="fas fa-university"></i> McGill University</span>
+    <span><i class="fas fa-map-marker-alt"></i> Montréal, Canada</span>
+  </div>
+  <a class="btn--toggle cv-hero__btn" href="{{ '/files/Resume_Chengyuan.pdf' | relative_url }}">
+    <i class="fas fa-file-pdf"></i> Download CV (PDF)
+  </a>
+</div>
 
-Education
-======
+## Education
 
-* Ph.D. candidate in Civil Engineering (fast-tracked to Ph.D. program in 2022), McGill University, Canada, 2020 - 2026 (expected).
-  * Dissertation: <u>From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</u> (Advisor: *Prof. Lijun Sun*)
-* B.S. in Automobile Engineering, Chongqing University, China, 2015 - 2019.
-  * Thesis: <u>Recognition of Multi-Vehicle Interaction Patterns Based on Probabilistic Velocity Fields</u> (Advisor: *Prof. Zhenfei Zhan*) <span class="text-muted">(Outstanding Thesis Award)</span>
+<div class="cv-timeline">
+  <div class="cv-entry">
+    <div class="cv-entry__date">2020 – 2026<span class="cv-entry__date-sub">expected</span></div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Ph.D. candidate in Civil Engineering</div>
+      <div class="cv-entry__venue">McGill University, Canada</div>
+      <div class="cv-entry__note">
+        Dissertation: <em>From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</em>
+        &nbsp;·&nbsp; Advisor: <strong>Prof. Lijun Sun</strong>
+        &nbsp;·&nbsp; <span class="text-muted">Fast-tracked to Ph.D. program in 2022</span>
+      </div>
+    </div>
+  </div>
 
-Academic Experiences
-=====
+  <div class="cv-entry">
+    <div class="cv-entry__date">2015 – 2019</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">B.S. in Automobile Engineering</div>
+      <div class="cv-entry__venue">Chongqing University, China</div>
+      <div class="cv-entry__note">
+        Thesis: <em>Recognition of Multi-Vehicle Interaction Patterns Based on Probabilistic Velocity Fields</em>
+        &nbsp;·&nbsp; Advisor: <strong>Prof. Zhenfei Zhan</strong>
+        &nbsp;·&nbsp; <span class="cv-tag cv-tag--accent">Outstanding Thesis Award</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-* Visiting Student Researcher, supervised by *Prof. Changliu Liu* @ Robotics Institute, Carnegie Mellon University,
-  US, 2023.
-* Visiting Student Researcher, supervised by *Prof. Masayoshi Tomizuka* @ Department of Mechanical Engineering,
-  University of California, Berkeley, US, 2019 - 2020.
-* Deep Learning Summer Camp (DeeCamp) student @ Sinovation Ventures, China, 2019 and 2020. We won Outstanding Team Award and Best
-  Application Award.
-* Visiting Student Researcher, supervised by *Prof. Ding Zhao* @ Department of Mechanical Engineering, Carnegie Mellon
-  University, US, 2018.
-* Exchange Student @ University of Pennsylvania, US, 2018.
-* Member of CQU-FSAE Transmission Group @ Chongqing University Formula SAE (Society of Automotive Engineers), China,
-  2016 - 2018.
+## Academic Experiences
 
-Leadership & Services
-======
+<div class="cv-timeline">
+  <div class="cv-entry">
+    <div class="cv-entry__date">2023</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Visiting Student Researcher</div>
+      <div class="cv-entry__venue">Robotics Institute, Carnegie Mellon University, USA</div>
+      <div class="cv-entry__note">Supervised by <strong>Prof. Changliu Liu</strong></div>
+    </div>
+  </div>
 
-- (Co-)Chair/(Co-)Ornaizer
-    - Organizer of the 2nd [SIAM workshop](https://interactive-driving.github.io/SIAM-IV24/)
-      on [IEEE IV24'](https://ieee-iv.org/2024/), Jeju Shinhwa World, Jeju Island, Korea, 2024.
-    - Organizer of the 1st [SIAM workshop](https://interactive-driving.github.io/SIAM-IV23/)
-      on [IEEE IV23'](https://2023.ieee-iv.org/), Anchorage, Alaska, USA, 2023.
-- Program Committee
-    - Symposium on Machine Learning for Autonomous Driving collocated with NeurIPS'23 [[Link](https://ml4ad.github.io/)]
-- Reviewer
-    - Journal: European Journal of Operational Research
-    - Journal: Transportation Science
-    - Journal: Transportation Research Part B: Methodological
-    - Journal: Transportation Research Part C: Emerging Technologies
-    - Journal: Transportation Research Interdisciplinary Perspectives
-    - Journal: Artificial Intelligence for Transportation
-    - Journal: IEEE Transactions on Intelligent Transportation Systems
-    - Journal: IEEE Transactions on Intelligent Vehicles
-    - Journal: IEEE Transactions on Consumer Electronics
-    - Journal: IEEE Transactions on Cybernetics
-    - Journal: IEEE Sensors Journal
-    - Journal: Travel Behaviour and Society
-    - Journal: ASME Journal of Mechanism and Robotics
-    - Journal: ASME Journal of Mechanism Design
-    - Journal: Physica A: Statistical Mechanics and its Applications
-    - Journal: Automotive Innovation
-    - Journal: Advanced Engineering Informatics
-    - Journal: Journal of Traffic and Transportation Engineering
-    - Journal: Nonlinear Dynamics
-    - Conference: IEEE International Conference on Intelligent Transportation Systems (ITSC), 22-24
-    - Conference: IEEE Intelligent Vehicles Symposium (IV), 23-24
-    - Conference: Transportation Research Board Annual Meeting
-    - Conference: NeurIPS Bayesian Decision-making and Uncertainty Workshop, 2024
-    - Conference: Symposium on Management of Future Motorway and Urban Traffic Systems (MFTS), 2024
-    - Conference: RSS 2024 Workshop on Autonomous Vehicles Across Scales (AVAS), 2024
-    - Conference: International Symposium on Transportation Data & Modelling (ISTDM), 2025
-- Memberships
-    - IEEE Graduate Student member
-    - IEEE Intelligent Transportation Systems Society (ITSS) Student member
-    - Student Member of Interuniversity Research Centre on Enterprise Networks, Logistics and Transportation (Centre
-      interuniversitaire de recherche sur les reseaux d'entreprise, la logistique et le transport, CIRRELT)
-    - Student member of Chinese Overseas Transportation Association (COTA)
-    - Member of the Society of Automotive Engineers (SAE) of China
+  <div class="cv-entry">
+    <div class="cv-entry__date">2019 – 2020</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Visiting Student Researcher</div>
+      <div class="cv-entry__venue">Department of Mechanical Engineering, UC Berkeley, USA</div>
+      <div class="cv-entry__note">Supervised by <strong>Prof. Masayoshi Tomizuka</strong></div>
+    </div>
+  </div>
 
-Honors, Fellowships & Recognition
-=====
+  <div class="cv-entry">
+    <div class="cv-entry__date">2019 &amp; 2020</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Deep Learning Summer Camp (DeeCamp)</div>
+      <div class="cv-entry__venue">Sinovation Ventures, China</div>
+      <div class="cv-entry__note">
+        <span class="cv-tag cv-tag--accent">Outstanding Team</span>
+        <span class="cv-tag cv-tag--accent">Best Application</span>
+      </div>
+    </div>
+  </div>
 
-- The Honorable Mention Award for the 2024 Clifford Spiegelman Student Paper Competition,
-  2024 [[Link](https://community.amstat.org/tsig/events/papercompetition)]
-- Graduate Mobility Award, McGill University, CAD $9,000, 2022-2023
-- Graduate Research Enhancement and Travel Awards, McGill University, 2023
-- Ron Rice Memorial Award, McGill University, 2023
-- Mitacs Globalink Research Award - Abroad, CAD $6,000, 2022-2023
-- McGill Engineering Doctoral Award (MEDA), McGill University, CAD $111,000, 2022-2025
-- FRQNT Master's Scholarship (B1X), CAD $17,500, 2022-2023 [[Link](https://doi.org/10.69777/321043)]
-- FRQNT Doctoral Scholarship (B2X), CAD $100,000, 2023-2027 [[Link](https://doi.org/10.69777/328118)]
-- CIRRELT Doctoral Scholarship of Excellence - Final Stages, CAD $7,500, 2025 [[Link](https://cirrelt.ca/cirrelt/images/file/2024/2024-2025-recipiendaires.pdf)]
-- CIRRELT Doctoral Scholarship of Excellence - Early Stages, CAD $4,000, 2023 [[Link](https://cirrelt.ca/cirrelt/images/file/2022/2022-2023-recipiendaires.pdf)]
-- CIRRELT Master's Scholarship of Excellence, CAD $3,500, 2022 
-- Graduate Excellence Fellowship Awards, McGill University, 2020
-- IVADO Excellence Scholarships - Msc, CAD $40,000, 2020-2022
-- Outstanding Team Award & Best Application Award at DeeCamp, China, 2019
-- Outstanding Graduate of Chongqing University, 2019
-- First Prize, 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
-- First Prize, 2017 China Undergraduate Mathematical Contest in Modeling, 2017
-- National Scholarship, China, 2017
-- First Prize, 2015 Chongqing University Physics Contest (\#1/500+ in Chongqing University), 2015 <span class="text-muted">(As a first-year undergraduate)</span>
+  <div class="cv-entry">
+    <div class="cv-entry__date">2018</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Visiting Student Researcher</div>
+      <div class="cv-entry__venue">Department of Mechanical Engineering, Carnegie Mellon University, USA</div>
+      <div class="cv-entry__note">Supervised by <strong>Prof. Ding Zhao</strong></div>
+    </div>
+  </div>
 
+  <div class="cv-entry">
+    <div class="cv-entry__date">2018</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Exchange Student</div>
+      <div class="cv-entry__venue">University of Pennsylvania, USA</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry__date">2016 – 2018</div>
+    <div class="cv-entry__body">
+      <div class="cv-entry__title">Transmission Group Member, CQU-FSAE</div>
+      <div class="cv-entry__venue">Chongqing University Formula SAE, China</div>
+    </div>
+  </div>
+</div>
+
+## Leadership &amp; Services
+
+<div class="cv-services">
+
+<h3 class="cv-services__head">Workshops (Chair / Organizer)</h3>
+<ul class="cv-services__list">
+  <li>Organizer, 2nd <a href="https://interactive-driving.github.io/SIAM-IV24/">SIAM workshop</a> at <a href="https://ieee-iv.org/2024/">IEEE IV24</a>, Jeju Island, Korea, 2024.</li>
+  <li>Organizer, 1st <a href="https://interactive-driving.github.io/SIAM-IV23/">SIAM workshop</a> at <a href="https://2023.ieee-iv.org/">IEEE IV23</a>, Anchorage, Alaska, USA, 2023.</li>
+</ul>
+
+<h3 class="cv-services__head">Program Committee</h3>
+<ul class="cv-services__list">
+  <li>Symposium on Machine Learning for Autonomous Driving, <a href="https://ml4ad.github.io/">NeurIPS 2023</a></li>
+</ul>
+
+<h3 class="cv-services__head">Reviewer <span class="cv-services__count">22 outlets</span></h3>
+
+<details class="cv-reviewer">
+  <summary>Show reviewer outlets</summary>
+
+  <div class="cv-reviewer__group">
+    <span class="cv-reviewer__label">Journals</span>
+    <div class="cv-chips">
+      <span class="chip">Transportation Science</span>
+      <span class="chip">Transp. Res. Part B</span>
+      <span class="chip">Transp. Res. Part C</span>
+      <span class="chip">Transp. Res. Interdisc. Perspectives</span>
+      <span class="chip">European J. of Operational Research</span>
+      <span class="chip">Artificial Intelligence for Transportation</span>
+      <span class="chip">IEEE T-ITS</span>
+      <span class="chip">IEEE T-IV</span>
+      <span class="chip">IEEE T-CE</span>
+      <span class="chip">IEEE T-Cybernetics</span>
+      <span class="chip">IEEE Sensors Journal</span>
+      <span class="chip">Travel Behaviour and Society</span>
+      <span class="chip">ASME J. of Mechanisms and Robotics</span>
+      <span class="chip">ASME J. of Mechanism Design</span>
+      <span class="chip">Physica A</span>
+      <span class="chip">Automotive Innovation</span>
+      <span class="chip">Advanced Engineering Informatics</span>
+      <span class="chip">J. of Traffic and Transp. Engineering</span>
+      <span class="chip">Nonlinear Dynamics</span>
+    </div>
+  </div>
+
+  <div class="cv-reviewer__group">
+    <span class="cv-reviewer__label">Conferences &amp; Workshops</span>
+    <div class="cv-chips">
+      <span class="chip">IEEE ITSC (’22–’24)</span>
+      <span class="chip">IEEE IV (’23–’24)</span>
+      <span class="chip">TRB Annual Meeting</span>
+      <span class="chip">NeurIPS Bayesian D&amp;U Workshop ’24</span>
+      <span class="chip">MFTS ’24</span>
+      <span class="chip">RSS AVAS Workshop ’24</span>
+      <span class="chip">ISTDM ’25</span>
+    </div>
+  </div>
+</details>
+
+<h3 class="cv-services__head">Memberships</h3>
+<div class="cv-chips">
+  <span class="chip">IEEE Graduate Student</span>
+  <span class="chip">IEEE ITSS Student</span>
+  <span class="chip">CIRRELT Student</span>
+  <span class="chip">COTA Student</span>
+  <span class="chip">SAE China</span>
+</div>
+
+</div>
+
+## Honors, Fellowships &amp; Recognition
+
+<div class="cv-awards">
+  <div class="cv-award">
+    <div class="cv-award__year">2024</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Honorable Mention, Clifford Spiegelman Student Paper Competition
+        <a class="cv-award__link" href="https://community.amstat.org/tsig/events/papercompetition" aria-label="link"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2023 – 2027</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">FRQNT Doctoral Scholarship (B2X)
+        <a class="cv-award__link" href="https://doi.org/10.69777/328118" aria-label="link"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="cv-award__amount">CAD $100,000</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2022 – 2025</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">McGill Engineering Doctoral Award (MEDA)</div>
+      <div class="cv-award__amount">CAD $111,000</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2022 – 2023</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">FRQNT Master’s Scholarship (B1X)
+        <a class="cv-award__link" href="https://doi.org/10.69777/321043" aria-label="link"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="cv-award__amount">CAD $17,500</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2022 – 2023</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Mitacs Globalink Research Award — Abroad</div>
+      <div class="cv-award__amount">CAD $6,000</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2022 – 2023</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Graduate Mobility Award, McGill University</div>
+      <div class="cv-award__amount">CAD $9,000</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2025</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">CIRRELT Doctoral Scholarship of Excellence — Final Stages
+        <a class="cv-award__link" href="https://cirrelt.ca/cirrelt/images/file/2024/2024-2025-recipiendaires.pdf" aria-label="link"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="cv-award__amount">CAD $7,500</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2023</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">CIRRELT Doctoral Scholarship of Excellence — Early Stages
+        <a class="cv-award__link" href="https://cirrelt.ca/cirrelt/images/file/2022/2022-2023-recipiendaires.pdf" aria-label="link"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="cv-award__amount">CAD $4,000</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2023</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Graduate Research Enhancement and Travel Award, McGill University</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2023</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Ron Rice Memorial Award, McGill University</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2022</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">CIRRELT Master’s Scholarship of Excellence</div>
+      <div class="cv-award__amount">CAD $3,500</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2020 – 2022</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">IVADO Excellence Scholarship — M.Sc.</div>
+      <div class="cv-award__amount">CAD $40,000</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2020</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Graduate Excellence Fellowship Award, McGill University</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2019</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Outstanding Team Award &amp; Best Application Award, DeeCamp, China</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2019</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">Outstanding Graduate of Chongqing University</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2018</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">First Prize, National College Mechanical Innovation Competition
+        <span class="cv-tag cv-tag--accent">TOP #10 in China</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2017</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">First Prize, China Undergraduate Mathematical Contest in Modeling</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2017</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">National Scholarship, China</div>
+    </div>
+  </div>
+
+  <div class="cv-award">
+    <div class="cv-award__year">2015</div>
+    <div class="cv-award__body">
+      <div class="cv-award__title">First Prize, Chongqing University Physics Contest
+        <span class="cv-tag">#1 / 500+ in CQU</span>
+      </div>
+      <div class="cv-award__amount text-muted">as a first-year undergraduate</div>
+    </div>
+  </div>
+</div>
