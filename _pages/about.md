@@ -29,16 +29,6 @@ reliable autonomous systems.
 **Open to postdoc positions.** I'm actively seeking a postdoctoral role focused on *stochastic modeling of human social behaviors*, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. If this aligns with your group's interests, I'd be glad to connect.
 </div>
 
-<div class="demo-card">
-  <div class="demo-card__icon"><i class="fas fa-circle-notch"></i></div>
-  <div class="demo-card__body">
-    <div class="demo-card__label">Interactive Demo</div>
-    <div class="demo-card__title"><a href="https://chengyuan-zhang.github.io/traffic-sim/" target="_blank" rel="noopener" class="demo-card__link">Ring-Road Traffic Simulator</a></div>
-    <div class="demo-card__desc">An in-browser simulator visualizing car-following dynamics, stop-and-go waves, and how driver heterogeneity emerges on a circular road — a playground for the models behind my research.</div>
-  </div>
-  <div class="demo-card__cta" aria-hidden="true">Launch <i class="fas fa-arrow-right"></i></div>
-</div>
-
 
 
 Featured Research
@@ -134,15 +124,25 @@ News
 =====
 
 <ul class="news-list">
-  <li><span class="news-date">Feb 2025</span> New preprint: "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" — <a href="https://arxiv.org/abs/2502.05246">arXiv: 2502.05246</a>.</li>
-  <li><span class="news-date">2026</span> Two papers accepted at IEEE IV 2026: "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration."</li>
-  <li><span class="news-date">2026</span> Paper accepted at <a href="https://www.isttt2026.vtk.ed.tum.de/">ISTTT26</a>: "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" [<a href="https://arxiv.org/abs/2507.07012">arXiv</a>]. See you in Munich!</li>
-  <li><span class="news-date">Jun 2025</span> New preprint: "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" — <a href="https://arxiv.org/abs/2506.14762">arXiv: 2506.14762</a>.</li>
+  <li><span class="news-date">02/2026</span> New preprint: "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" — <a href="https://arxiv.org/abs/2602.05246">arXiv: 2602.05246</a>.</li>
+  <li><span class="news-date">01/2026</span> Two papers accepted at IEEE IV 2026: "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration."</li>
+  <li><span class="news-date">11/2025</span> Paper accepted at <a href="https://www.isttt2026.vtk.ed.tum.de/">ISTTT26</a>: "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" [<a href="https://arxiv.org/abs/2507.07012">arXiv</a>]. See you in Munich!</li>
+  <li><span class="news-date">06/2025</span> New preprint: "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" — <a href="https://arxiv.org/abs/2506.14762">arXiv: 2506.14762</a>.</li>
 </ul>
 
 <button class="btn--toggle" onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
 
 <p>&nbsp;</p>
+
+<div class="demo-card">
+  <div class="demo-card__icon"><i class="fas fa-circle-notch"></i></div>
+  <div class="demo-card__body">
+    <div class="demo-card__label">Interactive Demo</div>
+    <div class="demo-card__title"><a href="https://chengyuan-zhang.github.io/traffic-sim/" target="_blank" rel="noopener" class="demo-card__link">Ring-Road Traffic Simulator</a></div>
+    <div class="demo-card__desc">An in-browser simulator visualizing car-following dynamics, stop-and-go waves, and how driver heterogeneity emerges on a circular road — a playground for the models behind my research.</div>
+  </div>
+  <div class="demo-card__cta" aria-hidden="true">Launch <i class="fas fa-arrow-right"></i></div>
+</div>
 
 <div class="funding-logos">
   <div><img src="../images/FRQNT.png" alt="FRQNT" loading="lazy"></div>
