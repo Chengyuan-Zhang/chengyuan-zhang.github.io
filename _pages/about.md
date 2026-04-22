@@ -10,26 +10,11 @@ redirect_from:
 
 ---
 
-<style>
-  .page__title { display: none; }
-  .page__content > p:first-of-type { margin-top: 0; }
-</style>
-
-<div class="hero">
-  <div class="hero__text">
-    <p class="hero__name">Chengyuan Zhang</p>
-    <p class="hero__tagline">Ph.D. candidate at McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
-    <div class="hero__links">
-      <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-file-lines"></i>Publications</a>
-      <a href="{{ '/cv/' | relative_url }}"><i class="fas fa-id-card"></i>CV</a>
-      <a href="https://scholar.google.com/"><i class="fas fa-graduation-cap"></i>Google Scholar</a>
-      <a href="https://github.com/Chengyuan-Zhang"><i class="fab fa-github"></i>GitHub</a>
-      <a href="mailto:enzozcy@gmail.com"><i class="fas fa-envelope"></i>Email</a>
-    </div>
-  </div>
+<div class="hero-intro">
+  <p class="hero-intro__lead">Ph.D. candidate at McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
 </div>
 
-I'm a final-year Ph.D. candidate at McGill University under the supervision of
+I'm a final-year Ph.D. candidateat McGill University under the supervision of
 Prof. [Lijun Sun](https://lijunsun.github.io/). I was a visiting student researcher at the Robotics Institute, Carnegie
 Mellon University in 2023 under the supervision of Prof. Changliu Liu, and at the Department of Mechanical Engineering
 in 2018 under the supervision of Prof. Ding Zhao. Additionally, I conducted research at the Department of Mechanical
