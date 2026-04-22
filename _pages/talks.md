@@ -20,19 +20,21 @@ redirect_from:
 <ul class="talks">
   <li class="talk">
     <div class="talk__date">Apr 2026</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">Modeling Human Driving as a Dynamic Interaction Process: Uncertainty-Aware Learning from Naturalistic Driving Data</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">Modeling Human Driving as a Dynamic Interaction Process: Uncertainty-Aware Learning from Naturalistic Driving Data</span>
+      </div>
       <p class="talk__venue">MIT AgeLab, Massachusetts Institute of Technology · Online</p>
-    </div>
   </li>
   <li class="talk">
     <div class="talk__date">Feb 2026</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</span>
+      </div>
       <p class="talk__venue">Department of Transportation Engineering, Tongji University · Shanghai, China</p>
-    </div>
   </li>
 </ul>
 
@@ -40,23 +42,25 @@ redirect_from:
 <ul class="talks">
   <li class="talk">
     <div class="talk__date">Oct 2025</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</span>
+      </div>
       <p class="talk__venue">MIT Wu Lab, Massachusetts Institute of Technology · Online</p>
-    </div>
   </li>
   <li class="talk">
     <div class="talk__date">Feb 2025</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">Stochastic Modeling and Simulations of Car-Following Behaviors</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">Stochastic Modeling and Simulations of Car-Following Behaviors</span>
+      </div>
       <p class="talk__venue">JTL Research Seminar, Massachusetts Institute of Technology · Online</p>
       <p class="talk__links">
         <a href="{{ '/_talks/250213_MIT_JTL_seminar.pdf' | relative_url }}">slides</a>
         <a href="https://sites.mit.edu/jtl-seminar/">web</a>
       </p>
-    </div>
   </li>
 </ul>
 
@@ -64,30 +68,33 @@ redirect_from:
 <ul class="talks">
   <li class="talk">
     <div class="talk__date">Nov 2024</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">Bayesian Calibration of Car-Following Models</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">Bayesian Calibration of Car-Following Models</span>
+      </div>
       <p class="talk__venue">Department of Mechanical Engineering, Beijing Institute of Technology · Beijing, China</p>
-    </div>
   </li>
   <li class="talk">
     <div class="talk__date">Oct 2024</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">Bayesian Calibration of Car-Following Models</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">Bayesian Calibration of Car-Following Models</span>
+      </div>
       <p class="talk__venue">Artificial Intelligence Institute, Shanghai Jiao Tong University · Shanghai, China</p>
-    </div>
   </li>
   <li class="talk">
     <div class="talk__date">Jul 2024</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--conference">Conference</span>
-      <span class="talk__title">Calibrating Car-Following Models via Bayesian Dynamic Regression</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--conference">Conference</span>
+        <span class="talk__title">Calibrating Car-Following Models via Bayesian Dynamic Regression</span>
+      </div>
       <p class="talk__venue">Podium Presentation · 25th International Symposium on Transportation and Traffic Theory (ISTTT25) · Ann Arbor, MI, USA</p>
       <p class="talk__links">
         <a href="{{ '/_talks/ISTTT25_slides_Chengyuan.pdf' | relative_url }}">slides</a>
       </p>
-    </div>
   </li>
 </ul>
 
@@ -100,23 +107,25 @@ redirect_from:
 <ul class="talks">
   <li class="talk">
     <div class="talk__date">Feb 2023</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--invited">Invited</span>
-      <span class="talk__title">Bayesian Calibration of the IDM</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--invited">Invited</span>
+        <span class="talk__title">Bayesian Calibration of the IDM</span>
+      </div>
       <p class="talk__venue">Traffic Flow Theory and Characteristics (ACP50) general webinar series · Online</p>
       <p class="talk__links">
         <a href="{{ '/_talks/230217_Chengyuan_Zhang_Flyer.pdf' | relative_url }}">flyer</a>
         <a href="https://youtu.be/GIqcL6I7MsU">recording</a>
       </p>
-    </div>
   </li>
   <li class="talk">
     <div class="talk__date">Jan 2023</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--conference">Conference</span>
-      <span class="talk__title">Bayesian Calibration of the IDM</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--conference">Conference</span>
+        <span class="talk__title">Bayesian Calibration of the IDM</span>
+      </div>
       <p class="talk__venue">Poster Presentation · TRB Annual Meeting 2023 · Washington, DC, USA</p>
-    </div>
   </li>
 </ul>
 
@@ -129,22 +138,24 @@ redirect_from:
 <ul class="talks">
   <li class="talk">
     <div class="talk__date">Oct 2019</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--conference">Conference</span>
-      <span class="talk__title">A General Framework of Learning Multi-Vehicle Interaction Patterns from Video</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--conference">Conference</span>
+        <span class="talk__title">A General Framework of Learning Multi-Vehicle Interaction Patterns from Video</span>
+      </div>
       <p class="talk__venue">Podium Presentation · IEEE Intelligent Transportation Systems Conference (ITSC 2019) · Auckland, New Zealand</p>
-    </div>
   </li>
   <li class="talk">
     <div class="talk__date">Aug 2018</div>
-    <div class="talk__body">
-      <span class="talk__tag talk__tag--workshop">Workshop</span>
-      <span class="talk__title">An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-DOF Stack Parking System</span>
+    
+      <div class="talk__head">
+              <span class="talk__tag talk__tag--workshop">Workshop</span>
+        <span class="talk__title">An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-DOF Stack Parking System</span>
+      </div>
       <p class="talk__venue">Podium Presentation · The 1st Workshop for SAILER at CMU · Pittsburgh, PA, USA</p>
       <p class="talk__links">
         <a href="{{ '/_talks/180825_CMU_Workshop.pdf' | relative_url }}">slides</a>
       </p>
-    </div>
   </li>
 </ul>
 
