@@ -29,15 +29,15 @@ reliable autonomous systems.
 **Open to postdoc positions.** I'm actively seeking a postdoctoral role focused on *stochastic modeling of human social behaviors*, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. If this aligns with your group's interests, I'd be glad to connect.
 </div>
 
-<a class="demo-card" href="https://chengyuan-zhang.github.io/traffic-sim/" target="_blank" rel="noopener">
+<div class="demo-card">
   <div class="demo-card__icon"><i class="fas fa-circle-notch"></i></div>
   <div class="demo-card__body">
     <div class="demo-card__label">Interactive Demo</div>
-    <h3 class="demo-card__title">Ring-Road Traffic Simulator</h3>
-    <p class="demo-card__desc">An in-browser simulator visualizing car-following dynamics, stop-and-go waves, and how driver heterogeneity emerges on a circular road — a playground for the models behind my research.</p>
+    <div class="demo-card__title"><a href="https://chengyuan-zhang.github.io/traffic-sim/" target="_blank" rel="noopener" class="demo-card__link">Ring-Road Traffic Simulator</a></div>
+    <div class="demo-card__desc">An in-browser simulator visualizing car-following dynamics, stop-and-go waves, and how driver heterogeneity emerges on a circular road — a playground for the models behind my research.</div>
   </div>
-  <div class="demo-card__cta">Launch <i class="fas fa-arrow-right"></i></div>
-</a>
+  <div class="demo-card__cta" aria-hidden="true">Launch <i class="fas fa-arrow-right"></i></div>
+</div>
 
 
 
@@ -69,7 +69,7 @@ Featured Research
 <div class="research-card" markdown="1">
 ### Robust Uncertainty & Trustworthy AI
 - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
-- Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2502.05246](https://arxiv.org/abs/2502.05246))
+- Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
 </div>
 
 </div>
