@@ -1,0 +1,403 @@
+/* ==========================================================================
+   CUSTOM COMPONENTS
+   ========================================================================== */
+
+/* CSS custom properties enable a simple dark-mode override later ---------- */
+:root {
+  --c-bg:          #ffffff;
+  --c-bg-alt:      #fafafa;
+  --c-surface:     #ffffff;
+  --c-text:        #{$dark-gray};
+  --c-text-muted:  #{$gray};
+  --c-border:      #{$lighter-gray};
+  --c-accent:      #{$accent-color};
+  --c-accent-soft: #{$accent-color-soft};
+  --c-code-bg:     #fafafa;
+}
+
+html.dark-mode {
+  --c-bg:          #16181c;
+  --c-bg-alt:      #1c1f24;
+  --c-surface:     #20242b;
+  --c-text:        #e4e6eb;
+  --c-text-muted:  #a5a9b1;
+  --c-border:      #2d323a;
+  --c-accent:      #e06a75;
+  --c-accent-soft: #2a2023;
+  --c-code-bg:     #2a2e35;
+}
+
+html.dark-mode body,
+html.dark-mode .masthead,
+html.dark-mode .page,
+html.dark-mode .page__content {
+  background-color: var(--c-bg);
+  color: var(--c-text);
+}
+
+html.dark-mode body { color: var(--c-text); }
+
+html.dark-mode .masthead {
+  background: var(--c-bg);
+  border-bottom-color: var(--c-border);
+}
+
+html.dark-mode .greedy-nav,
+html.dark-mode .greedy-nav .visible-links a,
+html.dark-mode .masthead__menu-item a {
+  background: transparent;
+  color: var(--c-text);
+}
+
+html.dark-mode .masthead__menu-item a:hover,
+html.dark-mode .greedy-nav a:hover { color: var(--c-accent); }
+
+html.dark-mode a,
+html.dark-mode .page__content a { color: var(--c-accent); }
+
+html.dark-mode .page__content h1,
+html.dark-mode .page__content h2,
+html.dark-mode .page__content h3,
+html.dark-mode .page__content h4 { color: var(--c-text); }
+
+html.dark-mode .page__content h2 { border-bottom-color: var(--c-border); }
+
+html.dark-mode .research-card,
+html.dark-mode .pub-item,
+html.dark-mode .hero {
+  background: var(--c-surface);
+  border-color: var(--c-border);
+  color: var(--c-text);
+}
+
+html.dark-mode .research-card h3 { border-bottom-color: var(--c-border); }
+
+html.dark-mode .callout {
+  background: var(--c-accent-soft);
+  color: var(--c-text);
+}
+
+html.dark-mode .news-date {
+  background: var(--c-bg-alt);
+  color: var(--c-text-muted);
+}
+
+html.dark-mode .badge-new { background: var(--c-accent); color: #fff; }
+
+html.dark-mode code,
+html.dark-mode pre { background: var(--c-code-bg); color: var(--c-text); }
+
+html.dark-mode .author__avatar img { border: 1px solid var(--c-border); }
+
+html.dark-mode .sidebar,
+html.dark-mode .author__content,
+html.dark-mode .author__urls-wrapper,
+html.dark-mode .author__urls,
+html.dark-mode .author__urls a { color: var(--c-text); }
+
+html.dark-mode .btn--toggle {
+  background: transparent;
+  color: var(--c-accent);
+  border-color: var(--c-accent);
+}
+html.dark-mode .btn--toggle:hover { background: var(--c-accent); color: var(--c-bg); }
+
+html.dark-mode .funding-logos img { filter: grayscale(100%) invert(0.85); opacity: 0.7; }
+html.dark-mode .funding-logos img:hover { filter: invert(0.85); opacity: 1; }
+
+html.dark-mode .page__footer,
+html.dark-mode .page__footer-follow ul.social-icons {
+  background-color: var(--c-bg-alt);
+  color: var(--c-text-muted);
+  border-top: 1px solid var(--c-border);
+}
+html.dark-mode .page__footer a { color: var(--c-text-muted); }
+
+/* Theme toggle button ---------------------------------------------------- */
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  background: transparent;
+  color: $dark-gray;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background: $accent-color;
+    color: #fff;
+    border-color: $accent-color;
+  }
+
+  .theme-toggle__icon { display: none; }
+  .theme-toggle__icon--sun { display: inline; }
+}
+
+html.dark-mode .theme-toggle {
+  border-color: var(--c-border);
+  color: var(--c-text);
+  .theme-toggle__icon--sun { display: none; }
+  .theme-toggle__icon--moon { display: inline; }
+}
+
+.masthead__inner-wrap { position: relative; }
+
+/* Homepage hero ---------------------------------------------------------- */
+.hero {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  padding: 1.1rem 1.3rem;
+  margin: 0 0 1.6rem;
+  background: linear-gradient(135deg, $accent-color-soft 0%, #fff 70%);
+  border: 1px solid $border-color;
+  border-left: 4px solid $accent-color;
+  border-radius: 6px;
+
+  &__text { flex: 1 1 auto; min-width: 0; }
+
+  &__name {
+    font-family: $serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 0.15em;
+    line-height: 1.2;
+    color: $darker-gray;
+  }
+
+  &__tagline {
+    margin: 0 0 0.5em;
+    color: $dark-gray;
+    font-size: 0.98em;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.9rem;
+    font-size: 0.88em;
+
+    a {
+      color: $accent-color;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+html.dark-mode .hero {
+  background: linear-gradient(135deg, var(--c-accent-soft) 0%, var(--c-surface) 70%);
+}
+
+html.dark-mode .hero__name,
+html.dark-mode .hero__tagline { color: var(--c-text); }
+
+/* Publication item with thumbnail (reusable) ----------------------------- */
+.pub-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.8rem 0.9rem;
+  margin: 0.6rem 0;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  background: #fff;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    transform: translateY(-1px);
+  }
+
+  &__thumb {
+    flex: 0 0 120px;
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: $lighter-gray;
+  }
+
+  &__body { flex: 1 1 auto; font-size: 0.93em; }
+
+  &__title {
+    display: block;
+    font-weight: 600;
+    color: $darker-gray;
+    margin-bottom: 0.2em;
+    line-height: 1.35;
+  }
+
+  &__venue {
+    display: block;
+    color: $gray;
+    font-size: 0.88em;
+    margin-bottom: 0.3em;
+  }
+
+  &__links a {
+    font-size: 0.85em;
+    margin-right: 0.6em;
+  }
+}
+
+@media (max-width: 600px) {
+  .pub-item { flex-direction: column; }
+  .pub-item__thumb { width: 100%; height: 140px; flex: 0 0 auto; }
+}
+
+html.dark-mode .pub-item__title { color: var(--c-text); }
+html.dark-mode .pub-item__venue { color: var(--c-text-muted); }
+
+/* "New!" badge used in News / About page ---------------------------------- */
+.badge-new {
+  display: inline-block;
+  background: $accent-color;
+  color: #fff;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  margin-right: 0.4em;
+  vertical-align: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Featured Research card grid --------------------------------------------- */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.research-card {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-left: 3px solid $accent-color;
+  border-radius: 5px;
+  padding: 0.9rem 1.1rem 1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  }
+
+  h3 {
+    margin: 0 0 0.4em;
+    padding-bottom: 0.35em;
+    font-size: 1.02em;
+    border-bottom: 1px solid $lighter-gray;
+  }
+
+  ul {
+    margin: 0.3em 0 0;
+    padding-left: 1.1em;
+    font-size: 0.93em;
+
+    li { margin: 0.35em 0; }
+  }
+}
+
+/* Funding / partner logo strip -------------------------------------------- */
+.funding-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 1rem;
+
+  img {
+    max-height: 56px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+  }
+
+  img:hover {
+    filter: none;
+    opacity: 1;
+  }
+}
+
+/* News list with date pills ---------------------------------------------- */
+.news-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin: 0.6em 0;
+    padding-left: 0;
+  }
+}
+
+.news-date {
+  display: inline-block;
+  font-family: $monospace;
+  font-size: 0.78em;
+  color: $dark-gray;
+  background: $lighter-gray;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  margin-right: 0.45em;
+  vertical-align: 0.1em;
+}
+
+/* Accent call-out for the postdoc notice --------------------------------- */
+.callout {
+  border-left: 3px solid $accent-color;
+  background: $accent-color-soft;
+  padding: 0.7em 1em;
+  margin: 1em 0 1.4em;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.97em;
+}
+
+/* Inline toggle button next to PDF --------------------------------------- */
+.btn--toggle {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #fff;
+  color: $accent-color;
+  border: 1px solid $accent-color;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background: $accent-color;
+    color: #fff;
+  }
+}
+
+/* PDF preview container -------------------------------------------------- */
+.pdf-container {
+  margin: 0.8em 0 1.5em;
+
+  iframe {
+    width: 100%;
+    height: 690px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+  }
+}
+
