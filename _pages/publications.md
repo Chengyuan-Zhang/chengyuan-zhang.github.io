@@ -11,13 +11,14 @@ author_profile: true
 This selected publication list is not frequently updated. Please see my Google Scholar for recent updates. (*
 Corresponding Author, = Equal Contributions.)
 
-<img src="../images/wordcloud_1920x.png" alt="word cloud" width="100%"/>
+<img src="{{ '/images/wordcloud_1920x.png' | relative_url }}" alt="word cloud" width="100%"/>
 
-Topics:
-📕: Traffic Flow Theory & Traffic Simulations;
-📘: Multi-Agent Social Interactions & Driver World Model;
-📗: Spatiotemporal Data Modeling & Interpretable Pattern Discovery;
-📙: Bayesian Learning;
+<div class="topic-legend">
+  <span>📕 Traffic Flow Theory & Simulations</span>
+  <span>📘 Multi-Agent Social Interactions & Driver World Model</span>
+  <span>📗 Spatiotemporal Data & Interpretable Patterns</span>
+  <span>📙 Bayesian Learning</span>
+</div>
 
 ## Preprints
 
@@ -37,8 +38,7 @@ Topics:
 - <u>Chengyuan Zhang</u>, Wenshuo Wang, and Lijun Sun* (2024). ["Calibrating Car-Following Models via Bayesian Dynamic
   Regression"](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7). Transportation research part C: emerging
   technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
-  <span style="color:gray"> ISTTT25 <span style="color:red">Oral Presentation</span>; 2024 Clifford Spiegelman Student
-  Paper Competition <span style="color:red"> Honorable Mention Award</span></span>; 📕📙
+  <span class="text-muted">ISTTT25 <span class="text-accent">Oral Presentation</span>; 2024 Clifford Spiegelman Student Paper Competition <span class="text-accent">Honorable Mention Award</span></span>; 📕📙
 - <u>Chengyuan Zhang</u> and Lijun Sun* (2023).
   ["Bayesian Calibration of the Intelligent Driver Model"](https://ieeexplore.ieee.org/document/10415310). IEEE
   Transactions on Intelligent Transportation
@@ -58,12 +58,10 @@ Topics:
   2019).[" An efficient parking solution:
   a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system"](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268).
   Journal of Mechanisms and Robotics, 11(4).
-  [[demo](https://youtu.be/lmwdDsUXUw8)] <span style="color:gray"><span style="color:red">First Prize</span> in 2018
-  National College Mechanical Innovation Competition (<span style="color:red">TOP \#10</span> in China) </span>
+  [[demo](https://youtu.be/lmwdDsUXUw8)] <span class="text-muted"><span class="text-accent">First Prize</span> in 2018 National College Mechanical Innovation Competition (<span class="text-accent">TOP \#10</span> in China)</span>
 - <u>Chengyuan Zhang</u> and Jian Xiao* (2018). ["Chaotic behavior and feedback control of
   magnetorheological suspension system with fractional-order derivative"](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of).
-  Journal of Computational and Nonlinear Dynamics, 13(2). <span style="color:gray"> My first paper (completed in my
-  sophomore year)</span>
+  Journal of Computational and Nonlinear Dynamics, 13(2). <span class="text-muted">My first paper (completed in my sophomore year)</span>
 
 ## Conference publications
 

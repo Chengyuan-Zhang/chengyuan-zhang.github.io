@@ -9,7 +9,7 @@ redirect_from:
 
 ---
 
-<button onclick="window.location.href='../files/Resume_Chengyuan.pdf';">CV in PDF</button>
+<a class="btn--toggle" href="{{ '/files/Resume_Chengyuan.pdf' | relative_url }}">📄 Download CV (PDF)</a>
 
 Education
 ======
@@ -17,7 +17,7 @@ Education
 * Ph.D. candidate in Civil Engineering (fast-tracked to Ph.D. program in 2022), McGill University, Canada, 2020 - 2026 (expected).
   * Dissertation: <u>From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</u> (Advisor: *Prof. Lijun Sun*)
 * B.S. in Automobile Engineering, Chongqing University, China, 2015 - 2019.
-  * Thesis: <u>Recognition of Multi-Vehicle Interaction Patterns Based on Probabilistic Velocity Fields</u> (Advisor: *Prof. Zhenfei Zhan*) <span style="color:gray">(Outstanding Thesis Award)</span>
+  * Thesis: <u>Recognition of Multi-Vehicle Interaction Patterns Based on Probabilistic Velocity Fields</u> (Advisor: *Prof. Zhenfei Zhan*) <span class="text-muted">(Outstanding Thesis Award)</span>
 
 Academic Experiences
 =====
@@ -101,5 +101,5 @@ Honors, Fellowships & Recognition
 - First Prize, 2018 National College Mechanical Innovation Competition (TOP \#10 in China), 2018
 - First Prize, 2017 China Undergraduate Mathematical Contest in Modeling, 2017
 - National Scholarship, China, 2017
-- First Prize, 2015 Chongqing University Physics Contest (\#1/500+ in Chongqing University), 2015 <span style="color:gray"> (As a first-year undergraduate) </span>
+- First Prize, 2015 Chongqing University Physics Contest (\#1/500+ in Chongqing University), 2015 <span class="text-muted">(As a first-year undergraduate)</span>
 

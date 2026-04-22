@@ -15,6 +15,8 @@ Camera: Sony A7R3a.
 
 Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F1.8 ZA; Sony FE 28mm F2.
 
+<div class="photos" markdown="1">
+
 <img src="../photos/20250604-DSC03397-Enhanced-NR.jpg" alt="Sunset" width="71%"/>
 <img src="../photos/20250610-DSC03407-Enhanced-NR.jpg" alt="Moon" width="26%"/>
 
@@ -63,3 +65,6 @@ Lenses: Tamron 28-200mm F2.8-5.6 Di III RXD; Sony Carl Zeiss Sonnar T* FE 55mm F
 
 <img src="../photos/20240101-DSC07255-Enhanced-NR.jpg" alt="Ottawa" width="68%"/>
 <img src="../photos/20231209-DSC06726-Enhanced-NR.jpg" alt="Christmas" width="30%"/>
+
+</div>
+

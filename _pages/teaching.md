@@ -8,12 +8,27 @@ author_profile: true
 Teaching Assistant
 =====
 
-* **CIVE 440 Traffic Engineering and Simulation**: *2022 Fall* and *2023 Fall*, by Prof. Lijun Sun @ Department of Civil Engineering, McGill
-  University. 
-  * TA Tutorials: traffic flow fundamentals and simulation; fundamental diagrams and shockwaves.
-* **Basics of Machine Learning and Data Analysis (online)**: *2022 Fall*, by Prof. Pradeep Ravikumar @ Department of Computer Science,
-  Carnegie Mellon University
-  * ordinary/generalized least squares (OLS/GLS), logistic regression, Bayesian inference, Gaussian processes.
-* **Statistical Machine Learning (online)**: *2020 Spring*, *2020 Summer*, and *2022 Summer*, by Prof. Dino Sejdinovic @ Department of
-  Statistics, Oxford University.
-  * LSE, MLE, Linear Regression, PCA, SVM, kernel methods, Deep Neural Network, Bayesian Optimization.
+<div class="course-grid" markdown="1">
+
+<div class="course-card" markdown="1">
+### CIVE 440 — Traffic Engineering and Simulation
+<p class="course-card__meta">2022 Fall & 2023 Fall · McGill University · Prof. Lijun Sun</p>
+- Traffic flow fundamentals and simulation
+- Fundamental diagrams and shockwaves
+</div>
+
+<div class="course-card" markdown="1">
+### Basics of Machine Learning and Data Analysis
+<p class="course-card__meta">2022 Fall · Carnegie Mellon University (online) · Prof. Pradeep Ravikumar</p>
+- OLS / GLS, logistic regression
+- Bayesian inference, Gaussian processes
+</div>
+
+<div class="course-card" markdown="1">
+### Statistical Machine Learning
+<p class="course-card__meta">2020 Spring / Summer, 2022 Summer · Oxford University (online) · Prof. Dino Sejdinovic</p>
+- LSE, MLE, linear regression, PCA, SVM
+- Kernel methods, deep neural networks, Bayesian optimization
+</div>
+
+</div>
