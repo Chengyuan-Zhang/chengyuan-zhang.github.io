@@ -14,26 +14,30 @@ redirect_from:
   <p class="hero-intro__lead">Ph.D. candidate at McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
 </div>
 
-I'm a final-year Ph.D. candidateat McGill University under the supervision of
-Prof. [Lijun Sun](https://lijunsun.github.io/). I was a visiting student researcher at the Robotics Institute, Carnegie
-Mellon University in 2023 under the supervision of Prof. Changliu Liu, and at the Department of Mechanical Engineering
-in 2018 under the supervision of Prof. Ding Zhao. Additionally, I conducted research at the Department of Mechanical
-Engineering, UC Berkeley from 2019 to 2020 under the supervision of Prof. Masayoshi Tomizuka. I earned my Bachelor
-degree in Vehicle Engineering from Chongqing University, in 2019.
+I'm a final-year Ph.D. candidate at McGill University, advised by
+Prof. [Lijun Sun](https://lijunsun.github.io/). I have also been a visiting researcher at CMU
+(with Prof. Changliu Liu, 2023; Prof. Ding Zhao, 2018) and UC Berkeley
+(with Prof. Masayoshi Tomizuka, 2019–2020). I received my B.Eng. in Vehicle Engineering
+from Chongqing University in 2019.
 
-My research is dedicated to establishing the foundations of _Trustworthy AI/ML_ within complex, multi-agent dynamical
-systems. I bridge the gap between _Traffic Flow Theory_ and _Embodied AI_ by developing advanced frameworks for
-**interpretable spatiotemporal reasoning** and **robust uncertainty quantification**. By integrating
-**Bayesian Statistics** with **Generative Models**, my work transforms high-dimensional, evolving urban traffic data
-into high-fidelity _Driver World Models_. These models explicitly account for the inherent stochasticity of
-human-centric behaviors, providing a statistically rigorous pathway toward the safe and efficient deployment of
-autonomous systems in real-world, information-rich environments.
-
-👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
+My research builds *trustworthy AI* for multi-agent traffic systems, combining **Bayesian
+statistics** with **generative models** to create interpretable *driver world models* that
+capture the stochasticity of human behavior — a statistically grounded path toward safe,
+reliable autonomous systems.
 
 <div class="callout" markdown="1">
-**Open to postdoc positions.** I am actively seeking a postdoctoral position focused on *stochastic modeling and simulation of human social behaviors* in complex, interactive scenarios; *dynamic interaction modeling* (drivers and pedestrians); and *Bayesian approaches* to trustworthy, cognitively grounded world models. If my research interests align with your group, I would be excited to connect.
+**Open to postdoc positions.** I'm actively seeking a postdoctoral role focused on *stochastic modeling of human social behaviors*, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. If this aligns with your group's interests, I'd be glad to connect.
 </div>
+
+<a class="demo-card" href="https://chengyuan-zhang.github.io/traffic-sim/" target="_blank" rel="noopener">
+  <div class="demo-card__icon"><i class="fas fa-circle-notch"></i></div>
+  <div class="demo-card__body">
+    <div class="demo-card__label">Interactive Demo</div>
+    <h3 class="demo-card__title">Ring-Road Traffic Simulator</h3>
+    <p class="demo-card__desc">An in-browser simulator visualizing car-following dynamics, stop-and-go waves, and how driver heterogeneity emerges on a circular road — a playground for the models behind my research.</p>
+  </div>
+  <div class="demo-card__cta">Launch <i class="fas fa-arrow-right"></i></div>
+</a>
 
 
 
@@ -65,7 +69,7 @@ Featured Research
 <div class="research-card" markdown="1">
 ### Robust Uncertainty & Trustworthy AI
 - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
-- Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
+- Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2502.05246](https://arxiv.org/abs/2502.05246))
 </div>
 
 </div>
@@ -130,10 +134,10 @@ News
 =====
 
 <ul class="news-list">
-  <li><span class="badge-new">New</span> New preprint alert! Our paper "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" is now available on <a href="https://arxiv.org/abs/2602.05246">arXiv: 2602.05246</a>. Please check it out!</li>
-  <li><span class="badge-new">New</span> Two papers "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration" are accepted at IEEE IV 2026.</li>
-  <li><span class="badge-new">New</span> Our paper "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic Theory (<a href="https://www.isttt2026.vtk.ed.tum.de/">ISTTT26</a>). See you in Munich! [<a href="https://arxiv.org/abs/2507.07012">arXiv</a>]</li>
-  <li><span class="badge-new">New</span> New preprint alert! Our paper "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" is now available on <a href="https://arxiv.org/abs/2506.14762">arXiv: 2506.14762</a>. Please check it out!</li>
+  <li><span class="news-date">Feb 2025</span> New preprint: "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" — <a href="https://arxiv.org/abs/2502.05246">arXiv: 2502.05246</a>.</li>
+  <li><span class="news-date">2026</span> Two papers accepted at IEEE IV 2026: "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration."</li>
+  <li><span class="news-date">2026</span> Paper accepted at <a href="https://www.isttt2026.vtk.ed.tum.de/">ISTTT26</a>: "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" [<a href="https://arxiv.org/abs/2507.07012">arXiv</a>]. See you in Munich!</li>
+  <li><span class="news-date">Jun 2025</span> New preprint: "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" — <a href="https://arxiv.org/abs/2506.14762">arXiv: 2506.14762</a>.</li>
 </ul>
 
 <button class="btn--toggle" onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
