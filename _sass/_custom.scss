@@ -262,6 +262,181 @@ html.dark-mode .topic-legend {
 html.dark-mode .text-muted  { color: var(--c-text-muted); }
 html.dark-mode .text-accent { color: var(--c-accent); }
 
+/* Talks timeline ------------------------------------------------------ */
+.year-header {
+  font-family: $serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: $darker-gray;
+  margin: 1.8rem 0 0.7rem;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid $accent-color;
+  display: inline-block;
+  padding-right: 1.2em;
+}
+
+html.dark-mode .year-header {
+  color: var(--c-text);
+  border-bottom-color: var(--c-accent);
+}
+
+.talks {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.4rem;
+}
+
+.talk {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.8rem 0 0.9rem;
+  border-bottom: 1px dashed $border-color;
+
+  &:last-child { border-bottom: 0; }
+
+  &__date {
+    flex: 0 0 88px;
+    font-family: $monospace;
+    font-size: 0.82em;
+    color: $dark-gray;
+    padding-top: 0.25em;
+  }
+
+  &__body { flex: 1 1 auto; min-width: 0; }
+
+  &__tag {
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.15em 0.55em;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    vertical-align: 0.18em;
+
+    &--invited    { background: $accent-color-soft; color: $accent-color; border: 1px solid mix(#fff, $accent-color, 70%); }
+    &--conference { background: #eef3f8; color: #2a5780; border: 1px solid #d5e1ef; }
+    &--workshop   { background: #f1ece0; color: #6a5515; border: 1px solid #e3d9bf; }
+  }
+
+  &__title {
+    display: inline;
+    font-weight: 600;
+    color: $darker-gray;
+    font-size: 1em;
+    line-height: 1.35;
+  }
+
+  &__venue {
+    margin: 0.25em 0 0.2em;
+    color: $gray;
+    font-size: 0.9em;
+  }
+
+  &__links a {
+    font-size: 0.85em;
+    margin-right: 0.55em;
+  }
+}
+
+@media (max-width: 600px) {
+  .talk { flex-direction: column; gap: 0.2rem; }
+  .talk__date { flex: 0 0 auto; font-size: 0.78em; }
+}
+
+html.dark-mode .talk {
+  border-bottom-color: var(--c-border);
+
+  &__date  { color: var(--c-text-muted); }
+  &__title { color: var(--c-text); }
+  &__venue { color: var(--c-text-muted); }
+
+  &__tag--invited    { background: var(--c-accent-soft); color: var(--c-accent); border-color: #4a2a30; }
+  &__tag--conference { background: #20333e; color: #9cc3e3; border-color: #2e4a5c; }
+  &__tag--workshop   { background: #322c1c; color: #d6c38a; border-color: #4a4127; }
+}
+
+/* Page meta strip (count summary) ------------------------------------- */
+.page-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  padding: 0.6rem 0.9rem;
+  margin: 0.4rem 0 1.4rem;
+  background: $accent-color-soft;
+  border-left: 3px solid $accent-color;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9em;
+  color: $dark-gray;
+
+  strong { color: $accent-color; font-weight: 700; }
+}
+
+html.dark-mode .page-meta-strip {
+  background: var(--c-accent-soft);
+  color: var(--c-text);
+
+  strong { color: var(--c-accent); }
+}
+
+/* Topic tag pills (used in teaching cards, etc.) --------------------- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.6em;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.12em 0.55em;
+  background: $lighter-gray;
+  color: $dark-gray;
+  font-size: 0.78em;
+  font-weight: 500;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+html.dark-mode .tag {
+  background: var(--c-bg-alt);
+  color: var(--c-text-muted);
+}
+
+/* Richer course card header (extends existing .course-card) ---------- */
+.course-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  margin-bottom: 0.35em;
+}
+
+.course-card__code {
+  font-family: $monospace;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+  background: $accent-color-soft;
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+}
+
+.course-card__term {
+  font-family: $monospace;
+  font-size: 0.76em;
+  color: $gray;
+}
+
+html.dark-mode .course-card__code {
+  background: var(--c-accent-soft);
+  color: var(--c-accent);
+}
+html.dark-mode .course-card__term { color: var(--c-text-muted); }
+
 /* Theme toggle button ---------------------------------------------------- */
 .theme-toggle {
   position: absolute;
