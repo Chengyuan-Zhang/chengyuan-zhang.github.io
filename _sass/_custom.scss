@@ -283,25 +283,91 @@ html.dark-mode .course-card {
 
 html.dark-mode .photos img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); }
 
-/* Topic legend (publications) ----------------------------------------- */
+/* Topic legend / filter (publications) --------------------------------- */
 .topic-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem 1.2rem;
-  padding: 0.7rem 1rem;
+  align-items: center;
+  gap: 0.5rem 0.6rem;
+  padding: 0.75rem 1rem;
   margin: 0.8rem 0 1.4rem;
   background: $accent-color-soft;
   border-left: 3px solid $accent-color;
   border-radius: 0 4px 4px 0;
   font-size: 0.93em;
 
-  span { white-space: nowrap; }
+  .topic-legend__hint {
+    color: $gray;
+    margin-right: 0.25rem;
+    font-size: 0.88em;
+  }
+
+  .topic-btn {
+    appearance: none;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #fff;
+    color: inherit;
+    font: inherit;
+    font-size: 0.88em;
+    line-height: 1.2;
+    padding: 0.3em 0.75em;
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+
+    .topic-ico { margin-right: 0.25em; }
+  }
+
+  .topic-btn:hover {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+
+  .topic-btn.is-active {
+    background: $accent-color;
+    border-color: $accent-color;
+    color: #fff;
+  }
+
+  .topic-btn.is-active:hover { color: #fff; }
+
+  .topic-btn:focus-visible {
+    outline: 2px solid $accent-color;
+    outline-offset: 2px;
+  }
 }
 
 html.dark-mode .topic-legend {
   background: var(--c-accent-soft);
   color: var(--c-text);
+
+  .topic-legend__hint { color: var(--c-text-muted); }
+
+  .topic-btn {
+    background: var(--c-surface, #1e2327);
+    border-color: rgba(255, 255, 255, 0.12);
+    color: var(--c-text);
+  }
+  .topic-btn:hover {
+    border-color: var(--c-accent);
+    color: var(--c-accent);
+  }
+  .topic-btn.is-active {
+    background: var(--c-accent);
+    border-color: var(--c-accent);
+    color: var(--c-bg);
+  }
+  .topic-btn.is-active:hover { color: var(--c-bg); }
 }
+
+.pub-empty-msg {
+  margin: 2rem 0;
+  color: $gray;
+  font-style: italic;
+  text-align: center;
+}
+html.dark-mode .pub-empty-msg { color: var(--c-text-muted); }
 
 /* Muted/accent notes (replaces inline color:gray / color:red spans) --- */
 .text-muted { color: $gray; }
@@ -944,24 +1010,41 @@ html.dark-mode .research-card h3 { color: var(--c-text); }
 
 /* Funding / partner logo strip -------------------------------------------- */
 .funding-logos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem 2rem;
   align-items: center;
-  justify-content: center;
-  margin: 2rem 0 1rem;
+  justify-items: center;
+  margin: 2rem auto 1rem;
+  max-width: 900px;
+
+  > * {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   img {
-    max-height: 56px;
+    max-height: 100%;
+    max-width: 100%;
     width: auto;
+    height: auto;
+    object-fit: contain;
     filter: grayscale(100%);
-    opacity: 0.7;
+    opacity: 0.72;
     transition: filter 0.2s ease, opacity 0.2s ease;
   }
 
   img:hover {
     filter: none;
     opacity: 1;
+  }
+
+  @media (max-width: 720px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 }
 

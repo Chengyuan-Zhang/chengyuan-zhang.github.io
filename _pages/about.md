@@ -151,8 +151,8 @@ News
 <p>&nbsp;</p>
 
 <div class="funding-logos">
-  <img src="../images/FRQNT.png" alt="FRQNT" loading="lazy">
-  <img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" alt="IVADO" loading="lazy">
-  <img src="../images/mitacs_transparent.png" alt="Mitacs" loading="lazy">
-  <img src="../images/CIRRELT_logo.png" alt="CIRRELT" loading="lazy">
+  <div><img src="../images/FRQNT.png" alt="FRQNT" loading="lazy"></div>
+  <div><img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" alt="IVADO" loading="lazy"></div>
+  <div><img src="../images/mitacs_transparent.png" alt="Mitacs" loading="lazy"></div>
+  <div><img src="../images/CIRRELT_logo.png" alt="CIRRELT" loading="lazy"></div>
 </div>

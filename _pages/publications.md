@@ -13,11 +13,13 @@ Corresponding Author, = Equal Contributions.)
 
 <img src="{{ '/images/wordcloud_1920x.png' | relative_url }}" alt="word cloud" width="100%"/>
 
-<div class="topic-legend">
-  <span>📕 Traffic Flow Theory & Simulations</span>
-  <span>📘 Multi-Agent Social Interactions & Driver World Model</span>
-  <span>📗 Spatiotemporal Data & Interpretable Patterns</span>
-  <span>📙 Bayesian Learning</span>
+<div class="topic-legend" id="topic-filter" role="toolbar" aria-label="Filter publications by topic">
+  <span class="topic-legend__hint">Click a topic to filter:</span>
+  <button type="button" class="topic-btn is-active" data-topic="all">All</button>
+  <button type="button" class="topic-btn" data-topic="traffic"><span class="topic-ico">📕</span> Traffic Flow Theory &amp; Simulations</button>
+  <button type="button" class="topic-btn" data-topic="multiagent"><span class="topic-ico">📘</span> Multi-Agent Social Interactions &amp; Driver World Model</button>
+  <button type="button" class="topic-btn" data-topic="spatiotemporal"><span class="topic-ico">📗</span> Spatiotemporal Data &amp; Interpretable Patterns</button>
+  <button type="button" class="topic-btn" data-topic="bayesian"><span class="topic-ico">📙</span> Bayesian Learning</button>
 </div>
 
 ## Preprints
@@ -98,3 +100,93 @@ Corresponding Author, = Equal Contributions.)
 - <u>Chengyuan Zhang</u>, Xiaomin Zhang, Hongyun Ye, Jinming Shi, Manzhi Wang, and Xianxiong Ning.
   [Cam-connecting rod type mechanical three-dimensional parking device.](https://patents.google.com/patent/CN108222589B/en)
   CN108222589B, China, 2018
+
+<p id="pub-empty-msg" class="pub-empty-msg" hidden>No publications match this topic yet.</p>
+
+<script>
+(function () {
+  var TOPIC_MAP = {
+    '📕': 'traffic',
+    '📘': 'multiagent',
+    '📗': 'spatiotemporal',
+    '📙': 'bayesian'
+  };
+
+  var content = document.querySelector('.page__content') || document.querySelector('main') || document.body;
+  if (!content) return;
+
+  // Tag every <li> under the publications content with its topics.
+  var items = content.querySelectorAll('li');
+  items.forEach(function (li) {
+    var text = li.textContent || '';
+    var topics = [];
+    Object.keys(TOPIC_MAP).forEach(function (emoji) {
+      if (text.indexOf(emoji) !== -1) topics.push(TOPIC_MAP[emoji]);
+    });
+    if (topics.length) li.setAttribute('data-topics', topics.join(' '));
+    li.classList.add('pub-item-row');
+  });
+
+  var filter = document.getElementById('topic-filter');
+  if (!filter) return;
+  var buttons = filter.querySelectorAll('.topic-btn');
+  var emptyMsg = document.getElementById('pub-empty-msg');
+
+  function applyFilter(topic) {
+    var anyVisible = false;
+
+    // Show/hide list items
+    items.forEach(function (li) {
+      if (topic === 'all') {
+        li.hidden = false;
+        anyVisible = true;
+        return;
+      }
+      var topics = (li.getAttribute('data-topics') || '').split(/\s+/);
+      var match = topics.indexOf(topic) !== -1;
+      li.hidden = !match;
+      if (match) anyVisible = true;
+    });
+
+    // Hide section headings (h2) whose following <ul> has no visible items
+    var headings = content.querySelectorAll('h2');
+    headings.forEach(function (h) {
+      var next = h.nextElementSibling;
+      while (next && next.tagName !== 'UL' && next.tagName !== 'H2') next = next.nextElementSibling;
+      if (!next || next.tagName !== 'UL') { h.hidden = false; return; }
+      var visibleLis = next.querySelectorAll('li:not([hidden])');
+      h.hidden = visibleLis.length === 0;
+      next.hidden = visibleLis.length === 0;
+    });
+
+    if (emptyMsg) emptyMsg.hidden = anyVisible;
+
+    buttons.forEach(function (b) {
+      b.classList.toggle('is-active', b.getAttribute('data-topic') === topic);
+      b.setAttribute('aria-pressed', b.getAttribute('data-topic') === topic ? 'true' : 'false');
+    });
+
+    // Sync URL hash for shareable links
+    if (topic === 'all') {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    } else {
+      history.replaceState(null, '', '#topic=' + topic);
+    }
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      applyFilter(b.getAttribute('data-topic'));
+    });
+  });
+
+  // Honor ?/# deep link (e.g. #topic=bayesian)
+  var hash = (window.location.hash || '').replace('#', '');
+  var initial = 'all';
+  if (hash.indexOf('topic=') === 0) {
+    var t = hash.slice(6);
+    if (['traffic', 'multiagent', 'spatiotemporal', 'bayesian'].indexOf(t) !== -1) initial = t;
+  }
+  applyFilter(initial);
+})();
+</script>
