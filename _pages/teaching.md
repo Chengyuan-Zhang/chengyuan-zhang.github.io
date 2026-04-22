@@ -7,12 +7,6 @@ author_profile: true
 
 I have served as a teaching assistant for both in-person and online courses spanning traffic engineering and the foundations of statistical machine learning.
 
-<div class="page-meta-strip">
-  <span><strong>3</strong> courses</span>
-  <span><strong>5</strong> terms</span>
-  <span>McGill · CMU · Oxford</span>
-</div>
-
 Teaching Assistant
 =====
 
