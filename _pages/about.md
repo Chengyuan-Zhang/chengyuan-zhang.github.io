@@ -10,6 +10,11 @@ redirect_from:
 
 ---
 
+<style>
+  .page__title { display: none; }
+  .page__content > p:first-of-type { margin-top: 0; }
+</style>
+
 <div class="hero">
   <div class="hero__text">
     <p class="hero__name">Chengyuan Zhang</p>
