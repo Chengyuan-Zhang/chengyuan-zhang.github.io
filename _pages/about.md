@@ -13,13 +13,13 @@ redirect_from:
 <div class="hero">
   <div class="hero__text">
     <p class="hero__name">Chengyuan Zhang</p>
-    <p class="hero__tagline">Ph.D. candidate at McGill University — Trustworthy AI, Bayesian learning, and driver world models for multi-agent traffic systems.</p>
+    <p class="hero__tagline">Ph.D. candidate at McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
     <div class="hero__links">
-      <a href="{{ base_path }}/publications/">📄 Publications</a>
-      <a href="{{ base_path }}/cv/">📋 CV</a>
-      <a href="https://scholar.google.com/">🎓 Google Scholar</a>
-      <a href="https://github.com/Chengyuan-Zhang">💻 GitHub</a>
-      <a href="mailto:enzozcy@gmail.com">✉️ Email</a>
+      <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-file-lines"></i>Publications</a>
+      <a href="{{ '/cv/' | relative_url }}"><i class="fas fa-id-card"></i>CV</a>
+      <a href="https://scholar.google.com/"><i class="fas fa-graduation-cap"></i>Google Scholar</a>
+      <a href="https://github.com/Chengyuan-Zhang"><i class="fab fa-github"></i>GitHub</a>
+      <a href="mailto:enzozcy@gmail.com"><i class="fas fa-envelope"></i>Email</a>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@ autonomous systems in real-world, information-rich environments.
 👋 Please feel free to contact me to schedule a quick discussion if you are interested in collaborating with me.
 
 <div class="callout" markdown="1">
-📢 I am actively seeking a postdoctoral position focused on *stochastic modeling and simulation of human social behaviors* in complex and interactive scenarios, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. If my research interests align with your group, I would be excited to connect!
+**Open to postdoc positions.** I am actively seeking a postdoctoral position focused on *stochastic modeling and simulation of human social behaviors* in complex, interactive scenarios; *dynamic interaction modeling* (drivers and pedestrians); and *Bayesian approaches* to trustworthy, cognitively grounded world models. If my research interests align with your group, I would be excited to connect.
 </div>
 
 
@@ -53,27 +53,27 @@ Featured Research
 <div class="research-grid" markdown="1">
 
 <div class="research-card" markdown="1">
-### 🚦 Traffic Flow Theory & Simulation
+### Traffic Flow Theory & Simulation
 - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
 </div>
 
 <div class="research-card" markdown="1">
-### 🤝 Multi-Agent Social Interactions & Driver World Model
+### Multi-Agent Social Interactions & Driver World Model
 - Social interactions for autonomous driving: A review and perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
 - Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
 - Interactive Car-Following: Matters but NOT Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
 </div>
 
 <div class="research-card" markdown="1">
-### 🧭 Spatiotemporal Data & Interpretable Patterns
+### Spatiotemporal Data & Interpretable Patterns
 - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
 - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
 - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
 </div>
 
 <div class="research-card" markdown="1">
-### 🛡️ Robust Uncertainty & Trustworthy AI
+### Robust Uncertainty & Trustworthy AI
 - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
 - Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
 </div>
