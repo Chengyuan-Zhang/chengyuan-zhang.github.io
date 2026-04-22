@@ -168,3 +168,21 @@ A selection of invited lectures and conference presentations.
   <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="ITSC 2019" style="width:55%">
   <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="CMU 2018" style="width:40%">
 </div>
+
+<section class="talks-map-section">
+  <h2 class="talks-map-section__title">Where I've been</h2>
+  <p class="talks-map-section__lead">Locations of in-person talks (online-only seminars are listed above but not mapped).</p>
+
+  <div class="talks-map-legend">
+    <span><span class="dot dot--invited"></span>Invited</span>
+    <span><span class="dot dot--conference"></span>Conference</span>
+    <span><span class="dot dot--workshop"></span>Workshop</span>
+  </div>
+
+  <div id="talks-map" class="talks-map" aria-label="World map of talk locations"></div>
+  <p class="talks-map-section__hint"><i class="fas fa-info-circle"></i> Click the map to enable scroll-zoom; hover out to disable.</p>
+</section>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="{{ '/assets/js/talks-map.js' | relative_url }}"></script>
