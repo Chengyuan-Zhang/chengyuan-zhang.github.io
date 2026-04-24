@@ -843,6 +843,51 @@ html.dark-mode .theme-toggle {
   }
 }
 
+/* Hero trajectory animation wrapper -------------------------------------- */
+.hero-wrap {
+  position: relative;
+  margin: 0 0 1.4rem;
+  border-radius: 0 6px 6px 0;
+  overflow: hidden;
+
+  .hero-intro {
+    position: relative;
+    margin: 0;
+    background: linear-gradient(
+      to right,
+      rgba(#fff, 0.97) 0%,
+      rgba(#fff, 0.88) 55%,
+      rgba(mix(#fff, $accent-color, 95%), 0.78) 100%
+    );
+    z-index: 1;
+  }
+}
+
+.hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.65;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-canvas { display: none; }
+}
+
+html.dark-mode .hero-wrap .hero-intro {
+  background: linear-gradient(
+    to right,
+    rgba(20, 24, 32, 0.92) 0%,
+    rgba(20, 24, 32, 0.78) 55%,
+    rgba(30, 24, 30, 0.62) 100%
+  );
+}
+html.dark-mode .hero-canvas { opacity: 0.75; }
+
 html.dark-mode .hero-intro {
   background: rgba(224, 106, 117, 0.08);
   border-left-color: var(--c-accent);
@@ -2176,3 +2221,105 @@ body.no-scroll { overflow: hidden; }
     &__close, &__prev, &__next { width: 36px; height: 36px; }
   }
 }
+
+
+/* 404 — Trajectory Lost ------------------------------------------------- */
+.not-found {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0.5rem 0 2rem;
+  text-align: center;
+
+  &__stage {
+    position: relative;
+    height: 200px;
+    margin: 0 0 1.2rem;
+    border: 1px dashed rgba(0,0,0,0.12);
+    border-radius: 10px;
+    overflow: hidden;
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 18px,
+        rgba(0,0,0,0.025) 18px 20px
+      );
+  }
+
+  &__canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+  }
+
+  &__code {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $sans-serif;
+    font-weight: 900;
+    font-size: clamp(96px, 22vw, 180px);
+    letter-spacing: -0.04em;
+    color: rgba(0,0,0,0.06);
+    user-select: none;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__headline {
+    margin: 0 0 0.4rem;
+    font-family: $serif;
+    font-size: 1.5rem;
+    color: $darker-gray;
+  }
+
+  &__lead {
+    max-width: 560px;
+    margin: 0 auto 1.4rem;
+    color: $dark-gray;
+    line-height: 1.6;
+
+    em { color: $accent-color; font-style: normal; font-weight: 600; }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0 0 1.2rem;
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45em;
+    }
+  }
+
+  &__footnote {
+    font-size: 0.85em;
+    color: $gray;
+    margin: 0;
+  }
+}
+
+html.dark-mode .not-found {
+  &__stage {
+    border-color: rgba(255,255,255,0.14);
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 18px,
+        rgba(255,255,255,0.04) 18px 20px
+      );
+  }
+  &__code { color: rgba(255,255,255,0.08); }
+  &__headline { color: var(--c-text); }
+  &__lead { color: var(--c-muted); }
+  &__footnote { color: var(--c-muted); }
+}
+
