@@ -10,9 +10,13 @@ redirect_from:
 
 ---
 
-<div class="hero-intro">
-  <p class="hero-intro__lead">Ph.D. candidate at McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
+<div class="hero-wrap">
+  <canvas class="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-intro">
+    <p class="hero-intro__lead">Ph.D. candidate at McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
+  </div>
 </div>
+<script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}" defer></script>
 
 I'm a final-year Ph.D. candidate at McGill University, advised by
 Prof. [Lijun Sun](https://lijunsun.github.io/). I have also been a visiting researcher at CMU
