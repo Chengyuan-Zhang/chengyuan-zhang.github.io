@@ -10,7 +10,8 @@ locale                   : "en-CA"
 title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Chengyuan ZHANG"
-description              : &description "Chengyuan Zhang is a Ph.D. candidate at McGill University under the supervision of Prof. Lijun Sun."
+description              : &description "Chengyuan Zhang — Ph.D. candidate at McGill University (advised by Prof. Lijun Sun). Research on Trustworthy AI/ML, Bayesian statistics, generative driver world models, traffic flow theory, and multi-agent social interactions for autonomous driving."
+keywords                 : "Chengyuan Zhang, McGill University, Lijun Sun, autonomous driving, traffic flow theory, Bayesian inference, car-following, driver world model, intelligent driver model, IDM, spatiotemporal modeling, trustworthy AI, multi-agent interaction"
 url                      : https://chengyuan-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chengyuan-Zhang/chengyuan-zhang.github.io" # the github repository you're using
@@ -62,18 +63,23 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "Chengyuan.jpg"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person"
+  name                   : *name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?user=4Zgj2BkAAAAJ&hl=en"
+    - "https://orcid.org/0000-0001-8463-7380"
+    - "https://github.com/Chengyuan-Zhang"
+    - "https://www.linkedin.com/in/cy-zhang"
+    - "https://www.researchgate.net/profile/Chengyuan-Zhang-4"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  # false (default), "google", "google-universal" (deprecated), "google-analytics-4", "custom"
   google:
     tracking_id          :
 

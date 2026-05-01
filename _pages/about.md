@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "About Me"
+excerpt: "Chengyuan Zhang — Ph.D. candidate at McGill University. Research on Trustworthy AI/ML, Bayesian inference, and stochastic driver models for autonomous driving."
 author_profile: true
 redirect_from:
 
@@ -108,19 +108,35 @@ Selected Publications
   </div>
 </div>
 
-<button class="btn--toggle" onclick="togglePDF()">My Ph.D. Research Summary</button>
+<p>
+  <a href="#pdf-container"
+     id="pdf-toggle"
+     class="btn--toggle"
+     role="button"
+     aria-expanded="false"
+     aria-controls="pdf-container"
+     onclick="event.preventDefault(); togglePDF(this);">My Ph.D. Research Summary</a>
+</p>
 
-<div id="pdf-container" class="pdf-container" style="display: none;">
-  <iframe src="/files/PhD research summary.pdf"></iframe>
+<div id="pdf-container" class="pdf-container" hidden>
+  <iframe src="{{ '/files/PhD research summary.pdf' | relative_url }}"
+          title="Chengyuan Zhang — Ph.D. Research Summary"
+          loading="lazy"></iframe>
 </div>
 
 <script>
-  function togglePDF() {
-    const container = document.getElementById("pdf-container");
-    const button = event.target;
-    const visible = container.style.display === "block";
-    container.style.display = visible ? "none" : "block";
-    button.textContent = visible ? "My Ph.D. Research Summary" : "Hide PDF";
+  function togglePDF(trigger) {
+    var container = document.getElementById("pdf-container");
+    var hidden = container.hasAttribute("hidden");
+    if (hidden) {
+      container.removeAttribute("hidden");
+      trigger.setAttribute("aria-expanded", "true");
+      trigger.textContent = "Hide PDF";
+    } else {
+      container.setAttribute("hidden", "");
+      trigger.setAttribute("aria-expanded", "false");
+      trigger.textContent = "My Ph.D. Research Summary";
+    }
   }
 </script>
 
@@ -134,7 +150,7 @@ News
   <li><span class="news-date">06/2025</span> New preprint: "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" — <a href="https://arxiv.org/abs/2506.14762">arXiv: 2506.14762</a>.</li>
 </ul>
 
-<button class="btn--toggle" onclick="window.location.href='https://chengyuan-zhang.github.io/news/';">Read more</button>
+<p><a href="{{ '/news/' | relative_url }}" class="btn--toggle" role="button">Read more</a></p>
 
 <p>&nbsp;</p>
 
@@ -149,8 +165,8 @@ News
 </div>
 
 <div class="funding-logos">
-  <div><img src="../images/FRQNT.png" alt="FRQNT" loading="lazy"></div>
-  <div><img src="../images/ivado-cmyk_logo-full-degrade-730x245.png" alt="IVADO" loading="lazy"></div>
-  <div><img src="../images/mitacs_transparent.png" alt="Mitacs" loading="lazy"></div>
-  <div><img src="../images/CIRRELT_logo.png" alt="CIRRELT" loading="lazy"></div>
+  <div><img src="{{ '/images/FRQNT.png' | relative_url }}" alt="FRQNT" loading="lazy" decoding="async"></div>
+  <div><img src="{{ '/images/ivado-cmyk_logo-full-degrade-730x245.png' | relative_url }}" alt="IVADO" loading="lazy" decoding="async"></div>
+  <div><img src="{{ '/images/mitacs_transparent.png' | relative_url }}" alt="Mitacs" loading="lazy" decoding="async"></div>
+  <div><img src="{{ '/images/CIRRELT_logo.png' | relative_url }}" alt="CIRRELT" loading="lazy" decoding="async"></div>
 </div>
