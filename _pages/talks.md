@@ -95,8 +95,8 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <img src="{{ '/images/Weixin Image_20240718123054.jpg' | relative_url }}" alt="ISTTT25" style="width:30%">
-  <img src="{{ '/images/Weixin Image_20240718141140.jpg' | relative_url }}" alt="ISTTT25" style="width:45%">
+  <img src="{{ '/images/Weixin Image_20240718123054.jpg' | relative_url }}" alt="ISTTT25" loading="lazy" decoding="async" style="width:30%">
+  <img src="{{ '/images/Weixin Image_20240718141140.jpg' | relative_url }}" alt="ISTTT25" loading="lazy" decoding="async" style="width:45%">
 </div>
 
 <section class="talks-section">
@@ -127,8 +127,8 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <iframe width="480" height="300" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:4px"></iframe>
-  <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="TRB 2023" style="width:45%">
+  <iframe width="480" height="300" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:4px"></iframe>
+  <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="TRB 2023" loading="lazy" decoding="async" style="width:45%">
 </div>
 
 <section class="talks-section">
@@ -158,8 +158,8 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="ITSC 2019" style="width:55%">
-  <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="CMU 2018" style="width:40%">
+  <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="ITSC 2019" loading="lazy" decoding="async" style="width:55%">
+  <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="CMU 2018" loading="lazy" decoding="async" style="width:40%">
 </div>
 
 <section class="talks-map-section">

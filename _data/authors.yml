@@ -1,18 +1,19 @@
 # Authors
+# Per-author overrides for documents that set `author:` in front-matter.
+# When a key here matches `page.author`, _includes/author-profile.html uses
+# this entry instead of `site.author` (see _config.yml).
+# The default site.author already covers Chengyuan Zhang's profile, so this
+# file is intentionally minimal. Add new entries as needed.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+chengyuan:
+  name          : "Chengyuan Zhang"
+  bio           : "Ph.D. candidate in the Department of Civil Engineering, McGill University"
+  avatar        : "Chengyuan.jpg"
+  location      : "Montreal, QC, Canada"
+  employer      : "McGill University"
+  email         : "enzozcy@gmail.com"
+  googlescholar : "https://scholar.google.com/citations?user=4Zgj2BkAAAAJ&hl=en"
+  orcid         : "https://orcid.org/0000-0001-8463-7380"
+  github        : "Chengyuan-Zhang"
+  linkedin      : "cy-zhang"
+  researchgate  : "https://www.researchgate.net/profile/Chengyuan-Zhang-4"
