@@ -11,12 +11,20 @@ redirect_from:
 
 A selection of invited lectures and conference presentations.
 
+
 <section class="talks-section">
   <div class="talks-section__year">
     <span class="talks-section__year-label">2026</span>
     <span class="talks-section__year-rule"></span>
   </div>
   <ul class="talks-section__list">
+    <li class="talk-entry">
+      <h3 class="talk-entry__title">
+        Discovering Urban Mobility Patterns from Human Behavior to City-Scale Dynamics with Interpretable AI: Interpretable pattern discovery across mobility scales
+        <span class="talk-entry__tag talk-entry__tag--invited">Invited</span>
+      </h3>
+      <p class="talk-entry__meta">MIT Senseable City Lab, Massachusetts Institute of Technology<span class="sep">·</span>Online<span class="sep">·</span>April 2026</p>
+    </li>
     <li class="talk-entry">
       <h3 class="talk-entry__title">
         Modeling Human Driving as a Dynamic Interaction Process: Uncertainty-Aware Learning from Naturalistic Driving Data
