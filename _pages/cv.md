@@ -25,7 +25,7 @@ redirect_from:
     </p>
   </div>
   <div class="cv-header__right">
-    <a class="cv-dl-btn" href="{{ '/files/Resume_Chengyuan.pdf' | relative_url }}">
+    <a class="cv-dl-btn" href="{{ '/files/CV_Chengyuan.pdf' | relative_url }}">
       <i class="fas fa-file-pdf"></i> Download CV<span class="cv-dl-btn__sub">PDF</span>
     </a>
   </div>
@@ -54,14 +54,14 @@ redirect_from:
       <h3 class="cv-item__title">Ph.D. in Civil Engineering</h3>
       <p class="cv-item__where">McGill University, Montréal, Canada</p>
       <p class="cv-item__note">
-        Dissertation: <em>From Micro Interactions to Traffic Flow — Stochastic Driver Models for Realistic Traffic Simulation</em><br>
+        Dissertation: <em>From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</em><br>
         Advisor: <strong>Prof. Lijun Sun</strong> · Fast-tracked from M.Sc. to Ph.D. in 2022
       </p>
     </li>
     <li class="cv-timeline__item">
       <span class="cv-timeline__dot"></span>
       <p class="cv-item__when">2015 – 2019</p>
-      <h3 class="cv-item__title">B.S. in Automobile Engineering</h3>
+      <h3 class="cv-item__title">B.Eng. in Vehicle Engineering</h3>
       <p class="cv-item__where">Chongqing University, Chongqing, China</p>
       <p class="cv-item__note">
         Thesis: <em>Recognition of Multi-Vehicle Interaction Patterns Based on Probabilistic Velocity Fields</em><br>
@@ -116,8 +116,8 @@ redirect_from:
     <li class="cv-timeline__item">
       <span class="cv-timeline__dot"></span>
       <p class="cv-item__when">2016 – 2018</p>
-      <h3 class="cv-item__title">Member, CQU-FSAE Transmission Group</h3>
-      <p class="cv-item__where">Chongqing University Formula SAE, China</p>
+      <h3 class="cv-item__title">Member, CQU-Formula SAE Transmission Group</h3>
+      <p class="cv-item__where">Chongqing University, China</p>
     </li>
   </ol>
 </section>
