@@ -16,8 +16,8 @@ redirect_from:
 
 <header class="cv-header">
   <div class="cv-header__left">
-    <h1 class="cv-header__name">Chengyuan Zhang</h1>
-    <p class="cv-header__role">Ph.D. Candidate · Civil Engineering, McGill University</p>
+    <h1 class="cv-header__name">Dr. Chengyuan Zhang</h1>
+    <p class="cv-header__role">Ph.D., McGill University</p>
     <p class="cv-header__meta">
       <span><i class="fas fa-map-marker-alt"></i> Montréal, Canada</span>
       <span><i class="fas fa-envelope"></i> enzozcy [at] gmail.com</span>
@@ -50,8 +50,8 @@ redirect_from:
   <ol class="cv-timeline">
     <li class="cv-timeline__item cv-timeline__item--current">
       <span class="cv-timeline__dot"></span>
-      <p class="cv-item__when">2020 – 2026 <span class="cv-item__when-sub">· expected</span> <span class="pill pill--live">Current</span></p>
-      <h3 class="cv-item__title">Ph.D. candidate, Civil Engineering</h3>
+      <p class="cv-item__when">2020 – 2026 <span class="cv-item__when-sub"> </span> <span class="pill pill--live">Current</span></p>
+      <h3 class="cv-item__title">Ph.D. in Civil Engineering</h3>
       <p class="cv-item__where">McGill University, Montréal, Canada</p>
       <p class="cv-item__note">
         Dissertation: <em>From Micro Interactions to Traffic Flow — Stochastic Driver Models for Realistic Traffic Simulation</em><br>
