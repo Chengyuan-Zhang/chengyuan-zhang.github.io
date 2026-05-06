@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Dr. Chengyuan Zhang — Ph.D., McGill University. Research on Trustworthy AI/ML, Bayesian inference, and stochastic driver models for autonomous driving."
+excerpt: "Dr. Chengyuan Zhang — Ph.D., McGill University. Research on Trustworthy AI/ML, Bayesian inference, and
+stochastic driver models for autonomous driving."
 author_profile: true
 redirect_from:
 
@@ -18,11 +19,10 @@ redirect_from:
 </div>
 <script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}" defer></script>
 
-I received my Ph.D. degree in Civil Engineering from McGill University, advised by
-Prof. [Lijun Sun](https://lijunsun.github.io/), in 2026. I have also been a visiting researcher at CMU
-(with Prof. Changliu Liu, 2023; Prof. Ding Zhao, 2018) and UC Berkeley
-(with Prof. Masayoshi Tomizuka, 2019–2020). I received my B.Eng. in Vehicle Engineering
-from Chongqing University in 2019.
+I received my Ph.D. in Civil Engineering from McGill University in 2026, advised by
+Prof. [Lijun Sun](https://lijunsun.github.io/), and my B.Eng. in Vehicle Engineering from Chongqing University
+in 2019. I was also a visiting researcher at Carnegie Mellon University with Prof. Changliu Liu in 2023 and Prof. Ding
+Zhao in 2018, and at UC Berkeley with Prof. Masayoshi Tomizuka from 2019 to 2020.
 
 My research builds *trustworthy AI* for multi-agent traffic systems, combining **Bayesian
 statistics** with **generative models** to create interpretable *driver world models* that
@@ -144,7 +144,7 @@ News
 =====
 
 <ul class="news-list">
-  <li><span class="news-date">05/2026</span> I am delighted to share that I successfully defended my PhD thesis, From Micro Interactions to Traffic Flow — Stochastic Driver Models for Realistic Traffic Simulation, at McGill University. Sincere thanks to my advisor Prof. Lijun Sun, my committee, and everyone who supported me along the way.</li>
+  <li><span class="news-date">05/2026</span> I am delighted to share that I successfully defended my PhD thesis, From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation, at McGill University. Sincere thanks to my advisor Prof. Lijun Sun, my committee, and everyone who supported me along the way.</li>
   <li><span class="news-date">02/2026</span> New preprint: "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" — <a href="https://arxiv.org/abs/2602.05246">arXiv: 2602.05246</a>.</li>
   <li><span class="news-date">01/2026</span> Two papers accepted at IEEE IV 2026: "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration."</li>
   <li><span class="news-date">11/2025</span> Paper accepted at <a href="https://www.isttt2026.vtk.ed.tum.de/">ISTTT26</a>: "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" [<a href="https://arxiv.org/abs/2507.07012">arXiv</a>]. See you in Munich!</li>
