@@ -5,6 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
+* <span class="news-date">05/2026</span> I am delighted to share that I successfully defended my PhD thesis, From Micro Interactions to Traffic Flow — Stochastic Driver Models for Realistic Traffic Simulation, at McGill University. Sincere thanks to my advisor Prof. Lijun Sun, my committee, and everyone who supported me along the way.
 * <span class="news-date">04/2026</span> I am delighted to give an online talk "Modeling Human Driving as a Dynamic Interaction Process: Uncertainty-Aware Learning from Naturalistic
   Driving Data" at MIT AgeLab, Massachusetts Institute of Technology (invited by Dr. Pnina Gershon).
 * <span class="news-date">02/2026</span> I am delighted to give a talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for
