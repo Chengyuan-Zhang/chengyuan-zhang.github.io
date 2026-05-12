@@ -51,7 +51,7 @@ redirect_from:
     <li class="cv-timeline__item cv-timeline__item--current">
       <span class="cv-timeline__dot"></span>
       <p class="cv-item__when">2020 – 2026 <span class="cv-item__when-sub"> </span> <span class="pill pill--live">Current</span></p>
-      <h3 class="cv-item__title">Ph.D. in Civil Engineering</h3>
+      <h3 class="cv-item__title">Ph.D. in Civil Engineering (Transportation)</h3>
       <p class="cv-item__where">McGill University, Montréal, Canada</p>
       <p class="cv-item__note">
         Dissertation: <em>From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation</em><br>
