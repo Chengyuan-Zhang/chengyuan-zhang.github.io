@@ -148,14 +148,15 @@ redirect_from:
         <span class="chip">Transportation Science</span>
         <span class="chip">Transp. Res. Part B</span>
         <span class="chip">Transp. Res. Part C</span>
-        <span class="chip">Transp. Res. Interdisc. Perspectives</span>
         <span class="chip">European J. of Operational Research</span>
         <span class="chip">Artificial Intelligence for Transp.</span>
         <span class="chip">IEEE T-ITS</span>
         <span class="chip">IEEE T-IV</span>
         <span class="chip">IEEE T-CE</span>
+        <span class="chip">IEEE T-IE</span>
         <span class="chip">IEEE T-Cybernetics</span>
         <span class="chip">IEEE Sensors Journal</span>
+        <span class="chip">Transp. Res. Interdisc. Perspectives</span>
         <span class="chip">Travel Behaviour and Society</span>
         <span class="chip">ASME J. Mech. &amp; Robotics</span>
         <span class="chip">ASME J. Mech. Design</span>
