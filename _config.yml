@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-CA"
-title                    : "Homepage"
+title                    : "Chengyuan Zhang"
 title_separator          : "-"
 name                     : &name "Dr. Chengyuan ZHANG"
 description              : &description "Dr. Chengyuan Zhang — Ph.D. in Civil Engineering, McGill University (advised by Prof. Lijun Sun). Research on Trustworthy AI/ML, Bayesian statistics, generative driver world models, traffic flow theory, and multi-agent social interactions for autonomous driving."
@@ -148,6 +148,7 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
   - tmp
@@ -261,7 +262,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Toronto # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
