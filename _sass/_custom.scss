@@ -792,6 +792,7 @@ html.dark-mode .post-card {
   top: 50%;
   right: 1em;
   transform: translateY(-50%);
+  z-index: 11; // sit above .greedy-nav (z-index: 10) so clicks reach the button
   width: 34px;
   height: 34px;
   padding: 0;
@@ -822,6 +823,13 @@ html.dark-mode .theme-toggle {
   color: var(--c-text);
   .theme-toggle__icon--sun { display: none; }
   .theme-toggle__icon--moon { display: inline; }
+}
+
+/* On narrower screens the greedy-nav collapses to an overflow ("hamburger")
+   button anchored to the same top-right corner as the toggle. Shift the
+   toggle left so the two buttons never overlap or steal each other's clicks. */
+@media (max-width: 1280px) {
+  .theme-toggle { right: 4em; }
 }
 
 .masthead__inner-wrap { position: relative; }
