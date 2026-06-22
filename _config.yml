@@ -149,6 +149,9 @@ exclude:
   - gulpfile.js
   - log
   - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
   - node_modules
   - package.json
   - tmp
