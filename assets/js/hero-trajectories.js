@@ -1,37 +1,46 @@
-/* Hero multi-vehicle trajectory animation.
- * Subtle, research-themed background: a handful of "vehicles" flow across
- * parallel lanes while leaving fading trails. Pauses when off-screen and
- * briefly accelerates in response to user scrolling. Honors reduced-motion. */
+/* Hero car-following animation.
+ * Vehicles on parallel lanes follow the car ahead using an optimal-velocity
+ * model on a ring, which spontaneously forms stop-and-go clusters — a subtle
+ * nod to the traffic-flow research behind this site. Pauses when off-screen,
+ * is theme-aware, couples gently to scrolling, and honours reduced motion by
+ * drawing a single static frame instead of animating. */
 (function () {
   if (typeof window === "undefined") return;
-  var reduceMotion =
-    window.matchMedia &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (reduceMotion) return;
 
   var canvas = document.querySelector(".hero-canvas");
   if (!canvas || !canvas.getContext) return;
   var ctx = canvas.getContext("2d");
 
+  var reduceMotion =
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
   var dpr = Math.max(1, window.devicePixelRatio || 1);
-  var width = 0;
-  var height = 0;
-  var vehicles = [];
-  var running = false;
-  var rafId = null;
-  var lastTs = 0;
-  var scrollBoost = 1;
-  var lastScrollY = window.scrollY || 0;
+  var width = 0, height = 0;
+  var lanes = [];
+  var running = false, rafId = null, lastTs = 0;
+  var boost = 1, lastScrollY = window.scrollY || 0;
+
+  // Optimal-velocity-model parameters (pixels, seconds).
+  var V0 = 70;     // free-flow speed
+  var S0 = 11;     // jam gap (vehicles stop when closer than this)
+  var WS = 17;     // sensitivity width of the velocity function
+  var KAPPA = 1.9; // responsiveness
+  var VEH = 5;     // vehicle length
 
   function isDark() {
     return document.documentElement.classList.contains("dark-mode");
   }
-
   function palette() {
-    // Accent-red-centered, low saturation, theme-aware
     return isDark()
       ? ["#e06a75", "#f0a0a8", "#ffb199", "#c77dff", "#8ab4f8"]
       : ["#c0392b", "#d46a5f", "#b5651d", "#7d5ba6", "#3a6ea5"];
+  }
+
+  // Optimal velocity: ~0 near the jam gap, saturating to V0 for large gaps.
+  function vOpt(s) {
+    var t0 = Math.tanh(S0 / WS);
+    return (V0 * (Math.tanh((s - S0) / WS) + t0)) / (1 + t0);
   }
 
   function resize() {
@@ -42,149 +51,169 @@
     canvas.height = Math.floor(height * dpr);
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     seed();
+    if (reduceMotion) { warmUp(6); render(true); }
   }
 
   function seed() {
-    vehicles = [];
+    lanes = [];
     var colors = palette();
-    var lanes = 4;
-    var perLane = 3;
-    for (var i = 0; i < lanes; i++) {
-      var laneY = height * ((i + 0.5) / lanes);
-      // gentle sinusoidal lane so trajectories feel non-trivial
-      var amp = 4 + Math.random() * 6;
-      var freq = 0.012 + Math.random() * 0.01;
-      var phase = Math.random() * Math.PI * 2;
-      for (var j = 0; j < perLane; j++) {
-        vehicles.push({
-          x: (width / perLane) * j + Math.random() * 40,
-          baseY: laneY,
-          amp: amp,
-          freq: freq,
-          phase: phase + j * 0.8,
-          speed: 18 + Math.random() * 22, // px / sec baseline
-          color: colors[(i * perLane + j) % colors.length],
-          trail: [],
-          size: 1.6 + Math.random() * 1.1,
+    var nLanes = 3;
+    for (var li = 0; li < nLanes; li++) {
+      var laneY = height * ((li + 0.65) / (nLanes + 0.3));
+      var m = Math.max(5, Math.round(width / 44));
+      var spacing = width / m;
+      var veh = [];
+      for (var j = 0; j < m; j++) {
+        veh.push({
+          x: spacing * j + (Math.random() * 6 - 3),
+          v: V0 * (0.35 + Math.random() * 0.2),
+          color: colors[(li * 2 + j) % colors.length],
+          size: 1.6 + Math.random() * 0.9,
+          trail: []
         });
       }
+      // Seed an instability so stop-and-go waves emerge.
+      veh[(Math.random() * m) | 0].v = 2;
+      lanes.push({ y: laneY, veh: veh });
     }
+  }
+
+  function simulate(dt) {
+    for (var li = 0; li < lanes.length; li++) {
+      var arr = lanes[li].veh;
+      arr.sort(function (a, b) { return a.x - b.x; });
+      var n = arr.length;
+      for (var i = 0; i < n; i++) {
+        var me = arr[i];
+        var lead = arr[(i + 1) % n];
+        var s = ((lead.x - me.x + width) % width) - VEH;
+        if (s < 0.5) s = 0.5;
+        me.v += KAPPA * (vOpt(s) * boost - me.v) * dt;
+        if (me.v < 0) me.v = 0;
+        me.x += me.v * dt;
+        if (me.x >= width) me.x -= width;
+      }
+    }
+  }
+
+  // Advance the simulation a few seconds without drawing (for the static frame).
+  function warmUp(seconds) {
+    var steps = Math.round(seconds / 0.03);
+    for (var k = 0; k < steps; k++) {
+      simulate(0.03);
+      for (var li = 0; li < lanes.length; li++) {
+        var arr = lanes[li].veh;
+        for (var i = 0; i < arr.length; i++) pushTrail(arr[i]);
+      }
+    }
+  }
+
+  function pushTrail(v) {
+    v.trail.push(v.x);
+    if (v.trail.length > 26) v.trail.shift();
+  }
+
+  function render(clearFirst) {
+    if (clearFirst) ctx.clearRect(0, 0, width, height);
+    for (var li = 0; li < lanes.length; li++) {
+      var laneY = lanes[li].y;
+      var arr = lanes[li].veh;
+      for (var i = 0; i < arr.length; i++) {
+        var v = arr[i];
+        // Trail (skip the segment where x wraps around the ring).
+        if (v.trail.length > 1) {
+          ctx.strokeStyle = v.color;
+          ctx.lineWidth = v.size * 0.9;
+          ctx.lineCap = "round";
+          ctx.lineJoin = "round";
+          for (var k = 1; k < v.trail.length; k++) {
+            if (Math.abs(v.trail[k] - v.trail[k - 1]) > width * 0.5) continue;
+            ctx.globalAlpha = (k / v.trail.length) * 0.5;
+            ctx.beginPath();
+            ctx.moveTo(v.trail[k - 1], laneY);
+            ctx.lineTo(v.trail[k], laneY);
+            ctx.stroke();
+          }
+        }
+        // Head; brighter when moving fast, dim when in a jam (stop-and-go cue).
+        ctx.globalAlpha = 0.5 + 0.45 * Math.min(1, v.v / V0);
+        ctx.fillStyle = v.color;
+        ctx.beginPath();
+        ctx.arc(v.x, laneY, v.size + 0.6, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+    ctx.globalAlpha = 1;
   }
 
   function step(ts) {
     if (!running) return;
-    var dt = Math.min(0.05, (ts - lastTs) / 1000 || 0.016);
+    var dt = Math.min(0.045, (ts - lastTs) / 1000 || 0.016);
     lastTs = ts;
+    boost += (1 - boost) * Math.min(1, dt * 2.2);
 
-    // Exponentially decay the scroll boost back to 1
-    scrollBoost += (1 - scrollBoost) * Math.min(1, dt * 2.2);
-
-    // Fade previous frame instead of clearing for a soft trail look
+    // Soft fade for the trailing look.
     ctx.globalCompositeOperation = "destination-out";
-    ctx.fillStyle = "rgba(0,0,0,0.08)";
+    ctx.fillStyle = "rgba(0,0,0,0.10)";
     ctx.fillRect(0, 0, width, height);
     ctx.globalCompositeOperation = "source-over";
 
-    for (var i = 0; i < vehicles.length; i++) {
-      var v = vehicles[i];
-      v.x += v.speed * scrollBoost * dt;
-      if (v.x > width + 20) v.x = -20;
-
-      var y = v.baseY + Math.sin(v.x * v.freq + v.phase) * v.amp;
-
-      v.trail.push([v.x, y]);
-      if (v.trail.length > 28) v.trail.shift();
-
-      // Draw trail
-      if (v.trail.length > 1) {
-        ctx.strokeStyle = v.color;
-        ctx.lineWidth = v.size * 0.9;
-        ctx.lineCap = "round";
-        ctx.lineJoin = "round";
-        for (var k = 1; k < v.trail.length; k++) {
-          var a = k / v.trail.length; // 0..1
-          ctx.globalAlpha = a * 0.55;
-          ctx.beginPath();
-          ctx.moveTo(v.trail[k - 1][0], v.trail[k - 1][1]);
-          ctx.lineTo(v.trail[k][0], v.trail[k][1]);
-          ctx.stroke();
-        }
-      }
-
-      // Draw vehicle head
-      ctx.globalAlpha = 0.9;
-      ctx.fillStyle = v.color;
-      ctx.beginPath();
-      ctx.arc(v.x, y, v.size + 0.6, 0, Math.PI * 2);
-      ctx.fill();
+    simulate(dt);
+    for (var li = 0; li < lanes.length; li++) {
+      var arr = lanes[li].veh;
+      for (var i = 0; i < arr.length; i++) pushTrail(arr[i]);
     }
-    ctx.globalAlpha = 1;
-
+    render(false);
     rafId = window.requestAnimationFrame(step);
   }
 
   function start() {
-    if (running) return;
+    if (running || reduceMotion) return;
     running = true;
     lastTs = performance.now();
     rafId = window.requestAnimationFrame(step);
   }
-
   function stop() {
     running = false;
     if (rafId) window.cancelAnimationFrame(rafId);
     rafId = null;
   }
 
-  // Pause when the hero is offscreen
-  var io = null;
-  if ("IntersectionObserver" in window) {
-    io = new IntersectionObserver(
+  if (!reduceMotion && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(
       function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) start();
-          else stop();
-        });
+        entries.forEach(function (e) { if (e.isIntersecting) start(); else stop(); });
       },
       { rootMargin: "50px" }
     );
     io.observe(canvas);
-  } else {
+  } else if (!reduceMotion) {
     start();
   }
 
-  // Scroll coupling: briefly boost speed on scroll
-  window.addEventListener(
-    "scroll",
-    function () {
-      var y = window.scrollY || 0;
-      var delta = Math.abs(y - lastScrollY);
-      lastScrollY = y;
-      // cap boost so it stays subtle
-      scrollBoost = Math.min(3.2, scrollBoost + delta * 0.012);
-    },
-    { passive: true }
-  );
+  window.addEventListener("scroll", function () {
+    var y = window.scrollY || 0;
+    var delta = Math.abs(y - lastScrollY);
+    lastScrollY = y;
+    boost = Math.min(2.6, boost + delta * 0.010);
+  }, { passive: true });
 
-  // Theme toggle re-seed (pick up new palette)
+  // Re-seed colours on theme toggle.
   var mo = new MutationObserver(function () {
     var colors = palette();
-    for (var i = 0; i < vehicles.length; i++) {
-      vehicles[i].color = colors[i % colors.length];
+    for (var li = 0; li < lanes.length; li++) {
+      var arr = lanes[li].veh;
+      for (var i = 0; i < arr.length; i++) arr[i].color = colors[(li * 2 + i) % colors.length];
     }
+    if (reduceMotion) render(true);
   });
-  mo.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["class"],
-  });
+  mo.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
 
   window.addEventListener("resize", function () {
-    // debounce-ish
     window.clearTimeout(canvas.__rszT);
     canvas.__rszT = window.setTimeout(resize, 120);
   });
 
-  // Ensure a minimum height so the canvas has room even before content paints
   if (canvas.parentElement) {
     canvas.parentElement.style.minHeight =
       canvas.parentElement.style.minHeight || "96px";
