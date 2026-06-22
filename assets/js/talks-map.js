@@ -52,6 +52,10 @@
     // Bounds for auto-fit
     var bounds = L.latLngBounds([]);
 
+    // Number of talks per city -> marker size conveys "where I've spoken most"
+    var cityCount = {};
+    TALKS.forEach(function (t) { cityCount[t.city] = (cityCount[t.city] || 0) + 1; });
+
     // Group markers at nearly-same coord with small radial offset
     var seen = {};
     TALKS.forEach(function (t) {
@@ -63,7 +67,7 @@
       var lng = t.lng + offset * 0.1;
 
       var marker = L.circleMarker([lat, lng], {
-        radius: 7,
+        radius: 6 + (cityCount[t.city] - 1) * 2.5,
         fillColor: COLORS[t.type] || '#555',
         color: '#ffffff',
         weight: 2,
@@ -92,9 +96,26 @@
     el.addEventListener('mouseleave', function () { map.scrollWheelZoom.disable(); });
   }
 
+  // Defer map creation (and tile downloads) until the map scrolls into view.
+  function boot() {
+    var el = document.getElementById('talks-map');
+    if (!el) return;
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        if (entries.some(function (e) { return e.isIntersecting; })) {
+          io.disconnect();
+          init();
+        }
+      }, { rootMargin: '300px' });
+      io.observe(el);
+    } else {
+      init();
+    }
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', boot);
   } else {
-    init();
+    boot();
   }
 })();
