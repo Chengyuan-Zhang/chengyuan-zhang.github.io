@@ -27,24 +27,24 @@ Corresponding Author, = Equal Contributions.)
 - Menglin Kong, <u>Chengyuan Zhang</u>*, Lijun Sun (2026). ["Active Simulation-Based Inference for Scalable
   Car-Following Model Calibration"](https://arxiv.org/abs/2602.05246). (under review). 📕📙
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). (under review). [[poster](../files/TRB2026_Markov.pdf)] 📕📘📗📙
+  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). (under review). [[poster](/files/TRB2026_Markov.pdf)] 📕📘📗📙
 
 ## Journal publications
 
 - <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
   ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
-  (Accepted at ISTTT26). [[poster](../files/TRB2026_Nonstationary.pdf)] 📕📘
+  (Accepted at ISTTT26). [[poster](/files/TRB2026_Nonstationary.pdf)] 📕📘
 - Xinyu Chen, <u>Chengyuan Zhang</u>, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025).
   ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
   Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)] 📗
 - <u>Chengyuan Zhang</u>, Wenshuo Wang, and Lijun Sun* (2024). ["Calibrating Car-Following Models via Bayesian Dynamic
   Regression"](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7). Transportation research part C: emerging
-  technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
+  technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
   <span class="text-muted">ISTTT25 <span class="text-accent">Oral Presentation</span>; 2024 Clifford Spiegelman Student Paper Competition <span class="text-accent">Honorable Mention Award</span></span>; 📕📙
 - <u>Chengyuan Zhang</u> and Lijun Sun* (2023).
   ["Bayesian Calibration of the Intelligent Driver Model"](https://ieeexplore.ieee.org/document/10415310). IEEE
   Transactions on Intelligent Transportation
-  Systems. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)] 📕📙
+  Systems. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](/files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)] 📕📙
 - Xiaoxu Chen, <u>Chengyuan Zhang</u>, Zhanhong Cheng, Yuang Hou, and Lijun Sun* (
   2023). ["A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors"](https://ieeexplore.ieee.org/document/10337758/). IEEE
   Transactions on Intelligent Transportation Systems. 📕📗📙

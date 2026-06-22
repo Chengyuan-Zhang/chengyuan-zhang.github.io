@@ -173,11 +173,11 @@ modeling and analyzing data with temporal dependencies.
 3. Using **Gaussian processes** + IDM:
     - Zhang, C., & Sun, L. (2024). Bayesian calibration of the intelligent driver model. IEEE
       Transactions on Intelligent Transportation
-      Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+      Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](/files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 4. Using **AR processes** + IDM:
     - Zhang, C., Wang, W., & Sun, L. (2024). Calibrating car-following models via Bayesian dynamic
       regression. Transportation Research Part C: Emerging Technologies, 104719. (Accepted to ISTTT25 Special
-      Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
+      Issue) [[TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
 5. See discussions and comparisons in Table 1: 
    - Zhang, C., He, Z., Wu, C., & Sun, L. (2025). When Context Is Not Enough: Modeling
    Unexplained Variability in Car-Following Behavior. arXiv preprint arXiv:2507.07012. [[arXiv](https://arxiv.org/pdf/2507.07012)]
