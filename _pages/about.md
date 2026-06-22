@@ -41,12 +41,16 @@ Featured Research
 <div class="research-grid" markdown="1">
 
 <div class="research-card" markdown="1">
+<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
+
 ### Traffic Flow Theory & Simulation
 - Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7))
 </div>
 
 <div class="research-card" markdown="1">
+<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
+
 ### Multi-Agent Social Interactions & Driver World Model
 - Social interactions for autonomous driving: A review and perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
 - Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
@@ -54,6 +58,8 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
+<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
+
 ### Spatiotemporal Data & Interpretable Patterns
 - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
 - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
@@ -61,6 +67,8 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
+<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
+
 ### Robust Uncertainty & Trustworthy AI
 - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
 - Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
