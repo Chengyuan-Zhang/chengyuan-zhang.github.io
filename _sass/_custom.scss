@@ -375,6 +375,40 @@ html.dark-mode .pub-empty-msg { color: var(--c-text-muted); }
 html.dark-mode .text-muted  { color: var(--c-text-muted); }
 html.dark-mode .text-accent { color: var(--c-accent); }
 
+/* Publications-by-year chart ------------------------------------------ */
+.pubs-chart {
+  margin: 1.1rem 0 1.5rem;
+  color: $dark-gray; // axes/labels inherit via currentColor
+}
+.pubs-chart svg { width: 100%; height: auto; display: block; overflow: visible; }
+.pubs-chart rect { transition: opacity 0.12s ease; }
+.pubs-chart svg:hover rect { opacity: 0.55; }
+.pubs-chart svg rect:hover { opacity: 1; }
+.pubs-chart__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  margin: 0.5rem 0 0.1rem;
+  font-size: 0.8rem;
+  font-family: $sans-serif;
+  color: $dark-gray;
+}
+.pubs-chart__legend span { display: inline-flex; align-items: center; gap: 0.38rem; }
+.pubs-chart__sw { width: 11px; height: 11px; border-radius: 2px; display: inline-block; flex: none; }
+.pubs-chart__cap { margin: 0.15rem 0 0; font-size: 0.78rem; color: $gray; }
+
+html.dark-mode .pubs-chart,
+html.dark-mode .pubs-chart__legend { color: var(--c-text-muted); }
+html.dark-mode .pubs-chart__cap { color: var(--c-text-muted); }
+
+/* Keep the (light-background) word cloud readable in dark mode */
+.wordcloud-img { display: block; }
+html.dark-mode .wordcloud-img {
+  background: #eef0f2;
+  border-radius: 8px;
+  padding: 0.5rem 0.4rem;
+}
+
 /* Talks timeline ------------------------------------------------------ */
 .year-header {
   font-family: $serif;
