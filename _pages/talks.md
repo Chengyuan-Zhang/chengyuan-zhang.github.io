@@ -61,7 +61,7 @@ A selection of invited lectures and conference presentations.
       </h3>
       <p class="talk-entry__meta">JTL Research Seminar, Massachusetts Institute of Technology<span class="sep">·</span>Online<span class="sep">·</span>February 2025</p>
       <p class="talk-entry__links">
-        <a href="{{ '/_talks/250213_MIT_JTL_seminar.pdf' | relative_url }}">slides</a>
+        <a href="{{ '/files/250213_MIT_JTL_seminar.pdf' | relative_url }}">slides</a>
         <a href="https://sites.mit.edu/jtl-seminar/">web</a>
       </p>
     </li>
@@ -95,7 +95,7 @@ A selection of invited lectures and conference presentations.
       </h3>
       <p class="talk-entry__meta">Podium Presentation, 25th International Symposium on Transportation and Traffic Theory (ISTTT25)<span class="sep">·</span>Ann Arbor, MI, USA<span class="sep">·</span>July 2024</p>
       <p class="talk-entry__links">
-        <a href="{{ '/_talks/ISTTT25_slides_Chengyuan.pdf' | relative_url }}">slides</a>
+        <a href="{{ '/files/ISTTT25_slides_Chengyuan.pdf' | relative_url }}">slides</a>
       </p>
     </li>
   </ul>
@@ -119,7 +119,7 @@ A selection of invited lectures and conference presentations.
       </h3>
       <p class="talk-entry__meta">Traffic Flow Theory and Characteristics (ACP50) general webinar series<span class="sep">·</span>Online<span class="sep">·</span>February 2023</p>
       <p class="talk-entry__links">
-        <a href="{{ '/_talks/230217_Chengyuan_Zhang_Flyer.pdf' | relative_url }}">flyer</a>
+        <a href="{{ '/files/230217_Chengyuan_Zhang_Flyer.pdf' | relative_url }}">flyer</a>
         <a href="https://youtu.be/GIqcL6I7MsU">recording</a>
       </p>
     </li>
@@ -158,7 +158,7 @@ A selection of invited lectures and conference presentations.
       </h3>
       <p class="talk-entry__meta">Podium Presentation, The 1st Workshop for SAILER at CMU<span class="sep">·</span>Pittsburgh, PA, USA<span class="sep">·</span>August 2018</p>
       <p class="talk-entry__links">
-        <a href="{{ '/_talks/180825_CMU_Workshop.pdf' | relative_url }}">slides</a>
+        <a href="{{ '/files/180825_CMU_Workshop.pdf' | relative_url }}">slides</a>
       </p>
     </li>
   </ul>

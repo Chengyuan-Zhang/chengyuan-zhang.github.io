@@ -18,7 +18,7 @@ author_profile: true
 * <span class="news-date">11/2025</span> Our paper "When Context Is Not Enough: Modeling Unexplained
   Variability in Car-Following Behavior" is accepted at the 26th International Symposium on Transportation and Traffic
   Theory ([ISTTT26](https://www.isttt2026.vtk.ed.tum.de/)). See you in
-  Munich! [[arXiv](https://arxiv.org/abs/2507.07012)] [[poster](../files/TRB2026_Nonstationary.pdf)]
+  Munich! [[arXiv](https://arxiv.org/abs/2507.07012)] [[poster](/files/TRB2026_Nonstationary.pdf)]
 * <span class="news-date">10/2025</span> I am delighted to give an online talk "From Micro Interactions to Traffic Flow: Stochastic Driver Models for
   Realistic Traffic Simulation" at MIT Wu Lab, Massachusetts Institute of Technology (invited by Prof. Cathy Wu).
 * <span class="news-date">10/2025</span> Our 3 papers have been accepted for poster presentation at TRBAM 2026. See you in Washington, D.C.!
@@ -27,7 +27,7 @@ author_profile: true
   out!
 * <span class="news-date">02/2025</span> I am delighted to give an online talk "Stochastic Modeling and Simulations of Car-Following Behaviors" at JTL
   Urban Mobility Lab, Massachusetts Institute of Technology (invited by Dr. Xinyu Chen with the Department of Urban
-  Studies and Planning). [[slides](../_talks/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
+  Studies and Planning). [[slides](/files/250213_MIT_JTL_seminar.pdf)] [[web](https://sites.mit.edu/jtl-seminar/)]
 * <span class="news-date">02/2025</span> Our paper "Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix
   factorization" was accepted to Transportation
   Science.  [[TranSci](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)] [[arXiv](https://arXiv.org/abs/2203.10651)] [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)]
@@ -43,13 +43,13 @@ author_profile: true
   presentation at the 25th International Symposium on Transportation and Traffic
   Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part
   C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann
-  Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[slides](../_talks/ISTTT25_slides_Chengyuan.pdf)]
+  Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
 * <span class="news-date">01/2024</span> Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" won the **Honorable Mention
   Award** for
   the [2024 Clifford Spiegelman Student Paper Competition](https://community.amstat.org/tsig/events/papercompetition).
   Thanks, the TSIG of the American Statistical Association!
 * <span class="news-date">12/2023</span> Our paper "Bayesian Calibration of the IDM" was accepted to IEEE Transactions on Intelligent Transportation
-  Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](../files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
+  Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](/files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 * <span class="news-date">12/2023</span> I received the **Ron Rice Memorial Award**. Thanks, McGill!
 * <span class="news-date">11/2023</span> I organized the 2nd International Workshop
   on [Socially Interactive Autonomous Mobility (SIAM)](https://interactive-driving.github.io/SIAM-IV24)
@@ -71,7 +71,7 @@ author_profile: true
 * <span class="news-date">04/2023</span> I received the **FRQNT B2X Doctoral scholarship**. Thanks, FRQNT!
 * <span class="news-date">02/2023</span> I was invited to present our work "Bayesian Calibration of the IDM" on the 2023 Traffic Flow Theory and
   Characteristics (ACP50) general webinar
-  series. [[flyer](../_talks/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
+  series. [[flyer](/files/230217_Chengyuan_Zhang_Flyer.pdf)] [[recording](https://youtu.be/GIqcL6I7MsU)]
 * <span class="news-date">01/2023</span> Attended TRBAM 2023 for the first time, a wonderful experience in D.C. Washington!
 * <span class="news-date">01/2023</span> I received the **Graduate Mobility Award**. Thanks, McGill!
 * <span class="news-date">12/2022</span> I received the **CIRRELT Doctoral Scholarship of Excellence - Early Stages**. Thanks, CIRRELT!
