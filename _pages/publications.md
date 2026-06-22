@@ -11,7 +11,10 @@ author_profile: true
 This selected publication list is not frequently updated. Please see my Google Scholar for recent updates. (*
 Corresponding Author, = Equal Contributions.)
 
-<img src="{{ '/images/wordcloud_1920x.png' | relative_url }}" alt="Word cloud of research topics" width="100%" loading="lazy" decoding="async"/>
+<div id="pubs-chart" class="pubs-chart" aria-label="Publications by year and type"></div>
+<script src="{{ '/assets/js/pubs-chart.js' | relative_url }}" defer></script>
+
+<img src="{{ '/images/wordcloud_1920x.png' | relative_url }}" class="wordcloud-img" alt="Word cloud of research topics" width="100%" loading="lazy" decoding="async"/>
 
 <div class="topic-legend" id="topic-filter" role="toolbar" aria-label="Filter publications by topic">
   <span class="topic-legend__hint">Click a topic to filter:</span>
