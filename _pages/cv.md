@@ -3,12 +3,13 @@ layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: false
+hide_title: true
 redirect_from:
   - /resume
 ---
 
 <style>
-  .page__title, .page__lead { display: none; }
+  .page__lead { display: none; }
   .archive { width: 100%; float: none; margin-left: 0; padding-right: 0; }
 </style>
 
