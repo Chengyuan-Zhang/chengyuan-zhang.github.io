@@ -81,15 +81,15 @@ social:
 # provider: false (default), "google", "google-universal" (deprecated),
 #           "google-analytics-4", "goatcounter", "custom"
 # GoatCounter is cookie-free and stores no personal data, so it needs no consent
-# banner. Sign up at https://www.goatcounter.com/, then put your site code below
-# (the subdomain: "chengyuan" for https://chengyuan.goatcounter.com) and set
-# provider to "goatcounter". PDF and .bib clicks are recorded as events.
+# banner. The code below is the subdomain of the GoatCounter site
+# (https://enzozcy.goatcounter.com); it is public by design and appears in the
+# page source. PDF and .bib clicks are additionally recorded as events.
 analytics:
-  provider               :
+  provider               : "goatcounter"
   google:
     tracking_id          :
   goatcounter:
-    code                 :
+    code                 : "enzozcy"
 
 
 # Site Author
