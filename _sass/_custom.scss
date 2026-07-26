@@ -2454,3 +2454,23 @@ html.dark-mode .not-found {
 
   &:hover { color: var(--c-accent); border-color: var(--c-accent); }
 }
+
+/* Code & Data page repository links --------------------------------------- */
+.repo-links {
+  margin: 0.7em 0 0;
+  font-size: 0.88em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 0.7em;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    color: var(--c-text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover { color: var(--c-accent); border-bottom-color: var(--c-accent); }
+  }
+}
