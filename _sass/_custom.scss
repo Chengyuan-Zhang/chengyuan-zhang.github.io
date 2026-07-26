@@ -2501,3 +2501,11 @@ h1[id], h2[id], h3[id], h4[id] { scroll-margin-top: calc(#{$masthead-height} + 2
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Capability line under each Featured Research card heading --------------- */
+.research-card__lead {
+  margin: -0.15em 0 0.55em;
+  font-size: 0.88em;
+  line-height: 1.45;
+  color: var(--c-text-muted);
+}

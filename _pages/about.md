@@ -1,9 +1,9 @@
 ---
 permalink: /
 title: "Chengyuan Zhang"
-seo_title: "Chengyuan Zhang — Bayesian Driver Models & Trustworthy AI"
-excerpt: "Dr. Chengyuan Zhang — Postdoctoral Researcher, McGill University. Research on Trustworthy AI/ML, Bayesian inference, and
-stochastic driver models for autonomous driving."
+seo_title: "Chengyuan Zhang — Stochastic Driver Models and Bayesian Inference"
+excerpt: "Dr. Chengyuan Zhang — Postdoctoral Researcher, McGill University. Stochastic models of human driving
+behavior, Bayesian inference and calibration, and uncertainty-aware traffic simulation."
 author_profile: true
 redirect_from:
 
@@ -15,7 +15,7 @@ redirect_from:
 <div class="hero-wrap">
   <canvas class="hero-canvas" aria-hidden="true"></canvas>
   <div class="hero-intro">
-    <p class="hero-intro__lead">Postdoctoral Researcher, McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
+    <p class="hero-intro__lead">Postdoctoral Researcher, McGill University. Stochastic models of human behavior, and the Bayesian inference that makes them trustworthy.</p>
   </div>
 </div>
 <script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}" defer></script>
@@ -26,13 +26,22 @@ Vehicle Engineering from Chongqing University in 2019. I was also a visiting res
 with Prof. Changliu Liu in 2023 and Prof. Ding Zhao in 2018, and at UC Berkeley with Prof. Masayoshi Tomizuka from 2019
 to 2020.
 
-My research builds *trustworthy AI* for multi-agent traffic systems, combining **Bayesian
-statistics** with **generative models** to create interpretable *driver world models* that
-capture the stochasticity of human behavior — a statistically grounded path toward safe,
-reliable autonomous systems.
+Human behavior is only partly determined by the situation a person is in. I model what is left over.
+In driving, that residual carries memory, differs systematically between individuals, and switches between
+latent behavioral regimes, and the same structure reappears when the unit of analysis becomes a road segment
+rather than a person. Modeling it properly is what allows uncertainty to travel from individual decisions to
+the collective dynamics they produce, a step most behavior models stop short of. I build the Bayesian
+inference and the benchmarks that make this practical on naturalistic data, so that simulation, which is how
+automated vehicles and traffic operations are actually tested, quantifies its uncertainty instead of assuming
+it away.
 
 <div class="callout" markdown="1">
-**Currently.** My postdoctoral work continues along three threads: *stochastic modeling of human social behaviors*, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. I'm always glad to hear from people working on related problems — write to me at [enzozcy@gmail.com](mailto:enzozcy@gmail.com), or browse my [CV]({{ '/cv/' | relative_url }}).
+**Where I am heading.** The methods above were developed on driving because it is one of the few human
+behaviors with both a mature mechanistic theory and enough measurement to test one. I now want to take the
+same approach to behavior that is harder to measure: interaction between people and automated vehicles,
+pedestrian movement, and world models with enough cognitive structure to say why someone acted rather than
+only what they did next. If you work on related problems, I would be glad to hear from you at
+[enzozcy@gmail.com](mailto:enzozcy@gmail.com), or you can browse my [CV]({{ '/cv/' | relative_url }}).
 </div>
 
 
@@ -43,37 +52,49 @@ Featured Research
 <div class="research-grid" markdown="1">
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
+<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="Pooled, hierarchical and unpooled graphical models of the intelligent driver model" loading="lazy" decoding="async" />
 
-### Traffic Flow Theory & Simulation
-- Bayesian calibration of car-following models ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
+### Stochastic Behavior Models
+<p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
+
+- Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
+- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://doi.org/10.1016/j.trc.2024.104719))
+- A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10337758))
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
+<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="Poster on Bayesian calibration of the intelligent driver model" loading="lazy" decoding="async" />
 
-### Multi-Agent Social Interactions & Driver World Model
+### Scalable Bayesian Inference & Calibration
+<p class="research-card__lead">Making posterior inference over behavior models tractable, online, and comparable.</p>
+
+- Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
+- Bayesian Calibration of the Intelligent Driver Model ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
+- AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration (IEEE IV 2026)
+- Online Calibration of Context-Driven Car-Following Models (IEEE IV 2026)
+</div>
+
+<div class="research-card" markdown="1">
+<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="Sequential spatiotemporal patterns extracted from multivehicle interactions" loading="lazy" decoding="async" />
+
+### From Individual Behavior to Collective Dynamics
+<p class="research-card__lead">Carrying calibrated uncertainty from single decisions up to network and flow scale.</p>
+
+- From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation ([Ph.D. thesis]({{ '/files/phd-research-summary.pdf' | relative_url }}))
+- Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
+- Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization ([Transportation Science](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629))
+</div>
+
+<div class="research-card" markdown="1">
+<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="Multiple vehicles and a pedestrian interacting at an intersection" loading="lazy" decoding="async" />
+
+### Multi-Agent Interaction
+<p class="research-card__lead">Representing how road users respond to one another, and when that response actually matters.</p>
+
 - Social interactions for autonomous driving: A review and perspectives ([Foundations and Trends® in Robotics](https://www.nowpublishers.com/article/Details/ROB-078))
 - Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios ([IEEE T-ITS](https://ieeexplore.ieee.org/abstract/document/9357407))
 - Interactive Car-Following: Matters but NOT Always ([IEEE ITSC23](https://ieeexplore.ieee.org/abstract/document/10421996))
-</div>
-
-<div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
-
-### Spatiotemporal Data & Interpretable Patterns
-- Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
-- Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
-- Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization ([Transportation Science](https://xinychen.github.io/papers/notmf.pdf))
-</div>
-
-<div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="" loading="lazy" decoding="async" />
-
-### Robust Uncertainty & Trustworthy AI
-- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
-- Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
 </div>
 
 </div>
