@@ -35,7 +35,7 @@ visitor are all counted, per https://www.goatcounter.com/help/js.
 
       window.goatcounter.count({
         path: eventPath(href),
-        title: (a.textContent || '').trim().slice(0, 80) || href,
+        title: (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 80) || href,
         event: true,
         no_session: true
       });
