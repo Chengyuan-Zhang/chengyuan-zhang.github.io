@@ -28,9 +28,9 @@ Corresponding Author, = Equal Contributions.)
   <span class="topic-legend__hint">Click a topic to filter:</span>
   <button type="button" class="topic-btn is-active" data-topic="all">All</button>
   <button type="button" class="topic-btn" data-topic="traffic"><span class="topic-ico">📕</span> Traffic Flow Theory &amp; Simulations</button>
-  <button type="button" class="topic-btn" data-topic="multiagent"><span class="topic-ico">📘</span> Multi-Agent Social Interactions &amp; Driver World Model</button>
+  <button type="button" class="topic-btn" data-topic="multiagent"><span class="topic-ico">📘</span> Multi-Agent Interaction</button>
   <button type="button" class="topic-btn" data-topic="spatiotemporal"><span class="topic-ico">📗</span> Spatiotemporal Data &amp; Interpretable Patterns</button>
-  <button type="button" class="topic-btn" data-topic="bayesian"><span class="topic-ico">📙</span> Bayesian Learning</button>
+  <button type="button" class="topic-btn" data-topic="bayesian"><span class="topic-ico">📙</span> Bayesian Inference &amp; Calibration</button>
 </div>
 
 ## Preprints

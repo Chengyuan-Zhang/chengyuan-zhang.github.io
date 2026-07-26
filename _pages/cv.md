@@ -36,7 +36,8 @@ redirect_from:
 
 <aside class="cv-side" aria-label="CV sections">
   <nav class="cv-side__nav">
-    <a href="#education"  class="cv-side__link is-active"><i class="fas fa-graduation-cap"></i> <span>Education</span></a>
+    <a href="#research"   class="cv-side__link is-active"><i class="fas fa-lightbulb"></i> <span>Research</span></a>
+    <a href="#education"  class="cv-side__link"><i class="fas fa-graduation-cap"></i> <span>Education</span></a>
     <a href="#experience" class="cv-side__link"><i class="fas fa-flask"></i> <span>Experience</span></a>
     <a href="#services"   class="cv-side__link"><i class="fas fa-users"></i> <span>Services</span></a>
     <a href="#honors"     class="cv-side__link"><i class="fas fa-award"></i> <span>Honors</span></a>
@@ -44,6 +45,30 @@ redirect_from:
 </aside>
 
 <main class="cv-main">
+
+<section class="cv-section" id="research">
+  <h2 class="cv-section__title"><i class="fas fa-lightbulb"></i> Research</h2>
+
+  <p class="cv-summary">
+    I build stochastic models of human behavior and the Bayesian inference that fits them to data. The
+    variation left unexplained by context turns out to be structured: it carries memory, it differs
+    systematically between individuals, and it switches between latent regimes. Modeling that structure is
+    what allows uncertainty to travel from individual decisions through to the collective dynamics they
+    produce. I work on driving and traffic because the measurement is dense enough and the mechanistic
+    theory mature enough to test such models seriously.
+  </p>
+
+  <p class="cv-chip-label">Areas</p>
+  <div class="cv-chipset">
+    <span class="chip">Stochastic behavior modeling</span>
+    <span class="chip">Bayesian inference &amp; calibration</span>
+    <span class="chip">Simulation-based inference</span>
+    <span class="chip">Uncertainty quantification</span>
+    <span class="chip">Traffic flow theory &amp; microsimulation</span>
+    <span class="chip">Multi-agent interaction</span>
+    <span class="chip">Spatiotemporal modeling</span>
+  </div>
+</section>
 
 <section class="cv-section" id="education">
   <h2 class="cv-section__title"><i class="fas fa-graduation-cap"></i> Education</h2>
