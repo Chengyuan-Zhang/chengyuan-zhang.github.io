@@ -1,12 +1,18 @@
 (function () {
   'use strict';
 
-  var BIB_URL = '/files/chengyuan-zhang.bib';
+  // Read the path from the download link so it always matches what Jekyll emitted.
+  var FALLBACK_URL = '/files/chengyuan-zhang.bib';
   var bibPromise = null;
+
+  function bibUrl() {
+    var link = document.querySelector('a.bib-download[href]');
+    return link ? link.getAttribute('href') : FALLBACK_URL;
+  }
 
   function loadBib() {
     if (!bibPromise) {
-      bibPromise = fetch(BIB_URL, { credentials: 'same-origin' })
+      bibPromise = fetch(bibUrl(), { credentials: 'same-origin' })
         .then(function (r) {
           if (!r.ok) throw new Error('HTTP ' + r.status);
           return r.text();
