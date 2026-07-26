@@ -37,10 +37,22 @@ bundle exec jekyll serve   # http://localhost:4000
 
 - `assets/js/main.min.js` is a build artifact. Do not edit it directly: change
   `assets/js/_main.js` or the files under `assets/js/plugins/`, then run `npm run build:js`.
+- `files/chengyuan-zhang.bib` and `_includes/publications-schema.html` are build artifacts too.
+  After adding a publication, register its DOI or arXiv id in `scripts/build_bibliography.py`
+  and re-run it; it fetches metadata from Crossref and arXiv and refuses to emit an entry it
+  cannot resolve.
 - Page-level behaviour belongs in its own vanilla-JS file under `assets/js/`, loaded from the page
   that needs it, rather than being added to the jQuery bundle.
 - Images are served as committed, with no build-time processing. Downscale and re-encode before
   committing: roughly 1600 px on the longest side and under ~300 KB for photographs, smaller for
-  thumbnails.
+  thumbnails. `scripts/optimize_images.py` does this for the known oversized files.
 - Markdown pages should contain no `<h1>`. The page title in the front matter already renders one,
   so in-page sections start at `##`.
+
+## Regenerating artifacts
+
+```sh
+py -3 scripts/build_bibliography.py   # bibliography + publication structured data
+py -3 scripts/optimize_images.py      # downscale images and photos
+npm run build:js                      # rebuild assets/js/main.min.js
+```

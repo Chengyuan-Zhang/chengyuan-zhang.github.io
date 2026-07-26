@@ -150,6 +150,7 @@ exclude:
   - gulpfile.js
   - log
   - markdown_generator
+  - scripts
   - talkmap
   - talkmap.ipynb
   - talkmap.py

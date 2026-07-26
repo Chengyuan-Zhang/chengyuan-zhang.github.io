@@ -2377,3 +2377,80 @@ html.dark-mode .not-found {
   &__footnote { color: var(--c-muted); }
 }
 
+
+/* BibTeX export on the publications page ---------------------------------- */
+.bib-btn {
+  appearance: none;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-alt);
+  color: var(--c-text-muted);
+  font: inherit;
+  font-size: 0.78em;
+  line-height: 1.2;
+  padding: 0.15em 0.55em;
+  margin-left: 0.3em;
+  border-radius: 3px;
+  cursor: pointer;
+  vertical-align: baseline;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover:not(:disabled) {
+    background: var(--c-accent);
+    border-color: var(--c-accent);
+    color: #fff;
+  }
+
+  &:disabled { opacity: 0.55; cursor: default; }
+  &[aria-expanded="true"] { background: var(--c-accent); border-color: var(--c-accent); color: #fff; }
+}
+
+.bib-box {
+  position: relative;
+  margin: 0.5rem 0 0.8rem;
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  background: var(--c-code-bg);
+
+  pre {
+    margin: 0;
+    padding: 0.7rem 0.8rem;
+    background: transparent;
+    border: 0;
+    font-size: 0.78em;
+    line-height: 1.5;
+    white-space: pre;
+    overflow-x: auto;
+  }
+}
+
+.bib-copy {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  appearance: none;
+  border: 1px solid var(--c-border);
+  background: var(--c-surface);
+  color: var(--c-text-muted);
+  font: inherit;
+  font-size: 0.72em;
+  padding: 0.15em 0.6em;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover { color: var(--c-accent); border-color: var(--c-accent); }
+  &.is-copied { color: #fff; background: var(--c-accent); border-color: var(--c-accent); }
+}
+
+.bib-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-size: 0.86em;
+  padding: 0.35em 0.9em;
+  border: 1px solid var(--c-border);
+  border-radius: 999px;
+  color: var(--c-text-muted);
+  text-decoration: none;
+
+  &:hover { color: var(--c-accent); border-color: var(--c-accent); }
+}
