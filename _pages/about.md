@@ -1,7 +1,8 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "Dr. Chengyuan Zhang — Ph.D., McGill University. Research on Trustworthy AI/ML, Bayesian inference, and
+title: "Chengyuan Zhang"
+seo_title: "Chengyuan Zhang — Bayesian Driver Models & Trustworthy AI"
+excerpt: "Dr. Chengyuan Zhang — Postdoctoral Researcher, McGill University. Research on Trustworthy AI/ML, Bayesian inference, and
 stochastic driver models for autonomous driving."
 author_profile: true
 redirect_from:
@@ -14,15 +15,16 @@ redirect_from:
 <div class="hero-wrap">
   <canvas class="hero-canvas" aria-hidden="true"></canvas>
   <div class="hero-intro">
-    <p class="hero-intro__lead">Ph.D., McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
+    <p class="hero-intro__lead">Postdoctoral Researcher, McGill University — Bayesian learning, trustworthy AI, and driver world models for multi-agent traffic systems.</p>
   </div>
 </div>
 <script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}" defer></script>
 
-I received my Ph.D. in Civil Engineering from McGill University in 2026, advised by
-Prof. [Lijun Sun](https://lijunsun.github.io/), and my B.Eng. in Vehicle Engineering from Chongqing University
-in 2019. I was also a visiting researcher at Carnegie Mellon University with Prof. Changliu Liu in 2023 and Prof. Ding
-Zhao in 2018, and at UC Berkeley with Prof. Masayoshi Tomizuka from 2019 to 2020.
+I am a Postdoctoral Researcher in Civil Engineering at McGill University, working with
+Prof. [Lijun Sun](https://lijunsun.github.io/). I received my Ph.D. from the same group in 2026, and my B.Eng. in
+Vehicle Engineering from Chongqing University in 2019. I was also a visiting researcher at Carnegie Mellon University
+with Prof. Changliu Liu in 2023 and Prof. Ding Zhao in 2018, and at UC Berkeley with Prof. Masayoshi Tomizuka from 2019
+to 2020.
 
 My research builds *trustworthy AI* for multi-agent traffic systems, combining **Bayesian
 statistics** with **generative models** to create interpretable *driver world models* that
@@ -30,13 +32,13 @@ capture the stochasticity of human behavior — a statistically grounded path to
 reliable autonomous systems.
 
 <div class="callout" markdown="1">
-**Open to postdoc positions.** I'm actively seeking a postdoctoral role focused on *stochastic modeling of human social behaviors*, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. If this aligns with your group's interests, I'd be glad to connect.
+**Currently.** My postdoctoral work continues along three threads: *stochastic modeling of human social behaviors*, *dynamic interaction modeling* (drivers and pedestrians), and *Bayesian approaches* to trustworthy, cognitively grounded world models. I'm always glad to hear from people working on related problems — write to me at [enzozcy@gmail.com](mailto:enzozcy@gmail.com), or browse my [CV]({{ '/cv/' | relative_url }}).
 </div>
 
 
 
 Featured Research
-======
+------
 
 <div class="research-grid" markdown="1">
 
@@ -77,7 +79,7 @@ Featured Research
 </div>
 
 Selected Publications
-======
+------
 
 <div class="pub-item">
   <img class="pub-item__thumb" src="{{ '/images/MA-IDM.png' | relative_url }}" alt="Markov Regime-Switching IDM" loading="lazy">
@@ -127,7 +129,7 @@ Selected Publications
 </p>
 
 <div id="pdf-container" class="pdf-container" hidden>
-  <iframe src="{{ '/files/PhD research summary.pdf' | relative_url }}"
+  <iframe src="{{ '/files/phd-research-summary.pdf' | relative_url }}"
           title="Chengyuan Zhang — Ph.D. Research Summary"
           loading="lazy"></iframe>
 </div>
@@ -149,7 +151,7 @@ Selected Publications
 </script>
 
 News
-=====
+-----
 
 <ul class="news-list">
   <li><span class="news-date">07/2026</span> I am delighted to give a talk "Beyond White Noise: What Naturalistic Data Reveal About Memory, Heterogeneity, and Latent Regimes in Car-Following" at Chair of Econometrics and Statistics, TU Dresden (invited by Dr. Martin Treiber).

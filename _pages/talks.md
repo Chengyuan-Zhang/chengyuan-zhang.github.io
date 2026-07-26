@@ -29,11 +29,11 @@ A selection of invited lectures and conference presentations.
         When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior
         <span class="talk-entry__tag talk-entry__tag--conference">Conference</span>
       </h3>
-      <p class="talk-entry__meta">Podium Presentation, 26th International Symposium on Transportation and Traffic Theory (ISTTT26)<span class="sep">·</span>Munich, German<span class="sep">·</span>July 2026</p>
+      <p class="talk-entry__meta">Podium Presentation, 26th International Symposium on Transportation and Traffic Theory (ISTTT26)<span class="sep">·</span>Munich, Germany<span class="sep">·</span>July 2026</p>
     </li>
     <div class="figure-row">
-      <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26" loading="lazy" decoding="async" style="width:30%">
-      <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26" loading="lazy" decoding="async" style="width:45%">
+      <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:30%">
+      <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:45%">
     </div>
     <li class="talk-entry">
       <h3 class="talk-entry__title">
@@ -120,8 +120,8 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <img src="{{ '/images/Weixin Image_20240718123054.jpg' | relative_url }}" alt="ISTTT25" loading="lazy" decoding="async" style="width:30%">
-  <img src="{{ '/images/Weixin Image_20240718141140.jpg' | relative_url }}" alt="ISTTT25" loading="lazy" decoding="async" style="width:45%">
+  <img src="{{ '/images/isttt25-podium-slides.jpg' | relative_url }}" alt="Chengyuan Zhang presenting at ISTTT25 in Ann Arbor, with car-following slides projected behind him" loading="lazy" decoding="async" style="width:30%">
+  <img src="{{ '/images/isttt25-podium.jpg' | relative_url }}" alt="Chengyuan Zhang at the podium during his ISTTT25 podium presentation" loading="lazy" decoding="async" style="width:45%">
 </div>
 
 <section class="talks-section">

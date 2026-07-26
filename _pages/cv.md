@@ -17,7 +17,7 @@ redirect_from:
 <header class="cv-header">
   <div class="cv-header__left">
     <h1 class="cv-header__name">Dr. Chengyuan Zhang</h1>
-    <p class="cv-header__role">Ph.D., McGill University</p>
+    <p class="cv-header__role">Postdoctoral Researcher, McGill University</p>
     <p class="cv-header__meta">
       <span><i class="fas fa-map-marker-alt"></i> Montréal, Canada</span>
       <span><i class="fas fa-envelope"></i> enzozcy [at] gmail.com</span>
@@ -48,9 +48,9 @@ redirect_from:
   <h2 class="cv-section__title"><i class="fas fa-graduation-cap"></i> Education</h2>
 
   <ol class="cv-timeline">
-    <li class="cv-timeline__item cv-timeline__item--current">
+    <li class="cv-timeline__item">
       <span class="cv-timeline__dot"></span>
-      <p class="cv-item__when">2020 – 2026 <span class="cv-item__when-sub"> </span> <span class="pill pill--live">Current</span></p>
+      <p class="cv-item__when">2020 – 2026</p>
       <h3 class="cv-item__title">Ph.D. in Civil Engineering (Transportation)</h3>
       <p class="cv-item__where">McGill University, Montréal, Canada</p>
       <p class="cv-item__note">
@@ -75,6 +75,13 @@ redirect_from:
   <h2 class="cv-section__title"><i class="fas fa-flask"></i> Academic Experiences</h2>
 
   <ol class="cv-timeline">
+    <li class="cv-timeline__item cv-timeline__item--current">
+      <span class="cv-timeline__dot"></span>
+      <p class="cv-item__when">2026 – Present <span class="cv-item__when-sub"> </span> <span class="pill pill--live">Current</span></p>
+      <h3 class="cv-item__title">Postdoctoral Researcher</h3>
+      <p class="cv-item__where">Dept. of Civil Engineering, McGill University, Montréal, Canada</p>
+      <p class="cv-item__note">With <strong>Prof. Lijun Sun</strong></p>
+    </li>
     <li class="cv-timeline__item">
       <span class="cv-timeline__dot"></span>
       <p class="cv-item__when">2023</p>

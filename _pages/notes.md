@@ -21,8 +21,8 @@ author_profile: true
 <ol id="notes-list" class="notes-list">
   <li><a href="/posts/logsumexp/">The Log-Sum-Exp Trick</a> <span class="note-tags">📕</span></li>
   <li><a href="/posts/FHMM-IDM/">Hidden Markov Model and Driving Behavior Modeling: From HMMs to Factorial HMMs to FHMM–IDM — a three-part primer</a> <span class="note-tags">📙📘📗</span></li>
-  <li>Bayesian inference and conjugate priors <span class="pill">To be updated</span></li>
-  <li>Prior settings matter in Bayesian inference (variance) <span class="pill">To be updated</span></li>
+  <li>Bayesian inference and conjugate priors <span class="pill">Planned</span></li>
+  <li>Prior settings matter in Bayesian inference (variance) <span class="pill">Planned</span></li>
   <li><a href="/posts/hierarchical/">Heterogeneity and Hierarchical Models</a> <span class="note-tags">📙</span></li>
   <li><a href="/posts/random-effects/">Random Effects and Hierarchical Models in Driving Behaviors Modeling</a> <span class="note-tags">📙📘</span></li>
   <li><a href="/posts/ols-unbiased/">Proof: unbiasedness of ordinary least squares (OLS)</a> <span class="note-tags">📕</span></li>
@@ -30,12 +30,13 @@ author_profile: true
   <li><a href="/posts/autocorrelation">Modeling Autocorrelation: FFT vs Gaussian Processes</a> <span class="note-tags">📙📕</span></li>
   <li><a href="/posts/gp-time-series/">Gaussian Processes (GP) for Time Series Forecasting</a> <span class="note-tags">📙</span></li>
   <li><a href="/posts/GVF/">A Detailed Introduction to Gaussian Velocity Fields (GVF) Based on Gaussian Processes</a> <span class="note-tags">📙📘📗</span></li>
+  <li><a href="/posts/three-PGMs/">Fundamental Probabilistic Graphical Models: Tail-to-Tail, Head-to-Tail, and Head-to-Head</a> <span class="note-tags">📙📕</span></li>
   <li><a href="/posts/AR/">Introduction to Autoregressive (AR) Processes</a> <span class="note-tags">📕</span></li>
-  <li>Bayesian calibration of car-following models <span class="pill">To be updated</span></li>
+  <li>Bayesian calibration of car-following models <span class="pill">Planned</span></li>
   <li><a href="/posts/processes_connections/">Connections among AR processes, Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian Processes</a> <span class="note-tags">📙📕📘</span></li>
   <li><a href="/posts/matrix-derivative/">Matrix derivative of Frobenius norm involving Hadamard product</a> <span class="note-tags">📕</span></li>
-  <li><a href="https://zhuanlan.zhihu.com/p/557203965">《社会型交互与自动驾驶：综述》 - Enzo的文章 - 知乎</a> <span class="note-tags">📘📗</span></li>
-  <li><a href="https://zhuanlan.zhihu.com/p/400628960">多输出高斯过程 (multiple output GP) - Enzo的文章 - 知乎</a> <span class="note-tags">📙</span></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/557203965">《社会型交互与自动驾驶：综述》（知乎）</a> <span class="note-tags">📘📗</span></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/400628960">多输出高斯过程 (multiple output GP)（知乎）</a> <span class="note-tags">📙</span></li>
 </ol>
 
 <p id="notes-empty-msg" class="pub-empty-msg" hidden>No notes match this topic yet.</p>

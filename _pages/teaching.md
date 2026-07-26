@@ -8,7 +8,7 @@ author_profile: true
 I have served as a teaching assistant for both in-person and online courses spanning traffic engineering and the foundations of statistical machine learning.
 
 Teaching Assistant
-=====
+-----
 
 <div class="course-grid">
 
