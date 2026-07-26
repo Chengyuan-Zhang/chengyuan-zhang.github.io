@@ -82,7 +82,7 @@ Selected Publications
 ------
 
 <div class="pub-item">
-  <img class="pub-item__thumb" src="{{ '/images/MA-IDM.png' | relative_url }}" alt="Markov Regime-Switching IDM" loading="lazy">
+  <img class="pub-item__thumb" src="{{ '/images/MA-IDM.jpg' | relative_url }}" alt="Markov Regime-Switching IDM" loading="lazy">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://arxiv.org/abs/2506.14762">Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior</a>
     <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — preprint (2025)</span>
@@ -106,7 +106,7 @@ Selected Publications
 </div>
 
 <div class="pub-item">
-  <img class="pub-item__thumb" src="{{ '/images/GVF_framework.Png' | relative_url }}" alt="Spatiotemporal lane change" loading="lazy">
+  <img class="pub-item__thumb" src="{{ '/images/GVF_framework.png' | relative_url }}" alt="Spatiotemporal lane change" loading="lazy">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/abstract/document/9357407">Spatiotemporal Learning of Multi-Vehicle Interaction Patterns in Lane-Change Scenarios</a>
     <span class="pub-item__venue">Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, Junqiang Xi — IEEE T-ITS (2021)</span>
