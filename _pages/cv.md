@@ -165,6 +165,8 @@ redirect_from:
         <span class="chip">Advanced Engineering Informatics</span>
         <span class="chip">J. of Traffic &amp; Transp. Engineering</span>
         <span class="chip">Nonlinear Dynamics</span>
+        <span class="chip">Journal of King Saud University Computer and Information Sciences</span>
+        <span class="chip">Scientific Reports</span>
       </div>
       <p class="cv-chip-label">Conferences &amp; Workshops</p>
       <div class="cv-chipset">
