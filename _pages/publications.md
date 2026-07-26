@@ -49,7 +49,7 @@ Corresponding Author, = Equal Contributions.)
   ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
   Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)] 📗 <button type="button" class="bib-btn" data-bib="chen2025forecasting">BibTeX</button>
 - <u>Chengyuan Zhang</u>, Wenshuo Wang, and Lijun Sun* (2024). ["Calibrating Car-Following Models via Bayesian Dynamic
-  Regression"](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7). Transportation research part C: emerging
+  Regression"](https://doi.org/10.1016/j.trc.2024.104719). Transportation research part C: emerging
   technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
   <span class="text-muted">ISTTT25 <span class="text-accent">Oral Presentation</span>; 2024 Clifford Spiegelman Student Paper Competition <span class="text-accent">Honorable Mention Award</span></span>; 📕📙 <button type="button" class="bib-btn" data-bib="zhang2024calibrating">BibTeX</button>
 - <u>Chengyuan Zhang</u> and Lijun Sun* (2023).

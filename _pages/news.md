@@ -45,7 +45,7 @@ author_profile: true
 * <span class="news-date">03/2024</span> Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" has been selected for the PODIUM
   presentation at the 25th International Symposium on Transportation and Traffic
   Theory ([ISTTT25](https://limos.engin.umich.edu/isttt25/)) and also accepted at Transportation Research: Part
-  C ([TR PartC](https://authors.elsevier.com/sd/article/S0968-090X(24)00240-7)). See you in Ann
+  C ([TR PartC](https://doi.org/10.1016/j.trc.2024.104719)). See you in Ann
   Arbor! [[arXiv](https://arxiv.org/pdf/2307.03340.pdf)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
 * <span class="news-date">01/2024</span> Our paper "Calibrating Car-Following Models via Bayesian Dynamic Regression" won the **Honorable Mention
   Award** for
