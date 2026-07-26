@@ -152,11 +152,8 @@ News
 =====
 
 <ul class="news-list">
+  <li><span class="news-date">07/2026</span> I am delighted to give a talk "Beyond White Noise: What Naturalistic Data Reveal About Memory, Heterogeneity, and Latent Regimes in Car-Following" at Chair of Econometrics and Statistics, TU Dresden (invited by Dr. Martin Treiber).
   <li><span class="news-date">05/2026</span> I am delighted to share that I successfully defended my PhD thesis, From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation, at McGill University. Sincere thanks to my advisor Prof. Lijun Sun, my committee, and everyone who supported me along the way.</li>
-  <li><span class="news-date">02/2026</span> New preprint: "Active Simulation-Based Inference for Scalable Car-Following Model Calibration" — <a href="https://arxiv.org/abs/2602.05246">arXiv: 2602.05246</a>.</li>
-  <li><span class="news-date">01/2026</span> Two papers accepted at IEEE IV 2026: "Online Calibration of Context-Driven Car-Following Models" and "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration."</li>
-  <li><span class="news-date">11/2025</span> Paper accepted at <a href="https://www.isttt2026.vtk.ed.tum.de/">ISTTT26</a>: "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior" [<a href="https://arxiv.org/abs/2507.07012">arXiv</a>]. See you in Munich!</li>
-  <li><span class="news-date">06/2025</span> New preprint: "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" — <a href="https://arxiv.org/abs/2506.14762">arXiv: 2506.14762</a>.</li>
 </ul>
 
 <p><a href="{{ '/news/' | relative_url }}" class="btn--toggle" role="button">Read more</a></p>

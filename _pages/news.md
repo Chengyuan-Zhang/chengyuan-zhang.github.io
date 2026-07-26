@@ -5,6 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
+* <span class="news-date">10/2025</span> I am delighted to give a talk "Beyond White Noise: What Naturalistic Data Reveal About Memory, Heterogeneity, and Latent Regimes in Car-Following" at Chair of Econometrics and Statistics, TU Dresden (invited by Dr. Martin Treiber).
 * <span class="news-date">05/2026</span> I am delighted to share that I successfully defended my PhD thesis, From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation, at McGill University. Sincere thanks to my advisor Prof. Lijun Sun, my committee, and everyone who supported me along the way.
 * <span class="news-date">04/2026</span> I am delighted to give an online talk "Modeling Human Driving as a Dynamic Interaction Process: Uncertainty-Aware Learning from Naturalistic
   Driving Data" at MIT AgeLab, Massachusetts Institute of Technology (invited by Dr. Pnina Gershon).

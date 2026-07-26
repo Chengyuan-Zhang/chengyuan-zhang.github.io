@@ -19,6 +19,24 @@ A selection of invited lectures and conference presentations.
   <ul class="talks-section__list">
     <li class="talk-entry">
       <h3 class="talk-entry__title">
+        Beyond White Noise: What Naturalistic Data Reveal About Memory, Heterogeneity, and Latent Regimes in Car-Following
+        <span class="talk-entry__tag talk-entry__tag--invited">Invited</span>
+      </h3>
+      <p class="talk-entry__meta">Chair of Econometrics and Statistics, TU Dresden<span class="sep">·</span>Dresden, Germany<span class="sep">·</span>July 2026</p>
+    </li>
+    <li class="talk-entry">
+      <h3 class="talk-entry__title">
+        When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior
+        <span class="talk-entry__tag talk-entry__tag--conference">Conference</span>
+      </h3>
+      <p class="talk-entry__meta">Podium Presentation, 26th International Symposium on Transportation and Traffic Theory (ISTTT26)<span class="sep">·</span>Munich, German<span class="sep">·</span>July 2026</p>
+    </li>
+    <div class="figure-row">
+      <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26" loading="lazy" decoding="async" style="width:30%">
+      <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26" loading="lazy" decoding="async" style="width:45%">
+    </div>
+    <li class="talk-entry">
+      <h3 class="talk-entry__title">
         Discovering Urban Mobility Patterns from Human Behavior to City-Scale Dynamics with Interpretable AI: Interpretable pattern discovery across mobility scales
         <span class="talk-entry__tag talk-entry__tag--invited">Invited</span>
       </h3>
