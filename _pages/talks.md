@@ -152,7 +152,9 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <iframe width="480" height="300" src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:4px"></iframe>
+  <div class="video-embed" style="width:48%">
+    <iframe src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
   <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="TRB 2023" loading="lazy" decoding="async" style="width:45%">
 </div>
 

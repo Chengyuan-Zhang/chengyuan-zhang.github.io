@@ -2474,3 +2474,30 @@ html.dark-mode .not-found {
     &:hover { color: var(--c-accent); border-bottom-color: var(--c-accent); }
   }
 }
+
+/* Responsive video embeds (replaces the FitVids plugin) -------------------- */
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #000;
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+/* Native smooth scrolling (replaces the smooth-scroll plugin) --------------- */
+html { scroll-behavior: smooth; }
+
+:target,
+h1[id], h2[id], h3[id], h4[id] { scroll-margin-top: calc(#{$masthead-height} + 20px); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
