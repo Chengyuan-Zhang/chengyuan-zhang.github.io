@@ -1,0 +1,45 @@
+{% comment %}
+GoatCounter: cookie-free and stores no personal data, so no consent banner is
+required. Set analytics.provider to "goatcounter" and analytics.goatcounter.code
+to your site code in _config.yml (the subdomain: "chengyuan" for
+https://chengyuan.goatcounter.com).
+
+Beyond page views this records clicks on PDF and .bib links as events, so CV,
+poster and slide downloads show up separately. Event names look like
+"download/files/CV_Chengyuan.pdf". no_session is set so repeat clicks by the same
+visitor are all counted, per https://www.goatcounter.com/help/js.
+{% endcomment %}
+{% if site.analytics.goatcounter.code %}
+<script data-goatcounter="https://{{ site.analytics.goatcounter.code }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+<script>
+  (function () {
+    'use strict';
+
+    function eventPath(href) {
+      var path = href.replace(/^https?:\/\/[^/]+/i, '');
+      if (path.charAt(0) !== '/') path = '/' + path;
+      return 'download' + path.split(/[?#]/)[0];
+    }
+
+    document.addEventListener('click', function (e) {
+      var el = e.target;
+      if (!el || typeof el.closest !== 'function') return;
+      var a = el.closest('a[href]');
+      if (!a) return;
+
+      var href = a.getAttribute('href') || '';
+      if (!/\.(pdf|bib)(\?|#|$)/i.test(href)) return;
+      if (!window.goatcounter || !window.goatcounter.count) return;
+
+      window.goatcounter.count({
+        path: eventPath(href),
+        title: (a.textContent || '').trim().slice(0, 80) || href,
+        event: true,
+        no_session: true
+      });
+    }, true);
+  })();
+</script>
+{% endif %}

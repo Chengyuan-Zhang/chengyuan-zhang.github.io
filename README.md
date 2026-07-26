@@ -55,3 +55,21 @@ bundle exec jekyll serve   # http://localhost:4000
 py -3 scripts/build_bibliography.py   # bibliography + publication structured data
 py -3 scripts/optimize_images.py      # downscale images and photos
 ```
+
+## Analytics
+
+Off by default. To turn on GoatCounter, which sets no cookies and stores no
+personal data, register a site at <https://www.goatcounter.com/> and set both
+values in `_config.yml`:
+
+```yaml
+analytics:
+  provider: goatcounter
+  goatcounter:
+    code: your-site-code     # subdomain of your-site-code.goatcounter.com
+```
+
+Clicks on `.pdf` and `.bib` links are additionally recorded as events named
+`download/files/...`, so CV and poster downloads can be read separately from page
+views. The footer also carries a busuanzi hit counter, which reports site totals
+only.

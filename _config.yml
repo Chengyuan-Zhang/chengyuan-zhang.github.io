@@ -78,10 +78,18 @@ social:
 
 
 # Analytics
+# provider: false (default), "google", "google-universal" (deprecated),
+#           "google-analytics-4", "goatcounter", "custom"
+# GoatCounter is cookie-free and stores no personal data, so it needs no consent
+# banner. Sign up at https://www.goatcounter.com/, then put your site code below
+# (the subdomain: "chengyuan" for https://chengyuan.goatcounter.com) and set
+# provider to "goatcounter". PDF and .bib clicks are recorded as events.
 analytics:
-  provider               :  # false (default), "google", "google-universal" (deprecated), "google-analytics-4", "custom"
+  provider               :
   google:
     tracking_id          :
+  goatcounter:
+    code                 :
 
 
 # Site Author
