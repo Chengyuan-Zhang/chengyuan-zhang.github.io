@@ -15,7 +15,7 @@ quantify uncertainty, making them particularly useful in scenarios where confide
 
 ---
 
-# 1. **Modeling Framework**
+## 1. **Modeling Framework**
 
 To forecast time-series data, we use GPs to model the underlying function \\( f(t) \\) that generates the observations
 \\(
@@ -41,9 +41,9 @@ predictions for future time points.
 
 ---
 
-# 2. **Steps in Forecasting**
+## 2. **Steps in Forecasting**
 
-## Step 1: **Choose a Mean and Covariance Function**
+### Step 1: **Choose a Mean and Covariance Function**
 
 - The **mean function** \\( m(t) \\) typically defaults to zero unless prior knowledge suggests otherwise.
 - The **covariance function (kernel)** \\( k(t, t') \\) encodes assumptions about the data. Common kernels for
@@ -76,7 +76,7 @@ predictions for future time points.
 
     - **Sum/Product Kernels**: To combine different features (e.g., trend + seasonality).
 
-## Step 2: **Fit the Gaussian Process**
+### Step 2: **Fit the Gaussian Process**
 
 Given a dataset \\( \{t_1, t_2, \ldots, t_n\} \\) and observations \\( \{y_1, y_2, \ldots, y_n\} \\), the GP
 hyperparameters (e.g., kernel parameters such as length-scale and variance) are learned by maximizing the **log marginal
@@ -89,7 +89,7 @@ $$
 
 where \\( \mathbf{K} \\) is the covariance matrix computed using the kernel function.
 
-## Step 3: **Make Predictions**
+### Step 3: **Make Predictions**
 
 For new time points \\( \mathbf{t}_{*} \\), the GP provides the posterior predictive distribution:
 
@@ -114,9 +114,9 @@ Here:
 
 ---
 
-# 3. **Handling Specific Challenges in Time-Series**
+## 3. **Handling Specific Challenges in Time-Series**
 
-## **Trend and Seasonality**
+### **Trend and Seasonality**
 
 By combining kernels, GPs can capture complex behaviors in time-series data:
 
@@ -129,19 +129,19 @@ $$
 k(t, t') = k_\text{RBF}(t, t') + k_\text{Periodic}(t, t')
 $$
 
-## **Irregularly Spaced Data**
+### **Irregularly Spaced Data**
 
 GPs handle irregularly spaced time points naturally because the kernel operates on the pairwise distances between
 points.
 
-## **Uncertainty in Long-Term Forecasting**
+### **Uncertainty in Long-Term Forecasting**
 
 In long-term forecasts, GPs reflect increasing uncertainty by widening the confidence intervals as predictions are made
 further into the future.
 
 ---
 
-# 4. **Advantages of Using Gaussian Processes**
+## 4. **Advantages of Using Gaussian Processes**
 
 - **Uncertainty Quantification**: GPs provide confidence intervals for predictions, which are valuable in
   decision-making.
@@ -153,12 +153,12 @@ further into the future.
 
 ## 5. **Limitations and Solutions**
 
-## Limitation: **Computational Cost**
+### Limitation: **Computational Cost**
 
 - GPs scale cubically with the number of data points (\\( \mathcal{O}(n^3) \\)) due to matrix inversion.
 - **Solution**: Use sparse approximations, such as inducing point methods, to reduce computational complexity.
 
-## Limitation: **Kernel Selection**
+### Limitation: **Kernel Selection**
 
 - Choosing the right kernel can be challenging and requires domain expertise.
 - **Solution**: Use automatic relevance determination (ARD) or composite kernels to automate and refine kernel
@@ -166,7 +166,7 @@ further into the future.
 
 ---
 
-# 6. **Example: Forecasting with Python**
+## 6. **Example: Forecasting with Python**
 
 Here is a simple example of time-series forecasting using the `scikit-learn` library in Python:
 
@@ -215,7 +215,7 @@ plt.show()
 
 ---
 
-# 7. **Conclusion**
+## 7. **Conclusion**
 
 Gaussian Processes provide a flexible, interpretable, and probabilistic framework for time-series forecasting. They
 excel in scenarios where uncertainty quantification is crucial and where the underlying patterns in the data may be
