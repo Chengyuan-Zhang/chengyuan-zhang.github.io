@@ -31,10 +31,12 @@ A selection of invited lectures and conference presentations.
       </h3>
       <p class="talk-entry__meta">Podium Presentation, 26th International Symposium on Transportation and Traffic Theory (ISTTT26)<span class="sep">·</span>Munich, Germany<span class="sep">·</span>July 2026</p>
     </li>
-    <div class="figure-row">
-      <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:30%" width="1600" height="1067">
-      <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:45%" width="1600" height="1067">
-    </div>
+    <li class="talk-entry talk-entry--figures">
+      <div class="figure-row">
+        <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:30%" width="1600" height="1067">
+        <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:45%" width="1600" height="1067">
+      </div>
+    </li>
     <li class="talk-entry">
       <h3 class="talk-entry__title">
         Discovering Urban Mobility Patterns from Human Behavior to City-Scale Dynamics with Interpretable AI: Interpretable pattern discovery across mobility scales

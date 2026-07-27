@@ -2738,3 +2738,16 @@ html.dark-mode .author__urls a:hover i { color: var(--c-accent); }
   .masthead__inner-wrap,
   #main { max-width: calc(100% - 3em); }
 }
+
+/* A figure row between two talks has to be a list item to be valid inside the
+   list; it carries no marker or entry chrome of its own. */
+.talk-entry--figures {
+  list-style: none;
+  padding: 0;
+  border: 0;
+  margin: 0.6rem 0 1rem;
+
+  &::before,
+  &::marker { content: none; }
+}
+

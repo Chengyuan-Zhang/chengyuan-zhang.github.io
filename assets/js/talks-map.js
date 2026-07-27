@@ -1,8 +1,11 @@
 (function () {
   'use strict';
 
-  // Talk locations (in-person only; online talks are listed but not on the map)
+  // Talk locations (in-person only; online talks are listed but not on the map).
+  // scripts/check_talks_map.py verifies this against the list in _pages/talks.md.
   var TALKS = [
+    { lat: 51.0299, lng: 13.7303,  city: 'Dresden, Germany',         type: 'invited',    date: 'Jul 2026',  venue: 'TU Dresden',                                  title: 'Beyond White Noise: Memory, Heterogeneity, and Latent Regimes in Car-Following' },
+    { lat: 48.2655, lng: 11.6692,  city: 'Munich, Germany',          type: 'conference', date: 'Jul 2026',  venue: 'ISTTT26',                                     title: 'When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior' },
     { lat: 31.2028, lng: 121.4489, city: 'Shanghai, China',          type: 'invited',    date: 'Feb 2026',  venue: 'Tongji University',                           title: 'From Micro Interactions to Traffic Flow' },
     { lat: 39.9612, lng: 116.3428, city: 'Beijing, China',           type: 'invited',    date: 'Nov 2024',  venue: 'Beijing Institute of Technology',             title: 'Bayesian Calibration of Car-Following Models' },
     { lat: 31.0253, lng: 121.4373, city: 'Shanghai, China',          type: 'invited',    date: 'Oct 2024',  venue: 'Shanghai Jiao Tong University',               title: 'Bayesian Calibration of Car-Following Models' },
