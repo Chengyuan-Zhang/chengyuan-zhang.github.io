@@ -52,7 +52,7 @@ Featured Research
 <div class="research-grid" markdown="1">
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="Pooled, hierarchical and unpooled graphical models of the intelligent driver model" loading="lazy" decoding="async" />
+<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="Pooled, hierarchical and unpooled graphical models of the intelligent driver model" loading="lazy" decoding="async" / width="640" height="317">
 
 ### Stochastic Behavior Models
 <p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
@@ -64,7 +64,7 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="Poster on Bayesian calibration of the intelligent driver model" loading="lazy" decoding="async" />
+<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="Poster on Bayesian calibration of the intelligent driver model" loading="lazy" decoding="async" / width="640" height="428">
 
 ### Scalable Bayesian Inference & Calibration
 <p class="research-card__lead">Making posterior inference over behavior models tractable, online, and comparable.</p>
@@ -76,7 +76,7 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="Sequential spatiotemporal patterns extracted from multivehicle interactions" loading="lazy" decoding="async" />
+<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="Sequential spatiotemporal patterns extracted from multivehicle interactions" loading="lazy" decoding="async" / width="640" height="262">
 
 ### From Individual Behavior to Collective Dynamics
 <p class="research-card__lead">Carrying calibrated uncertainty from single decisions up to network and flow scale.</p>
@@ -87,7 +87,7 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="Multiple vehicles and a pedestrian interacting at an intersection" loading="lazy" decoding="async" />
+<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="Multiple vehicles and a pedestrian interacting at an intersection" loading="lazy" decoding="async" / width="640" height="415">
 
 ### Multi-Agent Interaction
 <p class="research-card__lead">Representing how road users respond to one another, and when that response actually matters.</p>
@@ -103,7 +103,7 @@ Selected Publications
 ------
 
 <div class="pub-item">
-  <img class="pub-item__thumb" src="{{ '/images/MA-IDM.jpg' | relative_url }}" alt="Markov Regime-Switching IDM" loading="lazy">
+  <img class="pub-item__thumb" src="{{ '/images/MA-IDM.jpg' | relative_url }}" alt="Markov Regime-Switching IDM" loading="lazy" width="700" height="467">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://arxiv.org/abs/2506.14762">Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior</a>
     <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — preprint (2025)</span>
@@ -115,7 +115,7 @@ Selected Publications
 </div>
 
 <div class="pub-item">
-  <img class="pub-item__thumb" src="{{ '/images/idm_pgm.png' | relative_url }}" alt="Bayesian IDM calibration" loading="lazy">
+  <img class="pub-item__thumb" src="{{ '/images/idm_pgm.png' | relative_url }}" alt="Bayesian IDM calibration" loading="lazy" width="700" height="347">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/document/10415310">Bayesian Calibration of the Intelligent Driver Model</a>
     <span class="pub-item__venue">Chengyuan Zhang, Lijun Sun — IEEE T-ITS (2024)</span>
@@ -127,7 +127,7 @@ Selected Publications
 </div>
 
 <div class="pub-item">
-  <img class="pub-item__thumb" src="{{ '/images/GVF_framework.png' | relative_url }}" alt="Spatiotemporal lane change" loading="lazy">
+  <img class="pub-item__thumb" src="{{ '/images/GVF_framework.png' | relative_url }}" alt="Spatiotemporal lane change" loading="lazy" width="700" height="287">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/abstract/document/9357407">Spatiotemporal Learning of Multi-Vehicle Interaction Patterns in Lane-Change Scenarios</a>
     <span class="pub-item__venue">Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, Junqiang Xi — IEEE T-ITS (2022)</span>
@@ -195,8 +195,8 @@ News
 </div>
 
 <div class="funding-logos">
-  <div><img src="{{ '/images/FRQNT.png' | relative_url }}" alt="FRQNT" loading="lazy" decoding="async"></div>
-  <div><img src="{{ '/images/ivado-cmyk_logo-full-degrade-730x245.png' | relative_url }}" alt="IVADO" loading="lazy" decoding="async"></div>
-  <div><img src="{{ '/images/mitacs_transparent.png' | relative_url }}" alt="Mitacs" loading="lazy" decoding="async"></div>
-  <div><img src="{{ '/images/CIRRELT_logo.png' | relative_url }}" alt="CIRRELT" loading="lazy" decoding="async"></div>
+  <div><img src="{{ '/images/FRQNT.png' | relative_url }}" alt="FRQNT" loading="lazy" decoding="async" width="435" height="149"></div>
+  <div><img src="{{ '/images/ivado-cmyk_logo-full-degrade-730x245.png' | relative_url }}" alt="IVADO" loading="lazy" decoding="async" width="730" height="245"></div>
+  <div><img src="{{ '/images/mitacs_transparent.png' | relative_url }}" alt="Mitacs" loading="lazy" decoding="async" width="800" height="240"></div>
+  <div><img src="{{ '/images/CIRRELT_logo.png' | relative_url }}" alt="CIRRELT" loading="lazy" decoding="async" width="1933" height="428"></div>
 </div>

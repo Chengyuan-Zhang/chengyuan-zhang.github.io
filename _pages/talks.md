@@ -32,8 +32,8 @@ A selection of invited lectures and conference presentations.
       <p class="talk-entry__meta">Podium Presentation, 26th International Symposium on Transportation and Traffic Theory (ISTTT26)<span class="sep">·</span>Munich, Germany<span class="sep">·</span>July 2026</p>
     </li>
     <div class="figure-row">
-      <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:30%">
-      <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:45%">
+      <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:30%" width="1600" height="1067">
+      <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:45%" width="1600" height="1067">
     </div>
     <li class="talk-entry">
       <h3 class="talk-entry__title">
@@ -120,8 +120,8 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <img src="{{ '/images/isttt25-podium-slides.jpg' | relative_url }}" alt="Chengyuan Zhang presenting at ISTTT25 in Ann Arbor, with car-following slides projected behind him" loading="lazy" decoding="async" style="width:30%">
-  <img src="{{ '/images/isttt25-podium.jpg' | relative_url }}" alt="Chengyuan Zhang at the podium during his ISTTT25 podium presentation" loading="lazy" decoding="async" style="width:45%">
+  <img src="{{ '/images/isttt25-podium-slides.jpg' | relative_url }}" alt="Chengyuan Zhang presenting at ISTTT25 in Ann Arbor, with car-following slides projected behind him" loading="lazy" decoding="async" style="width:30%" width="1400" height="2100">
+  <img src="{{ '/images/isttt25-podium.jpg' | relative_url }}" alt="Chengyuan Zhang at the podium during his ISTTT25 podium presentation" loading="lazy" decoding="async" style="width:45%" width="1400" height="1400">
 </div>
 
 <section class="talks-section">
@@ -155,7 +155,7 @@ A selection of invited lectures and conference presentations.
   <div class="video-embed" style="width:48%">
     <iframe src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
-  <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="TRB 2023" loading="lazy" decoding="async" style="width:45%">
+  <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="TRB 2023" loading="lazy" decoding="async" style="width:45%" width="893" height="809">
 </div>
 
 <section class="talks-section">
@@ -185,8 +185,8 @@ A selection of invited lectures and conference presentations.
 </section>
 
 <div class="figure-row">
-  <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="ITSC 2019" loading="lazy" decoding="async" style="width:55%">
-  <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="CMU 2018" loading="lazy" decoding="async" style="width:40%">
+  <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="ITSC 2019" loading="lazy" decoding="async" style="width:55%" width="1189" height="706">
+  <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="CMU 2018" loading="lazy" decoding="async" style="width:40%" width="1400" height="827">
 </div>
 
 <section class="talks-map-section">

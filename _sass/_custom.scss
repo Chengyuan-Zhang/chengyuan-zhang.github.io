@@ -10,7 +10,12 @@ body {
   letter-spacing: -0.005em;
 }
 
-.page__content {
+/* The archive layout wraps its body in .archive rather than .page__content, so
+   without this the code, teaching, miscellaneous and CV pages missed every rule
+   below and rendered with a 22.5px h2 and no rule beneath it, against 27.9px
+   with a rule on the pages that use the single layout. */
+.page__content,
+.archive {
   line-height: 1.65;
 
   p { margin: 0 0 1em; }
@@ -38,18 +43,28 @@ body {
   a { text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
 }
 
+/* h1 measured 28.134px against a 27.9px h2, so the page title read as just
+   another section heading. */
 .page__title {
   font-family: $serif;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
+  font-size: 2.1em;
+  line-height: 1.15;
+  margin-bottom: 0.45em;
 }
 
 html.dark-mode .page__content h1,
 html.dark-mode .page__content h2,
 html.dark-mode .page__content h3,
-html.dark-mode .page__content h4 { color: var(--c-text); }
+html.dark-mode .page__content h4,
+html.dark-mode .archive h1,
+html.dark-mode .archive h2,
+html.dark-mode .archive h3,
+html.dark-mode .archive h4 { color: var(--c-text); }
 
-html.dark-mode .page__content h2 { border-bottom-color: var(--c-border); }
+html.dark-mode .page__content h2,
+html.dark-mode .archive h2 { border-bottom-color: var(--c-border); }
 :root {
   --c-bg:          #ffffff;
   --c-bg-alt:      #fafafa;
@@ -404,7 +419,8 @@ html.dark-mode .pubs-chart__cap { color: var(--c-text-muted); }
 /* Keep the (light-background) word cloud readable in dark mode */
 .wordcloud-img { display: block; }
 html.dark-mode .wordcloud-img {
-  background: #eef0f2;
+  filter: invert(1) hue-rotate(180deg);
+  background: none;
   border-radius: 8px;
   padding: 0.5rem 0.4rem;
 }
@@ -414,7 +430,7 @@ html.dark-mode .wordcloud-img {
 .research-card__thumb {
   display: block;
   width: 100%;
-  height: 104px;
+  height: 150px;
   object-fit: contain;
   background: #eef0f2;
   border-radius: 6px;
@@ -909,9 +925,9 @@ html.dark-mode .theme-toggle {
     margin: 0;
     background: linear-gradient(
       to right,
-      rgba(#fff, 0.97) 0%,
-      rgba(#fff, 0.88) 55%,
-      rgba(mix(#fff, $accent-color, 95%), 0.78) 100%
+      rgba(#fff, 0.95) 0%,
+      rgba(#fff, 0.80) 55%,
+      rgba(mix(#fff, $accent-color, 95%), 0.52) 100%
     );
     z-index: 1;
   }
@@ -923,7 +939,7 @@ html.dark-mode .theme-toggle {
   width: 100%;
   height: 100%;
   display: block;
-  opacity: 0.65;
+  opacity: 0.85;
   pointer-events: none;
   z-index: 0;
 }
@@ -2703,4 +2719,12 @@ html.dark-mode .author__urls a:hover i { color: var(--c-accent); }
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+
+/* The template sizes the avatar for a small square portrait; at 36px wide a
+   700x1050 photo reads as a loading failure on phones and tablets. */
+@media (max-width: 1199px) {
+  .author__avatar { width: 76px; }
+  .author__avatar img { max-width: 76px; }
 }
