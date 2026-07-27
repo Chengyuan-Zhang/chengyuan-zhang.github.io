@@ -52,7 +52,7 @@ Featured Research
 <div class="research-grid" markdown="1">
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="Pooled, hierarchical and unpooled graphical models of the intelligent driver model" loading="lazy" decoding="async" / width="640" height="317">
+<img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="Pooled, hierarchical and unpooled graphical models of the intelligent driver model" loading="lazy" decoding="async" width="640" height="317" />
 
 ### Stochastic Behavior Models
 <p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
@@ -64,7 +64,7 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="Poster on Bayesian calibration of the intelligent driver model" loading="lazy" decoding="async" / width="640" height="428">
+<img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="Poster on Bayesian calibration of the intelligent driver model" loading="lazy" decoding="async" width="640" height="428" />
 
 ### Scalable Bayesian Inference & Calibration
 <p class="research-card__lead">Making posterior inference over behavior models tractable, online, and comparable.</p>
@@ -76,7 +76,7 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="Sequential spatiotemporal patterns extracted from multivehicle interactions" loading="lazy" decoding="async" / width="640" height="262">
+<img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="Sequential spatiotemporal patterns extracted from multivehicle interactions" loading="lazy" decoding="async" width="640" height="262" />
 
 ### From Individual Behavior to Collective Dynamics
 <p class="research-card__lead">Carrying calibrated uncertainty from single decisions up to network and flow scale.</p>
@@ -87,7 +87,7 @@ Featured Research
 </div>
 
 <div class="research-card" markdown="1">
-<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="Multiple vehicles and a pedestrian interacting at an intersection" loading="lazy" decoding="async" / width="640" height="415">
+<img class="research-card__thumb" src="{{ '/images/cards/multiagent.jpg' | relative_url }}" alt="Multiple vehicles and a pedestrian interacting at an intersection" loading="lazy" decoding="async" width="640" height="415" />
 
 ### Multi-Agent Interaction
 <p class="research-card__lead">Representing how road users respond to one another, and when that response actually matters.</p>

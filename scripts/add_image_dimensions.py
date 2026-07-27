@@ -70,7 +70,14 @@ def process(text: str, root: str, cache: Dict[str, Tuple[int, int]],
             report.append("%s: 跳过 (无法读取) %s" % (source, path))
             return tag
         report.append("%s: %dx%d  %s" % (source, size[0], size[1], os.path.basename(path)))
-        return tag[:-1].rstrip() + ' width="%d" height="%d">' % size
+        # Preserve the tag's own closing style; appending after a self-closing
+        # slash would leave "/ width=..." in the middle and invalidate the tag.
+        body = tag[:-1].rstrip()
+        close = ">"
+        if body.endswith("/"):
+            body = body[:-1].rstrip()
+            close = " />"
+        return body + ' width="%d" height="%d"%s' % (size[0], size[1], close)
 
     return IMG_TAG.sub(fix, text)
 
