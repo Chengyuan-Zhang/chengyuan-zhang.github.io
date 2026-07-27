@@ -1,0 +1,16 @@
+# Topics for the notes list. This is the single source for the filter
+# buttons, the icon shown next to each note, and the values that
+# assets/js/notes-filter.js will accept. Add a topic here and it appears
+# everywhere; nothing else needs editing.
+- id: bayesian
+  label: Bayesian Learning
+  icon: 📙
+- id: math
+  label: Math Tricks
+  icon: 📕
+- id: driving
+  label: Driving Behaviors
+  icon: 📘
+- id: research
+  label: Research
+  icon: 📗

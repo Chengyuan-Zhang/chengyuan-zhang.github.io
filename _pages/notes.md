@@ -7,36 +7,51 @@ author_profile: true
 
 ### My Research Notes
 
-<p class="text-muted">Click <a href="/blog-posts/">here</a> for all posts.</p>
+<p class="text-muted">Click <a href="{{ '/blog-posts/' | relative_url }}">here</a> for all posts.</p>
+
+{% comment %}
+The list below is generated from _data/notes.yml (order, topics, planned
+items) and _posts (links and titles). Nothing here is hand-maintained, so the
+page cannot drift from the posts. A post that is not yet listed in notes.yml
+is shown at the top of the list rather than being silently omitted.
+{% endcomment %}
 
 <div class="topic-legend" id="notes-filter" role="toolbar" aria-label="Filter notes by topic">
   <span class="topic-legend__hint">Topic:</span>
   <button type="button" class="topic-btn is-active" data-topic="all">All</button>
-  <button type="button" class="topic-btn" data-topic="bayesian"><span class="topic-ico">📙</span> Bayesian Learning</button>
-  <button type="button" class="topic-btn" data-topic="math"><span class="topic-ico">📕</span> Math Tricks</button>
-  <button type="button" class="topic-btn" data-topic="driving"><span class="topic-ico">📘</span> Driving Behaviors</button>
-  <button type="button" class="topic-btn" data-topic="research"><span class="topic-ico">📗</span> Research</button>
+{%- for topic in site.data.note_topics %}
+  <button type="button" class="topic-btn" data-topic="{{ topic.id }}"><span class="topic-ico">{{ topic.icon }}</span> {{ topic.label }}</button>
+{%- endfor %}
 </div>
 
+{%- assign curated = site.data.notes | map: "post" | compact | join: "|" %}
+
 <ol id="notes-list" class="notes-list">
-  <li><a href="/posts/logsumexp/">The Log-Sum-Exp Trick</a> <span class="note-tags">📕</span></li>
-  <li><a href="/posts/FHMM-IDM/">Hidden Markov Model and Driving Behavior Modeling: From HMMs to Factorial HMMs to FHMM–IDM — a three-part primer</a> <span class="note-tags">📙📘📗</span></li>
-  <li>Bayesian inference and conjugate priors <span class="pill">Planned</span></li>
-  <li>Prior settings matter in Bayesian inference (variance) <span class="pill">Planned</span></li>
-  <li><a href="/posts/hierarchical/">Heterogeneity and Hierarchical Models</a> <span class="note-tags">📙</span></li>
-  <li><a href="/posts/random-effects/">Random Effects and Hierarchical Models in Driving Behaviors Modeling</a> <span class="note-tags">📙📘</span></li>
-  <li><a href="/posts/ols-unbiased/">Proof: unbiasedness of ordinary least squares (OLS)</a> <span class="note-tags">📕</span></li>
-  <li><a href="/posts/ols-to-gls/">From ordinary least squares (OLS) to generalized least squares (GLS)</a> <span class="note-tags">📕</span></li>
-  <li><a href="/posts/autocorrelation">Modeling Autocorrelation: FFT vs Gaussian Processes</a> <span class="note-tags">📙📕</span></li>
-  <li><a href="/posts/gp-time-series/">Gaussian Processes (GP) for Time Series Forecasting</a> <span class="note-tags">📙</span></li>
-  <li><a href="/posts/GVF/">A Detailed Introduction to Gaussian Velocity Fields (GVF) Based on Gaussian Processes</a> <span class="note-tags">📙📘📗</span></li>
-  <li><a href="/posts/three-PGMs/">Fundamental Probabilistic Graphical Models: Tail-to-Tail, Head-to-Tail, and Head-to-Head</a> <span class="note-tags">📙📕</span></li>
-  <li><a href="/posts/AR/">Introduction to Autoregressive (AR) Processes</a> <span class="note-tags">📕</span></li>
-  <li>Bayesian calibration of car-following models <span class="pill">Planned</span></li>
-  <li><a href="/posts/processes_connections/">Connections among AR processes, Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian Processes</a> <span class="note-tags">📙📕📘</span></li>
-  <li><a href="/posts/matrix-derivative/">Matrix derivative of Frobenius norm involving Hadamard product</a> <span class="note-tags">📕</span></li>
-  <li><a href="https://zhuanlan.zhihu.com/p/557203965">《社会型交互与自动驾驶：综述》（知乎）</a> <span class="note-tags">📘📗</span></li>
-  <li><a href="https://zhuanlan.zhihu.com/p/400628960">多输出高斯过程 (multiple output GP)（知乎）</a> <span class="note-tags">📙</span></li>
+{%- for post in site.posts %}
+{%- unless curated contains post.url %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title | smartify }}</a> <span class="pill pill--accent">New</span></li>
+{%- endunless %}
+{%- endfor %}
+{%- for item in site.data.notes %}
+{%- assign icons = "" %}
+{%- for id in item.topics %}
+{%- assign topic = site.data.note_topics | where: "id", id | first %}
+{%- if topic %}{% assign icons = icons | append: topic.icon %}{% endif %}
+{%- endfor %}
+{%- capture tag_html %}{% if icons != "" %} <span class="note-tags">{{ icons }}</span>{% endif %}{% endcapture %}
+{%- capture attrs %}{% if item.topics %} data-topics="{{ item.topics | join: ' ' }}"{% endif %}{% endcapture %}
+{%- if item.post %}
+{%- assign p = site.posts | where: "url", item.post | first %}
+{%- unless p %}{% assign p = site.posts | where: "permalink", item.post | first %}{% endunless %}
+{%- assign href = p.url | default: item.post %}
+{%- assign title = item.label | default: p.title | default: item.post %}
+  <li{{ attrs }}><a href="{{ href | relative_url }}">{{ title | smartify }}</a>{{ tag_html }}</li>
+{%- elsif item.link %}
+  <li{{ attrs }}><a href="{{ item.link }}">{{ item.label | smartify }}</a>{{ tag_html }}</li>
+{%- elsif item.planned %}
+  <li{{ attrs }}>{{ item.planned | smartify }} <span class="pill">Planned</span>{{ tag_html }}</li>
+{%- endif %}
+{%- endfor %}
 </ol>
 
 <p id="notes-empty-msg" class="pub-empty-msg" hidden>No notes match this topic yet.</p>

@@ -1,0 +1,69 @@
+# Reading order for /notes/.
+#
+# This file controls order, topics, and placeholders only. For `post:` entries
+# the link and the title are read from the post itself, so they can never fall
+# out of sync with _posts/. Any post not listed here is appended automatically
+# at the end of the list, so a new post can never go missing either.
+#
+# Entry kinds:
+#   post:    permalink of a file in _posts/. Title comes from the post.
+#   label:   optional short display name, for when the real title is too long.
+#   link:    an external URL. Requires label.
+#   planned: a note that is not written yet. Rendered without a link.
+#   topics:  ids from _data/note_topics.yml.
+
+- post: /posts/logsumexp/
+  label: The Log-Sum-Exp Trick
+  topics: [math]
+
+- post: /posts/FHMM-IDM/
+  topics: [bayesian, driving, research]
+
+- planned: Bayesian inference and conjugate priors
+
+- planned: Prior settings matter in Bayesian inference (variance)
+
+- post: /posts/hierarchical/
+  label: Heterogeneity and Hierarchical Models
+  topics: [bayesian]
+
+- post: /posts/random-effects/
+  topics: [bayesian, driving]
+
+- post: /posts/ols-unbiased/
+  topics: [math]
+
+- post: /posts/ols-to-gls/
+  topics: [math]
+
+- post: /posts/autocorrelation/
+  topics: [bayesian, math]
+
+- post: /posts/gp-time-series/
+  topics: [bayesian]
+
+- post: /posts/GVF/
+  topics: [bayesian, driving, research]
+
+- post: /posts/three-PGMs/
+  topics: [bayesian, math]
+
+- post: /posts/AR/
+  topics: [math]
+
+- planned: Bayesian calibration of car-following models
+
+- post: /posts/processes_connections/
+  label: Connections among AR processes, Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian Processes
+  topics: [bayesian, math, driving]
+
+- post: /posts/matrix-derivative/
+  topics: [math]
+
+- link: https://zhuanlan.zhihu.com/p/557203965
+  label: 《社会型交互与自动驾驶：综述》（知乎）
+  topics: [driving, research]
+
+- link: https://zhuanlan.zhihu.com/p/400628960
+  label: 多输出高斯过程 (multiple output GP)（知乎）
+  topics: [bayesian]

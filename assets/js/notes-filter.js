@@ -1,39 +1,29 @@
 (function () {
   'use strict';
 
-  var TOPIC_MAP = {
-    '\uD83D\uDCD9': 'bayesian',     // 📙
-    '\uD83D\uDCD5': 'math',         // 📕
-    '\uD83D\uDCD8': 'driving',      // 📘
-    '\uD83D\uDCD7': 'research'      // 📗
-  };
-  var VALID = ['all', 'bayesian', 'math', 'driving', 'research'];
+  // Topics come from the data-topics attribute that _pages/notes.md writes out
+  // from _data/note_topics.yml, and the button list is read from the DOM, so
+  // adding a topic is a data-only change and needs no edit here.
 
   function init() {
     var filter = document.getElementById('notes-filter');
     var scope  = document.getElementById('notes-list');
     if (!filter || !scope) return;
 
-    var items = scope.querySelectorAll(':scope > li');
-    items.forEach(function (li) {
-      var text = li.textContent || '';
-      var topics = [];
-      Object.keys(TOPIC_MAP).forEach(function (emoji) {
-        if (text.indexOf(emoji) !== -1) topics.push(TOPIC_MAP[emoji]);
-      });
-      if (topics.length) li.setAttribute('data-topics', topics.join(' '));
-    });
-
-    var buttons = filter.querySelectorAll('.topic-btn');
+    var items    = Array.prototype.slice.call(scope.children);
+    var buttons  = Array.prototype.slice.call(filter.querySelectorAll('.topic-btn'));
     var emptyMsg = document.getElementById('notes-empty-msg');
+    var valid    = buttons.map(function (b) { return b.getAttribute('data-topic'); });
 
-    function applyFilter(topic) {
-      if (VALID.indexOf(topic) === -1) topic = 'all';
+    function topicsOf(li) {
+      return (li.getAttribute('data-topics') || '').split(/\s+/).filter(Boolean);
+    }
+
+    function applyFilter(topic, updateHash) {
+      if (valid.indexOf(topic) === -1) topic = 'all';
       var any = false;
       items.forEach(function (li) {
-        if (topic === 'all') { li.hidden = false; any = true; return; }
-        var t = (li.getAttribute('data-topics') || '').split(/\s+/);
-        var match = t.indexOf(topic) !== -1;
+        var match = topic === 'all' || topicsOf(li).indexOf(topic) !== -1;
         li.hidden = !match;
         if (match) any = true;
       });
@@ -43,24 +33,20 @@
         b.classList.toggle('is-active', active);
         b.setAttribute('aria-pressed', active ? 'true' : 'false');
       });
-      if (topic === 'all') {
-        if (window.location.hash) history.replaceState(null, '', window.location.pathname + window.location.search);
-      } else {
-        history.replaceState(null, '', '#topic=' + topic);
-      }
+      if (updateHash === false) return;
+      var base = window.location.pathname + window.location.search;
+      history.replaceState(null, '', topic === 'all' ? base : base + '#topic=' + topic);
     }
 
     buttons.forEach(function (b) {
       b.addEventListener('click', function (e) {
         e.preventDefault();
-        applyFilter(b.getAttribute('data-topic'));
+        applyFilter(b.getAttribute('data-topic'), true);
       });
     });
 
     var hash = (window.location.hash || '').replace('#', '');
-    var initial = 'all';
-    if (hash.indexOf('topic=') === 0) initial = hash.slice(6);
-    applyFilter(initial);
+    applyFilter(hash.indexOf('topic=') === 0 ? hash.slice(6) : 'all', false);
   }
 
   if (document.readyState === 'loading') {
