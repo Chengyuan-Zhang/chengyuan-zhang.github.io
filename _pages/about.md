@@ -175,8 +175,9 @@ News
 -----
 
 <ul class="news-list">
-  <li><span class="news-date">07/2026</span> I am delighted to give a talk "Beyond White Noise: What Naturalistic Data Reveal About Memory, Heterogeneity, and Latent Regimes in Car-Following" at Chair of Econometrics and Statistics, TU Dresden (invited by Dr. Martin Treiber).</li>
-  <li><span class="news-date">05/2026</span> I am delighted to share that I successfully defended my PhD thesis, From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation, at McGill University. Sincere thanks to my advisor Prof. Lijun Sun, my committee, and everyone who supported me along the way.</li>
+{%- for item in site.data.news limit: 3 %}
+  <li><span class="news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{%- endfor %}
 </ul>
 
 <p><a href="{{ '/news/' | relative_url }}" class="btn--toggle" role="button">Read more</a></p>
