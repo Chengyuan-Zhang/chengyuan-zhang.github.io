@@ -216,6 +216,6 @@ practice, from latent-variable models and hierarchical Bayesian models to hidden
 ### References
 
 - J. Pacheco, *Probabilistic Graphical Models*, CSC 535 Lecture Notes, University of Arizona, Fall 2020.
-  [[slides]](https://www2.cs.arizona.edu/~pachecoj/courses/csc535_fall20/lectures/pgms.pdf)
+  slides by J. Pacheco, University of Arizona (CSC 535)
 - C. M. Bishop, *Pattern Recognition and Machine Learning*, Chapter 8: Graphical Models. Springer, 2006.
 - D. Koller and N. Friedman, *Probabilistic Graphical Models: Principles and Techniques*. MIT Press, 2009.

@@ -2728,3 +2728,13 @@ html.dark-mode .author__urls a:hover i { color: var(--c-accent); }
   .author__avatar { width: 76px; }
   .author__avatar img { max-width: 76px; }
 }
+
+/* Between the theme's $large (925px) and $x-large (1280px) stops the layout
+   stays pinned at 925px, so a 1200px laptop showed a 550px column of text
+   with 344px of empty page beside it, and the navigation had only 813px to
+   work with and pushed Notes and Miscellaneous into the hamburger. Adding an
+   intermediate step uses the width that is already there. */
+@media screen and (min-width: 68.75em) and (max-width: 79.9375em) {
+  .masthead__inner-wrap,
+  #main { max-width: calc(100% - 3em); }
+}

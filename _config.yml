@@ -151,6 +151,7 @@ exclude:
   - config
   - log
   - markdown_generator
+  - CONTRIBUTING.md
   - scripts
   - talkmap
   - talkmap.ipynb
@@ -186,19 +187,10 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+# The academicpages template ships teaching, publications, portfolio and talks
+# collections. This site writes those pages by hand in _pages, the four
+# directories are empty, and nothing reads site.teaching and friends, so the
+# collections and their defaults are removed rather than left as dead config.
 
 
 # Defaults
@@ -221,41 +213,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

@@ -161,7 +161,7 @@ redirect_from:
     <h3 class="cv-group__title">Workshops Organized</h3>
     <ul class="cv-plain">
       <li><span class="year-tick">2024</span> 2nd <a href="https://interactive-driving.github.io/SIAM-IV24/">SIAM Workshop</a> at <a href="https://ieee-iv.org/2024/">IEEE IV&rsquo;24</a>, Jeju Island, Korea.</li>
-      <li><span class="year-tick">2023</span> 1st <a href="https://interactive-driving.github.io/SIAM-IV23/">SIAM Workshop</a> at <a href="https://2023.ieee-iv.org/">IEEE IV&rsquo;23</a>, Anchorage, Alaska, USA.</li>
+      <li><span class="year-tick">2023</span> 1st <a href="https://interactive-driving.github.io/SIAM-IV23/">SIAM Workshop</a> at IEEE IV&rsquo;23, Anchorage, Alaska, USA.</li>
     </ul>
   </div>
 

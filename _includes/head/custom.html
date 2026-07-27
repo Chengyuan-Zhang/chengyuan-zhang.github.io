@@ -14,7 +14,14 @@
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- MathJax v3 (modernized; ~2x faster, smaller, async) -->
+<!-- MathJax v3, loaded only where there is actually maths to typeset. Twelve of
+     the twenty-seven pages use it; the CV, news, code and talks pages were
+     paying roughly 250 KiB of transfer for nothing. Set mathjax: true in front
+     matter to force it on a page whose maths arrives from an include. -->
+{% assign needs_mathjax = false %}
+{% if page.mathjax %}{% assign needs_mathjax = true %}{% endif %}
+{% if page.content contains '$$' or page.content contains '\(' %}{% assign needs_mathjax = true %}{% endif %}
+{% if needs_mathjax %}
 <script>
   window.MathJax = {
     tex: {
@@ -30,6 +37,7 @@
   };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async defer></script>
+{% endif %}
 
 <!-- end custom head snippets -->
 

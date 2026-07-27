@@ -5,7 +5,41 @@ permalink: /teaching/
 author_profile: true
 ---
 
-I have served as a teaching assistant for both in-person and online courses spanning traffic engineering and the foundations of statistical machine learning.
+I have served as a teaching assistant for both in-person and online courses spanning traffic engineering and the foundations of statistical machine learning, and I have supervised student research that led to published work.
+
+Research Supervision
+-----
+
+<div class="course-grid">
+
+  <div class="course-card">
+    <div class="course-card__header">
+      <span class="course-card__code">Ph.D.</span>
+      <span class="course-card__term">2025 – 2026</span>
+    </div>
+    <h3>Menglin Kong</h3>
+    <p class="course-card__meta">McGill University · advised by Prof. Lijun Sun</p>
+    <p>Led the project on scalable and online calibration of car-following models, and am corresponding author on the resulting preprint.</p>
+    <div class="tags">
+      <span class="tag">IEEE IV 2026 (to appear)</span>
+      <span class="tag"><a href="https://arxiv.org/abs/2602.05246">arXiv: 2602.05246</a></span>
+    </div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card__header">
+      <span class="course-card__code">Undergraduate</span>
+      <span class="course-card__term">2022 – 2023</span>
+    </div>
+    <h3>Yuang Hou</h3>
+    <p class="course-card__meta">McGill University · Department of Civil Engineering</p>
+    <p>Supervised his research on probabilistic modeling of car-following behavior. He is a co-author on the resulting journal paper and went on to a master's at Carnegie Mellon University.</p>
+    <div class="tags">
+      <span class="tag"><a href="https://ieeexplore.ieee.org/document/10337758/">IEEE T-ITS (2024)</a></span>
+    </div>
+  </div>
+
+</div>
 
 Teaching Assistant
 -----
@@ -15,7 +49,7 @@ Teaching Assistant
   <div class="course-card">
     <div class="course-card__header">
       <span class="course-card__code">CIVE 440</span>
-      <span class="course-card__term">Fall 2022 · Fall 2023</span>
+      <span class="course-card__term">Fall 2022 · Fall 2023 · Fall 2025</span>
     </div>
     <h3>Traffic Engineering and Simulation</h3>
     <p class="course-card__meta">McGill University · Prof. Lijun Sun</p>
