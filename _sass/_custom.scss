@@ -1489,6 +1489,9 @@ html.dark-mode .cv-stat__label { color: var(--c-text-muted); }
 
 .cv-side {
   @media (max-width: 860px) {
+    /* Grid items default to min-width:auto, so the horizontally scrolling nav
+       inside would otherwise set the track width and overflow the viewport. */
+    min-width: 0;
     position: sticky;
     top: 0;
     z-index: 50;

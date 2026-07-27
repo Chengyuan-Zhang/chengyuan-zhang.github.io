@@ -81,7 +81,7 @@ Featured Research
 ### From Individual Behavior to Collective Dynamics
 <p class="research-card__lead">Carrying calibrated uncertainty from single decisions up to network and flow scale.</p>
 
-- From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation ([Ph.D. thesis]({{ '/files/phd-research-summary.pdf' | relative_url }}))
+- From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation (Ph.D. thesis, McGill 2026; [one-page summary]({{ '/files/phd-research-summary.pdf' | relative_url }}))
 - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
 - Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization ([Transportation Science](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629))
 </div>
@@ -118,7 +118,7 @@ Selected Publications
   <img class="pub-item__thumb" src="{{ '/images/idm_pgm.png' | relative_url }}" alt="Bayesian IDM calibration" loading="lazy">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/document/10415310">Bayesian Calibration of the Intelligent Driver Model</a>
-    <span class="pub-item__venue">Chengyuan Zhang, Lijun Sun — IEEE T-ITS (2023)</span>
+    <span class="pub-item__venue">Chengyuan Zhang, Lijun Sun — IEEE T-ITS (2024)</span>
     <span class="pub-item__links">
       <a href="https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration">code</a>
       <a href="https://youtu.be/GIqcL6I7MsU">video</a>
@@ -130,7 +130,7 @@ Selected Publications
   <img class="pub-item__thumb" src="{{ '/images/GVF_framework.png' | relative_url }}" alt="Spatiotemporal lane change" loading="lazy">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/abstract/document/9357407">Spatiotemporal Learning of Multi-Vehicle Interaction Patterns in Lane-Change Scenarios</a>
-    <span class="pub-item__venue">Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, Junqiang Xi — IEEE T-ITS (2021)</span>
+    <span class="pub-item__venue">Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, Junqiang Xi — IEEE T-ITS (2022)</span>
     <span class="pub-item__links">
       <a href="https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field">code</a>
       <a href="https://youtu.be/AcyDn43hb7I">demo</a>

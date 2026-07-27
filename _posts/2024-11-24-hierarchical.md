@@ -131,7 +131,7 @@ Understanding and leveraging these hyperparameters is key to unlocking the full 
 
 ## My publications related to hierarchical models
 
-1. **Chengyuan Zhang** and Lijun Sun* (2023). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on
+1. **Chengyuan Zhang** and Lijun Sun* (2024). Bayesian Calibration of the Intelligent Driver Model. IEEE Transactions on
    Intelligent Transportation
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/document/10415310)] [[arXiv](https://arXiv.org/abs/2210.03571)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[poster](/files/TRB_poster_MA_IDM_Chengyuan_2022.pdf)]
 

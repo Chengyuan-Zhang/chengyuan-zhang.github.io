@@ -120,7 +120,7 @@ The **Gaussian Velocity Field (GVF)** is a powerful approach for modeling the dy
 ## Read More
 
 For more detailed information on the mathematical formulation and applications of the GVF, refer to the original research paper:
-1. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2021). Spatiotemporal learning of multivehicle
+1. **Chengyuan Zhang**, Jiacheng Zhu, Wenshuo Wang*, and Junqiang Xi (2022). Spatiotemporal learning of multivehicle
    interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
    Systems. [[IEEE TITS](https://ieeexplore.ieee.org/abstract/document/9357407)] [[arXiv](https://arXiv.org/abs/2003.00759)] [[code](https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field)] [[demo](https://youtu.be/AcyDn43hb7I)] [[project website](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)]
 2. Wenshuo Wang, **Chengyuan Zhang**, Pin Wang, and Ching-Yao Chan* (2020, October). Learning Representations for
@@ -139,11 +139,15 @@ For more detailed information on the mathematical formulation and applications o
 If you find the codes or paper useful for your research, please cite our paper:
 
 ```tex
-@article{zhang2021spatiotemporal,
+@article{zhang2022spatiotemporal,
       title={Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios},
       author={Zhang, Chengyuan and Zhu, Jiacheng and Wang, Wenshuo and Xi, Junqiang},
       journal={IEEE Transactions on Intelligent Transportation Systems},
-      year={2021},
+      volume={23},
+      number={7},
+      pages={6446--6459},
+      year={2022},
+      doi={10.1109/TITS.2021.3057645},
       publisher={IEEE}
 }
 
