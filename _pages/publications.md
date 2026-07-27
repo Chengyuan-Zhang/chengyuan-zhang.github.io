@@ -21,9 +21,6 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
   </a>
 </p>
 
-<div id="pubs-chart" class="pubs-chart" aria-label="Publications by year and type"></div>
-<script src="{{ '/assets/js/pubs-chart.js' | relative_url }}" defer></script>
-
 <img src="{{ '/images/wordcloud_1920x.png' | relative_url }}" class="wordcloud-img" alt="Word cloud of research topics" width="100%" loading="lazy" decoding="async"/>
 
 <div class="topic-legend" id="topic-filter" role="toolbar" aria-label="Filter publications by topic">
