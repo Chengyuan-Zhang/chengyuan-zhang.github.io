@@ -61,6 +61,11 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
+// Muted body text. $gray is the palette root and also derives borders and
+// backgrounds, so it cannot be darkened without shifting those; this token
+// exists so muted text can reach WCAG AA on its own.
+$muted-color                : #646b70;
+
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;

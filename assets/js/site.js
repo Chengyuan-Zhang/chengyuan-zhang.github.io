@@ -98,19 +98,21 @@
     if (!urls) return;
     var toggle = document.querySelector('.author__urls-wrapper button');
 
+    // This site does not render the template's dropdown toggle. Without one
+    // there is nothing to expand, so leave visibility entirely to CSS rather
+    // than writing an inline display:none that no control can undo.
+    if (!toggle) return;
+
     function apply() {
-      var show = toggle ? window.getComputedStyle(toggle).display === 'none'
-                        : window.innerWidth > 1024;
-      urls.style.display = show ? '' : 'none';
+      urls.style.display = window.getComputedStyle(toggle).display === 'none' ? '' : 'none';
     }
 
-    if (toggle) {
-      toggle.addEventListener('click', function () {
-        var hidden = urls.style.display === 'none';
-        urls.style.display = hidden ? '' : 'none';
-        toggle.classList.toggle('open');
-      });
-    }
+    toggle.addEventListener('click', function () {
+      var hidden = urls.style.display === 'none';
+      urls.style.display = hidden ? '' : 'none';
+      toggle.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', hidden ? 'true' : 'false');
+    });
 
     apply();
     window.addEventListener('resize', apply);
