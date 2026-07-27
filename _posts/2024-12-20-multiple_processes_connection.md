@@ -11,6 +11,7 @@ tags:
   - Gaussian processes
   - Ornstein-Uhlenbeck processes
 
+mathjax: true
 ---
 
 In this post, we’ll explore four important concepts in time series modeling and stochastic processes: **Autoregressive

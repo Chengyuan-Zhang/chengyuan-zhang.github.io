@@ -8,6 +8,7 @@ tags:
 - conditional independence
 - d-separation
 
+mathjax: true
 ---
 
 

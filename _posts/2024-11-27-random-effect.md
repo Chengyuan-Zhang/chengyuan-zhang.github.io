@@ -8,6 +8,7 @@ tags:
 - tricks
 - random effects
 
+mathjax: true
 ---
 
 In many driving behavior studies, we model how a following vehicle responds to the movement of a lead vehicle. For

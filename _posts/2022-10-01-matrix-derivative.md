@@ -9,6 +9,7 @@ tags:
 - Hadamard product
 - Frobenuis product
 
+mathjax: true
 ---
 
 

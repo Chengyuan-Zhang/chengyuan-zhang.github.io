@@ -8,6 +8,7 @@ tags:
 - regression
 - proof
 
+mathjax: true
 ---
 
 **Consider the linear regression model:**

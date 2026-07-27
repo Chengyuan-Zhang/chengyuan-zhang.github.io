@@ -7,6 +7,7 @@ tags:
 - Gaussian processes
 - time series
 
+mathjax: true
 ---
 
 Time-series forecasting is a critical application of Gaussian Processes (GPs), as they offer a flexible and

@@ -8,6 +8,7 @@ tags:
 - tricks
 - HMM
 
+mathjax: true
 ---
 
 

@@ -10,6 +10,7 @@ tags:
 - Gaussian processes
 - Fourier transform
 
+mathjax: true
 ---
 
 **Autocorrelation** is a key property of time series data, describing the dependency of a variable on its past values.

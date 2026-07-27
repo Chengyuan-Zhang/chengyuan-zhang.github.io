@@ -7,6 +7,7 @@ tags:
 - Gaussian processes
 - driving behavior
 
+mathjax: true
 ---
 
 

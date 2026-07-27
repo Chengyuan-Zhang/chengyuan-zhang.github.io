@@ -15,13 +15,12 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 <!-- MathJax v3, loaded only where there is actually maths to typeset. Twelve of
-     the twenty-seven pages use it; the CV, news, code and talks pages were
-     paying roughly 250 KiB of transfer for nothing. Set mathjax: true in front
-     matter to force it on a page whose maths arrives from an include. -->
-{% assign needs_mathjax = false %}
-{% if page.mathjax %}{% assign needs_mathjax = true %}{% endif %}
-{% if page.content contains '$$' or page.content contains '\(' %}{% assign needs_mathjax = true %}{% endif %}
-{% if needs_mathjax %}
+     the twenty-four pages need it; the CV, news, code and talks pages were
+     paying roughly 250 KiB of transfer for nothing. The flag is set by
+     scripts/mark_mathjax_pages.py, which reads the source. Sniffing
+     page.content here does not work: inside the head it already holds rendered
+     HTML and kramdown has consumed the display delimiters. -->
+{% if page.mathjax %}
 <script>
   window.MathJax = {
     tex: {
