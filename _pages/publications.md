@@ -49,8 +49,7 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
   Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)] 📗 <button type="button" class="bib-btn" data-bib="chen2025forecasting">BibTeX</button>
 - <u>Chengyuan Zhang</u>, Wenshuo Wang, and Lijun Sun* (2024). ["Calibrating Car-Following Models via Bayesian Dynamic
   Regression"](https://doi.org/10.1016/j.trc.2024.104719). Transportation research part C: emerging
-  technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
-  <span class="text-muted">ISTTT25 <span class="text-accent">Oral Presentation</span>; 2024 Clifford Spiegelman Student Paper Competition <span class="text-accent">Honorable Mention Award</span></span>; 📕📙 <button type="button" class="bib-btn" data-bib="zhang2024calibrating">BibTeX</button>
+  technologies. [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)] 📕📙 <button type="button" class="bib-btn" data-bib="zhang2024calibrating">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--talk"><i class="fas fa-microphone" aria-hidden="true"></i>ISTTT25 oral presentation</span><span class="pub-note pub-note--award"><i class="fas fa-award" aria-hidden="true"></i>Honorable Mention, <a class="pub-note__link" href="https://community.amstat.org/tsig/events/papercompetition">2024 Clifford Spiegelman Student Paper Competition</a></span></span>
 - <u>Chengyuan Zhang</u> and Lijun Sun* (2024).
   ["Bayesian Calibration of the Intelligent Driver Model"](https://ieeexplore.ieee.org/document/10415310). IEEE
   Transactions on Intelligent Transportation
@@ -70,10 +69,10 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
   2019).[" An efficient parking solution:
   a cam-linkage double-parallelogram mechanism based 1-degrees of freedom stack parking system"](https://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2733268).
   Journal of Mechanisms and Robotics, 11(4).
-  [[demo](https://youtu.be/lmwdDsUXUw8)] <span class="text-muted"><span class="text-accent">First Prize</span> in 2018 National College Mechanical Innovation Competition (<span class="text-accent">TOP \#10</span> in China)</span> <button type="button" class="bib-btn" data-bib="zhang2019efficient">BibTeX</button>
+  [[demo](https://youtu.be/lmwdDsUXUw8)] <button type="button" class="bib-btn" data-bib="zhang2019efficient">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--award"><i class="fas fa-award" aria-hidden="true"></i>First Prize, 2018 National College Mechanical Innovation Competition (top 10 in China)</span></span>
 - <u>Chengyuan Zhang</u> and Jian Xiao* (2018). ["Chaotic behavior and feedback control of
   magnetorheological suspension system with fractional-order derivative"](https://asmedigitalcollection.asme.org/computationalnonlinear/article/13/2/021007/473529/Chaotic-Behavior-and-Feedback-Control-of).
-  Journal of Computational and Nonlinear Dynamics, 13(2). <span class="text-muted">My first paper (completed in my sophomore year)</span> <button type="button" class="bib-btn" data-bib="zhang2018chaotic">BibTeX</button>
+  Journal of Computational and Nonlinear Dynamics, 13(2). <button type="button" class="bib-btn" data-bib="zhang2018chaotic">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--aside">My first paper, written as a sophomore</span></span>
 
 ## Conference publications
 

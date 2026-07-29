@@ -2370,6 +2370,65 @@ html.dark-mode .not-found {
   &__footnote { color: var(--c-text-muted); }
 }
 
+
+/* Awards and asides attached to a publication -----------------------------
+   These used to run inline in the citation, separated by semicolons, where
+   they were simultaneously easy to miss and a source of clutter: an award sat
+   in the same visual register as the journal name. They now sit on their own
+   line under the entry, and awards read as awards. */
+.pub-notes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.45rem;
+  margin: 0.4rem 0 0.1rem;
+}
+
+.pub-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: $sans-serif;
+  font-size: 0.76em;
+  line-height: 1.45;
+  padding: 0.2em 0.62em;
+  border-radius: 4px;
+
+  i { font-size: 0.92em; flex: none; }
+}
+
+.pub-note--award {
+  background: $accent-color-soft;
+  color: $accent-color;
+  font-weight: 600;
+}
+
+.pub-note--talk {
+  background: $lighter-gray;
+  color: $muted-color;
+  font-weight: 600;
+}
+
+/* Not an achievement, so deliberately not a badge. */
+.pub-note--aside {
+  padding-left: 0;
+  color: $muted-color;
+  font-style: italic;
+}
+
+.pub-note__link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+
+  &:hover { color: inherit; opacity: 0.75; }
+}
+
+html.dark-mode {
+  .pub-note--award { background: var(--c-accent-soft); color: var(--c-accent); }
+  .pub-note--talk  { background: var(--c-bg-alt); color: var(--c-text-muted); }
+  .pub-note--aside { color: var(--c-text-muted); }
+}
 
 /* BibTeX export on the publications page ---------------------------------- */
 .bib-btn {
