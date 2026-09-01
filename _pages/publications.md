@@ -34,9 +34,8 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
 
 ## Preprints and manuscripts under review
 
-- <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2025).
-  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012)
-  Accepted at ISTTT26; under review at Transportation Research Part B. [[poster](/files/TRB2026_Nonstationary.pdf)] 📕📘 <button type="button" class="bib-btn" data-bib="zhang2025context">BibTeX</button>
+- Cameron Hickert, Maryam Samaei, Athena Wang, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, and Cathy Wu (2026).
+  ["The Calibration Illusion in Traffic Microsimulation"](https://arxiv.org/abs/2608.19642). (working paper). 📕 <button type="button" class="bib-btn" data-bib="hickert2026calibration">BibTeX</button>
 - Menglin Kong, <u>Chengyuan Zhang</u>*, Lijun Sun (2026). ["Active Simulation-Based Inference for Scalable
   Car-Following Model Calibration"](https://arxiv.org/abs/2602.05246). (under review). 📕📙 <button type="button" class="bib-btn" data-bib="kong2026active">BibTeX</button>
 - <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
@@ -44,6 +43,9 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
 
 ## Journal publications
 
+- <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2026).
+  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012).
+  Transportation Research Part B: Methodological (accepted). [[poster](/files/TRB2026_Nonstationary.pdf)] 📕📘 <button type="button" class="bib-btn" data-bib="zhang2025context">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--talk"><i class="fas fa-microphone" aria-hidden="true"></i>ISTTT26 oral presentation</span></span>
 - Xinyu Chen, <u>Chengyuan Zhang</u>, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025).
   ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
   Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)] 📗 <button type="button" class="bib-btn" data-bib="chen2025forecasting">BibTeX</button>
@@ -76,10 +78,10 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
 
 ## Conference publications
 
-- Menglin Kong, <u>Chengyuan Zhang</u>, Lijun Sun* (2026). "Online Calibration of Context-Driven Car-Following Models"
-  (Accepted at IEEE IV26'). 📕📙 <button type="button" class="bib-btn" data-bib="kong2026online">BibTeX</button>
-- Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, Cathy Wu* (2026).
-  "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration" (Accepted at IEEE IV26'). 📕 <button type="button" class="bib-btn" data-bib="hickert2026autotune">BibTeX</button>
+- Menglin Kong, <u>Chengyuan Zhang</u>, and Lijun Sun* (2026, June).
+  ["Online Calibration of Context-Driven Car-Following Models"](https://ieeexplore.ieee.org/document/11623892). In 2026 IEEE Intelligent Vehicles Symposium (IV) (pp. 1747-1752). IEEE. 📕📙 <button type="button" class="bib-btn" data-bib="kong2026online">BibTeX</button>
+- Cameron Hickert, Athena Wang, Maryam Samaei, <u>Chengyuan Zhang</u>, Lijun Sun, Yanbing Wang, Mostafa Ameli, and Cathy Wu* (2026, June).
+  ["AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration"](https://ieeexplore.ieee.org/document/11624093). In 2026 IEEE Intelligent Vehicles Symposium (IV) (pp. 1542-1549). IEEE. 📕 <button type="button" class="bib-btn" data-bib="hickert2026autotune">BibTeX</button>
 - <u>Chengyuan Zhang</u><sup>†</sup>, Kehua Chen<sup>†</sup>, Meixin Zhu*, Hai Yang, and Lijun Sun (2024, May). ["Learning Car-Following
   Behaviors Using Bayesian Matrix Normal Mixture Regression"](https://ieeexplore.ieee.org/document/10588568). In 2024
   IEEE Intelligent Vehicles Symposium (IV). IEEE. 📕📗📙 <button type="button" class="bib-btn" data-bib="zhang2024learning">BibTeX</button>

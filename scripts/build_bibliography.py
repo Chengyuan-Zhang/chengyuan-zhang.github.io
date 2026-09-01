@@ -38,37 +38,33 @@ DOIS: dict[str, str] = {
     "wang2020learning": "10.1109/iv47402.2020.9304849",
     "zhang2019general": "10.1109/itsc.2019.8917212",
     "wang2022social": "10.1561/9781638281290",
+    "kong2026online": "10.1109/iv66570.2026.11623892",
+    "hickert2026autotune": "10.1109/iv66570.2026.11624093",
 }
 
 ARXIV: dict[str, str] = {
     "kong2026active": "2602.05246",
     "zhang2025markov": "2506.14762",
-    "zhang2025context": "2507.07012",
+    "hickert2026calibration": "2608.19642",
 }
 
-MANUAL = r"""@article{chen2025forecasting,
+MANUAL = r"""@article{zhang2025context,
+  author    = {Zhang, Chengyuan and He, Zhengbing and Wu, Cathy and Sun, Lijun},
+  title     = {When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior},
+  journal   = {Transportation Research Part B: Methodological},
+  year      = {2026},
+  eprint    = {2507.07012},
+  archivePrefix = {arXiv},
+  note      = {Accepted for publication}
+}
+
+@article{chen2025forecasting,
   author    = {Chen, Xinyu and Zhang, Chengyuan and Zhao, Xi-Le and Saunier, Nicolas and Sun, Lijun},
   title     = {Forecasting Sparse Movement Speed of Urban Road Networks with Nonstationary Temporal Matrix Factorization},
   journal   = {Transportation Science},
   year      = {2025},
   doi       = {10.1287/trsc.2024.0629},
   note      = {arXiv:2203.10651}
-}
-
-@inproceedings{kong2026online,
-  author    = {Kong, Menglin and Zhang, Chengyuan and Sun, Lijun},
-  title     = {Online Calibration of Context-Driven Car-Following Models},
-  booktitle = {2026 {IEEE} Intelligent Vehicles Symposium ({IV})},
-  year      = {2026},
-  note      = {Accepted}
-}
-
-@inproceedings{hickert2026autotune,
-  author    = {Hickert, Cameron and Wang, Athena and Samaei, Maryam and Zhang, Chengyuan and Sun, Lijun and Wang, Yanbing and Ameli, Mostafa and Wu, Cathy},
-  title     = {{AutoTune}: A Unified Benchmark for Highway Traffic Microsimulation Calibration},
-  booktitle = {2026 {IEEE} Intelligent Vehicles Symposium ({IV})},
-  year      = {2026},
-  note      = {Accepted}
 }
 
 @book{chen2023latex,
