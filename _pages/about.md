@@ -58,7 +58,7 @@ Featured Research
 <p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
 
 - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
-- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588)) [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)]
+- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588))
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://doi.org/10.1016/j.trc.2024.104719))
 - A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10337758))
 </div>
@@ -71,8 +71,8 @@ Featured Research
 
 - Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
 - Bayesian Calibration of the Intelligent Driver Model ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
-- AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration (IEEE IV 2026)
-- Online Calibration of Context-Driven Car-Following Models (IEEE IV 2026)
+- AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration ([IEEE IV 2026](https://ieeexplore.ieee.org/document/11624093))
+- Online Calibration of Context-Driven Car-Following Models ([IEEE IV 2026](https://ieeexplore.ieee.org/document/11623892))
 </div>
 
 <div class="research-card" markdown="1">
@@ -103,7 +103,19 @@ Selected Publications
 ------
 
 <div class="pub-item">
-  <img class="pub-item__thumb" src="{{ '/images/MA-IDM.jpg' | relative_url }}" alt="Markov Regime-Switching IDM" loading="lazy" width="700" height="467">
+  <img class="pub-item__thumb" src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="Presentation of When Context Is Not Enough at ISTTT26" loading="lazy" width="1600" height="1067">
+  <div class="pub-item__body">
+    <a class="pub-item__title" href="https://doi.org/10.1016/j.trb.2026.103588">When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior</a>
+    <span class="pub-item__venue">Chengyuan Zhang, Zhengbing He, Cathy Wu, Lijun Sun · Transportation Research Part B: Methodological (2026)</span>
+    <span class="pub-item__links">
+      <a href="https://doi.org/10.1016/j.trb.2026.103588">paper</a>
+      <a href="{{ '/files/TRB2026_Nonstationary.pdf' | relative_url }}">poster</a>
+    </span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <img class="pub-item__thumb" src="{{ '/images/blogs/FHMM-IDM_concepts.jpg' | relative_url }}" alt="Markov regime switching in driving behavior and traffic scenarios" loading="lazy" width="1166" height="491" style="object-fit: contain;">
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://arxiv.org/abs/2506.14762">Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior</a>
     <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — preprint (2025)</span>
