@@ -48,14 +48,14 @@ ARXIV: dict[str, str] = {
     "hickert2026calibration": "2608.19642",
 }
 
+# Verified via Elsevier API on 2026-09-08, PII S0191261526002006.
+# Crossref /works returns 404; publisher metadata supplies no volume/article number yet.
 MANUAL = r"""@article{zhang2025context,
   author    = {Zhang, Chengyuan and He, Zhengbing and Wu, Cathy and Sun, Lijun},
   title     = {When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior},
   journal   = {Transportation Research Part B: Methodological},
   year      = {2026},
-  eprint    = {2507.07012},
-  archivePrefix = {arXiv},
-  note      = {Accepted for publication}
+  doi       = {10.1016/j.trb.2026.103588}
 }
 
 @article{chen2025forecasting,

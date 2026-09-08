@@ -44,8 +44,8 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
 ## Journal publications
 
 - <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2026).
-  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://arxiv.org/abs/2507.07012).
-  Transportation Research Part B: Methodological (accepted). [[poster](/files/TRB2026_Nonstationary.pdf)] 📕📘 <button type="button" class="bib-btn" data-bib="zhang2025context">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--talk"><i class="fas fa-microphone" aria-hidden="true"></i>ISTTT26 oral presentation</span></span>
+  ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://doi.org/10.1016/j.trb.2026.103588).
+  Transportation Research Part B: Methodological. [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)] [[poster](/files/TRB2026_Nonstationary.pdf)] 📕📘 <button type="button" class="bib-btn" data-bib="zhang2025context">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--talk"><i class="fas fa-microphone" aria-hidden="true"></i>ISTTT26 oral presentation</span></span>
 - Xinyu Chen, <u>Chengyuan Zhang</u>, Xi-Le Zhao, Nicolas Saunier*, and Lijun Sun (2025).
   ["Forecasting sparse movement speed of urban road networks with nonstationary temporal matrix factorization."](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0629)
   Transportation Science. [[code](https://github.com/xinychen/tracebase)] [[blog I](https://medium.com/p/b1c59faf05ea)] [[blog II](https://medium.com/p/4705df163fcf)] [[slides](https://xinychen.github.io/slides/notmf.pdf)] 📗 <button type="button" class="bib-btn" data-bib="chen2025forecasting">BibTeX</button>

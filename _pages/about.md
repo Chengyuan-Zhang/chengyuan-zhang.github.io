@@ -58,7 +58,7 @@ Featured Research
 <p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
 
 - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
-- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26](https://arxiv.org/abs/2507.07012))
+- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588)) [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)]
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://doi.org/10.1016/j.trc.2024.104719))
 - A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10337758))
 </div>
