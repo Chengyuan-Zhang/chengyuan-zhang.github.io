@@ -15,6 +15,34 @@ Research code
 
   <div class="course-card">
     <div class="course-card__header">
+      <span class="course-card__code">Python · PyTorch</span>
+      <span class="course-card__term">TR Part B · 2026</span>
+    </div>
+    <h3>When Context Is Not Enough</h3>
+    <p class="course-card__meta">Modeling unexplained variability in car-following behavior</p>
+    <p>
+      Couples a context-dependent car-following mean with temporally correlated Gaussian-process
+      residuals. Includes CSV validation, model training, stochastic simulation, and a synthetic
+      quickstart for use with your own leader-follower trajectories.
+    </p>
+    <p>
+      The source code is released under the MIT License. No highD data, pretrained weights, or
+      paper benchmark results are bundled.
+    </p>
+    <div class="tags">
+      <span class="tag">Nonstationary GP</span>
+      <span class="tag">DeepAR / MLP / IDM</span>
+      <span class="tag">Stochastic simulation</span>
+    </div>
+    <p class="repo-links">
+      <a href="https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough"><i class="fab fa-github"></i> Repository</a>
+      <a href="https://doi.org/10.1016/j.trb.2026.103588">TR-B paper</a>
+      <a href="https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough#first-run">Quickstart</a>
+    </p>
+  </div>
+
+  <div class="course-card">
+    <div class="course-card__header">
       <span class="course-card__code">Python · PyMC</span>
       <span class="course-card__term">Bayesian calibration</span>
     </div>
@@ -127,7 +155,8 @@ Interactive demo
 </div>
 
 <p class="text-muted">
-  Datasets used above are released by their original owners: the
-  <a href="https://www.highd-dataset.com/">highD dataset</a> is distributed by RWTH Aachen and is not
-  redistributed here beyond the preprocessed caches needed to reproduce the published results.
+  Datasets remain subject to their original owners' access requirements and terms. Access to the
+  <a href="https://levelxdata.com/highd-dataset/">highD dataset</a> must be requested from its provider.
+  Data contents differ by repository; check each README for details. The When Context Is Not Enough
+  release includes no raw or preprocessed highD data.
 </p>

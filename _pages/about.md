@@ -58,7 +58,7 @@ Featured Research
 <p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
 
 - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
-- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588))
+- When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588)) [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)]
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://doi.org/10.1016/j.trc.2024.104719))
 - A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10337758))
 </div>
@@ -109,6 +109,7 @@ Selected Publications
     <span class="pub-item__venue">Chengyuan Zhang, Zhengbing He, Cathy Wu, Lijun Sun · Transportation Research Part B: Methodological (2026)</span>
     <span class="pub-item__links">
       <a href="https://doi.org/10.1016/j.trb.2026.103588">paper</a>
+      <a href="https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough">code</a>
       <a href="{{ '/files/TRB2026_Nonstationary.pdf' | relative_url }}">poster</a>
     </span>
   </div>
@@ -120,7 +121,7 @@ Selected Publications
     <a class="pub-item__title" href="https://arxiv.org/abs/2506.14762">Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior</a>
     <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — preprint (2025)</span>
     <span class="pub-item__links">
-      <a href="https://arxiv.org/abs/2506.14762">arXiv</a>
+      <a href="https://arxiv.org/abs/2506.14762">paper (arXiv)</a>
       <a href="{{ '/files/TRB2026_Markov.pdf' | relative_url }}">poster</a>
     </span>
   </div>
@@ -132,7 +133,9 @@ Selected Publications
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/document/10415310">Bayesian Calibration of the Intelligent Driver Model</a>
     <span class="pub-item__venue">Chengyuan Zhang, Lijun Sun — IEEE T-ITS (2024)</span>
     <span class="pub-item__links">
+      <a href="https://ieeexplore.ieee.org/document/10415310">paper</a>
       <a href="https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration">code</a>
+      <a href="{{ '/files/TRB_poster_MA_IDM_Chengyuan_2022.pdf' | relative_url }}">poster</a>
       <a href="https://youtu.be/GIqcL6I7MsU">video</a>
     </span>
   </div>
@@ -144,12 +147,15 @@ Selected Publications
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/abstract/document/9357407">Spatiotemporal Learning of Multi-Vehicle Interaction Patterns in Lane-Change Scenarios</a>
     <span class="pub-item__venue">Chengyuan Zhang, Jiacheng Zhu, Wenshuo Wang, Junqiang Xi — IEEE T-ITS (2022)</span>
     <span class="pub-item__links">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9357407">paper</a>
       <a href="https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field">code</a>
       <a href="https://youtu.be/AcyDn43hb7I">demo</a>
       <a href="https://chengyuan-zhang.github.io/Multivehicle-Interaction/">project</a>
     </span>
   </div>
 </div>
+
+<p><a href="{{ '/publications/' | relative_url }}">View all publications</a></p>
 
 <p>
   <a href="#pdf-container"
