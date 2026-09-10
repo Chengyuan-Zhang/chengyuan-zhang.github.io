@@ -30,11 +30,19 @@ A selection of invited lectures and conference presentations.
         <span class="talk-entry__tag talk-entry__tag--conference">Conference</span>
       </h3>
       <p class="talk-entry__meta">Podium Presentation, 26th International Symposium on Transportation and Traffic Theory (ISTTT26)<span class="sep">·</span>Munich, Germany<span class="sep">·</span>July 2026</p>
-    </li>
-    <li class="talk-entry talk-entry--figures">
-      <div class="figure-row">
-        <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:30%" width="1600" height="1067">
-        <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="ISTTT26 in Munich" loading="lazy" decoding="async" style="width:45%" width="1600" height="1067">
+      <div class="talk-gallery" role="group" aria-label="ISTTT26 presentation photos">
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/ISTTT26_1.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size ISTTT26 podium photo (opens in a new tab)">
+            <img src="{{ '/images/ISTTT26_1.jpg' | relative_url }}" alt="Chengyuan Zhang speaking at the ISTTT26 podium in Munich" loading="lazy" decoding="async" width="1600" height="1067">
+          </a>
+          <figcaption><strong>ISTTT26</strong> · At the podium</figcaption>
+        </figure>
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/ISTTT26_2.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size ISTTT26 presentation photo (opens in a new tab)">
+            <img src="{{ '/images/ISTTT26_2.jpg' | relative_url }}" alt="Chengyuan Zhang presenting When Context Is Not Enough on the ISTTT26 stage" loading="lazy" decoding="async" width="1600" height="1067">
+          </a>
+          <figcaption><strong>ISTTT26</strong> · Presentation view</figcaption>
+        </figure>
       </div>
     </li>
     <li class="talk-entry">
@@ -117,14 +125,23 @@ A selection of invited lectures and conference presentations.
       <p class="talk-entry__links">
         <a href="{{ '/files/ISTTT25_slides_Chengyuan.pdf' | relative_url }}">slides</a>
       </p>
+      <div class="talk-gallery talk-gallery--portraits" role="group" aria-label="ISTTT25 presentation photos">
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/isttt25-podium-slides.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size ISTTT25 presentation photo (opens in a new tab)">
+            <img src="{{ '/images/isttt25-podium-slides.jpg' | relative_url }}" alt="Chengyuan Zhang presenting at ISTTT25 in Ann Arbor, with car-following slides projected behind him" loading="lazy" decoding="async" width="1400" height="2100">
+          </a>
+          <figcaption><strong>ISTTT25</strong> · Presentation view</figcaption>
+        </figure>
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/isttt25-podium.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size ISTTT25 podium photo (opens in a new tab)">
+            <img src="{{ '/images/isttt25-podium.jpg' | relative_url }}" alt="Chengyuan Zhang at the podium during his ISTTT25 podium presentation" loading="lazy" decoding="async" width="1400" height="1400">
+          </a>
+          <figcaption><strong>ISTTT25</strong> · At the podium</figcaption>
+        </figure>
+      </div>
     </li>
   </ul>
 </section>
-
-<div class="figure-row">
-  <img src="{{ '/images/isttt25-podium-slides.jpg' | relative_url }}" alt="Chengyuan Zhang presenting at ISTTT25 in Ann Arbor, with car-following slides projected behind him" loading="lazy" decoding="async" style="width:30%" width="1400" height="2100">
-  <img src="{{ '/images/isttt25-podium.jpg' | relative_url }}" alt="Chengyuan Zhang at the podium during his ISTTT25 podium presentation" loading="lazy" decoding="async" style="width:45%" width="1400" height="1400">
-</div>
 
 <section class="talks-section">
   <div class="talks-section__year">
@@ -142,6 +159,14 @@ A selection of invited lectures and conference presentations.
         <a href="{{ '/files/230217_Chengyuan_Zhang_Flyer.pdf' | relative_url }}">flyer</a>
         <a href="https://youtu.be/GIqcL6I7MsU">recording</a>
       </p>
+      <div class="talk-gallery talk-gallery--single" role="group" aria-label="ACP50 webinar recording">
+        <figure class="talk-gallery__item">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <figcaption><strong>ACP50 webinar</strong> · February 2023</figcaption>
+        </figure>
+      </div>
     </li>
     <li class="talk-entry">
       <h3 class="talk-entry__title">
@@ -149,16 +174,17 @@ A selection of invited lectures and conference presentations.
         <span class="talk-entry__tag talk-entry__tag--conference">Conference</span>
       </h3>
       <p class="talk-entry__meta">Poster Presentation, TRB Annual Meeting 2023<span class="sep">·</span>Washington, DC, USA<span class="sep">·</span>January 2023</p>
+      <div class="talk-gallery talk-gallery--single" role="group" aria-label="TRB 2023 poster presentation photo">
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/trb23.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size TRB 2023 poster photo (opens in a new tab)">
+            <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="Poster presentation of Bayesian Calibration of the Intelligent Driver Model at TRB 2023" loading="lazy" decoding="async" width="893" height="809">
+          </a>
+          <figcaption><strong>TRB Annual Meeting</strong> · January 2023</figcaption>
+        </figure>
+      </div>
     </li>
   </ul>
 </section>
-
-<div class="figure-row">
-  <div class="video-embed" style="width:48%">
-    <iframe src="https://www.youtube.com/embed/GIqcL6I7MsU" title="Bayesian Calibration of the Intelligent Driver Model" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  <img src="{{ '/images/trb23.jpg' | relative_url }}" alt="TRB 2023" loading="lazy" decoding="async" style="width:45%" width="893" height="809">
-</div>
 
 <section class="talks-section">
   <div class="talks-section__year">
@@ -172,6 +198,14 @@ A selection of invited lectures and conference presentations.
         <span class="talk-entry__tag talk-entry__tag--conference">Conference</span>
       </h3>
       <p class="talk-entry__meta">Podium Presentation, IEEE Intelligent Transportation Systems Conference (ITSC 2019)<span class="sep">·</span>Auckland, New Zealand<span class="sep">·</span>October 2019</p>
+      <div class="talk-gallery talk-gallery--single" role="group" aria-label="ITSC 2019 presentation photo">
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/itsc19.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size ITSC 2019 presentation photo (opens in a new tab)">
+            <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="Chengyuan Zhang presenting multi-vehicle interaction research at ITSC 2019" loading="lazy" decoding="async" width="1189" height="706">
+          </a>
+          <figcaption><strong>ITSC 2019</strong> · Auckland</figcaption>
+        </figure>
+      </div>
     </li>
     <li class="talk-entry">
       <h3 class="talk-entry__title">
@@ -182,14 +216,17 @@ A selection of invited lectures and conference presentations.
       <p class="talk-entry__links">
         <a href="{{ '/files/180825_CMU_Workshop.pdf' | relative_url }}">slides</a>
       </p>
+      <div class="talk-gallery talk-gallery--single" role="group" aria-label="CMU 2018 SAILER workshop photo">
+        <figure class="talk-gallery__item">
+          <a class="talk-gallery__photo" href="{{ '/images/2018cmu_ws.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size CMU workshop group photo (opens in a new tab)">
+            <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="Group photo at the 2018 SAILER workshop at Carnegie Mellon University" loading="lazy" decoding="async" width="1400" height="827">
+          </a>
+          <figcaption><strong>CMU workshop 2018</strong> · Pittsburgh</figcaption>
+        </figure>
+      </div>
     </li>
   </ul>
 </section>
-
-<div class="figure-row">
-  <img src="{{ '/images/itsc19.jpg' | relative_url }}" alt="ITSC 2019" loading="lazy" decoding="async" style="width:55%" width="1189" height="706">
-  <img src="{{ '/images/2018cmu_ws.jpg' | relative_url }}" alt="CMU 2018" loading="lazy" decoding="async" style="width:40%" width="1400" height="827">
-</div>
 
 <section class="talks-map-section">
   <h2 class="talks-map-section__title">Where I've been</h2>

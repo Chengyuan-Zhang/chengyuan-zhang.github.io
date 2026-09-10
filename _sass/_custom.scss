@@ -2780,15 +2780,74 @@ html.dark-mode .author__urls a:hover i { color: var(--c-accent); }
   #main { max-width: calc(100% - 3em); }
 }
 
-/* A figure row between two talks has to be a list item to be valid inside the
-   list; it carries no marker or entry chrome of its own. */
-.talk-entry--figures {
-  list-style: none;
-  padding: 0;
-  border: 0;
-  margin: 0.6rem 0 1rem;
+/* Talks photo groups: match the source proportions without cropping faces or slides. */
+.talk-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 0.4rem;
+}
 
-  &::before,
-  &::marker { content: none; }
+.talk-gallery--portraits {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+}
+
+.talk-gallery--single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 32rem;
+}
+
+.talk-gallery__item {
+  display: block;
+  min-width: 0;
+  margin: 0;
+}
+
+.talk-gallery__photo {
+  display: block;
+  overflow: hidden;
+  border: 0;
+  border-radius: 6px;
+  background: var(--c-bg-alt);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  cursor: zoom-in;
+}
+
+.talk-gallery__photo:focus-visible {
+  outline: 3px solid var(--c-accent);
+  outline-offset: 4px;
+}
+
+.talk-gallery__photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: inherit;
+}
+
+.talk-gallery .video-embed {
+  aspect-ratio: 16 / 9;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.talk-gallery__item figcaption {
+  margin: 0.5rem 0 0;
+  color: var(--c-text-muted);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.talk-gallery__item figcaption strong {
+  color: var(--c-text);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .talk-gallery {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.1rem;
+  }
 }
 
