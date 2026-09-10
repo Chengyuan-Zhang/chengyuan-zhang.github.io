@@ -19,6 +19,7 @@
   var width = 0, height = 0;
   var lanes = [];
   var running = false, rafId = null, lastTs = 0;
+  var holdUntil = 0, cueTimer = null;
   var boost = 1, lastScrollY = window.scrollY || 0;
 
   // Optimal-velocity-model parameters (pixels, seconds).
@@ -65,7 +66,7 @@
       var veh = [];
       for (var j = 0; j < m; j++) {
         veh.push({
-          x: spacing * j + (Math.random() * 6 - 3),
+          x: (spacing * j + (Math.random() * 6 - 3) + width) % width,
           v: V0 * (0.35 + Math.random() * 0.2),
           color: colors[(li * 2 + j) % colors.length],
           size: 1.6 + Math.random() * 0.9,
@@ -79,19 +80,29 @@
   }
 
   function simulate(dt) {
+    if (dt <= 0) return;
+    var braking = performance.now() < holdUntil;
     for (var li = 0; li < lanes.length; li++) {
       var arr = lanes[li].veh;
-      arr.sort(function (a, b) { return a.x - b.x; });
       var n = arr.length;
+      var next = [];
+      // Retain each lane's cyclic vehicle order and read one shared time slice.
       for (var i = 0; i < n; i++) {
         var me = arr[i];
         var lead = arr[(i + 1) % n];
-        var s = ((lead.x - me.x + width) % width) - VEH;
-        if (s < 0.5) s = 0.5;
-        me.v += KAPPA * (vOpt(s) * boost - me.v) * dt;
-        if (me.v < 0) me.v = 0;
-        me.x += me.v * dt;
-        if (me.x >= width) me.x -= width;
+        var centerGap = (lead.x - me.x + width) % width;
+        var s = Math.max(0, centerGap - VEH);
+        var velocity = Math.max(0, me.v + KAPPA * (vOpt(s) * boost - me.v) * dt);
+        if (me.demoBrake && braking) velocity = Math.min(velocity, 1);
+        // Reserve room for the rendered heads, including their perturbation highlight.
+        // Even if the leader stops, this step cannot overtake its old position.
+        var separation = Math.max(VEH, me.size + lead.size + 6.1);
+        velocity = Math.min(velocity, Math.max(0, centerGap - separation) / dt);
+        next.push({ v: velocity, x: (me.x + velocity * dt) % width });
+      }
+      for (var j = 0; j < n; j++) {
+        arr[j].v = next[j].v;
+        arr[j].x = next[j].x;
       }
     }
   }
@@ -139,7 +150,7 @@
         ctx.globalAlpha = 0.5 + 0.45 * Math.min(1, v.v / V0);
         ctx.fillStyle = v.color;
         ctx.beginPath();
-        ctx.arc(v.x, laneY, v.size + 0.6, 0, Math.PI * 2);
+        ctx.arc(v.x, laneY, v.size + (v.demoBrake && performance.now() < holdUntil ? 2.8 : 0.6), 0, Math.PI * 2);
         ctx.fill();
       }
     }
@@ -152,18 +163,13 @@
     lastTs = ts;
     boost += (1 - boost) * Math.min(1, dt * 2.2);
 
-    // Soft fade for the trailing look.
-    ctx.globalCompositeOperation = "destination-out";
-    ctx.fillStyle = "rgba(0,0,0,0.10)";
-    ctx.fillRect(0, 0, width, height);
-    ctx.globalCompositeOperation = "source-over";
-
     simulate(dt);
     for (var li = 0; li < lanes.length; li++) {
       var arr = lanes[li].veh;
       for (var i = 0; i < arr.length; i++) pushTrail(arr[i]);
     }
-    render(false);
+    // Trails already have bounded history and fading opacity; do not retain old heads.
+    render(true);
     rafId = window.requestAnimationFrame(step);
   }
 
@@ -219,4 +225,46 @@
       canvas.parentElement.style.minHeight || "96px";
   }
   resize();
+
+  var perturb = document.getElementById('hero-perturb');
+  var reset = document.getElementById('hero-reset');
+  var status = document.getElementById('hero-feedback');
+  var wrap = canvas.parentElement;
+  function clearCue() {
+    window.clearTimeout(cueTimer);
+    holdUntil = 0;
+    lanes.forEach(function (lane) {
+      lane.veh.forEach(function (v) { v.demoBrake = false; });
+    });
+    wrap.classList.remove('hero-is-perturbed');
+  }
+  perturb.addEventListener('click', function () {
+    clearCue();
+    holdUntil = performance.now() + 900;
+    lanes.forEach(function (lane) {
+      lane.veh.forEach(function (v) { v.demoBrake = false; });
+      var target = lane.veh.reduce(function (a, b) {
+        return Math.abs(a.x - width * 0.76) < Math.abs(b.x - width * 0.76) ? a : b;
+      });
+      target.v = 0; target.demoBrake = true;
+    });
+    wrap.classList.add('hero-is-perturbed');
+    status.textContent = reduceMotion ? 'A slowdown, shown as a still frame.' : 'A brief slowdown. Watch the following dots.';
+    if (reduceMotion) { warmUp(0.6); render(true); }
+    else {
+      render(true);
+      cueTimer = window.setTimeout(function () {
+        clearCue();
+        status.textContent = 'Braking released; traffic is responding.';
+      }, 1200);
+    }
+  });
+  reset.addEventListener('click', function () {
+    clearCue(); boost = 1; seed();
+    if (reduceMotion) warmUp(6);
+    render(true);
+    status.textContent = 'Animation reset.';
+  });
+  if (reduceMotion) status.textContent = 'Reduced motion: static preview.';
+
 })();

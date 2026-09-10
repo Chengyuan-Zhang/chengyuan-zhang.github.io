@@ -18,7 +18,13 @@ redirect_from:
     <p class="hero-intro__lead">Postdoctoral Researcher, McGill University. Stochastic models of human behavior, and the Bayesian inference that makes them trustworthy.</p>
   </div>
 </div>
-<script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}?v=20260910" defer></script>
+<div class="hero-controls" aria-label="Background animation controls">
+  <span class="hero-controls__label">Traffic in the background</span>
+  <button id="hero-perturb" type="button">Perturb</button>
+  <button id="hero-reset" type="button">Reset</button>
+  <span id="hero-feedback" role="status" aria-live="polite"></span>
+</div>
 
 I am a Postdoctoral Researcher in Civil Engineering at McGill University, working with
 Prof. [Lijun Sun](https://lijunsun.github.io/). I received my Ph.D. from the same group in 2026, and my B.Eng. in

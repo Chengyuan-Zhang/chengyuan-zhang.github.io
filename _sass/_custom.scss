@@ -919,7 +919,7 @@ html.dark-mode .theme-toggle {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-canvas { display: none; }
+  .hero-canvas { display: block; }
 }
 
 html.dark-mode .hero-wrap .hero-intro {
@@ -937,6 +937,51 @@ html.dark-mode .hero-intro {
   border-left-color: var(--c-accent);
 }
 html.dark-mode .hero-intro__lead { color: var(--c-text); }
+
+/* Lightweight controls for the existing background animation. */
+.hero-controls {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  flex-wrap: wrap;
+  margin: -1rem 0 1.35rem;
+  font-size: 12px;
+  color: #756a70;
+  line-height: 1.5;
+
+  button {
+    font: inherit;
+    color: #873448;
+    background: none;
+    border: 0;
+    border-bottom: 1px dotted #c5a7b1;
+    border-radius: 0;
+    padding: 5px 0;
+    cursor: pointer;
+    min-height: 30px;
+    &:hover { border-bottom-style: solid; color: #5d1e31; }
+    &:focus-visible { outline: 2px solid #873448; outline-offset: 4px; }
+  }
+}
+#hero-feedback { font-size: 11px; }
+.hero-is-perturbed .hero-intro {
+  background: linear-gradient(to right, rgba(255,255,255,.93), rgba(255,255,255,.67) 55%, rgba(249,243,245,.30));
+}
+html.dark-mode .hero-controls {
+  color: #baadb6;
+  button { color: #e6a6b5; border-color: #8d6878; }
+}
+html.dark-mode .hero-is-perturbed .hero-intro {
+  background: linear-gradient(to right, rgba(20,24,32,.92), rgba(20,24,32,.68) 55%, rgba(30,24,30,.35));
+}
+@media (max-width: 600px) {
+  .hero-controls {
+    gap: 6px 12px;
+    &__label { font-size: 11px; }
+    button { min-height: 40px; }
+  }
+  #hero-feedback:not(:empty) { order: 5; flex-basis: 100%; }
+}
 
 /* Featured demo card (homepage) ----------------------------------------- */
 .demo-card {
