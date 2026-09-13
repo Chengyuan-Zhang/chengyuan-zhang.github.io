@@ -56,6 +56,36 @@ py -3 scripts/build_bibliography.py   # bibliography + publication structured da
 py -3 scripts/optimize_images.py      # downscale images and photos
 ```
 
+## Research pages and search metadata
+
+Four representative paper pages live in `_pages/paper-*.md`; three research reading
+paths live in `_pages/research-*.md`. Keep interpretation in the page body and the
+versioned original abstract in `_data/paper_abstracts.json`. That file records the
+public arXiv source/version and retrieval date. Do not silently replace a preprint
+abstract with an assumed journal abstract.
+
+`scripts/build_bibliography.py` also generates `_data/publication_records.json`.
+The visible Publications page supplies ordering via its unique `data-bib` keys;
+the bibliography supplies citation identity. The generator refuses missing,
+extra, or duplicate keys. Paper headers, Scholar citation tags, and paper JSON-LD
+all read the generated records. `paper_key` must refer to an existing record.
+
+To regenerate schema and records from the existing verified bibliography without
+refreshing publication metadata over the network:
+
+```sh
+python scripts/build_bibliography.py --schema-only
+python scripts/check_seo.py
+python scripts/check_notes.py
+```
+
+The offline checks use the existing python-liquid/PyYAML checks plus Markdown and
+BeautifulSoup. `check_seo.py` creates review pages in ignored `_site/seo-preview`;
+it is not a substitute for a Jekyll/GitHub Pages build. On this workstation the
+existing Liquid dependencies can be loaded with `PYTHONPATH=_site/post-preview-deps`.
+The preview uses existing compiled theme CSS and disables analytics by omitting
+the analytics include. Verify the deployed HTML and sitemap after an approved push.
+
 ## Analytics
 
 Off by default. To turn on GoatCounter, which sets no cookies and stores no
@@ -70,6 +100,8 @@ analytics:
 ```
 
 Clicks on `.pdf` and `.bib` links are additionally recorded as events named
-`download/files/...`, so CV and poster downloads can be read separately from page
-views. The footer also carries a busuanzi hit counter, which reports site totals
-only.
+`download/files/...`. Links to paper summaries, GitHub repositories, the traffic
+simulator, and the email contact use `research-summary/...`, `code/...`,
+`simulator/...`, and `contact/email`. Query strings and email addresses are not
+included in these event paths. The footer also carries a busuanzi hit counter,
+which reports site totals only.

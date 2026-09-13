@@ -1,13 +1,13 @@
 {% comment %}
 GoatCounter: cookie-free and stores no personal data, so no consent banner is
 required. Set analytics.provider to "goatcounter" and analytics.goatcounter.code
-to your site code in _config.yml (the subdomain: "chengyuan" for
-https://chengyuan.goatcounter.com).
+to the site code in _config.yml.
 
 Beyond page views this records clicks on PDF and .bib links as events, so CV,
-poster and slide downloads show up separately. Event names look like
-"download/files/CV_Chengyuan.pdf". no_session is set so repeat clicks by the same
-visitor are all counted, per https://www.goatcounter.com/help/js.
+poster and slide downloads show up separately. It also records links to research
+summaries, GitHub repositories, the traffic simulator, and the email contact.
+Event paths omit query strings and email addresses. no_session is set so repeat
+clicks by the same visitor are all counted, per https://www.goatcounter.com/help/js.
 {% endcomment %}
 {% if site.analytics.goatcounter.code %}
 <script data-goatcounter="https://{{ site.analytics.goatcounter.code }}.goatcounter.com/count"
@@ -30,12 +30,33 @@ visitor are all counted, per https://www.goatcounter.com/help/js.
       if (!a) return;
 
       var href = a.getAttribute('href') || '';
-      if (!/\.(pdf|bib)(\?|#|$)/i.test(href)) return;
+      var event = '';
+      var url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (_) {
+        return;
+      }
+
+      if (/\.(pdf|bib)(\?|#|$)/i.test(href)) {
+        event = eventPath(href);
+      } else if (url.origin === window.location.origin && /^\/papers\//.test(url.pathname)) {
+        event = 'research-summary' + url.pathname;
+      } else if (url.hostname === 'github.com' && url.pathname.split('/').filter(Boolean).length >= 2) {
+        event = 'code' + url.pathname;
+      } else if (url.origin === window.location.origin && /^\/traffic-sim\//.test(url.pathname)) {
+        event = 'simulator' + url.pathname;
+      } else if (url.protocol === 'mailto:') {
+        event = 'contact/email';
+      }
+      if (!event) return;
       if (!window.goatcounter || !window.goatcounter.count) return;
 
+      var title = (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 80) || href;
+      if (url.protocol === 'mailto:') title = 'Email contact';
       window.goatcounter.count({
-        path: eventPath(href),
-        title: (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 80) || href,
+        path: event,
+        title: title,
         event: true,
         no_session: true
       });

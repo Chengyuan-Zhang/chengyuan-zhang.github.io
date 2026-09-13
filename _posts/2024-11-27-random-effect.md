@@ -117,3 +117,7 @@ dynamics.
 ## Read more
 
 - [Heterogeneity and Hierarchical Models](/posts/hierarchical/) in my previous posts;
+
+## Connection to driving behavior
+
+For the application of this idea to car-following models, see the [related research guide](/research/stochastic-driving-behavior/) and the [Bayesian calibration reading path](/research/bayesian-calibration/).

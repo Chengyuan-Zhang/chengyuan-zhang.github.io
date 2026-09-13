@@ -39,6 +39,8 @@ def load_posts(root: str) -> List[Post]:
     posts: List[Post] = []
     for path in glob.glob(os.path.join(root, "_posts", "*.md")):
         meta, body = front_matter(io.open(path, encoding="utf-8").read())
+        if meta.get("published") is False:
+            continue
         posts.append({
             "title": " ".join(str(meta["title"]).split()),
             "permalink": meta["permalink"],

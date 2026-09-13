@@ -1,0 +1,17 @@
+{% include paper-record.html %}
+<meta name="citation_title" content="{{ paper.headline | escape }}">
+{% for author in paper.author %}<meta name="citation_author" content="{{ author.name | escape }}">
+{% endfor %}
+<meta name="citation_publication_date" content="{{ paper.datePublished | escape }}">
+{% if paper_venue %}<meta name="citation_journal_title" content="{{ paper_venue.name | escape }}">{% endif %}
+{% if paper_volume %}<meta name="citation_volume" content="{{ paper_volume | escape }}">{% endif %}
+{% if paper_issue %}<meta name="citation_issue" content="{{ paper_issue | escape }}">{% endif %}
+{% if paper.pagination %}
+{% assign pages = paper.pagination | replace: '--', '-' | split: '-' %}
+<meta name="citation_firstpage" content="{{ pages.first | escape }}">
+{% if pages.size > 1 %}<meta name="citation_lastpage" content="{{ pages.last | escape }}">{% endif %}
+{% endif %}
+{% if paper.sameAs contains 'https://doi.org/' %}<meta name="citation_doi" content="{{ paper.sameAs | remove: 'https://doi.org/' | escape }}">{% endif %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","@id":{{ page.url | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"name":{{ paper.headline | jsonify }},"mainEntity":{{ paper | jsonify }}}
+</script>

@@ -2,8 +2,12 @@
 layout: single
 title: "Notes"
 permalink: /notes/
+description: "Research notes on Bayesian inference, stochastic processes, car-following models, and interpretable driving behavior, with guided reading paths."
 author_profile: true
 ---
+
+Start with the [Bayesian calibration guide](/research/bayesian-calibration/), [stochastic driving behavior](/research/stochastic-driving-behavior/), or [traffic simulation guide](/research/traffic-simulation/).
+
 
 ### My Research Notes
 

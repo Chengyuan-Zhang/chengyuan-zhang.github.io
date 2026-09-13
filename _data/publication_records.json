@@ -1,0 +1,758 @@
+{
+  "zhang2024calibrating": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2024calibrating",
+    "headline": "Calibrating car-following models via Bayesian dynamic regression",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Wenshuo Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Calibrating car-following models via Bayesian dynamic regression",
+    "datePublished": "2024",
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "volumeNumber": "168",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Transportation Research Part C: Emerging Technologies"
+      }
+    },
+    "pagination": "104719",
+    "sameAs": "https://doi.org/10.1016/j.trc.2024.104719"
+  },
+  "zhang2024bayesian": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2024bayesian",
+    "headline": "Bayesian Calibration of the Intelligent Driver Model",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Bayesian Calibration of the Intelligent Driver Model",
+    "datePublished": "2024",
+    "isPartOf": {
+      "@type": "PublicationIssue",
+      "issueNumber": "8",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "25",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "IEEE Transactions on Intelligent Transportation Systems"
+        }
+      }
+    },
+    "pagination": "9308-9320",
+    "sameAs": "https://doi.org/10.1109/tits.2024.3354102"
+  },
+  "chen2024bayesian": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#chen2024bayesian",
+    "headline": "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Xiaoxu Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Zhanhong Cheng"
+      },
+      {
+        "@type": "Person",
+        "name": "Yuang Hou"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors",
+    "datePublished": "2024",
+    "isPartOf": {
+      "@type": "PublicationIssue",
+      "issueNumber": "6",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "25",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "IEEE Transactions on Intelligent Transportation Systems"
+        }
+      }
+    },
+    "pagination": "5880-5891",
+    "sameAs": "https://doi.org/10.1109/tits.2023.3334909"
+  },
+  "chen2023discovering": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#chen2023discovering",
+    "headline": "Discovering Dynamic Patterns from Spatiotemporal Data with Time-Varying Low-Rank Autoregression",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Xinyu Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Xiaoxu Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Nicolas Saunier"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Discovering Dynamic Patterns from Spatiotemporal Data with Time-Varying Low-Rank Autoregression",
+    "datePublished": "2023",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "IEEE Transactions on Knowledge and Data Engineering"
+    },
+    "pagination": "1-14",
+    "sameAs": "https://doi.org/10.1109/tkde.2023.3294440"
+  },
+  "zhang2022spatiotemporal": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2022spatiotemporal",
+    "headline": "Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Jiacheng Zhu"
+      },
+      {
+        "@type": "Person",
+        "name": "Wenshuo Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Junqiang Xi"
+      }
+    ],
+    "name": "Spatiotemporal Learning of Multivehicle Interaction Patterns in Lane-Change Scenarios",
+    "datePublished": "2022",
+    "isPartOf": {
+      "@type": "PublicationIssue",
+      "issueNumber": "7",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "23",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "IEEE Transactions on Intelligent Transportation Systems"
+        }
+      }
+    },
+    "pagination": "6446-6459",
+    "sameAs": "https://doi.org/10.1109/tits.2021.3057645"
+  },
+  "zhang2019efficient": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2019efficient",
+    "headline": "An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Xiaomin Zhang"
+      },
+      {
+        "@type": "Person",
+        "name": "Hongyun Ye"
+      },
+      {
+        "@type": "Person",
+        "name": "Ming Wei"
+      },
+      {
+        "@type": "Person",
+        "name": "Xianxiong Ning"
+      }
+    ],
+    "name": "An Efficient Parking Solution: A Cam-Linkage Double-Parallelogram Mechanism Based 1-Degrees of Freedom Stack Parking System",
+    "datePublished": "2019",
+    "isPartOf": {
+      "@type": "PublicationIssue",
+      "issueNumber": "4",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "11",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Journal of Mechanisms and Robotics"
+        }
+      }
+    },
+    "sameAs": "https://doi.org/10.1115/1.4043688"
+  },
+  "zhang2018chaotic": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2018chaotic",
+    "headline": "Chaotic Behavior and Feedback Control of Magnetorheological Suspension System With Fractional-Order Derivative",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Jian Xiao"
+      }
+    ],
+    "name": "Chaotic Behavior and Feedback Control of Magnetorheological Suspension System With Fractional-Order Derivative",
+    "datePublished": "2018",
+    "isPartOf": {
+      "@type": "PublicationIssue",
+      "issueNumber": "2",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "13",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Journal of Computational and Nonlinear Dynamics"
+        }
+      }
+    },
+    "sameAs": "https://doi.org/10.1115/1.4037931"
+  },
+  "zhang2024learning": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2024learning",
+    "headline": "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Kehua Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Meixin Zhu"
+      },
+      {
+        "@type": "Person",
+        "name": "Hai Yang"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Learning Car-Following Behaviors Using Bayesian Matrix Normal Mixture Regression",
+    "datePublished": "2024",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "2024 IEEE Intelligent Vehicles Symposium (IV)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "pagination": "608-613",
+    "sameAs": "https://doi.org/10.1109/iv55156.2024.10588568"
+  },
+  "zhang2023interactive": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2023interactive",
+    "headline": "Interactive Car-Following: Matters but NOT Always",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Rui Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Jiacheng Zhu"
+      },
+      {
+        "@type": "Person",
+        "name": "Wenshuo Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Changliu Liu"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Interactive Car-Following: Matters but NOT Always",
+    "datePublished": "2023",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "pagination": "5120-5125",
+    "sameAs": "https://doi.org/10.1109/itsc57777.2023.10421996"
+  },
+  "wang2020learning": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#wang2020learning",
+    "headline": "Learning Representations for Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Wenshuo Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Pin Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Ching-Yao Chan"
+      }
+    ],
+    "name": "Learning Representations for Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields",
+    "datePublished": "2020",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "2020 IEEE Intelligent Vehicles Symposium (IV)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "pagination": "1935-1940",
+    "sameAs": "https://doi.org/10.1109/iv47402.2020.9304849"
+  },
+  "zhang2019general": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2019general",
+    "headline": "A General Framework of Learning Multi-Vehicle Interaction Patterns from Video",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Jiacheng Zhu"
+      },
+      {
+        "@type": "Person",
+        "name": "Wenshuo Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Ding Zhao"
+      }
+    ],
+    "name": "A General Framework of Learning Multi-Vehicle Interaction Patterns from Video",
+    "datePublished": "2019",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "2019 IEEE Intelligent Transportation Systems Conference (ITSC)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "pagination": "4323-4328",
+    "sameAs": "https://doi.org/10.1109/itsc.2019.8917212"
+  },
+  "wang2022social": {
+    "@type": "Book",
+    "@id": "https://chengyuan-zhang.github.io/publications/#wang2022social",
+    "headline": "Social Interactions for Autonomous Driving: A Review and Perspectives",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Wenshuo Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Letian Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Changliu Liu"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Social Interactions for Autonomous Driving: A Review and Perspectives",
+    "datePublished": "2022",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Now Publishers"
+    },
+    "sameAs": "https://doi.org/10.1561/9781638281290"
+  },
+  "kong2026online": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#kong2026online",
+    "headline": "Online Calibration of Context-Driven Car-Following Models",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Menglin Kong"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Online Calibration of Context-Driven Car-Following Models",
+    "datePublished": "2026",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "2026 IEEE Intelligent Vehicles Symposium (IV)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "pagination": "1747-1752",
+    "sameAs": "https://doi.org/10.1109/iv66570.2026.11623892"
+  },
+  "hickert2026autotune": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#hickert2026autotune",
+    "headline": "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Cameron Hickert"
+      },
+      {
+        "@type": "Person",
+        "name": "Athena Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Maryam Samaei"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      },
+      {
+        "@type": "Person",
+        "name": "Yanbing Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Mostafa Ameli"
+      },
+      {
+        "@type": "Person",
+        "name": "Cathy Wu"
+      }
+    ],
+    "name": "AutoTune: A Unified Benchmark for Highway Traffic Microsimulation Calibration",
+    "datePublished": "2026",
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "2026 IEEE Intelligent Vehicles Symposium (IV)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "pagination": "1542-1549",
+    "sameAs": "https://doi.org/10.1109/iv66570.2026.11624093"
+  },
+  "kong2026active": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#kong2026active",
+    "headline": "Active Simulation-Based Inference for Scalable Car-Following Model Calibration",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Menglin Kong"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Active Simulation-Based Inference for Scalable Car-Following Model Calibration",
+    "datePublished": "2026",
+    "sameAs": "https://arxiv.org/abs/2602.05246"
+  },
+  "zhang2025markov": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2025markov",
+    "headline": "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Cathy Wu"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior",
+    "datePublished": "2025",
+    "sameAs": "https://arxiv.org/abs/2506.14762"
+  },
+  "hickert2026calibration": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#hickert2026calibration",
+    "headline": "The Calibration Illusion in Traffic Microsimulation",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Cameron Hickert"
+      },
+      {
+        "@type": "Person",
+        "name": "Maryam Samaei"
+      },
+      {
+        "@type": "Person",
+        "name": "Athena Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      },
+      {
+        "@type": "Person",
+        "name": "Yanbing Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Mostafa Ameli"
+      },
+      {
+        "@type": "Person",
+        "name": "Cathy Wu"
+      }
+    ],
+    "name": "The Calibration Illusion in Traffic Microsimulation",
+    "datePublished": "2026",
+    "sameAs": "https://arxiv.org/abs/2608.19642"
+  },
+  "zhang2025context": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2025context",
+    "headline": "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Zhengbing He"
+      },
+      {
+        "@type": "Person",
+        "name": "Cathy Wu"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior",
+    "datePublished": "2026",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Transportation Research Part B: Methodological"
+    },
+    "sameAs": "https://doi.org/10.1016/j.trb.2026.103588"
+  },
+  "chen2025forecasting": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://chengyuan-zhang.github.io/publications/#chen2025forecasting",
+    "headline": "Forecasting Sparse Movement Speed of Urban Road Networks with Nonstationary Temporal Matrix Factorization",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Xinyu Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Xi-Le Zhao"
+      },
+      {
+        "@type": "Person",
+        "name": "Nicolas Saunier"
+      },
+      {
+        "@type": "Person",
+        "name": "Lijun Sun"
+      }
+    ],
+    "name": "Forecasting Sparse Movement Speed of Urban Road Networks with Nonstationary Temporal Matrix Factorization",
+    "datePublished": "2025",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Transportation Science"
+    },
+    "sameAs": "https://doi.org/10.1287/trsc.2024.0629"
+  },
+  "chen2023latex": {
+    "@type": "Book",
+    "@id": "https://chengyuan-zhang.github.io/publications/#chen2023latex",
+    "headline": "Academic Writing with LaTeX",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Xinyu Chen"
+      },
+      {
+        "@type": "Person",
+        "name": "Jieling Jin"
+      },
+      {
+        "@type": "Person",
+        "name": "Qionghua Liao"
+      },
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Xiaoxu Chen"
+      }
+    ],
+    "name": "Academic Writing with LaTeX",
+    "datePublished": "2023",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tsinghua University Press"
+    }
+  },
+  "zhang2018patent": {
+    "@type": "CreativeWork",
+    "@id": "https://chengyuan-zhang.github.io/publications/#zhang2018patent",
+    "headline": "Cam-Connecting Rod Type Mechanical Three-Dimensional Parking Device",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chengyuan Zhang",
+        "@id": "https://chengyuan-zhang.github.io/#person"
+      },
+      {
+        "@type": "Person",
+        "name": "Xiaomin Zhang"
+      },
+      {
+        "@type": "Person",
+        "name": "Hongyun Ye"
+      },
+      {
+        "@type": "Person",
+        "name": "Jinming Shi"
+      },
+      {
+        "@type": "Person",
+        "name": "Manzhi Wang"
+      },
+      {
+        "@type": "Person",
+        "name": "Xianxiong Ning"
+      }
+    ],
+    "name": "Cam-Connecting Rod Type Mechanical Three-Dimensional Parking Device",
+    "datePublished": "2018"
+  }
+}

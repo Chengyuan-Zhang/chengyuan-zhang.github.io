@@ -181,12 +181,13 @@ def from_arxiv(key: str, arxiv_id: str) -> str | None:
 def build_schema(bib_path: Path, out_path: Path) -> int:
     """Emit an ItemList of ScholarlyArticle from the generated bibliography."""
     text = bib_path.read_text(encoding="utf-8")
-    items = []
+    records = {}
     for blk in re.split(r"\n(?=@)", text):
         blk = blk.strip()
         if not blk.startswith("@"):
             continue
         etype = re.match(r"@(\w+)\{", blk).group(1)
+        key = re.match(r"@\w+\{([^,]+),", blk).group(1)
         def field(name: str) -> str:
             m = re.search(rf"\n\s*{name}\s*=\s*\{{(.*?)\}},?\n", blk, re.S)
             return re.sub(r"[{}]", "", " ".join(m.group(1).split())) if m else ""
@@ -195,27 +196,47 @@ def build_schema(bib_path: Path, out_path: Path) -> int:
         if not title:
             continue
         node: dict = {
-            "@type": "ScholarlyArticle" if etype in ("article", "inproceedings") else "CreativeWork",
+            "@type": "Book" if etype == "book" else ("ScholarlyArticle" if etype in ("article", "inproceedings") or field("eprint") else "CreativeWork"),
+            "@id": f"https://chengyuan-zhang.github.io/publications/#{key}",
             "headline": title,
             "author": [{"@type": "Person", "name": " ".join(reversed([p.strip() for p in a.split(",")])).strip()}
                        for a in field("author").split(" and ") if a.strip()],
         }
+        node["name"] = title
+        for author in node["author"]:
+            if author["name"] == "Chengyuan Zhang":
+                author["@id"] = "https://chengyuan-zhang.github.io/#person"
         if field("year"):
             node["datePublished"] = field("year")
-        venue = field("journal") or field("booktitle") or field("publisher")
+        venue = field("journal") or field("booktitle")
         if venue:
-            node["isPartOf"] = {"@type": "Periodical", "name": venue}
+            node["isPartOf"] = {"@type": "Periodical" if field("journal") else "CreativeWork", "name": venue}
+        if field("publisher"):
+            node["publisher"] = {"@type": "Organization", "name": field("publisher")}
+        if field("journal") and field("volume"):
+            node["isPartOf"] = {"@type": "PublicationVolume", "volumeNumber": field("volume"), "isPartOf": node["isPartOf"]}
+        if field("journal") and field("number"):
+            node["isPartOf"] = {"@type": "PublicationIssue", "issueNumber": field("number"), "isPartOf": node["isPartOf"]}
+        if field("pages"):
+            node["pagination"] = field("pages")
         if field("doi"):
             node["sameAs"] = f"https://doi.org/{field('doi')}"
         elif field("eprint"):
             node["sameAs"] = f"https://arxiv.org/abs/{field('eprint')}"
-        items.append(node)
+        records[key] = node
+
+    # Follow the actual visible list, including its section order, rather than API order.
+    page = Path("_pages/publications.md").read_text(encoding="utf-8")
+    order = re.findall(r'data-bib="([^"]+)"', page)
+    if len(order) != len(set(order)) or set(order) != set(records):
+        raise ValueError("Publications and bibliography keys differ or contain duplicates")
+    items = [records[key] for key in order]
 
     payload = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "Publications of Chengyuan Zhang",
-        "itemListOrder": "https://schema.org/ItemListOrderDescending",
+        "itemListOrder": "https://schema.org/ItemListOrderUnordered",
         "numberOfItems": len(items),
         "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": it}
                             for i, it in enumerate(items)],
@@ -227,6 +248,9 @@ def build_schema(bib_path: Path, out_path: Path) -> int:
         + "\n</script>\n",
         encoding="utf-8",
     )
+    Path("_data/publication_records.json").write_text(
+        json.dumps(records, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
     print(f"wrote {out_path} with {len(items)} items, {out_path.stat().st_size / 1024:.1f} KB")
     return len(items)
 
@@ -235,6 +259,10 @@ def main() -> int:
     if not Path("_config.yml").exists():
         print("run from the repository root", file=sys.stderr)
         return 1
+
+    if "--schema-only" in sys.argv:
+        build_schema(Path("files/chengyuan-zhang.bib"), Path("_includes/publications-schema.html"))
+        return 0
 
     header = (
         "% Bibliography for Chengyuan Zhang\n"

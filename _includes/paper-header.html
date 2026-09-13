@@ -1,0 +1,6 @@
+{% include paper-record.html %}
+<p><strong>{% for author in paper.author %}{{ author.name | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}</strong><br>
+{% if paper_venue %}<em>{{ paper_venue.name | escape }}</em>{% else %}arXiv preprint{% endif %} ({{ paper.datePublished }}).
+{% if paper_volume %}Volume {{ paper_volume }}{% if paper_issue %}({{ paper_issue }}){% endif %}.{% endif %}
+{% if paper.pagination %}Pages/article {{ paper.pagination }}.{% endif %}</p>
+<p><a href="{{ paper.sameAs }}">{% if paper.isPartOf %}Publisher record{% else %}Preprint record{% endif %}</a> · <a href="{{ '/files/chengyuan-zhang.bib' | relative_url }}">BibTeX</a> · <a href="{{ '/publications/' | relative_url }}">All publications</a></p>

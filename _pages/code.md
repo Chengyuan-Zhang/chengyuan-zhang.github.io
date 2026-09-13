@@ -2,8 +2,12 @@
 layout: archive
 title: "Code & Data"
 permalink: /code/
+description: "Public implementations of Bayesian IDM calibration, context-dependent stochastic car-following, Gaussian velocity fields, and an interactive traffic simulator."
 author_profile: true
 ---
+
+Start with the [Bayesian calibration guide](/research/bayesian-calibration/), [stochastic driving behavior](/research/stochastic-driving-behavior/), or [traffic simulation guide](/research/traffic-simulation/).
+
 
 Implementations behind my papers, plus an interactive simulator. Everything here is public on
 GitHub; issues and pull requests are welcome.

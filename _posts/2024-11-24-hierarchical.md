@@ -143,3 +143,7 @@ Understanding and leveraging these hyperparameters is key to unlocking the full 
 
 - [Random Effects and Hierarchical Models in Driving Behaviors Modeling](/posts/random-effects/) in my previous posts;
 - <https://betanalpha.github.io/assets/case_studies/hierarchical_modeling.html> by Michael Betancourt;
+
+## Connection to driving behavior
+
+For the application of this idea to car-following models, see the [related research guide](/papers/bayesian-idm-calibration/) and the [Bayesian calibration reading path](/research/bayesian-calibration/).

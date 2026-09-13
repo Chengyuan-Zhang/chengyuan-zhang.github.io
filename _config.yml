@@ -51,6 +51,15 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
+research_topics:
+  - Stochastic driving behavior
+  - Car-following models
+  - Bayesian inference and calibration
+  - Behavioral memory and driver heterogeneity
+  - Latent driving regimes
+  - Traffic simulation
+  - Multi-agent interaction
+
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :

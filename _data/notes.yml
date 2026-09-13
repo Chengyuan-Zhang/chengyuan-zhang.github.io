@@ -51,7 +51,9 @@
 - post: /posts/AR/
   topics: [math]
 
-- planned: Bayesian calibration of car-following models
+- link: /research/bayesian-calibration/
+  label: Bayesian calibration of car-following models (reading guide)
+  topics: [bayesian, driving]
 
 - post: /posts/processes_connections/
   label: Connections among AR processes, Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian Processes

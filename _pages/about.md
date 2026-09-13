@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "Chengyuan Zhang"
-seo_title: "Chengyuan Zhang — Stochastic Driver Models and Bayesian Inference"
+seo_title: "Chengyuan Zhang | Driving Behavior & Bayesian Inference"
+description: "Chengyuan Zhang studies driving behavior through stochastic models and Bayesian inference, with research on car-following, behavioral memory, driver heterogeneity, and traffic simulation."
 excerpt: "Dr. Chengyuan Zhang — Postdoctoral Researcher, McGill University. Stochastic models of human driving
 behavior, Bayesian inference and calibration, and uncertainty-aware traffic simulation."
 author_profile: true
@@ -15,7 +16,7 @@ redirect_from:
 <div class="hero-wrap">
   <canvas class="hero-canvas" aria-hidden="true"></canvas>
   <div class="hero-intro">
-    <p class="hero-intro__lead">Postdoctoral Researcher, McGill University. Stochastic models of human behavior, and the Bayesian inference that makes them trustworthy.</p>
+    <p class="hero-intro__lead">Understanding driving behavior through stochastic models and Bayesian inference.</p>
   </div>
 </div>
 <script src="{{ '/assets/js/hero-trajectories.js' | relative_url }}?v=20260910" defer></script>
@@ -26,20 +27,15 @@ redirect_from:
   <span id="hero-feedback" role="status" aria-live="polite"></span>
 </div>
 
+I study why drivers behave differently in similar traffic situations, and how those differences shape traffic flow. My research develops stochastic car-following models and Bayesian inference methods to represent behavioral memory, driver heterogeneity, and latent driving regimes in naturalistic data.
+
+I connect these models to uncertainty-aware traffic simulation, interpretable behavioral analysis, and reproducible model calibration.
+
 I am a Postdoctoral Researcher in Civil Engineering at McGill University, working with
 Prof. [Lijun Sun](https://lijunsun.github.io/). I received my Ph.D. from the same group in 2026, and my B.Eng. in
 Vehicle Engineering from Chongqing University in 2019. I was also a visiting researcher at Carnegie Mellon University
 with Prof. Changliu Liu in 2023 and Prof. Ding Zhao in 2018, and at UC Berkeley with Prof. Masayoshi Tomizuka from 2019
 to 2020.
-
-Human behavior is only partly determined by the situation a person is in. I model what is left over.
-In driving, that residual carries memory, differs systematically between individuals, and switches between
-latent behavioral regimes, and the same structure reappears when the unit of analysis becomes a road segment
-rather than a person. Modeling it properly is what allows uncertainty to travel from individual decisions to
-the collective dynamics they produce, a step most behavior models stop short of. I build the Bayesian
-inference and the benchmarks that make this practical on naturalistic data, so that simulation, which is how
-automated vehicles and traffic operations are actually tested, quantifies its uncertainty instead of assuming
-it away.
 
 <div class="callout" markdown="1">
 **Where I am heading.** The methods above were developed on driving because it is one of the few human
@@ -61,7 +57,9 @@ Featured Research
 <img class="research-card__thumb" src="{{ '/images/cards/traffic.jpg' | relative_url }}" alt="Pooled, hierarchical and unpooled graphical models of the intelligent driver model" loading="lazy" decoding="async" width="640" height="317" />
 
 ### Stochastic Behavior Models
-<p class="research-card__lead">Treating variability as structure to be modeled: memory, individual heterogeneity, and latent regimes.</p>
+<p class="research-card__lead">How do memory, differences between drivers, and latent regimes organize driving variability?</p>
+
+[Explore this research question](/research/stochastic-driving-behavior/)
 
 - Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior ([arXiv: 2506.14762](https://arxiv.org/abs/2506.14762))
 - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588)) [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)]
@@ -73,7 +71,9 @@ Featured Research
 <img class="research-card__thumb" src="{{ '/images/cards/uncertainty.jpg' | relative_url }}" alt="Poster on Bayesian calibration of the intelligent driver model" loading="lazy" decoding="async" width="640" height="428" />
 
 ### Scalable Bayesian Inference & Calibration
-<p class="research-card__lead">Making posterior inference over behavior models tractable, online, and comparable.</p>
+<p class="research-card__lead">How can we infer behavior models from trajectories and express uncertainty in their parameters and predictions?</p>
+
+[Explore this research question](/research/bayesian-calibration/)
 
 - Active Simulation-Based Inference for Scalable Car-Following Model Calibration ([arXiv: 2602.05246](https://arxiv.org/abs/2602.05246))
 - Bayesian Calibration of the Intelligent Driver Model ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10415310))
@@ -85,7 +85,9 @@ Featured Research
 <img class="research-card__thumb" src="{{ '/images/cards/spatiotemporal.jpg' | relative_url }}" alt="Sequential spatiotemporal patterns extracted from multivehicle interactions" loading="lazy" decoding="async" width="640" height="262" />
 
 ### From Individual Behavior to Collective Dynamics
-<p class="research-card__lead">Carrying calibrated uncertainty from single decisions up to network and flow scale.</p>
+<p class="research-card__lead">How do assumptions about individual driving variability enter collective traffic simulation?</p>
+
+[Explore this research question](/research/traffic-simulation/)
 
 - From Micro Interactions to Traffic Flow: Stochastic Driver Models for Realistic Traffic Simulation (Ph.D. thesis, McGill 2026; [one-page summary]({{ '/files/phd-research-summary.pdf' | relative_url }}))
 - Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression ([IEEE TKDE](https://ieeexplore.ieee.org/document/10177995))
@@ -113,7 +115,9 @@ Selected Publications
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://doi.org/10.1016/j.trb.2026.103588">When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior</a>
     <span class="pub-item__venue">Chengyuan Zhang, Zhengbing He, Cathy Wu, Lijun Sun · Transportation Research Part B: Methodological (2026)</span>
+    <p>Combines context-dependent predictions with evolving residual covariance for stochastic car-following simulation.</p>
     <span class="pub-item__links">
+      <a href="/papers/when-context-is-not-enough/">research summary</a>
       <a href="https://doi.org/10.1016/j.trb.2026.103588">paper</a>
       <a href="https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough">code</a>
       <a href="{{ '/files/TRB2026_Nonstationary.pdf' | relative_url }}">poster</a>
@@ -126,7 +130,9 @@ Selected Publications
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://arxiv.org/abs/2506.14762">Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior</a>
     <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — preprint (2025)</span>
+    <p>Models behavioral regimes and traffic scenarios with separate latent Markov processes.</p>
     <span class="pub-item__links">
+      <a href="/papers/markov-regime-switching-idm/">research summary</a>
       <a href="https://arxiv.org/abs/2506.14762">paper (arXiv)</a>
       <a href="{{ '/files/TRB2026_Markov.pdf' | relative_url }}">poster</a>
     </span>
@@ -138,7 +144,9 @@ Selected Publications
   <div class="pub-item__body">
     <a class="pub-item__title" href="https://ieeexplore.ieee.org/document/10415310">Bayesian Calibration of the Intelligent Driver Model</a>
     <span class="pub-item__venue">Chengyuan Zhang, Lijun Sun — IEEE T-ITS (2024)</span>
+    <p>Combines hierarchical parameter uncertainty with temporally correlated residuals in memory-augmented IDM.</p>
     <span class="pub-item__links">
+      <a href="/papers/bayesian-idm-calibration/">research summary</a>
       <a href="https://ieeexplore.ieee.org/document/10415310">paper</a>
       <a href="https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration">code</a>
       <a href="{{ '/files/TRB_poster_MA_IDM_Chengyuan_2022.pdf' | relative_url }}">poster</a>

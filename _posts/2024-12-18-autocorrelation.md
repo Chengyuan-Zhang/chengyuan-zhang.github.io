@@ -157,3 +157,8 @@ computational constraints, data properties, and the need for interpretability.
 - **Chengyuan Zhang**, Wenshuo Wang, and Lijun Sun* (2024). Calibrating Car-Following Models via Bayesian Dynamic
   Regression. Transportation research part C: emerging technologies. (Accepted to ISTTT25 Special
   Issue) [[TR PartC](https://doi.org/10.1016/j.trc.2024.104719)] [[arXiv](https://arXiv.org/pdf/2307.03340.pdf)] [[code](https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration)] [[presentation](https://youtu.be/GIqcL6I7MsU)] [[slides](/files/ISTTT25_slides_Chengyuan.pdf)]
+
+
+## Connection to driving behavior
+
+For the application of this idea to car-following models, see the [related research guide](/papers/bayesian-dynamic-regression/) and the [Bayesian calibration reading path](/research/bayesian-calibration/).

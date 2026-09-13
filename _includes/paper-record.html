@@ -1,0 +1,12 @@
+{% assign paper = site.data.publication_records[page.paper_key] %}
+{% assign paper_venue = paper.isPartOf %}
+{% assign paper_volume = nil %}
+{% assign paper_issue = nil %}
+{% if paper_venue['@type'] == 'PublicationIssue' %}
+  {% assign paper_issue = paper_venue.issueNumber %}
+  {% assign paper_venue = paper_venue.isPartOf %}
+{% endif %}
+{% if paper_venue['@type'] == 'PublicationVolume' %}
+  {% assign paper_volume = paper_venue.volumeNumber %}
+  {% assign paper_venue = paper_venue.isPartOf %}
+{% endif %}
