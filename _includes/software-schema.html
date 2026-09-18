@@ -1,0 +1,11 @@
+{% comment %}
+SoftwareSourceCode schema for the repositories listed on /code/, driven by the
+`software:` front matter on that page. Answer engines asked "is there a public
+implementation of X?" can read this directly; the cards on the page remain the
+human-facing version.
+{% endcomment %}
+{% if page.software %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","@id":{{ page.url | absolute_url | append: '#software' | jsonify }},"name":{{ page.title | jsonify }},"itemListOrder":"https://schema.org/ItemListOrderUnordered","numberOfItems":{{ page.software.size }},"itemListElement":[{% for repo in page.software %}{"@type":"ListItem","position":{{ forloop.index }},"item":{"@type":"SoftwareSourceCode","name":{{ repo.name | jsonify }},"description":{{ repo.description | strip | jsonify }},"codeRepository":{{ repo.repository | jsonify }},"url":{{ repo.url | default: repo.repository | jsonify }}{% if repo.language %},"programmingLanguage":{{ repo.language | jsonify }}{% endif %}{% if repo.license %},"license":{{ repo.license | jsonify }}{% endif %}{% if repo.about %},"about":{{ repo.about | jsonify }}{% endif %},"author":{"@id":{{ '/#person' | absolute_url | jsonify }}}{% if repo.citation %},"citation":{{ repo.citation | jsonify }}{% endif %}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
+{% endif %}

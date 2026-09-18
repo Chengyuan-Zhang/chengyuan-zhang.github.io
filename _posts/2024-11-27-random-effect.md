@@ -2,6 +2,7 @@
 title: 'Random Effects and Hierarchical Models in Driving Behaviors Modeling'
 date: 2024-11-27
 permalink: /posts/random-effects/
+description: "Random effects and hierarchical models for driver heterogeneity: representing how IDM parameters differ across drivers instead of assuming one shared set."
 tags:
 
 - hierarchical model

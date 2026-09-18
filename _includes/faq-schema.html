@@ -1,0 +1,14 @@
+{% comment %}
+FAQPage schema, driven by a page's `faq:` front matter (a list of q/a pairs).
+Every question and answer here must also appear on the page itself: the schema
+describes visible content, it does not add any.
+
+Google restricted FAQ rich results to a small set of authoritative sites, so
+this will not produce a SERP accordion. It is here for the answer and
+generative engines that read schema directly.
+{% endcomment %}
+{% if page.faq %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","@id":{{ page.url | absolute_url | append: '#faq' | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"mainEntity":[{% for item in page.faq %}{"@type":"Question","name":{{ item.q | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | strip | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
+{% endif %}

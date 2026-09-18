@@ -5,6 +5,21 @@ permalink: /papers/bayesian-idm-calibration/
 paper_key: zhang2024bayesian
 description: "Hierarchical Bayesian inference represents uncertainty in IDM parameters, while a Gaussian process models temporally correlated discrepancies in memory-augmented IDM."
 author_profile: true
+breadcrumb:
+  - name: "Publications"
+    url: /publications/
+faq:
+  - q: "What does Bayesian IDM calibration add to a single best fit?"
+    a: >-
+      Hierarchical Bayesian inference represents uncertainty in IDM parameters,
+      while a Gaussian process models temporally correlated discrepancies in
+      memory-augmented IDM.
+  - q: "Is a posterior interval the same as variation in future driving?"
+    a: >-
+      No. A parameter posterior represents uncertainty about parameters. A
+      predictive distribution additionally reflects the model's stochastic
+      process and how simulated states evolve. Both depend on the model and data
+      assumptions.
 ---
 
 {% include paper-header.html %}

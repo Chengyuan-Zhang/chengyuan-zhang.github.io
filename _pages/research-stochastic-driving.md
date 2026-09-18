@@ -3,6 +3,21 @@ layout: single
 title: "Stochastic Driving Behavior: Memory, Heterogeneity, and Regimes"
 permalink: /research/stochastic-driving-behavior/
 description: "A research guide to temporal memory, differences between drivers, latent behavioral regimes, and unexplained variability in car-following models."
+faq:
+  - q: "What kinds of variation should a model distinguish?"
+    a: >-
+      Driver heterogeneity concerns differences between individuals.
+      Within-driver variation concerns how one driver's responses change over
+      time. Traffic context concerns the observed operating situation. Residual
+      variability is what remains unexplained by the chosen inputs and mean
+      model. These concepts overlap in data, but they are not interchangeable.
+  - q: "Does unexplained variability reveal a hidden psychological cause?"
+    a: >-
+      A structured residual or latent state can support a useful interpretation
+      of behavior without uniquely identifying its cause. Omitted inputs,
+      observation error, and model limitations can also contribute. These models
+      make the structure inspectable and usable in simulation; identifying a
+      particular psychological mechanism requires additional evidence.
 ---
 
 Similar traffic conditions do not always produce the same driving response. My research asks how to represent this variation so that a model can describe both individual behavior and possible future trajectories.

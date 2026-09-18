@@ -2,6 +2,7 @@
 layout: archive
 title: "Miscellaneous"
 permalink: /miscellaneous/
+description: "Away from research: photography, badminton, basketball, and long walks with a camera. The non-academic side of Chengyuan Zhang."
 author_profile: true
 ---
 

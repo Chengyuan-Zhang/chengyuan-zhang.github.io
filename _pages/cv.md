@@ -2,6 +2,7 @@
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
+description: "Curriculum vitae of Chengyuan Zhang: education, postdoctoral and visiting research positions, fellowships, awards, and academic service in transportation."
 author_profile: false
 hide_title: true
 redirect_from:

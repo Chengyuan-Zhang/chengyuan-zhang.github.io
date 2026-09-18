@@ -2,6 +2,7 @@
 title: 'Heterogeneity and Hierarchical Models: Understanding Pooled, Unpooled, and Hierarchical Approaches'
 date: 2024-11-24
 permalink: /posts/hierarchical/
+description: "How hyperparameters distinguish pooled, unpooled, and hierarchical (partially pooled) models, and what each choice implies for flexibility and interpretability."
 tags:
 
 - hierarchical model

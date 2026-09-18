@@ -2,6 +2,7 @@
 title: 'Proof: unbiasedness of ordinary least squares (OLS)'
 date: 2024-12-17
 permalink: /posts/ols-unbiased/
+description: "A step-by-step proof that the ordinary least squares estimator is unbiased under the standard linear regression assumptions."
 tags:
 
 - OLS

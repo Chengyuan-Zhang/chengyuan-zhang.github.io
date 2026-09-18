@@ -3,6 +3,21 @@ layout: single
 title: "Bayesian Calibration and Inference for Car-Following Models"
 permalink: /research/bayesian-calibration/
 description: "How Bayesian car-following calibration connects trajectory data, hierarchical parameters, temporal residuals, posterior checks, and public IDM implementations."
+faq:
+  - q: "What does the posterior tell us?"
+    a: >-
+      It expresses parameter uncertainty conditional on the data, prior,
+      likelihood, and model structure. It is not a guarantee that the parameters
+      identify a unique behavior mechanism. A narrow posterior should be read
+      together with the data's operating range and the model's predictive checks.
+  - q: "What data and choices are needed?"
+    a: >-
+      Begin with time-ordered leader-follower trajectories and the inputs
+      required by the selected implementation, typically speed, spacing,
+      relative speed, and a defined sampling interval. Check vehicle identities,
+      units, missing observations, acceleration construction, and episode
+      boundaries before fitting. Use the repository's actual input format and
+      dataset terms.
 ---
 
 Bayesian calibration combines a prior with a model of observed trajectories to infer a distribution over parameters. For car-following, the observation and residual models matter alongside the acceleration rule: they determine what the data imply about uncertainty and how that uncertainty enters simulation.

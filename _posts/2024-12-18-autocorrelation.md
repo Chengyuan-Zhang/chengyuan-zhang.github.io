@@ -2,6 +2,7 @@
 title: 'Modeling Autocorrelation: FFT vs Gaussian Processes'
 date: 2024-12-18
 permalink: /posts/autocorrelation/
+description: "Fourier transforms and Gaussian processes model autocorrelation in the frequency and time domains; the spectral representation theorem connects the two."
 tags:
 
 - autocorrelation

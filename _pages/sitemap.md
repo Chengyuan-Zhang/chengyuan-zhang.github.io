@@ -2,6 +2,7 @@
 layout: archive
 title: "Sitemap"
 permalink: /sitemap/
+description: "Every page and post on Chengyuan Zhang's site in one list, with an XML version available for crawlers."
 author_profile: true
 ---
 

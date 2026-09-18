@@ -5,6 +5,21 @@ permalink: /papers/bayesian-dynamic-regression/
 paper_key: zhang2024calibrating
 description: "Dynamic regression combines a parsimonious car-following model with autoregressive error dynamics, retaining historical information for calibration and probabilistic simulation."
 author_profile: true
+breadcrumb:
+  - name: "Publications"
+    url: /publications/
+faq:
+  - q: "Why account for serially correlated car-following residuals?"
+    a: >-
+      Dynamic regression combines a parsimonious car-following model with
+      autoregressive error dynamics, retaining historical information for
+      calibration and probabilistic simulation.
+  - q: "How does this relate to memory-augmented IDM?"
+    a: >-
+      Both approaches model residual dependence. MA-IDM uses a Gaussian process;
+      dynamic regression uses an autoregressive time-series specification. The
+      distinction concerns the model for temporal dependence, and should be
+      assessed through fitted dynamics and predictive simulation.
 ---
 
 {% include paper-header.html %}

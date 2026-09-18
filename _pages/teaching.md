@@ -2,6 +2,7 @@
 layout: archive
 title: "Teaching Experiences"
 permalink: /teaching/
+description: "Teaching assistant experience of Chengyuan Zhang at McGill University, spanning traffic engineering and the foundations of statistical machine learning."
 author_profile: true
 ---
 

@@ -2,6 +2,7 @@
 title: 'Understanding the Log-Sum-Exp Trick and Its Application in Hidden Markov Models (HMMs)'
 date: 2024-11-20
 permalink: /posts/logsumexp/
+description: "What the log-sum-exp trick is, why numerical underflow makes it necessary, and how it is applied in the forward-backward algorithm for hidden Markov models."
 tags:
 
 - logsumexp

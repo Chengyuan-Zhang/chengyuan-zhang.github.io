@@ -2,6 +2,7 @@
 layout: single
 title: "Talks and Presentations"
 permalink: /talks/
+description: "Invited lectures and conference presentations by Chengyuan Zhang on stochastic car-following models, Bayesian calibration, and traffic simulation."
 author_profile: true
 redirect_from:
 

@@ -4,6 +4,55 @@ title: "Code & Data"
 permalink: /code/
 description: "Public implementations of Bayesian IDM calibration, context-dependent stochastic car-following, Gaussian velocity fields, and an interactive traffic simulator."
 author_profile: true
+# Mirrors the cards below as SoftwareSourceCode schema. Keep the two in step;
+# only state a license where the card states one.
+software:
+  - name: "When Context Is Not Enough"
+    description: >-
+      Couples a context-dependent car-following mean with temporally correlated
+      Gaussian-process residuals. Includes CSV validation, model training,
+      stochastic simulation, and a synthetic quickstart.
+    repository: "https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough"
+    language: "Python"
+    license: "https://opensource.org/licenses/MIT"
+    about: "Stochastic car-following modeling"
+    citation: "https://doi.org/10.1016/j.trb.2026.103588"
+  - name: "IDM_Bayesian_Calibration"
+    description: >-
+      Implements MA-IDM and Bayesian IDM, the dynamic AR+IDM formulation from
+      the Bayesian dynamic regression paper, and multi-vehicle ring-road
+      simulations, built with PyMC and calibrated on highD.
+    repository: "https://github.com/Chengyuan-Zhang/IDM_Bayesian_Calibration"
+    language: "Python"
+    about: "Bayesian calibration of car-following models"
+    citation: "https://doi.org/10.1109/tits.2024.3354102"
+  - name: "Gaussian_Velocity_Field"
+    description: >-
+      Reference implementation of the Gaussian velocity field, which represents
+      multi-vehicle interaction inside a region of interest around the ego
+      vehicle as a fixed-size tensor over a meshed ROI.
+    repository: "https://github.com/Chengyuan-Zhang/Gaussian_Velocity_Field"
+    language: "Python"
+    about: "Multi-vehicle interaction representation"
+    citation: "https://doi.org/10.1109/tits.2021.3057645"
+  - name: "Multivehicle-Interaction"
+    description: >-
+      Results and media for the general framework of learning multi-vehicle
+      interaction patterns from video, and for the Foundations and Trends review
+      on social interactions in autonomous driving.
+    repository: "https://github.com/Chengyuan-Zhang/Multivehicle-Interaction"
+    url: "https://chengyuan-zhang.github.io/Multivehicle-Interaction/"
+    about: "Multi-vehicle interaction patterns"
+    citation: "https://doi.org/10.1109/itsc.2019.8917212"
+  - name: "traffic-sim"
+    description: >-
+      In-browser ring-road simulator in which cars follow the Intelligent Driver
+      Model under three selectable driver-noise models, reproducing the Sugiyama
+      stop-and-go experiment without a bottleneck.
+    repository: "https://github.com/Chengyuan-Zhang/traffic-sim"
+    url: "https://chengyuan-zhang.github.io/traffic-sim/"
+    language: "JavaScript"
+    about: "Stochastic traffic simulation"
 ---
 
 Start with the [Bayesian calibration guide](/research/bayesian-calibration/), [stochastic driving behavior](/research/stochastic-driving-behavior/), or [traffic simulation guide](/research/traffic-simulation/).

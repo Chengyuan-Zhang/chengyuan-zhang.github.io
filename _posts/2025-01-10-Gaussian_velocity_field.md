@@ -2,6 +2,7 @@
 title: 'A Detailed Introduction to Gaussian Velocity Fields (GVF) Based on Gaussian Processes'
 date: 2025-01-10
 permalink: /posts/GVF/
+description: "Gaussian velocity fields represent surrounding traffic at fixed dimensionality, so the model does not depend on how many vehicles happen to be nearby."
 tags:
 
 - Gaussian processes

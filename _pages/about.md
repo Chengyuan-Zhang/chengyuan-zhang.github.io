@@ -181,8 +181,12 @@ Selected Publications
      onclick="event.preventDefault(); togglePDF(this);">My Ph.D. Research Summary</a>
 </p>
 
+<!-- The iframe carries the PDF in data-src, not src: a lazy iframe inside a
+     hidden container is still fetched by Chrome, which cost every visitor
+     313 KiB for a panel most of them never open. togglePDF promotes it on the
+     first expand. -->
 <div id="pdf-container" class="pdf-container" hidden>
-  <iframe src="{{ '/files/phd-research-summary.pdf' | relative_url }}"
+  <iframe data-src="{{ '/files/phd-research-summary.pdf' | relative_url }}"
           title="Chengyuan Zhang — Ph.D. Research Summary"
           loading="lazy"></iframe>
 </div>
@@ -192,6 +196,10 @@ Selected Publications
     var container = document.getElementById("pdf-container");
     var hidden = container.hasAttribute("hidden");
     if (hidden) {
+      var frame = container.querySelector("iframe");
+      if (frame && !frame.getAttribute("src")) {
+        frame.setAttribute("src", frame.getAttribute("data-src"));
+      }
       container.removeAttribute("hidden");
       trigger.setAttribute("aria-expanded", "true");
       trigger.textContent = "Hide PDF";

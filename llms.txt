@@ -1,0 +1,55 @@
+---
+# `layout: plain` emits the page body and nothing else. `layout: null` would not
+# reliably override the site-wide `layout: single` default for pages.
+layout: plain
+permalink: /llms.txt
+sitemap: false
+---
+# Chengyuan Zhang
+
+> Postdoctoral Researcher in Civil Engineering at McGill University, working with
+> Prof. Lijun Sun. Research on stochastic models of human driving behavior,
+> Bayesian inference and calibration, and uncertainty-aware traffic simulation,
+> from individual decisions to network-scale dynamics. ORCID
+> {{ site.author.orcid | remove: "https://orcid.org/" }}. Contact:
+> {{ site.author.email }}.
+
+The research guides below are the best entry points: each one states a question
+and answers it directly, then links to the papers, code, and notes behind the
+answer. Dates and venues on the publications page are authoritative; the
+research summaries are written for readers, not as a substitute for the papers.
+
+## Research guides
+
+{% assign research = site.pages | where_exp: "p", "p.url contains '/research/'" | sort: "title" -%}
+{% for p in research -%}
+- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}
+{% endfor %}
+## Paper summaries
+
+{% assign papers = site.pages | where_exp: "p", "p.paper_key" | sort: "title" -%}
+{% for p in papers -%}
+- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}
+{% endfor %}
+## Main pages
+
+- [Home]({{ '/' | absolute_url }}): {{ site.description }}
+- [Publications]({{ '/publications/' | absolute_url }}): complete list of journal articles, conference papers, books, and patents, with DOIs, research summaries, code, and BibTeX.
+- [Code & Data]({{ '/code/' | absolute_url }}): public implementations behind the papers, plus an in-browser ring-road traffic simulator.
+- [Curriculum Vitae]({{ '/cv/' | absolute_url }}): education, positions, fellowships, awards, and academic service.
+- [Talks]({{ '/talks/' | absolute_url }}): invited lectures and conference presentations.
+- [News]({{ '/news/' | absolute_url }}): recent talks, publications, and research updates.
+- [Teaching]({{ '/teaching/' | absolute_url }}): teaching assistant experience at McGill University.
+
+## Research notes
+
+{% assign notes = site.posts | sort: "date" | reverse -%}
+{% for post in notes -%}
+- [{{ post.title }}]({{ post.url | absolute_url }}) ({{ post.date | date: "%Y-%m-%d" }}): {{ post.description | default: "Research note." }}
+{% endfor %}
+## Optional
+
+- [Sitemap (XML)]({{ '/sitemap.xml' | absolute_url }}): every indexable URL on the site.
+- [Atom feed]({{ '/feed.xml' | absolute_url }}): full text of the research notes.
+- [Ring-road traffic simulator](https://chengyuan-zhang.github.io/traffic-sim/): interactive demonstration of car-following dynamics and stop-and-go waves.
+- [Miscellaneous]({{ '/miscellaneous/' | absolute_url }}): photography and other non-research pages.

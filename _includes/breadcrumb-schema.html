@@ -1,0 +1,14 @@
+{% comment %}
+BreadcrumbList schema. A page opts in with `breadcrumb:`, a list of the
+intermediate crumbs between the home page and itself, each with a name and a
+site-relative url. Home and the current page are added here, so a paper page
+only needs to declare Publications.
+
+Only declare crumbs whose URL actually exists; an invented hierarchy is worse
+than none.
+{% endcomment %}
+{% if page.breadcrumb %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","@id":{{ page.url | absolute_url | append: '#breadcrumb' | jsonify }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ '/' | absolute_url | jsonify }}}{% for crumb in page.breadcrumb %},{"@type":"ListItem","position":{{ forloop.index | plus: 1 }},"name":{{ crumb.name | jsonify }},"item":{{ crumb.url | absolute_url | jsonify }}}{% endfor %},{"@type":"ListItem","position":{{ page.breadcrumb.size | plus: 2 }},"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}
+</script>
+{% endif %}

@@ -2,6 +2,7 @@
 layout: single
 title: "Recent News"
 permalink: /news/
+description: "Recent news from Chengyuan Zhang: invited talks, publications, and research updates on driving behavior modeling and Bayesian inference."
 author_profile: true
 ---
 

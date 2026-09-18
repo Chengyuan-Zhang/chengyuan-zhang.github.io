@@ -5,6 +5,21 @@ permalink: /papers/when-context-is-not-enough/
 paper_key: zhang2025context
 description: "Context-dependent predictions and a nonstationary Gaussian process jointly represent the expected acceleration and the evolving temporal structure of residual variability."
 author_profile: true
+breadcrumb:
+  - name: "Publications"
+    url: /publications/
+faq:
+  - q: "Why model driving variability after accounting for traffic context?"
+    a: >-
+      Context-dependent predictions and a nonstationary Gaussian process jointly
+      represent the expected acceleration and the evolving temporal structure of
+      residual variability.
+  - q: "How can I use it?"
+    a: >-
+      The public implementation includes training, simulation, CSV validation,
+      and a synthetic quickstart. It does not bundle highD data, trained
+      weights, or paper benchmark results. Follow the repository's data
+      requirements before using your own trajectories.
 ---
 
 {% include paper-header.html %}

@@ -73,6 +73,12 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "Chengyuan.jpg"  # Open Graph/Twitter default site image
+# Dimensions let a scraper lay out the card before it has fetched the file.
+# This is a 700x1050 portrait, so it renders as a square crop; a 1200x630
+# landscape image would use the full card, and would need these values updated.
+og_image_width           : 700
+og_image_height          : 1050
+og_image_alt             : "Portrait of Chengyuan Zhang"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

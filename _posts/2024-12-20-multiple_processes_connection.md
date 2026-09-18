@@ -3,6 +3,7 @@ title: 'Connections among autoregressive (AR) processes, Cochrane-Orcutt correct
 and Gaussian Processes (GP)'
 date: 2024-12-20
 permalink: /posts/processes_connections/
+description: "How autoregressive processes, the Cochrane-Orcutt correction, Ornstein-Uhlenbeck processes, and Gaussian processes relate, with car-following applications."
 tags:
 
   - autocorrelation

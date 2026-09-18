@@ -2,6 +2,7 @@
 title: 'Fundamental Probabilistic Graphical Models: Tail-to-Tail, Head-to-Tail, and Head-to-Head'
 date: 2025-01-25
 permalink: /posts/three-PGMs/
+description: "The three elementary structures in directed graphical models, and how each one decides when two variables are conditionally independent."
 tags:
 
 - PGM

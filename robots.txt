@@ -1,0 +1,66 @@
+# Everything on this site is open to crawlers, including the ones that build AI
+# search, answer engines, and training corpora. None of the rules below change
+# the default behaviour -- an absent robots.txt already means "allow" -- they
+# just state the position explicitly so it is not mistaken for an oversight.
+#
+# To opt out of a particular crawler, change its Allow to Disallow. The groups
+# that matter for AI training specifically are Google-Extended,
+# Applebot-Extended, CCBot, and meta-externalagent; GPTBot and ClaudeBot cover
+# both retrieval and training, while OAI-SearchBot, Claude-SearchBot, and
+# PerplexityBot are retrieval only.
+#
+# Note that jekyll-sitemap generates robots.txt only when this file is absent,
+# so the Sitemap line below has to be maintained here.
+
+User-agent: *
+Allow: /
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI search and answer engines
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Crawlers that also feed model training
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://chengyuan-zhang.github.io/sitemap.xml

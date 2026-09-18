@@ -2,6 +2,7 @@
 title: 'Matrix derivative of Frobenius norm involving Hadamard product'
 date: 2022-10-01
 permalink: /posts/matrix-derivative/
+description: "A worked derivation of the matrix derivative of a Frobenius norm involving a Hadamard product, taken with respect to both factors of the inner product."
 tags:
 
 - matrix derivative

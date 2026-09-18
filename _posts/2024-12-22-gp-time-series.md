@@ -2,6 +2,7 @@
 title: 'Gaussian Processes (GP) for Time Series Forecasting'
 date: 2024-12-22
 permalink: /posts/gp-time-series/
+description: "Using Gaussian processes for time-series forecasting: the modeling framework, kernel choices, and the predictive uncertainty that point forecasts leave out."
 tags:
 
 - Gaussian processes

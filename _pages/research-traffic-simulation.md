@@ -3,6 +3,14 @@ layout: single
 title: "From Driver Variability to Traffic Simulation"
 permalink: /research/traffic-simulation/
 description: "Explore how car-following dynamics and temporally structured driver variability enter traffic simulation, with research papers, code, and an interactive ring-road model."
+faq:
+  - q: "Why can temporal noise assumptions change a simulation?"
+    a: >-
+      Acceleration affects speed, and speed affects position and the next gap. A
+      persistent acceleration deviation can accumulate through these updates. In
+      a multi-vehicle simulation, each generated trajectory also changes the
+      input to a following vehicle. This is why the residual process is part of
+      the simulation model.
 ---
 
 A traffic simulator repeatedly turns a driving response into updated speed and position. Temporal structure therefore matters: independent fluctuations and persistent deviations can generate different trajectories even when their one-step variation looks similar.

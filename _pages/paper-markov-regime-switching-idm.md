@@ -5,6 +5,22 @@ permalink: /papers/markov-regime-switching-idm/
 paper_key: zhang2025markov
 description: "FHMM-IDM uses separate latent Markov processes for driving behavior and traffic scenarios, with regime-specific IDM parameters inferred jointly from trajectories."
 author_profile: true
+breadcrumb:
+  - name: "Publications"
+    url: /publications/
+faq:
+  - q: "How are latent driving regimes different from traffic scenarios?"
+    a: >-
+      FHMM-IDM uses separate latent Markov processes for driving behavior and
+      traffic scenarios, with regime-specific IDM parameters inferred jointly
+      from trajectories.
+  - q: "What is the distinction between a behavior regime and a traffic scenario?"
+    a: >-
+      A behavior regime describes how the driver responds; a traffic scenario
+      describes the surrounding operating conditions. The model gives these two
+      factors separate state sequences. This distinction makes it possible to
+      inspect their temporal relationship rather than force both into one
+      classification.
 ---
 
 {% include paper-header.html %}
