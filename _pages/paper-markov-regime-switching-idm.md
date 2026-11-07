@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior"
+title: "Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics"
 permalink: /papers/markov-regime-switching-idm/
 paper_key: zhang2025markov
-description: "FHMM-IDM uses separate latent Markov processes for driving behavior and traffic scenarios, with regime-specific IDM parameters inferred jointly from trajectories."
+description: "PS-HMM-IDM models driving response regimes and traffic scenarios using a joint Markov process and regime-specific IDM response relationships."
 author_profile: true
 breadcrumb:
   - name: "Publications"
@@ -11,43 +11,42 @@ breadcrumb:
 faq:
   - q: "How are latent driving regimes different from traffic scenarios?"
     a: >-
-      FHMM-IDM uses separate latent Markov processes for driving behavior and
-      traffic scenarios, with regime-specific IDM parameters inferred jointly
-      from trajectories.
+      PS-HMM-IDM represents driving response regimes and traffic scenarios
+      as paired states connected by a joint Markov process. Each response
+      regime has its own IDM response relationship.
   - q: "What is the distinction between a behavior regime and a traffic scenario?"
     a: >-
-      A behavior regime describes how the driver responds; a traffic scenario
-      describes the surrounding operating conditions. The model gives these two
-      factors separate state sequences. This distinction makes it possible to
-      inspect their temporal relationship rather than force both into one
-      classification.
+      A response regime describes how acceleration relates to driving inputs;
+      a traffic scenario describes the distribution of observed kinematics.
+      Their paired states allow the same response regime to recur across
+      scenarios and a scenario to accompany multiple responses.
 ---
 
 {% include paper-header.html %}
 
 ## How are latent driving regimes different from traffic scenarios?
 
-FHMM-IDM uses separate latent Markov processes for driving behavior and traffic scenarios, with regime-specific IDM parameters inferred jointly from trajectories.
-
-## Abstract
-
-{% assign source = site.data.paper_abstracts[page.paper_key] %}
-<p>{{ source.abstract | escape }}</p>
-<p class="text-muted">Full abstract from the <a href="{{ source.source }}">linked arXiv version</a>, checked {{ source.checked }}. The bibliographic record above identifies {% if page.paper_key == 'zhang2025markov' %}the preprint{% else %}the journal publication; the abstract is the preprint text{% endif %}.</p>
+PS-HMM-IDM represents driving response regimes and traffic scenarios as paired states connected by a joint Markov process. Each response regime has its own IDM response relationship.
 
 ## Research summary
 
-A single set of IDM parameters can average over distinct driving behaviors. FHMM-IDM instead uses regime-specific parameters and two latent Markov processes to represent behavioral regimes and traffic scenarios separately.
+A single set of IDM parameters can average over distinct driving responses. PS-HMM-IDM represents response regimes and traffic scenarios as paired states, allowing the same response relationship to recur across scenarios and a scenario to accompany multiple responses.
 
-These regimes are inferred model states. Labels such as acceleration or steady following summarize their fitted behavior; they should not be read as direct measurements of a driver's psychology. The preprint evaluates interpretable regime structure on HighD trajectories.
+The regimes are inferred model states, not direct measurements of a driver's psychology. The study examines their temporal structure in highD car-following episodes.
 
 ## What is the distinction between a behavior regime and a traffic scenario?
 
-A behavior regime describes how the driver responds; a traffic scenario describes the surrounding operating conditions. The model gives these two factors separate state sequences. This distinction makes it possible to inspect their temporal relationship rather than force both into one classification.
+A response regime describes how acceleration relates to driving inputs; a traffic scenario describes the distribution of observed kinematics. Their paired states allow the same response regime to recur across scenarios and a scenario to accompany multiple responses.
 
 <figure>
-<img src="{{ '/images/blogs/FHMM-IDM_concepts.jpg' | relative_url }}" alt="Conceptual distinction between driving behavior regimes and traffic scenarios in FHMM-IDM" width="1166" height="491" loading="lazy">
-<figcaption>Conceptual illustration used in the accompanying note: driving behavior and traffic scenarios form distinct parts of the model. This is a model diagram, not a performance comparison.</figcaption>
+<img src="{{ '/images/blogs/FHMM-IDM_concepts.jpg' | relative_url }}" alt="Conceptual distinction between driving behavior regimes and traffic scenarios in the earlier FHMM-IDM preprint" width="1166" height="491" loading="lazy">
+<figcaption>Conceptual illustration from the earlier preprint and accompanying note, showing driving behavior and traffic scenarios as distinct parts of the model.</figcaption>
 </figure>
 
-[Technical note and inference equations](/posts/FHMM-IDM/) · [Research poster](/files/TRB2026_Markov.pdf) · [Stochastic driving behavior](/research/stochastic-driving-behavior/)
+## Earlier preprint abstract
+
+{% assign source = site.data.paper_abstracts[page.paper_key] %}
+<p>{{ source.abstract | escape }}</p>
+<p class="text-muted">Full abstract from the <a href="{{ source.source }}">earlier arXiv version</a>, checked {{ source.checked }}. This preprint uses the title "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" and an earlier model formulation; the accepted manuscript has been substantially revised.</p>
+
+[Technical note on the earlier preprint](/posts/FHMM-IDM/) · [Earlier research poster](/files/TRB2026_Markov.pdf) · [Stochastic driving behavior](/research/stochastic-driving-behavior/)

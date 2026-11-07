@@ -37,9 +37,9 @@ bundle exec jekyll serve   # http://localhost:4000
 ## Conventions
 
 - `files/chengyuan-zhang.bib` and `_includes/publications-schema.html` are build artifacts.
-  After adding a publication, register its DOI or arXiv id in `scripts/build_bibliography.py`
-  and re-run it; it fetches metadata from Crossref and arXiv and refuses to emit an entry it
-  cannot resolve.
+  Register a DOI or arXiv id in `scripts/build_bibliography.py` and re-run it to fetch
+  registry metadata. For accepted papers without a registry record, add the author-confirmed
+  entry to `MANUAL` and identify any earlier preprint separately.
 - There is no JavaScript build step. `assets/js/site.js` holds shared behaviour and every page
   script is a standalone vanilla-JS file loaded with `defer` from the page that needs it. Do not
   reintroduce jQuery.

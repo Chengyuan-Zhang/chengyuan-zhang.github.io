@@ -3,6 +3,9 @@
 # Entries are markdown and are passed through markdownify.
 # Newest first.
 
+- date: "11/2026"
+  text: >-
+    "Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics" accepted at *Artificial Intelligence for Transportation* (AI4T). [[arXiv: 2506.14762](https://arxiv.org/abs/2506.14762v1)]
 - date: "07/2026"
   text: >-
     Talk at the Chair of Econometrics and Statistics, TU Dresden, hosted by Dr. Martin Treiber: "Beyond White Noise: What Naturalistic Data Reveal About Memory, Heterogeneity, and Latent Regimes in Car-Following."

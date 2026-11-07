@@ -33,7 +33,7 @@ A hierarchy can represent differences across drivers; a correlated residual proc
 1. [Bayesian calibration of IDM](/papers/bayesian-idm-calibration/) introduces hierarchical parameter uncertainty and memory-augmented residuals. Start here for the distinction between parameter uncertainty and stochastic driving variation.
 2. [Bayesian dynamic regression](/papers/bayesian-dynamic-regression/) represents residual history with autoregressive dynamics. Read it alongside the [autocorrelation note](/posts/autocorrelation/).
 3. [When Context Is Not Enough](/papers/when-context-is-not-enough/) lets residual magnitude and persistence adapt to context.
-4. [Markov regime-switching IDM](/papers/markov-regime-switching-idm/) represents behavioral modes and traffic scenarios with separate latent processes. The [FHMM note](/posts/FHMM-IDM/) explains the inference structure.
+4. [Coupled response–scenario dynamics](/papers/markov-regime-switching-idm/) represents driving response regimes and traffic scenarios with a joint Markov process. The [FHMM note](/posts/FHMM-IDM/) describes the earlier preprint formulation.
 
 ## Does unexplained variability reveal a hidden psychological cause?
 

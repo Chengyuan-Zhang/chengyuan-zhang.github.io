@@ -558,7 +558,7 @@
   "zhang2025markov": {
     "@type": "ScholarlyArticle",
     "@id": "https://chengyuan-zhang.github.io/publications/#zhang2025markov",
-    "headline": "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior",
+    "headline": "Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics",
     "author": [
       {
         "@type": "Person",
@@ -574,9 +574,14 @@
         "name": "Lijun Sun"
       }
     ],
-    "name": "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior",
-    "datePublished": "2025",
-    "sameAs": "https://arxiv.org/abs/2506.14762"
+    "name": "Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics",
+    "dateAccepted": "2026",
+    "creativeWorkStatus": "Accepted",
+    "isBasedOn": "https://arxiv.org/abs/2506.14762v1",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Artificial Intelligence for Transportation"
+    }
   },
   "hickert2026calibration": {
     "@type": "ScholarlyArticle",

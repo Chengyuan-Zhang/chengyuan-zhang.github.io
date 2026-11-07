@@ -40,11 +40,10 @@ available as a single BibTeX file below. Underline marks my own name; <sup>*</su
   ["The Calibration Illusion in Traffic Microsimulation"](https://arxiv.org/abs/2608.19642). (working paper). 📕 <button type="button" class="bib-btn" id="hickert2026calibration" data-bib="hickert2026calibration">BibTeX</button>
 - Menglin Kong, <u>Chengyuan Zhang</u>*, Lijun Sun (2026). ["Active Simulation-Based Inference for Scalable
   Car-Following Model Calibration"](https://arxiv.org/abs/2602.05246). (under review). 📕📙 <button type="button" class="bib-btn" id="kong2026active" data-bib="kong2026active">BibTeX</button>
-- <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2025). ["Markov Regime-Switching Intelligent Driver Model for
-  Interpretable Car-Following Behavior"](https://arxiv.org/pdf/2506.14762). (under review). [[poster](/files/TRB2026_Markov.pdf)] 📕📘📗📙 [[Research summary](/papers/markov-regime-switching-idm/)] <button type="button" class="bib-btn" id="zhang2025markov" data-bib="zhang2025markov">BibTeX</button>
 
 ## Journal publications
 
+- <u>Chengyuan Zhang</u>, Cathy Wu, and Lijun Sun* (2026). ["Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics"](/papers/markov-regime-switching-idm/). *Artificial Intelligence for Transportation* (accepted). [[earlier preprint](https://arxiv.org/abs/2506.14762v1)] [[earlier poster](/files/TRB2026_Markov.pdf)] 📕📘📗📙 [[Research summary](/papers/markov-regime-switching-idm/)] <button type="button" class="bib-btn" id="zhang2025markov" data-bib="zhang2025markov">BibTeX</button>
 - <u>Chengyuan Zhang</u>, Zhengbing He, Cathy Wu, and Lijun Sun* (2026).
   ["When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior"](https://doi.org/10.1016/j.trb.2026.103588).
   Transportation Research Part B: Methodological. [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)] [[poster](/files/TRB2026_Nonstationary.pdf)] 📕📘 [[Research summary](/papers/when-context-is-not-enough/)] <button type="button" class="bib-btn" id="zhang2025context" data-bib="zhang2025context">BibTeX</button><span class="pub-notes"><span class="pub-note pub-note--talk"><i class="fas fa-microphone" aria-hidden="true"></i>ISTTT26 oral presentation</span></span>

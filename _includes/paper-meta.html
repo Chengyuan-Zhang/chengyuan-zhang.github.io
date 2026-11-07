@@ -2,7 +2,7 @@
 <meta name="citation_title" content="{{ paper.headline | escape }}">
 {% for author in paper.author %}<meta name="citation_author" content="{{ author.name | escape }}">
 {% endfor %}
-<meta name="citation_publication_date" content="{{ paper.datePublished | escape }}">
+{% if paper.datePublished %}<meta name="citation_publication_date" content="{{ paper.datePublished | escape }}">{% endif %}
 {% if paper_venue %}<meta name="citation_journal_title" content="{{ paper_venue.name | escape }}">{% endif %}
 {% if paper_volume %}<meta name="citation_volume" content="{{ paper_volume | escape }}">{% endif %}
 {% if paper_issue %}<meta name="citation_issue" content="{{ paper_issue | escape }}">{% endif %}

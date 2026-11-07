@@ -44,13 +44,22 @@ DOIS: dict[str, str] = {
 
 ARXIV: dict[str, str] = {
     "kong2026active": "2602.05246",
-    "zhang2025markov": "2506.14762",
     "hickert2026calibration": "2608.19642",
 }
 
-# Verified via Elsevier API on 2026-09-08, PII S0191261526002006.
-# Crossref /works returns 404; publisher metadata supplies no volume/article number yet.
-MANUAL = r"""@article{zhang2025context,
+# The AI4T record reflects the author-confirmed 2026 acceptance and title.
+# For zhang2025context, Elsevier API supplied PII S0191261526002006 on 2026-09-08.
+# Crossref /works returned 404 at that time.
+MANUAL = r"""@article{zhang2025markov,
+  author    = {Zhang, Chengyuan and Wu, Cathy and Sun, Lijun},
+  title     = {Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics},
+  journal   = {Artificial Intelligence for Transportation},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2506.14762v1},
+  note      = {Accepted; earlier preprint published under a different title}
+}
+
+@article{zhang2025context,
   author    = {Zhang, Chengyuan and He, Zhengbing and Wu, Cathy and Sun, Lijun},
   title     = {When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior},
   journal   = {Transportation Research Part B: Methodological},
@@ -206,8 +215,13 @@ def build_schema(bib_path: Path, out_path: Path) -> int:
         for author in node["author"]:
             if author["name"] == "Chengyuan Zhang":
                 author["@id"] = "https://chengyuan-zhang.github.io/#person"
+        accepted = field("note").lower().startswith("accepted")
         if field("year"):
-            node["datePublished"] = field("year")
+            node["dateAccepted" if accepted else "datePublished"] = field("year")
+        if accepted:
+            node["creativeWorkStatus"] = "Accepted"
+            if field("url"):
+                node["isBasedOn"] = field("url")
         venue = field("journal") or field("booktitle")
         if venue:
             node["isPartOf"] = {"@type": "Periodical" if field("journal") else "CreativeWork", "name": venue}
@@ -267,8 +281,8 @@ def main() -> int:
     header = (
         "% Bibliography for Chengyuan Zhang\n"
         "% https://chengyuan-zhang.github.io/publications/\n"
-        "% Journal, conference and book entries are generated from Crossref;\n"
-        "% preprints from the arXiv API. Please report errors to enzozcy@gmail.com.\n\n"
+        "% Most published entries are generated from Crossref; preprints from the arXiv API.\n"
+        "% Verified manual entries cover records without registry metadata.\n\n"
     )
 
     chunks, failed = [], []

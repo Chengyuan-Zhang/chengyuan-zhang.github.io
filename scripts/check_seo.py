@@ -64,6 +64,10 @@ def main() -> int:
     assert book['@type'] == 'Book' and book['publisher']['name'] == 'Tsinghua University Press'
     assert 'isPartOf' not in book
     records = site['data']['publication_records']
+    accepted = records['zhang2025markov']
+    assert accepted['creativeWorkStatus'] == 'Accepted' and accepted['dateAccepted'] == '2026'
+    assert 'datePublished' not in accepted and 'sameAs' not in accepted
+    assert accepted['isBasedOn'] == 'https://arxiv.org/abs/2506.14762v1'
     all_urls = set()
     for folder in ('_pages', '_posts'):
         for path in (ROOT / folder).glob('*.md'):
@@ -73,7 +77,7 @@ def main() -> int:
             if meta.get('permalink'):
                 all_urls.add(meta['permalink'])
     sources = list((ROOT / '_pages').glob('paper-*.md')) + list((ROOT / '_pages').glob('research-*.md'))
-    sources += [ROOT / '_pages/about.md', ROOT / '_pages/publications.md']
+    sources += [ROOT / '_pages/about.md', ROOT / '_pages/publications.md', ROOT / '_pages/news.md']
     report = []
     for path in sources:
         page, body = front_matter(path.read_text(encoding='utf-8'))
@@ -84,6 +88,12 @@ def main() -> int:
         rendered = env.from_string(jekyll_includes(body)).render(**ctx)
         content = markdown.markdown(rendered, extensions=['extra'])
         soup = BeautifulSoup(head + content, 'html.parser')
+        if page['url'] in ('/', '/news/'):
+            latest = site['data']['news'][0]
+            first_news = soup.select_one('.news-list li')
+            latest_text = BeautifulSoup(markdown.markdown(latest['text']), 'html.parser').get_text(' ', strip=True)
+            assert latest['date'] in first_news.get_text(' ', strip=True)
+            assert latest_text in first_news.get_text(' ', strip=True)
         if page['url'] == '/publications/':
             assert soup.select_one('#pubs-chart') is None
             assert not any('pubs-chart' in (script.get('src') or '') for script in soup.select('script[src]'))
@@ -103,7 +113,11 @@ def main() -> int:
             expected = records[key]
             assert soup.find('meta', attrs={'name':'citation_title'})['content'] == expected['headline']
             assert [a['content'] for a in soup.select('meta[name="citation_author"]')] == [a['name'] for a in expected['author']]
-            assert soup.find('meta', attrs={'name':'citation_publication_date'})['content'] == expected['datePublished']
+            date_meta = soup.find('meta', attrs={'name':'citation_publication_date'})
+            if 'datePublished' in expected:
+                assert date_meta['content'] == expected['datePublished']
+            else:
+                assert date_meta is None
             if key == 'zhang2024bayesian':
                 for name, value in [('citation_volume','25'), ('citation_issue','8'), ('citation_firstpage','9308'), ('citation_lastpage','9320'), ('citation_journal_title','IEEE Transactions on Intelligent Transportation Systems')]:
                     assert soup.find('meta', attrs={'name':name})['content'] == value
