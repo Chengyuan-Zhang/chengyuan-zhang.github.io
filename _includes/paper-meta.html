@@ -11,7 +11,7 @@
 <meta name="citation_firstpage" content="{{ pages.first | escape }}">
 {% if pages.size > 1 %}<meta name="citation_lastpage" content="{{ pages.last | escape }}">{% endif %}
 {% endif %}
-{% if paper.sameAs contains 'https://doi.org/' %}<meta name="citation_doi" content="{{ paper.sameAs | remove: 'https://doi.org/' | escape }}">{% endif %}
+{% if paper.identifier.propertyID == 'DOI' %}<meta name="citation_doi" content="{{ paper.identifier.value | escape }}">{% elsif paper.sameAs contains 'https://doi.org/' %}<meta name="citation_doi" content="{{ paper.sameAs | remove: 'https://doi.org/' | escape }}">{% endif %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","@id":{{ page.url | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"name":{{ paper.headline | jsonify }},"mainEntity":{{ paper | jsonify }}}
 </script>

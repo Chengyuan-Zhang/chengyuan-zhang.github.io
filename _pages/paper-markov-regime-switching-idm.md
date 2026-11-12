@@ -49,4 +49,4 @@ A response regime describes how acceleration relates to driving inputs; a traffi
 <p>{{ source.abstract | escape }}</p>
 <p class="text-muted">Full abstract from the <a href="{{ source.source }}">earlier arXiv version</a>, checked {{ source.checked }}. This preprint uses the title "Markov Regime-Switching Intelligent Driver Model for Interpretable Car-Following Behavior" and an earlier model formulation; the accepted manuscript has been substantially revised.</p>
 
-[Technical note on the earlier preprint](/posts/FHMM-IDM/) · [Earlier research poster](/files/TRB2026_Markov.pdf) · [Stochastic driving behavior](/research/stochastic-driving-behavior/)
+[Code](https://github.com/Chengyuan-Zhang/PS-HMM-IDM) · [Technical note on the earlier preprint](/posts/FHMM-IDM/) · [Earlier research poster](/files/TRB2026_Markov.pdf) · [Stochastic driving behavior](/research/stochastic-driving-behavior/)

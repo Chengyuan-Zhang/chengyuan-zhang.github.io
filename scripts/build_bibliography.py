@@ -47,7 +47,8 @@ ARXIV: dict[str, str] = {
     "hickert2026calibration": "2608.19642",
 }
 
-# The AI4T record reflects the author-confirmed 2026 acceptance and title.
+# The AI4T DOI and article number are from the publisher's uncorrected proof (2026-11-12).
+# DOI resolver and Crossref did not return a record when checked on 2026-11-12.
 # For zhang2025context, Elsevier API supplied PII S0191261526002006 on 2026-09-08.
 # Crossref /works returned 404 at that time.
 MANUAL = r"""@article{zhang2025markov,
@@ -55,8 +56,10 @@ MANUAL = r"""@article{zhang2025markov,
   title     = {Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics},
   journal   = {Artificial Intelligence for Transportation},
   year      = {2026},
+  eid       = {100096},
+  doi       = {10.1016/j.ait.2026.100096},
   url       = {https://arxiv.org/abs/2506.14762v1},
-  note      = {Accepted; earlier preprint published under a different title}
+  note      = {Accepted 6 November 2026; uncorrected proof; earlier preprint published under a different title}
 }
 
 @article{zhang2025context,
@@ -231,9 +234,11 @@ def build_schema(bib_path: Path, out_path: Path) -> int:
             node["isPartOf"] = {"@type": "PublicationVolume", "volumeNumber": field("volume"), "isPartOf": node["isPartOf"]}
         if field("journal") and field("number"):
             node["isPartOf"] = {"@type": "PublicationIssue", "issueNumber": field("number"), "isPartOf": node["isPartOf"]}
-        if field("pages"):
-            node["pagination"] = field("pages")
-        if field("doi"):
+        if field("pages") or field("eid"):
+            node["pagination"] = field("pages") or field("eid")
+        if field("doi") and accepted:
+            node["identifier"] = {"@type": "PropertyValue", "propertyID": "DOI", "value": field("doi")}
+        elif field("doi"):
             node["sameAs"] = f"https://doi.org/{field('doi')}"
         elif field("eprint"):
             node["sameAs"] = f"https://arxiv.org/abs/{field('eprint')}"

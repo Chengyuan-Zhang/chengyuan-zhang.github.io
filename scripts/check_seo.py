@@ -68,6 +68,8 @@ def main() -> int:
     assert accepted['creativeWorkStatus'] == 'Accepted' and accepted['dateAccepted'] == '2026'
     assert 'datePublished' not in accepted and 'sameAs' not in accepted
     assert accepted['isBasedOn'] == 'https://arxiv.org/abs/2506.14762v1'
+    assert accepted['identifier'] == {'@type': 'PropertyValue', 'propertyID': 'DOI', 'value': '10.1016/j.ait.2026.100096'}
+    assert accepted['pagination'] == '100096'
     all_urls = set()
     for folder in ('_pages', '_posts'):
         for path in (ROOT / folder).glob('*.md'):
@@ -118,6 +120,9 @@ def main() -> int:
                 assert date_meta['content'] == expected['datePublished']
             else:
                 assert date_meta is None
+            if key == 'zhang2025markov':
+                assert soup.find('meta', attrs={'name':'citation_doi'})['content'] == accepted['identifier']['value']
+                assert 'DOI in uncorrected proof: 10.1016/j.ait.2026.100096' in soup.get_text()
             if key == 'zhang2024bayesian':
                 for name, value in [('citation_volume','25'), ('citation_issue','8'), ('citation_firstpage','9308'), ('citation_lastpage','9320'), ('citation_journal_title','IEEE Transactions on Intelligent Transportation Systems')]:
                     assert soup.find('meta', attrs={'name':name})['content'] == value

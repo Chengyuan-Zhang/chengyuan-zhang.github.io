@@ -61,7 +61,7 @@ Featured Research
 
 [Explore this research question](/research/stochastic-driving-behavior/)
 
-- Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics ([AI4T, accepted](/papers/markov-regime-switching-idm/))
+- Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics ([AI4T, accepted](/papers/markov-regime-switching-idm/)) [[code](https://github.com/Chengyuan-Zhang/PS-HMM-IDM)]
 - When Context Is Not Enough: Modeling Unexplained Variability in Car-Following Behavior ([ISTTT26 & TR Part B](https://doi.org/10.1016/j.trb.2026.103588)) [[code](https://github.com/Chengyuan-Zhang/ISTTT26-When-Context-Is-Not-Enough)]
 - Calibrating Car-Following Models via Bayesian Dynamic Regression ([ISTTT25 & TR Part C](https://doi.org/10.1016/j.trc.2024.104719))
 - A Bayesian Gaussian Mixture Model for Probabilistic Modeling of Car-Following Behaviors ([IEEE T-ITS](https://ieeexplore.ieee.org/document/10337758))
@@ -129,10 +129,11 @@ Selected Publications
   <img class="pub-item__thumb" src="{{ '/images/blogs/FHMM-IDM_concepts.jpg' | relative_url }}" alt="Markov regime switching in driving behavior and traffic scenarios" loading="lazy" width="1166" height="491" style="object-fit: contain;">
   <div class="pub-item__body">
     <a class="pub-item__title" href="/papers/markov-regime-switching-idm/">Modeling Within-Driver Heterogeneity in Car-Following through Coupled Response–Scenario Dynamics</a>
-    <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — Artificial Intelligence for Transportation (accepted, 2026)</span>
+    <span class="pub-item__venue">Chengyuan Zhang, Cathy Wu, Lijun Sun — Artificial Intelligence for Transportation (accepted, 2026; article 100096)</span>
     <p>Models driving response regimes and traffic scenarios with a joint Markov process.</p>
     <span class="pub-item__links">
       <a href="/papers/markov-regime-switching-idm/">research summary</a>
+      <a href="https://github.com/Chengyuan-Zhang/PS-HMM-IDM">code</a>
       <a href="https://arxiv.org/abs/2506.14762v1">earlier preprint (arXiv)</a>
       <a href="{{ '/files/TRB2026_Markov.pdf' | relative_url }}">earlier poster</a>
     </span>

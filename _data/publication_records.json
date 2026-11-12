@@ -581,6 +581,12 @@
     "isPartOf": {
       "@type": "Periodical",
       "name": "Artificial Intelligence for Transportation"
+    },
+    "pagination": "100096",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1016/j.ait.2026.100096"
     }
   },
   "hickert2026calibration": {
